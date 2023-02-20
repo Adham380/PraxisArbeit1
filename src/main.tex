@@ -3,9 +3,54 @@
 
 % Preamble
 \documentclass[11pt]{article}
-% Packages
-\usepackage{amsmath}
+\usepackage{mdframed}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[paper=a4paper,left=40mm,right=20mm,top=25mm,bottom=20mm,footskip=25pt ]{geometry}
+\usepackage[backend=biber,style=alphabetic,citestyle=alphabetic-verb]{biblatex}
+\usepackage{mathptmx} %Font Times New Roman
+\usepackage[toc,nonumberlist]{glossaries} %Erstellt ein Abkürzungsverzeichnis
+\usepackage{array}
+\usepackage{wrapfig} %Bilder können fließend in den Text eingebunden werden
+\usepackage{xcolor}
+\usepackage{filecontents}
+\usepackage{sectsty}
+\usepackage{titletoc}
+\usepackage{tocvsec2}
+\usepackage[title,titletoc]{appendix}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{longtable} % Tabellen können Seitenumbrüche enthalten
+\usepackage{listings} % Listings für Codebeispiele
+\lstset{basicstyle=\footnotesize,
+    inputencoding={utf8},
+    extendedchars=false,
+    language={Bash},
+    escapeinside=``,
+    frame = single}
+\lstset{literate=%
+    {Ö}{{\"O}}1
+    {Ä}{{\"A}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {ü}{{\"u}}1
+    {ä}{{\"a}}1
+    {ö}{{\"o}}1
+    {~}{{\textasciitilde}}1
+}
+\lstMakeShortInline[columns=fixed, basicstyle=\ttfamily\color{darkgray}]@
 
+%\addtokomafont{disposition}{\rmfamily} %Serifenschrift für Überschriften
+\counterwithout{footnote}{section} %Durchgehende Fußnoten Nummerierung
+\setlength\parindent{0pt} % Einrückung für neue Absätze
+\usepackage[font=footnotesize,justification = centering]{caption} %Font für Bildunterschriften
+\usepackage{pifont}   % Wird für den Punkt neben den Seitzenzahlen benötigt
+\usepackage[footsepline=1pt]{scrlayer-scrpage} % Anpassung von Kopf/Fußzeilen
+\usepackage{setspace}
+\usepackage{microtype}
 % Document
 \input{titlepage}
 \begin{document}

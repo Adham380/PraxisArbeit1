@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.20)  20 FEB 2023 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.20)  20 FEB 2023 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -118,6 +118,24 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen151
 )
 
+titlepage.tex:13: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13     \includegraphics
+                         [width=0.35\textwidth]{Bilder/doohMedia}\par\vspace...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<Bilder/doohMedia.jpg, id=1, 200.75pt x 200.75pt>
+File: Bilder/doohMedia.jpg Graphic file (type jpg)
+<use Bilder/doohMedia.jpg>
+Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 13.
+(pdftex.def)             Requested size: 126.0022pt x 126.00449pt.
+
 titlepage.tex:15: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -178,9 +196,28 @@ l.23         \begin{tabular}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+
+titlepage.tex:43: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43     \flushright
+                     \includegraphics[width=0.35\textwidth]{Bilder/angry-chi...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<Bilder/angry-chicken-png.png, id=2, 401.0985pt x 676.929pt>
+File: Bilder/angry-chicken-png.png Graphic file (type png)
+<use Bilder/angry-chicken-png.png>
+Package pdftex.def Info: Bilder/angry-chicken-png.png  used on input line 43.
+(pdftex.def)             Requested size: 126.0022pt x 212.645pt.
 [1
 
-{C:/Users/adham/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/adham/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/doo
+hMedia.jpg> <./Bilder/angry-chicken-png.png>]
 (C:\Users\adham\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
@@ -231,13 +268,13 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (D:/Programming\PraxisProjekt_office365_Raumbuchung\auxil\titlepage.aux) ) 
 Here is how much of TeX's memory you used:
- 2024 strings out of 476374
- 32192 string characters out of 5788854
- 1853340 words of memory out of 5000000
- 22431 multiletter control sequences out of 15000+600000
+ 2051 strings out of 476374
+ 32867 string characters out of 5788854
+ 1854340 words of memory out of 5000000
+ 22453 multiletter control sequences out of 15000+600000
  517216 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,228b,212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,62p,228b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C
 :/Users/adham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
 10.pfb><C:/Users/adham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
@@ -245,9 +282,9 @@ s/cm/cmbx12.pfb><C:/Users/adham/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmcsc10.pfb><C:/Users/adham/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb>
 Output written on D:/Programming\PraxisProjekt_office365_Raumbuchung\out\titlep
-age.pdf (1 page, 63134 bytes).
+age.pdf (1 page, 7591081 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
