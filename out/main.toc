@@ -1,0 +1,6 @@
+
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Fragestellungen der Arbeit}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Ziele der Arbeit}{2}{subsection.1.2}%
+\contentsfinish 

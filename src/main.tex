@@ -41,6 +41,7 @@
     {ö}{{\"o}}1
     {~}{{\textasciitilde}}1
 }
+
 \lstMakeShortInline[columns=fixed, basicstyle=\ttfamily\color{darkgray}]@
 
 %\addtokomafont{disposition}{\rmfamily} %Serifenschrift für Überschriften
@@ -52,9 +53,11 @@
 \usepackage{setspace}
 \usepackage{microtype}
 % Document
-\input{titlepage}
-\begin{document}
 
+\begin{document}
+    \input{titlepage}
+    \input{Inhaltsverzeichnis}
+    \input{einleitung}
     \bibliography{main}
     \bibliographystyle{plain}
 
