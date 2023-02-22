@@ -1,17 +1,11 @@
 %! Author = mboehme
 %! Date = 21.02.2023
 
-% Preamble
-\documentclass[11pt]{article}
 
-% Packages
-\usepackage{amsmath}
-\usepackage{glossaries}
 
 % Document
 \section{Theorie}
 \subsection{Microsoft Graph API}
-\subsubsection{Was ist Microsoft Graph API?}
 Die Microsoft Graph API ist eine RESTful web API, die es einem erlaubt auf Daten von Microsoft 365 und Office 365 zuzugreifen.
 \newglossaryentry{RESTful}{
     name=RESTful,
@@ -19,7 +13,6 @@ Die Microsoft Graph API ist eine RESTful web API, die es einem erlaubt auf Daten
 }
 Mit Hilfe dieser API wurde das Projekt letztendlich umgesetzt. Weitere standen jedoch zur Verfügung:
 \begin{itemize}
-    \item Microsoft Graph API
     \item Microsoft Outlook API
     \item Microsoft Exchange API
     \item Microsoft SharePoint API
@@ -30,3 +23,4 @@ Mit Hilfe dieser API wurde das Projekt letztendlich umgesetzt. Weitere standen j
 Einige dieser APIs sind nur für bestimmte Microsoft 365 und Office 365 Abonnements verfügbar. Die Microsoft Graph API ist jedoch für alle Abonnements verfügbar.
 Zudem ist die Microsoft Graph API die einzige API, die es einem erlaubt auf alle Daten von Microsoft 365 und Office 365 zuzugreifen, da sie die meisten anderen APIs integriert.
 Der wichtigste Faktor bei der Entscheidung war es jedoch, dass die Microsoft Graph API, mit Hilfe von Azure AD, die Authentifizierung und Autorisierung von Benutzern erlaubt. Dies ist für die Anwendung von großer Bedeutung, da es dem Benutzer ermöglicht sich mit seinem Microsoft 365 oder Office 365 Account anzumelden und somit auf seine Daten zuzugreifen.
+

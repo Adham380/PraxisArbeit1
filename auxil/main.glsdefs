@@ -1,0 +1,84 @@
+\glsdefs@newdocentry{RESTful}%
+{%
+name={RESTful},%
+sort={RESTful},%
+type={main},%
+first={RESTful},%
+firstplural={RESTfuls},%
+text={RESTful},%
+plural={RESTfuls},%
+description={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
+descriptionplural={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{UserJourney}%
+{%
+name={UserJourney},%
+sort={UserJourney},%
+type={main},%
+first={UserJourney},%
+firstplural={UserJourneys},%
+text={UserJourney},%
+plural={UserJourneys},%
+description={UserJourney ist ein Begriff aus der User Experience Design. UserJourney ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.},%
+descriptionplural={UserJourney ist ein Begriff aus der User Experience Design. UserJourney ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{UserInterface}%
+{%
+name={UserInterface},%
+sort={UserInterface},%
+type={main},%
+first={UserInterface},%
+firstplural={UserInterfaces},%
+text={UserInterface},%
+plural={UserInterfaces},%
+description={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.},%
+descriptionplural={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
