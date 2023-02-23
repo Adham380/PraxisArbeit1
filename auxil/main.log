@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  23 FEB 2023 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  23 FEB 2023 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2005,7 +2005,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (titlepage.tex
-<Bilder/doohMedia.jpg, id=106, 200.75pt x 200.75pt>
+<Bilder/doohMedia.jpg, id=186, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 10.
@@ -2265,7 +2265,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (AbgrenzungZuÄhnlichenProdukten.tex [3] [4]
+) (Grundlagen.tex [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
+
+ []
+
+[5]) (AbgrenzungZuÄhnlichenProdukten.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
@@ -2280,11 +2285,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
  []
 
-[5]) (theorie.tex
+[6] [7]) (theorie.tex
 \@gls@deffile=\write10
 \openout10 = `main.glsdefs'.
 
-) (istZustand.tex [6]
+) (istZustand.tex [8]
 
 istZustand.tex:28: Package datagidx Error: No term `RESTful' defined.
 
@@ -2564,7 +2569,7 @@ l.35 ...ser Experience Design. \gls{UserInterface}
                                                    ist die grafische Oberfl�...
 (That was another \errmessage.)
 
-[7]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
@@ -2574,7 +2579,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=217, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=325, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 50
@@ -2619,8 +2624,8 @@ l.67 \gls{Responsive Design}
                              wurde hier nur für das Format berücksichtigt,...
 (That was another \errmessage.)
 
-) (vorgehensweise.tex [8 <./Bilder/GrafikdesignerMockup.png>] [9]
-<Bilder/mockup.png, id=230, 782.925pt x 434.62375pt>
+) (vorgehensweise.tex [10 <./Bilder/GrafikdesignerMockup.png>] [11]
+<Bilder/mockup.png, id=338, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 11.
@@ -2641,7 +2646,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (Technische Umsetzung.tex [10 <./Bilder/mockup.png>]
+) (Technische Umsetzung.tex [12 <./Bilder/mockup.png>]
 
 Technische Umsetzung.tex:22: LaTeX Error: There's no line here to end.
 
@@ -2668,9 +2673,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-)
-main.tex:74: Undefined control sequence.
-l.74     \glsadall
+[13])
+main.tex:75: Undefined control sequence.
+l.75     \glsadall
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2678,21 +2683,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls
-[11]) [12]
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls)
+[14] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0E71424481166442C361A81834EEB7D2;3617.
+(rerunfilecheck)             Checksum: 2B059047F9DB4E651E7BD2A0208402F8;7412.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54719 strings out of 476374
- 1219942 string characters out of 5787910
- 2196696 words of memory out of 5000000
- 73873 multiletter control sequences out of 15000+600000
- 574644 words of font info for 249 fonts, out of 8000000 for 9000
+ 54773 strings out of 476374
+ 1220955 string characters out of 5787910
+ 2196697 words of memory out of 5000000
+ 73896 multiletter control sequences out of 15000+600000
+ 574904 words of font info for 253 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2737,9 +2741,9 @@ placed by a fixed one
 mb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (13 pages, 247464 bytes).
+main.pdf (15 pages, 267742 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 70884 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 71044 words of extra memory for PDF output out of 74296 (max. 10000000)
 
