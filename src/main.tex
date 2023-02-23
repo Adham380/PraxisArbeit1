@@ -52,6 +52,7 @@
 \usepackage[footsepline=1pt]{scrlayer-scrpage} % Anpassung von Kopf/Fußzeilen
 \usepackage{setspace}
 \usepackage{microtype}
+\usepackage{tabularx}
 % Document
 
 \begin{document}
@@ -59,10 +60,13 @@
     \input{titlepage}
     \input{Inhaltsverzeichnis}
     \input{einleitung}
+    \input{Use Case}
+    \input{Systemschnittstellen}
     \input{theorie}
     \input{istZustand}
     \input{vorgehensweise}
-    \bibliography{main}
-    \bibliographystyle{plain}
+    \input{Technische Umsetzung}
+%    \bibliography{main}
+%    \bibliographystyle{plain}
     \printglossaries
 \end{document}

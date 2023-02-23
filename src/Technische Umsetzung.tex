@@ -1,0 +1,13 @@
+%! Author = mboehme
+%! Date = 23.02.2023
+
+\section{Technische Umsetzung}
+Das ganze wird als eine Azure App deployed. Diese lässt localhost Verbindungen zu und gibt einem die Möglichkeit das ganze als Single Page Application zu entwickeln, mit einem lokalen cookie cache für den eingeloggten Acccount. Somit ist keine Individualisierung notwendig.
+\newline
+Es wird lokal mithilfe von Dory-node.js gehostet.Das ganze wird als eine Azure App deployed. Diese lässt localhost Verbindungen zu und gibt einem die Möglichkeit die Web-Applikation wird als Single-Page-Application,mit einem lokalen cookie cache für den eingeloggten Acccount, entwickelt. Somit ist keine Individualisierung notwendig.
+Zudem kann dann mit dem Phillips Display die Web-Applikation aufgerufen werden und als eine Art Model eines Model-Ciew-Controller's verwendet werden.
+\newline
+Der Player braucht auf der OMS den Content-Typen "Web" mit der URL: "http://localhost:3000/content". Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-nodejs Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Display liegt. So ist die URL immer die Gleiche, auf allen Geräten, damit Microsoft's redirect URI Bedingungen erfüllt werden können und Webserver kosten eingespart werden können, da Updates eher selten passieren sollten.
+\newline
+Zudem ist es auch für die Sicherheit der Nutzer so viel besser, da wir deshalb keinen Zugriff auf ihre Daten haben.
+Zeiten müssen ISO 8601 Konform sein bei jeglichen API Anfragen an die Microsoft Graph API.

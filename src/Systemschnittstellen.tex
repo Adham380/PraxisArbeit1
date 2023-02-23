@@ -1,0 +1,63 @@
+%! Author = Adham Aijou
+%! Date = 23.02.2023
+
+\subsection{Systemschnittstellen}\label{subsec:systemschnittstellen}
+%first column is too wide, make everything fit into one A4 page
+\begin{tabularx}{\textwidth\footnotesize}{|l*{2}{|X}|} \hline
+%    \multicolumn{2}{|c|}{\textbf{Microsoft Graph API}}\\
+    \caption{Termin buchen}
+    \label{tab:TerminBuchen}
+ Kurzbeschreibung: & Im UI kann der User sich mit der Ressource einloggen, die für die Zukunft als Repräsentant für die reelle Ressource (z.B einen Raum) gelten soll.
+    Dann gilt dieser User immer als Teilnehmer der Buchungen und kann in seinen verfügbaren Zeiten gebucht werden.
+    Der User kann zudem andere Mitarbeiter hinzufügen, um sie einerseits über das Meeting zu informieren und andererseits, um automatisch überprüfen zu können, wann alle am besten Zeit haben.
+    Darauf basierend werden dem User verfügbare timeslots zur Buchung angezeigt.
+    Auch die Dauer des Termins soll einstellbar sein.
+    Es gibt zudem einen optionalen Betreff für den Termin.
+    Der gebuchte Termin reflektiert sich dann im UI in der Liste der für den Tag schon gebuchten Termine, für die Ressource.
+    Zudem soll der Nutzer sehen können ob innerhalb der nächsten 30 Minuten ein Termin für die Ressource ansteht oder ob einer schon am Passieren ist, anhand einer farblichen UI .
+
+    REST API Anfragen werden dann an die Microsoft Graph API geschickt, um diese Wünsche zu kommunizieren.\\
+    \hline
+    Akteure: & Mitarbeiter\\
+    \hline
+    Häufigkeit: & Variablel pro Ressource, Firma und Anzahl Ressourcen\\
+    \hline
+    Komplexität: & Mittlere bis hohe Komplexität\\
+    \hline
+    Vorbedingungen: & \begin{enumerate}
+                          \item User muss eingeloggt sein (Nutzerdaten können nicht gesehen oder eingespeichert werden) und Zugriffsrechte akzeptieren.
+                          \item Optionale Teilnehmer
+                          \item Termindauer
+                          \item Verfügbare Termine
+                          \item Terminbetreff
+                          \item Zeitzone
+                          \item Für die Microsoft Graph API kommt noch der Access Token / Client ID von unserer Azure App zur Authentifizierung dazu
+    \end{enumerate}\\
+    \hline
+    Ausgaben: & \begin{enumerate}
+                    \item Buchung erfolgreich oder nicht
+                    \item Neue verfügbare Termine
+                    \item Der neue Termin wird in der Liste der gebuchten Termine angezeigt
+                    \item Falls die Buchung nicht geklappt haben sollte, wird der User darüber informiert
+    \end{enumerate}\\
+    \hline
+    Use Case: &~\ref{tab:Terminbuchung}\\
+    \hline
+Schnittstellen: & \begin{enumerate}
+                        \item Microsoft Graph API
+                        \item User Interface
+                        \item Backend
+                      \end{enumerate}\\
+    \hline
+    Aufgerufene Aktionen: & Notwendige: \begin{enumerate}
+                                        \item Termin buchen
+                                        \item Termin finden
+                                            \end{enumerate}
+            \linebreak Optionale: \begin{enumerate}
+                                      \item Teilnehmer hinzufügen
+                                      \item Terminbetreff hinzufügen/ändern
+                                        \item Termindauer ändern
+                                      \end{enumerate}\\
+    \hline
+\end{tabularx}
+\pagebreak
