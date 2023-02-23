@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  23 FEB 2023 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  23 FEB 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1585,13 +1585,262 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count498
 \TX@ftn=\toks60
 )
+(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty
+Package: datagidx 2019/09/27 v2.32 (NLCT)
+
+(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool.sty
+Package: datatool 2019/09/27 v2.32 (NLCT)
+\dtlcolumnnum=\count499
+\dtlrownum=\count500
+\@dtl@before=\toks61
+\@dtl@after=\toks62
+\@dtl@colhead=\toks63
+\dtlcurrentrow=\toks64
+\dtlbeforerow=\toks65
+\dtlafterrow=\toks66
+\dtlforeachlevel=\count501
+\c@DTLrowi=\count502
+\c@DTLrowii=\count503
+\c@DTLrowiii=\count504
+\c@DTLrow=\count505
+\dtl@rowi=\count506
+\dtl@rowii=\count507
+\dtl@rowiii=\count508
+\@dtl@curi=\toks67
+\@dtl@previ=\toks68
+\@dtl@nexti=\toks69
+\@dtl@curii=\toks70
+\@dtl@previi=\toks71
+\@dtl@nextii=\toks72
+\@dtl@curiii=\toks73
+\@dtl@previii=\toks74
+\@dtl@nextiii=\toks75
+\@dtl@elements=\count509
+\@dtl@list=\toks76
+\@dtl@rowa=\toks77
+\@dtl@rowb=\toks78
+\@dtl@toksA=\toks79
+\@dtl@toksB=\toks80
+\@dtl@write=\write5
+\@dtl@read=\read5
+\dtl@entrycr=\count510
+\dtl@omitlines=\count511
+) (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count512
+\mult@box=\box84
+\multicol@leftmargin=\dimen320
+\c@unbalance=\count513
+\c@collectmore=\count514
+\doublecol@number=\count515
+\multicoltolerance=\count516
+\multicolpretolerance=\count517
+\full@width=\dimen321
+\page@free=\dimen322
+\premulticols=\dimen323
+\postmulticols=\dimen324
+\multicolsep=\skip161
+\multicolbaselineskip=\skip162
+\partial@page=\box85
+\last@line=\box86
+\maxbalancingoverflow=\dimen325
+\mult@rightbox=\box87
+\mult@grightbox=\box88
+\mult@firstbox=\box89
+\mult@gfirstbox=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\c@minrows=\count518
+\c@columnbadness=\count519
+\c@finalcolumnbadness=\count520
+\last@try=\dimen326
+\multicolovershoot=\dimen327
+\multicolundershoot=\dimen328
+\mult@nat@firstbox=\box127
+\colbreak@box=\box128
+\mc@col@check@num=\count521
+)
+(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+) (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks81
+\AP@partial=\box129
+\AP@footins=\box130
+)
+\c@DTLgidxChildCount=\count522
+\datagidxsymbolwidth=\skip163
+\datagidxlocationwidth=\skip164
+\dtldb@datagidx=\toks82
+\dtlkeys@datagidx=\toks83
+\dtlrows@datagidx=\count523
+\dtlcols@datagidx=\count524
+\datagidxindent=\skip165
+\datagidxnamewidth=\skip166
+\datagidxdescwidth=\skip167
+
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2494: LaTeX Error: Command \acronymfont already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2494 \newcommand*{\acronymfont}[1]{#1}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2533: LaTeX Error: Command \glsreset already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2533 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2546: LaTeX Error: Command \glsunset already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2546 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2563: LaTeX Error: Command \glsresetall already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2563 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2580: LaTeX Error: Command \glsunsetall already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2580 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\datagidx@anchorcount=\count525
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2845: LaTeX Error: Command \glsadd already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2845 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\datagidx@count=\count526
+
+C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
+2909: LaTeX Error: Command \glsaddall already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2909 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \glslink on input line 2910.
+LaTeX Info: Redefining \gls on input line 2956.
+LaTeX Info: Redefining \glspl on input line 2957.
+LaTeX Info: Redefining \Gls on input line 2958.
+LaTeX Info: Redefining \Glspl on input line 2959.
+\datagidx@level=\count527
+)
+\glswrite=\write6
+\glo@main@file=\write7
+\openout7 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 58.
+
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count499
-\@quotereset=\count500
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 58
+\@quotelevel=\count528
+\@quotereset=\count529
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 60
 .
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1599,39 +1848,39 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count501
-\scratchdimen=\dimen320
-\scratchbox=\box84
-\nofMPsegments=\count502
-\nofMParguments=\count503
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count504
-\MPscratchDim=\dimen321
-\MPnumerator=\count505
-\makeMPintoPDFobject=\count506
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count530
+\scratchdimen=\dimen329
+\scratchbox=\box131
+\nofMPsegments=\count531
+\nofMParguments=\count532
+\everyMPshowfont=\toks84
+\MPscratchCnt=\count533
+\MPscratchDim=\dimen330
+\MPnumerator=\count534
+\makeMPintoPDFobject=\count535
+\everyMPtoPDFconversion=\toks85
 )
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
 -base.sty
@@ -1705,25 +1954,25 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl)
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.glsdefs)
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 60.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write8
+\openout8 = `main.out'.
 
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 58.
+ on input line 60.
 
-\c@lstlisting=\count507
+\c@lstlisting=\count536
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1736,12 +1985,12 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                geometry option `head=13.6pt'
 (scrlayer-scrpage)                \relax to avoid this warning.
 
-LaTeX Info: Redefining \microtypecontext on input line 58.
-Package microtype Info: Applying patch `item' on input line 58.
-Package microtype Info: Applying patch `toc' on input line 58.
-Package microtype Info: Applying patch `eqnum' on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 60.
+Package microtype Info: Applying patch `item' on input line 60.
+Package microtype Info: Applying patch `toc' on input line 60.
+Package microtype Info: Applying patch `eqnum' on input line 60.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 58.
+Package microtype Warning: Unable to apply patch `footnote' on input line 60.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1749,28 +1998,14 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 58.
+LaTeX Info: Redefining \showhyphens on input line 60.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-)
-
-main.tex:59: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59     \makeglossaries
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(titlepage.tex
-<Bilder/doohMedia.jpg, id=70, 200.75pt x 200.75pt>
+) (titlepage.tex
+<Bilder/doohMedia.jpg, id=106, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 10.
@@ -1822,11 +2057,13 @@ Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 38.
 
 [1
 
+\openout6 = `main.ist'.
+
 {C:/Users/mboehme/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/d
 oohMedia.jpg>]) (Inhaltsverzeichnis.tex
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
 
 
@@ -1859,7 +2096,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[2]) (Use Case.tex
+[2]) (Zusammenfassung.tex) (Use Case.tex
 Use Case.tex:27: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
@@ -2028,75 +2265,160 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (theorie.tex [3] [4]
-\@gls@deffile=\write7
-\openout7 = `main.glsdefs'.
+) (AbgrenzungZu횆hnlichenProdukten.tex [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
-) (istZustand.tex [5]
+ []
 
-istZustand.tex:29: Package glossaries Error: Glossary entry `API' has not been 
-defined.
 
-See the glossaries package documentation for explanation.
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+
+ []
+
+[5]) (theorie.tex
+\@gls@deffile=\write10
+\openout10 = `main.glsdefs'.
+
+) (istZustand.tex [6]
+
+istZustand.tex:28: Package datagidx Error: No term `RESTful' defined.
+
+See the datagidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29     \item \gls{API}:
-                          API steht f체r Application Programming Interface. ...
+l.28     \item \gls{RESTful}
+                            : RESTful ist ein Synonym f체r Representational ...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
-You need to define a glossary entry before you can use it.
 
+istZustand.tex:28: Package datagidx Error: Entry `RESTful' doesn't exist.
 
-istZustand.tex:30: Package glossaries Error: Glossary entry `REST' has not been
- defined.
-
-See the glossaries package documentation for explanation.
+See the datagidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30     \item \gls{REST}:
-                           REST steht f체r Representational State Transfer. ...
+l.28     \item \gls{RESTful}
+                            : RESTful ist ein Synonym f체r Representational ...
+(That was another \errmessage.)
 
-You need to define a glossary entry before you can use it.
 
+istZustand.tex:29: Package datagidx Error: No term `API' defined.
 
-istZustand.tex:31: Package glossaries Error: Glossary entry `HTTP' has not been
- defined.
-
-See the glossaries package documentation for explanation.
+See the datagidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31     \item \gls{HTTP}:
-                           HTTP steht f체r Hypertext Transfer Protocol. HTTP...
+l.29     \item \gls{API}
+                        : API steht f체r Application Programming Interface. ...
+(That was another \errmessage.)
 
-You need to define a glossary entry before you can use it.
 
+istZustand.tex:29: Package datagidx Error: Entry `API' doesn't exist.
 
-istZustand.tex:32: Package glossaries Error: Glossary entry `JSON' has not been
- defined.
-
-See the glossaries package documentation for explanation.
+See the datagidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32     \item \gls{JSON}:
-                           JSON steht f체r JavaScript Object Notation. JSON ...
+l.29     \item \gls{API}
+                        : API steht f체r Application Programming Interface. ...
+(That was another \errmessage.)
 
-You need to define a glossary entry before you can use it.
 
+istZustand.tex:30: Package datagidx Error: No term `REST' defined.
 
-istZustand.tex:33: Package glossaries Error: Glossary entry `OAuth' has not bee
-n defined.
-
-See the glossaries package documentation for explanation.
+See the datagidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33     \item \gls{OAuth}:
-                            OAuth ist ein Protokoll, das es einem erlaubt si...
+l.30     \item \gls{REST}
+                         : REST steht f체r Representational State Transfer. ...
+(That was another \errmessage.)
 
-You need to define a glossary entry before you can use it.
+
+istZustand.tex:30: Package datagidx Error: Entry `REST' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30     \item \gls{REST}
+                         : REST steht f체r Representational State Transfer. ...
+(That was another \errmessage.)
+
+
+istZustand.tex:31: Package datagidx Error: No term `HTTP' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31     \item \gls{HTTP}
+                         : HTTP steht f체r Hypertext Transfer Protocol. HTTP...
+(That was another \errmessage.)
+
+
+istZustand.tex:31: Package datagidx Error: Entry `HTTP' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31     \item \gls{HTTP}
+                         : HTTP steht f체r Hypertext Transfer Protocol. HTTP...
+(That was another \errmessage.)
+
+
+istZustand.tex:32: Package datagidx Error: No term `JSON' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32     \item \gls{JSON}
+                         : JSON steht f체r JavaScript Object Notation. JSON ...
+(That was another \errmessage.)
+
+
+istZustand.tex:32: Package datagidx Error: Entry `JSON' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32     \item \gls{JSON}
+                         : JSON steht f체r JavaScript Object Notation. JSON ...
+(That was another \errmessage.)
+
+
+istZustand.tex:33: Package datagidx Error: No term `OAuth' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33     \item \gls{OAuth}
+                          : OAuth ist ein Protokoll, das es einem erlaubt si...
+(That was another \errmessage.)
+
+
+istZustand.tex:33: Package datagidx Error: Entry `OAuth' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33     \item \gls{OAuth}
+                          : OAuth ist ein Protokoll, das es einem erlaubt si...
+(That was another \errmessage.)
 
 istZustand.tex:33: You can't use `macro parameter character #' in horizontal mo
 de.
@@ -2107,8 +2429,198 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[6]) (vorgehensweise.tex [7]
-<Bilder/mockup.png, id=151, 782.925pt x 434.62375pt>
+
+istZustand.tex:34: Package datagidx Error: No term `UserJourney' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34     \item \gls{UserJourney}
+                                : \gls{UserJourney} ist ein Begriff aus der ...
+(That was another \errmessage.)
+
+
+istZustand.tex:34: Package datagidx Error: Entry `UserJourney' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34     \item \gls{UserJourney}
+                                : \gls{UserJourney} ist ein Begriff aus der ...
+(That was another \errmessage.)
+
+
+istZustand.tex:34: Package datagidx Error: No term `UserJourney' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...\item \gls{UserJourney}: \gls{UserJourney}
+                                                   ist ein Begriff aus der U...
+(That was another \errmessage.)
+
+
+istZustand.tex:34: Package datagidx Error: Entry `UserJourney' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...\item \gls{UserJourney}: \gls{UserJourney}
+                                                   ist ein Begriff aus der U...
+(That was another \errmessage.)
+
+
+istZustand.tex:34: Package datagidx Error: No term `UserJourney' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ... User Experience Design. \gls{UserJourney}
+                                                   ist ein Weg, den ein User...
+(That was another \errmessage.)
+
+
+istZustand.tex:34: Package datagidx Error: Entry `UserJourney' doesn't exist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ... User Experience Design. \gls{UserJourney}
+                                                   ist ein Weg, den ein User...
+(That was another \errmessage.)
+
+
+istZustand.tex:35: Package datagidx Error: No term `UserInterface' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35     \item \gls{UserInterface}
+                                  : \gls{UserInterface} ist ein Begriff aus ...
+(That was another \errmessage.)
+
+
+istZustand.tex:35: Package datagidx Error: Entry `UserInterface' doesn't exist.
+
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35     \item \gls{UserInterface}
+                                  : \gls{UserInterface} ist ein Begriff aus ...
+(That was another \errmessage.)
+
+
+istZustand.tex:35: Package datagidx Error: No term `UserInterface' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...m \gls{UserInterface}: \gls{UserInterface}
+                                                   ist ein Begriff aus der U...
+(That was another \errmessage.)
+
+
+istZustand.tex:35: Package datagidx Error: Entry `UserInterface' doesn't exist.
+
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...m \gls{UserInterface}: \gls{UserInterface}
+                                                   ist ein Begriff aus der U...
+(That was another \errmessage.)
+
+
+istZustand.tex:35: Package datagidx Error: No term `UserInterface' defined.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...ser Experience Design. \gls{UserInterface}
+                                                   ist die grafische Oberfl�...
+(That was another \errmessage.)
+
+
+istZustand.tex:35: Package datagidx Error: Entry `UserInterface' doesn't exist.
+
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...ser Experience Design. \gls{UserInterface}
+                                                   ist die grafische Oberfl�...
+(That was another \errmessage.)
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+
+ []
+
+<Bilder/GrafikdesignerMockup.png, id=217, 871.00406pt x 543.53062pt>
+File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
+<use Bilder/GrafikdesignerMockup.png>
+Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 50
+.
+(pdftex.def)             Requested size: 341.43437pt x 213.06255pt.
+
+istZustand.tex:51: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \caption
+             {GrafikdesignerMockup}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+istZustand.tex:67: Package datagidx Error: No term `Responsive Design' defined.
+
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \gls{Responsive Design}
+                             wurde hier nur f체r das Format ber체cksichtigt,...
+(That was another \errmessage.)
+
+
+istZustand.tex:67: Package datagidx Error: Entry `Responsive Design' doesn't ex
+ist.
+
+See the datagidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \gls{Responsive Design}
+                             wurde hier nur f체r das Format ber체cksichtigt,...
+(That was another \errmessage.)
+
+) (vorgehensweise.tex [8 <./Bilder/GrafikdesignerMockup.png>] [9]
+<Bilder/mockup.png, id=230, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 11.
@@ -2129,32 +2641,105 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (Technische Umsetzung.tex)
-No file main.gls.
-[8 <./Bilder/mockup.png>]
+) (Technische Umsetzung.tex [10 <./Bilder/mockup.png>]
+
+Technische Umsetzung.tex:22: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:44: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+main.tex:74: Undefined control sequence.
+l.74     \glsadall
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls
+[11]) [12]
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC5691B74895010216664CAC488121C6;1965.
+(rerunfilecheck)             Checksum: 0E71424481166442C361A81834EEB7D2;3617.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53314 strings out of 476374
- 1195439 string characters out of 5787910
- 2149909 words of memory out of 5000000
- 72556 multiletter control sequences out of 15000+600000
- 572954 words of font info for 223 fonts, out of 8000000 for 9000
+ 54719 strings out of 476374
+ 1219942 string characters out of 5787910
+ 2196696 words of memory out of 5000000
+ 73873 multiletter control sequences out of 15000+600000
+ 574644 words of font info for 249 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
-C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
-><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
-fb>
+
+pdfTeX warning (dest): name{Responsive\040Design} has been referenced but does 
+not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{UserInterface} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{UserJourney} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{OAuth} has been referenced but does not exist, repl
+aced by a fixed one
+
+
+pdfTeX warning (dest): name{JSON} has been referenced but does not exist, repla
+ced by a fixed one
+
+
+pdfTeX warning (dest): name{HTTP} has been referenced but does not exist, repla
+ced by a fixed one
+
+
+pdfTeX warning (dest): name{REST} has been referenced but does not exist, repla
+ced by a fixed one
+
+
+pdfTeX warning (dest): name{API} has been referenced but does not exist, replac
+ed by a fixed one
+
+
+pdfTeX warning (dest): name{RESTful} has been referenced but does not exist, re
+placed by a fixed one
+
+{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
+utmr8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (9 pages, 127447 bytes).
+main.pdf (13 pages, 247464 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 70807 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 70884 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -1,0 +1,43 @@
+%! Author = mboehme
+%! Date = 23.02.2023
+
+% Preamble
+\section{Abgrenzung zu ähnlichen Produkten}
+\subsection{Microsoft Teams}
+Microsoft Teams ermöglicht Terminbuchungen genauso, erlaubt jedoch zu detaillierte Eingriffe in das Konto, welcher für den Raum vorgesehen ist.
+Einstellungen, die nicht verändert werden sollten, können dann erreicht werden.
+\newline
+\subsection{Outlook}
+Outlook ist ein E-Mail-Programm, welches ebenfalls Terminbuchungen ermöglicht.
+Outlook ist jedoch nicht für die Terminbuchung in Konferenzräumen gedacht und kann je nach E-Mail-Konto-Typ nicht in vollem Umfang genutzt werden und ist zudem nicht immer vollständig synchronisiert.
+Auch hier können Einstellungen, die nicht verändert werden sollten, erreicht werden und Kalender eingesehen werden, die nur für Administratoren gedacht sind.
+\newline
+\subsection{Microsoft Bookings}
+Microsoft Bookings ist eine weitere Applikation, die Terminbuchungen ermöglicht.
+Sie wird hauptsächlich für Terminbuchungen in beispielsweise Friseursalons, Fitnessstudios oder ähnlichen Geschäften genutzt.
+Dies ist jedoch der falsche Anwendungsfall für die Terminbuchung in Konferenzräumen.
+Auch die Einschränkungen und Freiheiten, die diese Applikation bietet, sind hier nicht passend.
+\newline
+\subsection{Microsoft Power Automate}
+Microsoft Power Automate ist eine Applikation, die es ermöglicht, Workflows zu erstellen.
+Diese Workflows können dann automatisiert ausgeführt werden.
+Diese kann auch ähnliche Funktionen wie die Applikation, die in dieser Arbeit entwickelt wird, bieten.
+Jedoch ist die Freigabe dieser Applikationen nur für innerhalb der Organisationen vorgesehen und nicht für Kunden.
+\pagebreak
+\subsection{Spezifische Gründe für die Entwicklung einer eigenen Applikation}
+Wenn ein Kunde bei der DOOH media GmbH einkauft, kauft er im Regelfall ein einigermaßen volles Paket.
+Dieses Paket inkludiert die Möglichkeit die Geräte in einen sogenannten Kiosk-Modus zu versetzen.
+Dafür haben wir eine eigene Applikation, die Oxygen Player App, entwickelt.
+Zudem haben wir eine \(")\)OMS\(")\)-Lösung (Oxygen Media Server), die es ermöglicht, die Inhalte auf den Geräten zu verwalten.
+Falls der Kunde also zu bestimmten Zeiten eigene Inhalte oder Inhalte von diversen Anbietern, auf den Geräten, zu bestimmten Uhrzeiten, darstellen möchte, kann er dies über die \(")\)OMS\(")\)-Lösung tun.
+Diese Inhalte werden dann auf den Geräten abgespielt.
+\newline
+Die Idee ist hier also, dass der Kunde nicht an die Terminbuchungs-Webapplikation gebunden ist, sondern diese Applikation nur als zusätzliche Funktion anbietet.
+Viele der Softwarelösungen, die schon für genau diesen Anwendungsfall existieren, beinhalten Bindungen an andere Softwarelösungen, die der Kunde nicht benötigt.
+Sie machen es dem Kunden schwer, die Softwarelösung zu nutzen, da er sich mit anderen Softwarelösungen auseinandersetzen muss, die er nicht benötigt und gegebenfalls nicht in einem Kiosk-Modus laufen können oder parallel zu unserer restlichen Software, die der Kunde haben möchte.
+Außerdem erforden einige dieser Softwarelösungen eine Installation auf dem Gerät oder erzwingen Konten-Registrierungen, die der Kunde nicht benötigt.
+\newline
+Die Applikation, die in dieser Arbeit entwickelt wird, soll es hingegen ermöglichen, dass diese Softwarelösung ohne weitere Softwarelösungen genutzt werden kann, aber auch ohne Probleme mit anderen Softwarelösungen genutzt werden kann, solange die anderen Softwarelösungen, von sich aus, keine Konflikte mit der Terminbuchungs-Webapplikation verursachen.
+Alles wird lokal auf dem Gerät abgespielt und es wird keine Installation auf dem Gerät benötigt.
+Es wird keine Registrierung eines Kontos benötigt und niemand kann die Daten von außerhalb, außer natürlich Microsoft, einsehen, da wirklich alles lokal gehostet wird.
+Die Inhalte werden dynamisch auf dem Gerät geladen und verarbeitet.

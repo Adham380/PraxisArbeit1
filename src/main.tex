@@ -53,20 +53,24 @@
 \usepackage{setspace}
 \usepackage{microtype}
 \usepackage{tabularx}
+\usepackage{datagidx}
 % Document
+\makeglossaries
 
 \begin{document}
-    \makeglossaries
     \input{titlepage}
     \input{Inhaltsverzeichnis}
     \input{einleitung}
+    \input{Zusammenfassung}
     \input{Use Case}
     \input{Systemschnittstellen}
+    \input{AbgrenzungZuÄhnlichenProdukten}
     \input{theorie}
     \input{istZustand}
     \input{vorgehensweise}
     \input{Technische Umsetzung}
 %    \bibliography{main}
 %    \bibliographystyle{plain}
+    \glsadall
     \printglossaries
 \end{document}

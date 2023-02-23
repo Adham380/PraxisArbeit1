@@ -40,7 +40,47 @@ Dies ist sehr umständlich und kann sehr viel Zeit in Anspruch nehmen.
 Ein User soll am Bildschirm eines Tablets, welches vor dem Raum angebracht wird, erkennen können, ob dieser Raum belegt ist oder nicht, welche Termine heute noch anstehen und spontan auch einen Termin vereinbaren können. Der User soll also nicht mehr auf Outlook oder Teams angewiesen sein, sondern kann direkt am Bildschirm des Tablets sehen, ob der Raum belegt ist oder nicht. Zudem soll der Raumstatus farbig dargestellt werden, sodass der User sofort erkennen kann, ob der Raum belegt ist oder nicht, sowohl am User Interface, als auch an den LED Strips des Tablets.
 \subsection{User Interface}
 Das User Interface soll so gestaltet sein, dass der User sofort erkennen kann, ob der Raum belegt ist oder nicht. Zudem soll das User Interface so gestaltet sein, dass der User auch Termine für den Raum vereinbaren kann. Das User Interface soll also eine Übersicht über die Termine des Raumes und einen Button zum vereinbaren eines Termins enthalten.
+\newline
+Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurde ein Design für das User Interface erstellt.
+\newline
+%User Interface Design einfügen
+\newline
+\par\vspace{1cm}
+\centering
+\includegraphics[width=0.8\textwidth]{Bilder/GrafikdesignerMockup}
+\caption{GrafikdesignerMockup}
+\label{fig:GrafikdesignerMockup}
+\par\vspace{1cm}
+\raggedright
+Dieses Design ist jedoch in seiner Ausführung nicht praktikabel.
+Es wurden nicht die gängigen Konventionen für kontrastreiche Farben und Schriftarten berücksichtigt.
+Beispielsweise sind die sehr dunkelgrauen Boxen mit einem fast schwarzen Hintergrund der Seite und einem fast weißen Text nicht gut differenzierbar.
+Des Weiteren wurde bei der Erstellung des Designs nicht genug auf die Kleine Auflösung und Displaygröße des Tablets geachtet.
+Dies sind alles Eigenschaften und Variablen, die ich bei der Gestaltung des User Interfaces noch beachten muss.
+\newline
+Das Design existiert in sechs Versionen, die sich in darin unterscheiden ob sie gerade in \("\)Dark Mode\("\) oder \("\)Light Mode\("\) sind und basierend auf ihrem Belegungsstatus.
+\newline
+\newglossaryentry{Responsive Design}{
+    name=ResponsiveDesign,
+    description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.}
+}
+\gls{Responsive Design} wurde hier nur für das Format berücksichtigt, da die Anwendung nur für Tablets und Desktops im Landscape-Modus gedacht ist.
+\newglossaryentry{DarkMode}{
+    name=DarkMode,
+    description={Dark Mode ist ein Begriff aus der User Experience Design. Dark Mode ist ein Modus, bei dem der Hintergrund dunkel ist und der Text hell.}
+}
+\newglossaryentry{LightMode}{
+    name=LightMode,
+    description={Light Mode ist ein Begriff aus der User Experience Design. Light Mode ist ein Modus, bei dem der Hintergrund hell ist und der Text dunkel.}
+}
+\newglossaryentry{Landscape}{
+    name=Landscape,
+    description={Landscape ist ein Begriff aus der User Experience Design. Landscape ist ein Modus, bei dem das Gerät horizontal liegt.}
+}
+
 \subsection{LED Strips}
-Die LED Strips sollen die Farbe des Raumes anzeigen. Wenn der Raum belegt ist, sollen die LED Strips rot leuchten. Wenn der Raum frei ist, sollen die LED Strips grün leuchten. Wenn der Raum nicht verfügbar ist, sollen die LED Strips rot leuchten. Falls jedoch der Raum in den nächsten 15 Minuten belegt sein wird, sollen die LED Strips gelb leuchten.
-
-
+Die LED Strips sollen die Farbe des Raumes anzeigen.
+Wenn der Raum belegt ist, sollen die LED Strips rot leuchten.
+Wenn der Raum frei ist, sollen die LED Strips grün leuchten.
+Wenn der Raum nicht verfügbar ist, sollen die LED Strips rot leuchten.
+Falls jedoch der Raum in den nächsten 15 Minuten belegt sein wird, sollen die LED Strips gelb leuchten.

@@ -82,3 +82,115 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Responsive Design}%
+{%
+name={ResponsiveDesign},%
+sort={ResponsiveDesign},%
+type={main},%
+first={ResponsiveDesign},%
+firstplural={ResponsiveDesigns},%
+text={ResponsiveDesign},%
+plural={ResponsiveDesigns},%
+description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.},%
+descriptionplural={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{DarkMode}%
+{%
+name={DarkMode},%
+sort={DarkMode},%
+type={main},%
+first={DarkMode},%
+firstplural={DarkModes},%
+text={DarkMode},%
+plural={DarkModes},%
+description={Dark Mode ist ein Begriff aus der User Experience Design. Dark Mode ist ein Modus, bei dem der Hintergrund dunkel ist und der Text hell.},%
+descriptionplural={Dark Mode ist ein Begriff aus der User Experience Design. Dark Mode ist ein Modus, bei dem der Hintergrund dunkel ist und der Text hell.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LightMode}%
+{%
+name={LightMode},%
+sort={LightMode},%
+type={main},%
+first={LightMode},%
+firstplural={LightModes},%
+text={LightMode},%
+plural={LightModes},%
+description={Light Mode ist ein Begriff aus der User Experience Design. Light Mode ist ein Modus, bei dem der Hintergrund hell ist und der Text dunkel.},%
+descriptionplural={Light Mode ist ein Begriff aus der User Experience Design. Light Mode ist ein Modus, bei dem der Hintergrund hell ist und der Text dunkel.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Landscape}%
+{%
+name={Landscape},%
+sort={Landscape},%
+type={main},%
+first={Landscape},%
+firstplural={Landscapes},%
+text={Landscape},%
+plural={Landscapes},%
+description={Landscape ist ein Begriff aus der User Experience Design. Landscape ist ein Modus, bei dem das Gerät horizontal liegt.},%
+descriptionplural={Landscape ist ein Begriff aus der User Experience Design. Landscape ist ein Modus, bei dem das Gerät horizontal liegt.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
