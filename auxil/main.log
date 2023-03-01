@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  1 MAR 2023 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  1 MAR 2023 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2690,18 +2690,39 @@ might try typing `S' now just to see what is salvageable.
 <Bilder/Ergebnis.png, id=374, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
-Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 9.
+Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 10.
 (pdftex.def)             Requested size: 341.43437pt x 215.84831pt.
 
 
-Ergebnis.tex:10: Package caption Error: \caption outside float.
+Ergebnis.tex:11: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10     \caption
-                 {Prototyp}
+l.11     \caption
+                 {Ergebnis mit nächstem anstehenden Termin}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<Bilder/Ergebnis_LaufenderTermin.png, id=375, 722.7pt x 450.18187pt>
+File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
+<use Bilder/Ergebnis_LaufenderTermin.png>
+Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
+e 17.
+(pdftex.def)             Requested size: 341.43437pt x 212.68459pt.
+
+Ergebnis.tex:18: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18     \caption
+                 {Ergebnis mit laufendem Termin}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
 section about errors.
@@ -2709,13 +2730,95 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Ergebnis.tex:14: LaTeX Error: There's no line here to end.
+Ergebnis.tex:22: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \newline
+l.22 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=382, 721.19438pt x 451.6875pt>
+File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
+<use Bilder/Ergebnis_TerminErstellen_Menue.png>
+Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
+ut line 39.
+(pdftex.def)             Requested size: 341.43437pt x 213.83699pt.
+
+
+Ergebnis.tex:40: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40     \caption
+                 {Menü}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Ergebnis.tex:44: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Ergebnis.tex:45: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Bilder/Ergebnis_lightMode.png, id=383, 720.44156pt x 449.42906pt>
+File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
+<use Bilder/Ergebnis_lightMode.png>
+Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 49.
+(pdftex.def)             Requested size: 341.43437pt x 212.99411pt.
+
+Ergebnis.tex:50: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50     \caption
+                 {Prototyp im light-Modus}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Ergebnis.tex:54: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2732,8 +2835,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls)
-[17 <./Bilder/Ergebnis.png>]
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+[18 <./Bilder/Ergebnis_TerminErstellen_Menue.png> <./Bilder/Ergebnis_lightMode.
+png>] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C1E6C98BA8E5198279EB27DFC5A17059;7665.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2741,10 +2847,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54809 strings out of 476374
- 1221529 string characters out of 5787910
- 2197260 words of memory out of 5000000
- 73914 multiletter control sequences out of 15000+600000
+ 54843 strings out of 476374
+ 1222767 string characters out of 5787910
+ 2197419 words of memory out of 5000000
+ 73944 multiletter control sequences out of 15000+600000
  578728 words of font info for 262 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2793,9 +2899,9 @@ nts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (18 pages, 350930 bytes).
+main.pdf (19 pages, 590920 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 71065 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 71080 words of extra memory for PDF output out of 74296 (max. 10000000)
 
