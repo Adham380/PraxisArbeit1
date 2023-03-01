@@ -25,6 +25,37 @@
 \usepackage{tikz}
 \usepackage{longtable} % Tabellen können Seitenumbrüche enthalten
 \usepackage{listings} % Listings für Codebeispiele
+\lstdefinestyle{JavaScript}
+{
+    language=JavaScript,
+    basicstyle=\footnotesize\ttfamily,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{green},
+    stringstyle=\color{red},
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=2,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=single,
+    rulecolor=\color{black!20},
+    backgroundcolor=\color{white},
+    literate={ä}{{\"a}}1
+    {ö}{{\"o}}1
+    {ü}{{\"u}}1
+    {Ä}{{\"A}}1
+    {Ö}{{\"O}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {~}{{\textasciitilde}}1
+}
 \lstset{basicstyle=\footnotesize,
     inputencoding={utf8},
     extendedchars=false,
@@ -70,6 +101,7 @@
     \input{istZustand}
     \input{vorgehensweise}
     \input{Technische Umsetzung}
+    \input{Ergebnis}
 %    \bibliography{main}
 %    \bibliographystyle{plain}
     \glsadall
