@@ -8,7 +8,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[paper=a4paper,left=40mm,right=20mm,top=25mm,bottom=20mm,footskip=25pt ]{geometry}
-\usepackage[backend=biber,style=alphabetic,citestyle=alphabetic-verb]{biblatex}
+\usepackage[backend=biber,style=alphabetic, uniquename=false]{biblatex}
 \usepackage{mathptmx} %Font Times New Roman
 \usepackage[toc,nonumberlist]{glossaries} %Erstellt ein Abkürzungsverzeichnis
 \usepackage{array}
@@ -87,7 +87,8 @@
 \usepackage{datagidx}
 % Document
 \makeglossaries
-
+%\addbibresource{main.bib}
+\addbibresource{literatur.bib}
 \begin{document}
     \input{titlepage}
     \input{Inhaltsverzeichnis}
@@ -102,8 +103,10 @@
     \input{vorgehensweise}
     \input{Technische Umsetzung}
     \input{Ergebnis}
-%    \bibliography{main}
-%    \bibliographystyle{plain}
-    \glsadall
-    \printglossaries
+%    cite without square brackets
+    ~\cite{JavaScript}
+    \bibliographystyle{alpha}
+    \printbibliography{literatur}
+%  ~\cite{JavaScript}
+%    \printbibliography{title=Literaturverzeichnis}
 \end{document}

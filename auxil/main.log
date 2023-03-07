@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  1 MAR 2023 14:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.21)  7 MAR 2023 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -477,21 +477,22 @@ File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count397
 \c@bbx:relatedtotal=\count398
 ))
-Package biblatex Info: Trying to load citation style 'alphabetic-verb'...
-Package biblatex Info: ... file 'alphabetic-verb.cbx' found.
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\alphabet
-ic-verb.cbx
-File: alphabetic-verb.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+ic.cbx
+File: alphabetic.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1840,7 +1841,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count528
 \@quotereset=\count529
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 91
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 92
 .
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1848,24 +1849,24 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
@@ -1954,11 +1955,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl)
-Package biblatex Info: Reference section=0 on input line 91.
-Package biblatex Info: Reference segment=0 on input line 91.
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.glsdefs)
-Package hyperref Info: Link coloring OFF on input line 91.
+Package hyperref Info: Link coloring OFF on input line 92.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
@@ -1970,7 +1971,7 @@ Package hyperref Info: Link coloring OFF on input line 91.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 91.
+ on input line 92.
 
 \c@lstlisting=\count536
 Package caption Info: Begin \AtBeginDocument code.
@@ -1985,12 +1986,12 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                geometry option `head=13.6pt'
 (scrlayer-scrpage)                \relax to avoid this warning.
 
-LaTeX Info: Redefining \microtypecontext on input line 91.
-Package microtype Info: Applying patch `item' on input line 91.
-Package microtype Info: Applying patch `toc' on input line 91.
-Package microtype Info: Applying patch `eqnum' on input line 91.
+LaTeX Info: Redefining \microtypecontext on input line 92.
+Package microtype Info: Applying patch `item' on input line 92.
+Package microtype Info: Applying patch `toc' on input line 92.
+Package microtype Info: Applying patch `eqnum' on input line 92.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 91.
+Package microtype Warning: Unable to apply patch `footnote' on input line 92.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1998,7 +1999,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 91.
+LaTeX Info: Redefining \showhyphens on input line 92.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2266,7 +2267,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (Grundlagen.tex [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 10--18
+Underfull \hbox (badness 10000) in paragraph at lines 10--20
 
  []
 
@@ -2579,7 +2580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=339, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=341, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 50
@@ -2625,7 +2626,7 @@ l.67 \gls{Responsive Design}
 (That was another \errmessage.)
 
 ) (vorgehensweise.tex [11 <./Bilder/GrafikdesignerMockup.png>] [12]
-<Bilder/mockup.png, id=353, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=355, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 11.
@@ -2686,8 +2687,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) (Ergebnis.tex [15] [16]
-<Bilder/Ergebnis.png, id=374, 720.44156pt x 455.45157pt>
+[15]) (Ergebnis.tex [16]
+<Bilder/Ergebnis.png, id=377, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 10.
@@ -2708,7 +2709,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=375, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=378, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2743,7 +2744,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=382, 721.19438pt x 451.6875pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=385, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2765,45 +2766,19 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Ergebnis.tex:44: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Ergebnis.tex:45: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<Bilder/Ergebnis_lightMode.png, id=383, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=386, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
-Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 49.
+Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 52.
 (pdftex.def)             Requested size: 341.43437pt x 212.99411pt.
 
-Ergebnis.tex:50: Package caption Error: \caption outside float.
+Ergebnis.tex:53: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50     \caption
+l.53     \caption
                  {Prototyp im light-Modus}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2812,46 +2787,75 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Ergebnis.tex:54: LaTeX Error: There's no line here to end.
+Ergebnis.tex:57: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \newline
+l.57 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 )
-main.tex:107: Undefined control sequence.
-l.107     \glsadall
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls)
+main.tex:108: Package biblatex Error: '\bibliographystyle' invalid for 'biblate
+x'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108     \bibliographystyle{alpha}
+                                   
+Use the package option 'style' instead.
+I'm ignoring this command.
+
 [18 <./Bilder/Ergebnis_TerminErstellen_Menue.png> <./Bilder/Ergebnis_lightMode.
-png>] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+09.
+ (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C1E6C98BA8E5198279EB27DFC5A17059;7665.
+[19] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: C1E6C98BA8E5198279EB27DFC5A17059;7665
+(rerunfilecheck)             After:  05D011EEFDC8498CF8A6986FA3E5B0D6;7758.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54843 strings out of 476374
- 1222767 string characters out of 5787910
- 2197419 words of memory out of 5000000
- 73944 multiletter control sequences out of 15000+600000
- 578728 words of font info for 262 fonts, out of 8000000 for 9000
+ 55129 strings out of 476374
+ 1228490 string characters out of 5787910
+ 2198627 words of memory out of 5000000
+ 74205 multiletter control sequences out of 15000+600000
+ 582674 words of font info for 275 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2890,18 +2894,19 @@ ed by a fixed one
 pdfTeX warning (dest): name{RESTful} has been referenced but does not exist, re
 placed by a fixed one
 
-{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/
-fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTe
-X/fonts/type1/urw/times/utmri8a.pfb>
+ <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1095.pk>{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
+.enc}<C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mboehme/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs
+/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (19 pages, 590920 bytes).
+main.pdf (20 pages, 603694 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 71080 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 77736 words of extra memory for PDF output out of 89155 (max. 10000000)
 

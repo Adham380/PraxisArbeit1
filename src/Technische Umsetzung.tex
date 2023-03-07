@@ -117,3 +117,17 @@ Hier sieht man die oData v4 API Anfrage:
 \newline
             let url =  `https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime` + ` ge ` + `'${todayDate}' and end/dateTime le '${tomorrowDate}'&$top=300`;
 \newline
+\newline
+\subsubsection{Timer}
+Der Timer, welcher die übrig bleibende Zeit bis zum nächsten Termin anzeigt, funktioniert wie folgt:
+\newline
+\newline
+Es wird die Zeit bis zum Ende des jetzigen Termin berechnet, ausgehend von der Zeit, die zum Anfang des jetzigen Termins vergangen ist, und in Millisekunden umgerechnet.
+Dann wird eine sich drehende Animation erstellt, die diese für diese Dauer abläuft.
+\newline
+Da die Dauer angepasst werden kann, muss bei Datenänderungen die Animation neu berechnet werden.
+Damit dies nicht ohne Grund passiert, wird geprüft ob die Dauer sich geändert hat.
+Die Daten dafür werden im Local Storage gespeichert.
+Falls eine Änderung stattgefunden hat, wird die Animation neu berechnet.
+Bei der Änderung werden, damit die Animation visuell nicht von vorne anfängt, die Animationsdauer und die vergangene Zeit als neue Animationsdauer aufaddiert und die vergangene zeit als negative Animationsverzögerung gesetzt, damit die Animation dort ist, wo sie relativ zur neuen Dauer sein sollte.
+\newline
