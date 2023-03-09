@@ -7,7 +7,7 @@
 
 % Document
 \pagebreak
-\section{Ist-Zustand}
+\section{Ist-Zustand}\label{sec:ist-zustand}
 Unsere Muttergesellschaft und einige Schwesterunternehmen nutzen Microsoft 365 und Office 365. Diese Produkte sind sehr umfangreich und bieten viele Funktionen. Die heutzutage gängige und weit verbreitete Terminplanung per Outlook oder Teams ist eines dieser Funktionen. Diese Funktion ist jedoch nicht immer so praktikabel wie sie es vielleicht sein sollte, vor allem nicht, wenn mehrere Unternehmen, das gleiche Gebäude und die gleiche Organisations-E-Mail besitzen.
 \newline
 //UserJourney Beispiel einfügen
@@ -23,23 +23,31 @@ Dies ist sehr umständlich und kann sehr viel Zeit in Anspruch nehmen.
     description={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.}
 }
 
-\subsection{Definitionen}
-\begin{itemize}
-    \item \gls{RESTful}: RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.
-    \item \gls{API}: API steht für Application Programming Interface. API ist eine Schnittstelle, die es einem erlaubt auf Daten zuzugreifen.
-    \item \gls{REST}: REST steht für Representational State Transfer. REST ist ein Architekturstil für die Entwicklung von Webdiensten.
-    \item \gls{HTTP}: HTTP steht für Hypertext Transfer Protocol. HTTP ist ein Protokoll, das es einem erlaubt auf Daten zuzugreifen.
-    \item \gls{JSON}: JSON steht für JavaScript Object Notation. JSON ist ein Datenformat, das es einem erlaubt Daten zu speichern und zu übertragen.
-    \item \gls{OAuth}: OAuth ist ein Protokoll, das es einem erlaubt sich mit einem Account anzumelden und somit auf Daten zuzug#
-    \item \gls{UserJourney}: \gls{UserJourney} ist ein Begriff aus der User Experience Design. \gls{UserJourney} ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.
-    \item \gls{UserInterface}: \gls{UserInterface} ist ein Begriff aus der User Experience Design. \gls{UserInterface} ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.
-\end{itemize}
+%\subsection{Definitionen}\label{subsec:definitionen}
+%\begin{itemize}
+%    \item \gls{RESTful}: RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.
+%    \item \gls{API}: API steht für Application Programming Interface. API ist eine Schnittstelle, die es einem erlaubt auf Daten zuzugreifen.
+%    \item \gls{REST}: REST steht für Representational State Transfer. REST ist ein Architekturstil für die Entwicklung von Webdiensten.
+%    \item \gls{HTTP}: HTTP steht für Hypertext Transfer Protocol. HTTP ist ein Protokoll, das es einem erlaubt auf Daten zuzugreifen.
+%    \item \gls{JSON}: JSON steht für JavaScript Object Notation. JSON ist ein Datenformat, das es einem erlaubt Daten zu speichern und zu übertragen.
+%    \item \gls{OAuth}: OAuth ist ein Protokoll, das es einem erlaubt sich mit einem Account anzumelden und somit auf Daten zuzug#
+%    \item \gls{UserJourney}: \gls{UserJourney} ist ein Begriff aus der User Experience Design. \gls{UserJourney} ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.
+%    \item \gls{UserInterface}: \gls{UserInterface} ist ein Begriff aus der User Experience Design. \gls{UserInterface} ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.
+%\end{itemize}
 \newpage
-\section{Soll-Zustand}
-\subsection{Anforderungen}
-Ein User soll am Bildschirm eines Tablets, welches vor dem Raum angebracht wird, erkennen können, ob dieser Raum belegt ist oder nicht, welche Termine heute noch anstehen und spontan auch einen Termin vereinbaren können. Der User soll also nicht mehr auf Outlook oder Teams angewiesen sein, sondern kann direkt am Bildschirm des Tablets sehen, ob der Raum belegt ist oder nicht. Zudem soll der Raumstatus farbig dargestellt werden, sodass der User sofort erkennen kann, ob der Raum belegt ist oder nicht, sowohl am User Interface, als auch an den LED Strips des Tablets.
-\subsection{User Interface}
-Das User Interface soll so gestaltet sein, dass der User sofort erkennen kann, ob der Raum belegt ist oder nicht. Zudem soll das User Interface so gestaltet sein, dass der User auch Termine für den Raum vereinbaren kann. Das User Interface soll also eine Übersicht über die Termine des Raumes und einen Button zum vereinbaren eines Termins enthalten.
+\section{Soll-Zustand}\label{sec:soll-zustand}
+
+\subsection{Anforderungen}\label{subsec:anforderungen}
+Ein User soll am Bildschirm eines Tablets, welches vor dem Raum angebracht wird, erkennen können, ob dieser Raum belegt ist oder nicht, welche Termine heute noch anstehen und spontan auch einen Termin vereinbaren können.
+Der User soll also nicht mehr auf Outlook oder Teams angewiesen sein, sondern kann direkt am Bildschirm des Tablets sehen, ob der Raum belegt ist oder nicht.
+Zudem soll der Raumstatus farbig dargestellt werden, sodass der User sofort erkennen kann, ob der Raum belegt ist oder nicht, sowohl am User Interface, als auch an den LED Strips des Tablets.
+\subsection{User Interface}\label{subsec:user-interface}
+Das User Interface soll, so gestaltet sein, dass der User sofort erkennen kann, ob der Raum belegt ist oder nicht.
+Des Weiteren soll das Userinterface so gestaltet sein, dass der User auch Termine für den Raum vereinbaren kann.
+Dafür wird die Hintergrundfarbe des Containers, in dem der Raumstatus angezeigt wird, in Abhängigkeit vom Raumstatus, rot, gelb oder grün sein.
+Falls der Termin gerade stattfindet, soll dieser rot dargestellt werden, falls er innerhalb der nächsten 15 Minuten stattfindet, soll er gelb dargestellt werden und falls er in der Zukunft stattfindet, soll er grün dargestellt werden.
+Sollte am heutigen Tag kein Termin stattfinden, wird der Raumstatus weiterhin grün dargestellt, jedoch wird der Text \("\)Keine weiteren Termine für Heute\("\) angezeigt.
+Das Userinterface soll also eine Übersicht über die Termine des Raumes und einen Button zum Vereinbaren eines Termins enthalten.
 \newline
 Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurde ein Design für das User Interface erstellt.
 \newline
@@ -52,18 +60,16 @@ Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurd
 \label{fig:GrafikdesignerMockup}
 \par\vspace{1cm}
 \raggedright
-Dieses Design ist jedoch in seiner Ausführung nicht praktikabel.
+Dieses Design, ist jedoch in seiner Ausführung nicht praktikabel.
 Es wurden nicht die gängigen Konventionen für kontrastreiche Farben und Schriftarten berücksichtigt.
 Beispielsweise sind die sehr dunkelgrauen Boxen mit einem fast schwarzen Hintergrund der Seite und einem fast weißen Text nicht gut differenzierbar.
-Des Weiteren wurde bei der Erstellung des Designs nicht genug auf die Kleine Auflösung und Displaygröße des Tablets geachtet.
-Dies sind alles Eigenschaften und Variablen, die ich bei der Gestaltung des User Interfaces noch beachten muss.
+Des Weiteren wurde bei der Erstellung des Designs nicht genug auf die kleine Auflösung und Displaygröße des Tablets geachtet.
+Dies sind alles Eigenschaften und Variablen, die man bei der Gestaltung des Userinterface noch beachten sollte.
 \newline
-Das Design existiert in sechs Versionen, die sich in darin unterscheiden ob sie gerade in \("\)Dark Mode\("\) oder \("\)Light Mode\("\) sind und basierend auf ihrem Belegungsstatus.
+Das Design existiert, in sechs Versionen, die sich in darin unterscheiden, ob sie gerade im \("\)Dark Mode\("\) oder \("\)Light Mode\("\) sind und basierend auf ihrem Belegungsstatus, mit den Farben rot, gelb und grün.
 \newline
-\newglossaryentry{Responsive Design}{
-    name=ResponsiveDesign,
-    description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.}
-}
+\newglossaryentry{Responsive Design}{name={Responsive Design}, description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.}}
+
 \gls{Responsive Design} wurde hier nur für das Format berücksichtigt, da die Anwendung nur für Tablets und Desktops im Landscape-Modus gedacht ist.
 \newglossaryentry{DarkMode}{
     name=DarkMode,
@@ -78,9 +84,5 @@ Das Design existiert in sechs Versionen, die sich in darin unterscheiden ob sie 
     description={Landscape ist ein Begriff aus der User Experience Design. Landscape ist ein Modus, bei dem das Gerät horizontal liegt.}
 }
 
-\subsection{LED Strips}
-Die LED Strips sollen die Farbe des Raumes anzeigen.
-Wenn der Raum belegt ist, sollen die LED Strips rot leuchten.
-Wenn der Raum frei ist, sollen die LED Strips grün leuchten.
-Wenn der Raum nicht verfügbar ist, sollen die LED Strips rot leuchten.
-Falls jedoch der Raum in den nächsten 15 Minuten belegt sein wird, sollen die LED Strips gelb leuchten.
+\subsection{LED Strips}\label{subsec:led-strips}
+Die LED Strips sollen in der Farbe leuchten, die dem Raumstatus entspricht.

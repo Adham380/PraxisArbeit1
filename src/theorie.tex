@@ -4,14 +4,16 @@
 
 
 % Document
-\section{Theorie}
-\subsection{Microsoft Graph API}
+\section{Theorie}\label{sec:theorie}
+
+\subsection{Microsoft Graph API}\label{subsec:microsoft-graph-api}
 Die Microsoft Graph API ist eine RESTful web API, die es einem erlaubt auf Daten von Microsoft 365 und Office 365 zuzugreifen.
 \newglossaryentry{RESTful}{
     name=RESTful,
     description={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.}
 }
-Mit Hilfe dieser API wurde das Projekt letztendlich umgesetzt. Weitere standen jedoch zur Verfügung:
+Mit Hilfe dieser API wurde das Projekt letztendlich umgesetzt.
+Weitere standen jedoch zur Verfügung:
 \begin{itemize}
     \item Microsoft Outlook API
     \item Microsoft Exchange API
@@ -20,7 +22,8 @@ Mit Hilfe dieser API wurde das Projekt letztendlich umgesetzt. Weitere standen j
     \item Microsoft Teams API
     \item Microsoft Power Automate
 \end{itemize}
-Einige dieser APIs sind nur für bestimmte Microsoft 365 und Office 365 Abonnements verfügbar. Die Microsoft Graph API ist jedoch für alle Abonnements verfügbar.
+Einige dieser APIs, sind nur für bestimmte Microsoft 365 und Office 365 Abonnements verfügbar.
+Die Microsoft Graph API ist jedoch für alle Abonnements verfügbar.
 Zudem ist die Microsoft Graph API die einzige API, die es einem erlaubt auf alle Daten von Microsoft 365 und Office 365 zuzugreifen, da sie die meisten anderen APIs integriert.
-Der wichtigste Faktor bei der Entscheidung war es jedoch, dass die Microsoft Graph API, mit Hilfe von Azure AD, die Authentifizierung und Autorisierung von Benutzern erlaubt. Dies ist für die Anwendung von großer Bedeutung, da es dem Benutzer ermöglicht sich mit seinem Microsoft 365 oder Office 365 Account anzumelden und somit auf seine Daten zuzugreifen.
+Der wichtigste Faktor bei der Entscheidung war es jedoch, dass die Microsoft Graph API, mithilfe von Azure AD, die Authentifizierung und Autorisierung von Benutzern erlaubt. Dies ist für die Anwendung von großer Bedeutung, da es dem Benutzer ermöglicht sich mit seinem Microsoft 365 oder Office 365 Account anzumelden und somit auf seine Daten zuzugreifen.
 

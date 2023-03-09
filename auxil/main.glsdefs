@@ -84,13 +84,13 @@ parent={},%
 
 \glsdefs@newdocentry{Responsive Design}%
 {%
-name={ResponsiveDesign},%
-sort={ResponsiveDesign},%
+name={Responsive Design},%
+sort={Responsive Design},%
 type={main},%
-first={ResponsiveDesign},%
-firstplural={ResponsiveDesigns},%
-text={ResponsiveDesign},%
-plural={ResponsiveDesigns},%
+first={Responsive Design},%
+firstplural={Responsive Designs},%
+text={Responsive Design},%
+plural={Responsive Designs},%
 description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.},%
 descriptionplural={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.},%
 symbol={\relax },%
