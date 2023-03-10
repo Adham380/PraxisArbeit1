@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  9 MAR 2023 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  10 MAR 2023 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2013,7 +2013,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (titlepage.tex
-<Bilder/doohMedia.jpg, id=170, 200.75pt x 200.75pt>
+<Bilder/doohMedia.jpg, id=174, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 10.
@@ -2284,7 +2284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--3
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 11--19
+Underfull \hbox (badness 10000) in paragraph at lines 12--20
 
  []
 
@@ -2308,6 +2308,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 \openout10 = `main.glsdefs'.
 
 ) (istZustand.tex [7] [8]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 40.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--56
 
  []
@@ -2317,7 +2322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--56
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=287, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=292, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 58
@@ -2367,7 +2372,7 @@ l.73 \gls{Responsive Design}
 (That was another \errmessage.)
 
 ) (vorgehensweise.tex [10]
-<Bilder/mockup.png, id=300, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=305, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -2510,8 +2515,312 @@ or  <return>  to continue without it.
 
 LaTeX Warning: Citation 'Reflow' on page 14 undefined on input line 175.
 
-) (Ergebnis.tex [14]
-<Bilder/Ergebnis.png, id=334, 720.44156pt x 455.45157pt>
+[14]
+
+Technische Umsetzung.tex:200: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:201: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:210: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:211: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:224: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 Das sind etwas über 70 \%\)
+                                   der verfügbaren Speicherkapazität.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:225: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.225 ...n auszugehen, dass die restlichen 10 \%\)
+                                                   für andere Daten schon v...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 Zudem ist zu betrachten, dass die \"\)
+                                            .\"\) Schreibweise für Dezimalz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 Zudem ist zu betrachten, dass die \"\)
+                                            .\"\) Schreibweise für Dezimalz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 Zudem ist zu betrachten, dass die \"\).\"\)
+                                                  Schreibweise für Dezimalz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 Zudem ist zu betrachten, dass die \"\).\"\)
+                                                  Schreibweise für Dezimalz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...rwendet wurde, während wiederum die \"\)
+                                                  ,\"\) Schreibweise für di...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...rwendet wurde, während wiederum die \"\)
+                                                  ,\"\) Schreibweise für di...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...et wurde, während wiederum die \"\),\"\)
+                                                   Schreibweise für die mat...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...et wurde, während wiederum die \"\),\"\)
+                                                   Schreibweise für die mat...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 Dies hat den Hintergrund, dass die \"\)
+                                             ,\"\) Schreibweise in JavaScrip...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 Dies hat den Hintergrund, dass die \"\)
+                                             ,\"\) Schreibweise in JavaScrip...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 Dies hat den Hintergrund, dass die \"\),\"\)
+                                                   Schreibweise in JavaScrip...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 Dies hat den Hintergrund, dass die \"\),\"\)
+                                                   Schreibweise in JavaScrip...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 IndexedDB unterstützt die Eigenschaft \"\)
+                                                 .unique\"\), welche dafür ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 IndexedDB unterstützt die Eigenschaft \"\)
+                                                 .unique\"\), welche dafür ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 ...erstützt die Eigenschaft \"\).unique\"\)
+                                                  , welche dafür sorgt, das...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 ...erstützt die Eigenschaft \"\).unique\"\)
+                                                  , welche dafür sorgt, das...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (Ergebnis.tex [15] [16]
+<Bilder/Ergebnis.png, id=361, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -2532,7 +2841,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=335, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=362, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2566,8 +2875,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=342, 721.19438pt x 451.6875pt>
+[17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=369, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2589,7 +2898,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=343, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=370, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 53.
@@ -2635,7 +2944,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
+[18 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
 
 Ergebnis.tex:67: LaTeX Error: There's no line here to end.
 
@@ -2728,7 +3037,7 @@ l.142     \bibliographystyle{alpha}
 Use the package option 'style' instead.
 I'm ignoring this command.
 
-[17 <./Bilder/Ergebnis_lightMode.png>]
+[19 <./Bilder/Ergebnis_lightMode.png>]
 main.tex:144: Undefined control sequence.
 l.144     \glsadall
                    
@@ -2739,18 +3048,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls)
-[18] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+[20] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D660EA24F5AF6E88CFE7BAC5D1DF0F25;6097.
+(rerunfilecheck)             Checksum: 7C8E7ACF660AD84AFD359455363989F9;6357.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55628 strings out of 476339
- 1234154 string characters out of 5787176
- 2331553 words of memory out of 5000000
- 74724 multiletter control sequences out of 15000+600000
+ 55661 strings out of 476339
+ 1234679 string characters out of 5787176
+ 2332655 words of memory out of 5000000
+ 74740 multiletter control sequences out of 15000+600000
  591190 words of font info for 286 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2772,9 +3081,9 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (19 pages, 603908 bytes).
+main.pdf (21 pages, 617935 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 92536 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 92544 words of extra memory for PDF output out of 106986 (max. 10000000)
 

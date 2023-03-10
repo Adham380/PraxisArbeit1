@@ -175,3 +175,70 @@ secondHandSpan.style.animationDelay = -timePassed  + 's';
 Um die Animation während ihrer Laufzeit zu ändern, wird ein sogenannter Reflow ~\footcite{Reflow} erzwungen, indem die offsetWidth Eigenschaft abgefragt wird, die Animationsdauer und -verzögerung neu gesetzt wird und der Animationsname erst entfernt und dann wieder hinzugefügt wird.
 \newline
 \newline
+\subsubsection{Persistente Datenspeicherung}
+Um die Daten der Anwendung zu speichern, wurde für kleinere Datensätze der Local Storage verwendet.
+Dieser ist in jedem Browser verfügbar und darf bis zu 5 MB groß sein.
+\newline
+\newline
+Für größere Datensätze wurde IndexedDB verwendet.
+Dies ist eine NoSQL Datenbank, die in jedem Browser verfügbar ist.
+Die maximale Größe bei Chrome beträgt 80(%\) des verfügbaren Speichers.
+Da es im Internet viele, sich widersprechende Angaben zu dieser Größe gibt, wurde diese manuell, mit folgendem Code, in der Konsole des Browsers, getestet:
+\newline
+\newline
+\begin{lstlisting}[language=javascript,label={lst:JavaScript IndexedDB Speichergröße}]
+    if (navigator.storage && navigator.storage.estimate) {
+    const quota = await navigator.storage.estimate();
+    // quota.usage -> Number of bytes used.
+    // quota.quota -> Maximum number of bytes available.
+    const percentageUsed = (quota.usage / quota.quota) * 100;
+    console.log("You've used ${percentageUsed}% of the available storage.");
+    const remaining = quota.quota - quota.usage;
+    console.log("You can write up to ${remaining} more bytes.");
+    }
+\end{lstlisting}
+\newline
+\newline
+Die Festplatte, auf der dies getestet wurde, hatte ca. 828 GB freien Speicher.
+Das Ergebnis lautete wie folgt:
+\newline
+\newline
+\begin{lstlisting}[language=javascript,label={lst:JavaScript IndexedDB Speichergröße Ergebnis}]
+    You've used 0.000002393592594674544% of the available storage.
+    You can write up to 599726105785 more bytes.
+\end{lstlisting}
+\newline
+\newline
+%equation
+\begin{equation}
+    \begin{aligned}
+       \text{verbleibender Speicher} &= \text{599726105785 Bytes}\\
+       \newline
+       \text{599726105785 Bytes} \text{ * 10}\textsuperscript{-9} &= \text{599,726105785 Gigabytes}\\
+        \newline
+        \newline
+    \end{aligned}
+\end{equation}
+\newline
+\newline
+Das sind etwas über 70 \%\) der verfügbaren Speicherkapazität.
+Hier ist davon auszugehen, dass die restlichen 10 \%\) für andere Daten schon verwendet werden.
+Zudem ist zu betrachten, dass die \"\).\"\) Schreibweise für Dezimalzahlen in JavaScript verwendet wurde, während wiederum die \"\),\"\) Schreibweise für die mathematische Gleichung verwendet wurde.
+Dies hat den Hintergrund, dass die \"\),\"\) Schreibweise in JavaScript nicht grundsätzlich unterstützt wird, beziehungsweise, die Konvention beim Programmieren verlangt, dass man auf Englisch programmiert und im Englischen die Dezimalzahlen mit einem Punkt geschrieben werden.
+\newline
+\newline
+Die Datenbank befindet sich aufgrund ihrer geringen Komplexität in der 5. Normalform.
+Der Schlüssel besteht aus dem Namen der Firma, zu der, das Logo gehört und gibt das nicht Primärattribut zurück, welches das Bild, in Base64, enthält.
+Schlüssel müssen eindeutig sein.
+IndexedDB unterstützt die Eigenschaft \"\).unique\"\), welche dafür sorgt, dass der Schlüssel eindeutig ist.
+Jedoch gehen wir auch manuell noch einmal sicher, dass der Schlüssel eindeutig ist, also dass sich dieser, noch nicht in der Datenbank befindet.
+Eine weitere Aufteilung würde zu Informationsverlust führen, da der Firmenname eindeutig ist.
+\newline
+\newline
+Zwar gibt es die Möglichkeit die Bilder für Firmen, zu updaten, welcher der User auch so wahrnimmt, jedoch wird der Schlüssel des alten Bildes entfernt und ein neuer Schlüssel mit dem neuen Bild hinzugefügt.
+Dies ist notwendig, da der Schlüssel eindeutig sein muss.
+Somit löschen wir den alten Eintrag und fügen einen neuen hinzu.
+Unabhängig von der Interaktion mit der Datenbank, wird sichergestellt, dass sinnfreie Anfragen an die Datenbank nicht gesendet werden.
+Falls der User beispielsweise ein Bild hochlädt, welches bereits in der Datenbank, für genau den gleichen Schlüssel, vorhanden ist, wird die Anfrage an die Datenbank nicht gesendet oder falls der User versucht ein Bild aus der Datenbank zu entfernen, welches gar nicht existiert.
+\newline
+\newline

@@ -16,29 +16,30 @@
 \contentsline {subsubsection}{\numberline {2.1.5}Was ist Node.js?}{5}{subsubsection.2.1.5}%
 \contentsline {section}{\numberline {3}Abgrenzung zu ähnlichen Produkten}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Microsoft Teams}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Outlook}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Outlook}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Microsoft Bookings}{6}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Microsoft Power Automate}{6}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{7}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Theorie}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Microsoft Graph API}{7}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Ist-Zustand}{8}{section.5}%
-\contentsline {section}{\numberline {6}Soll-Zustand}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Anforderungen}{9}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}User Interface}{9}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}LED Strips}{10}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Vorgehensweise}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Prototyp}{11}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Technische Umsetzung}{11}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Grobe Planung}{11}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Benutzte Hardware und Software}{12}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Weiterentwicklung der groben Planung}{13}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}Ablauf der Entwicklung}{13}{subsubsection.7.2.4}%
-\contentsline {subsubsection}{\numberline {7.2.5}Timer}{14}{subsubsection.7.2.5}%
-\contentsline {section}{\numberline {8}Ergebnis}{15}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Visuelle Darstellung}{15}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Performance}{17}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Test 1}{17}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Test 2}{17}{subsubsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Test 3}{17}{subsubsection.8.2.3}%
+\contentsline {subsection}{\numberline {4.2}Ist-Zustand}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Soll-Zustand}{9}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Anforderungen}{9}{subsubsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {5.0.2}User Interface}{9}{subsubsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {5.0.3}LED Strips}{10}{subsubsection.5.0.3}%
+\contentsline {section}{\numberline {6}Vorgehensweise}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Prototyp}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Technische Umsetzung}{11}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Grobe Planung}{11}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Benutzte Hardware und Software}{12}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Weiterentwicklung der groben Planung}{13}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Ablauf der Entwicklung}{13}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.5}Timer}{14}{subsubsection.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.6}Persistente Datenspeicherung}{15}{subsubsection.6.2.6}%
+\contentsline {section}{\numberline {7}Ergebnis}{17}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Visuelle Darstellung}{17}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Performance}{19}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Test 1}{19}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Test 2}{19}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Test 3}{19}{subsubsection.7.2.3}%
 \contentsfinish 
