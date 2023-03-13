@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  13 MAR 2023 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  13 MAR 2023 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1590,11 +1590,18 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed sa
 fely (allowed).
 
+runsystem(makeindex -s main.ist -t main.alg -o main.acr main.acn)...executed sa
+fely (allowed).
+
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
 Package glossaries Info: Writing glossary file main.glo on input line 122.
+\glo@acronym@file=\write7
+\openout7 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 122.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -1632,8 +1639,8 @@ Package hyperref Info: Link coloring OFF on input line 126.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
-\@outlinefile=\write7
-\openout7 = `main.out'.
+\@outlinefile=\write8
+\openout8 = `main.out'.
 
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
@@ -1722,18 +1729,11 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Reflow
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl)
 Package biblatex Info: Reference section=0 on input line 126.
 Package biblatex Info: Reference segment=0 on input line 126.
- (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.glsdefs)
+
+(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.glsdefs)
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
@@ -1830,8 +1830,8 @@ Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 38.
 {C:/Users/mboehme/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/d
 oohMedia.jpg>]) (Inhaltsverzeichnis.tex
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.toc)
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
 
 
@@ -1855,16 +1855,25 @@ been already used, duplicate ignored
                    \relax 
 l.8     \newpage
                  [1]) (einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+LaTeX Warning: Citation 'microsoftGraphApi' on page 2 undefined on input line 9
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-6.
+8.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 28--33
+\@gls@deffile=\write10
+\openout10 = `main.glsdefs'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--41
 
  []
 
@@ -2063,11 +2072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
  []
 
-[6]) (theorie.tex
-\@gls@deffile=\write9
-\openout9 = `main.glsdefs'.
-
-) (istZustand.tex [7] [8]
+[6]) (theorie.tex) (istZustand.tex [7] [8]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 43.
@@ -2082,7 +2087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--59
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=300, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=303, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 61
@@ -2104,7 +2109,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [9 <./Bilder/GrafikdesignerMockup.png>]) (vorgehensweise.tex [10]
-<Bilder/mockup.png, id=314, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=317, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -2154,7 +2159,7 @@ or  <return>  to continue without it.
 
 [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-26.
+28.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -2165,162 +2170,159 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-Technische Umsetzung.tex:129: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:131: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \newline
+l.131 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:130: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:132: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \newline
+l.132 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:159: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:161: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 \newline
+l.161 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:160: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:162: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \newline
+l.162 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 166.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 168.
 
-Technische Umsetzung.tex:173: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:175: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \newline
+l.175 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:174: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:176: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 \newline
+l.176 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-LaTeX Warning: Citation 'Reflow' on page 14 undefined on input line 175.
 
 [14]
 
-Technische Umsetzung.tex:200: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:202: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 \newline
+l.202 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:201: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:203: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \newline
+l.203 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:210: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:212: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 \newline
+l.212 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:211: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:213: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 \newline
+l.213 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:224: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 Das sind etwas über 70 \%\)
+l.226 Das sind etwas über 70 \%\)
                                    der verfügbaren Speicherkapazität.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:225: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 ...n auszugehen, dass die restlichen 10 \%\)
+l.227 ...n auszugehen, dass die restlichen 10 \%\)
                                                    für andere Daten schon v...
 
 Your command was ignored.
@@ -2328,13 +2330,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 Zudem ist zu betrachten, dass die \"\)
+l.228 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2342,13 +2344,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 Zudem ist zu betrachten, dass die \"\)
+l.228 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2356,13 +2358,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 Zudem ist zu betrachten, dass die \"\).\"\)
+l.228 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2370,13 +2372,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 Zudem ist zu betrachten, dass die \"\).\"\)
+l.228 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2384,13 +2386,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ...rwendet wurde, während wiederum die \"\)
+l.228 ...rwendet wurde, während wiederum die \"\)
                                                   ,\"\) Schreibweise für di...
 
 Your command was ignored.
@@ -2398,13 +2400,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ...rwendet wurde, während wiederum die \"\)
+l.228 ...rwendet wurde, während wiederum die \"\)
                                                   ,\"\) Schreibweise für di...
 
 Your command was ignored.
@@ -2412,13 +2414,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ...et wurde, während wiederum die \"\),\"\)
+l.228 ...et wurde, während wiederum die \"\),\"\)
                                                    Schreibweise für die mat...
 
 Your command was ignored.
@@ -2426,13 +2428,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ...et wurde, während wiederum die \"\),\"\)
+l.228 ...et wurde, während wiederum die \"\),\"\)
                                                    Schreibweise für die mat...
 
 Your command was ignored.
@@ -2440,13 +2442,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 Dies hat den Hintergrund, dass die \"\)
+l.229 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2454,13 +2456,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 Dies hat den Hintergrund, dass die \"\)
+l.229 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2468,13 +2470,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 Dies hat den Hintergrund, dass die \"\),\"\)
+l.229 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2482,13 +2484,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 Dies hat den Hintergrund, dass die \"\),\"\)
+l.229 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2496,13 +2498,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 IndexedDB unterstützt die Eigenschaft \"\)
+l.235 IndexedDB unterstützt die Eigenschaft \"\)
                                                  .unique\"\), welche dafür ...
 
 Your command was ignored.
@@ -2510,13 +2512,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 IndexedDB unterstützt die Eigenschaft \"\)
+l.235 IndexedDB unterstützt die Eigenschaft \"\)
                                                  .unique\"\), welche dafür ...
 
 Your command was ignored.
@@ -2524,13 +2526,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...erstützt die Eigenschaft \"\).unique\"\)
+l.235 ...erstützt die Eigenschaft \"\).unique\"\)
                                                   , welche dafür sorgt, das...
 
 Your command was ignored.
@@ -2538,13 +2540,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:233: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...erstützt die Eigenschaft \"\).unique\"\)
+l.235 ...erstützt die Eigenschaft \"\).unique\"\)
                                                   , welche dafür sorgt, das...
 
 Your command was ignored.
@@ -2552,7 +2554,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (Ergebnis.tex [15] [16]
-<Bilder/Ergebnis.png, id=370, 720.44156pt x 455.45157pt>
+<Bilder/Ergebnis.png, id=380, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -2573,7 +2575,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=371, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=381, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2608,7 +2610,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=378, 721.19438pt x 451.6875pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=388, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2630,7 +2632,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=379, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=389, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 53.
@@ -2769,30 +2771,29 @@ l.142     \bibliographystyle{alpha}
 Use the package option 'style' instead.
 I'm ignoring this command.
 
-[19 <./Bilder/Ergebnis_lightMode.png>]
-main.tex:144: Undefined control sequence.
-l.144     \glsadall
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[19 <./Bilder/Ergebnis_lightMode.png>] (main.gls)
+(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.acr)
+[20] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 
-(main.gls) [20]
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C280B52EE44292F094BC0626BD26524;6436.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54525 strings out of 476339
- 1215397 string characters out of 5787176
- 2290000 words of memory out of 5000000
- 73608 multiletter control sequences out of 15000+600000
- 591510 words of font info for 291 fonts, out of 8000000 for 9000
+ 54601 strings out of 476339
+ 1217070 string characters out of 5787176
+ 2291596 words of memory out of 5000000
+ 73688 multiletter control sequences out of 15000+600000
+ 588322 words of font info for 283 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2809,9 +2810,9 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (21 pages, 621334 bytes).
+main.pdf (21 pages, 635574 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 92552 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 592 PDF objects out of 1000 (max. 8388607)
+ 127 named destinations out of 1000 (max. 500000)
+ 88456 words of extra memory for PDF output out of 89155 (max. 10000000)
 

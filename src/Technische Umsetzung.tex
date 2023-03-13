@@ -23,10 +23,10 @@ Zeiten müssen ISO 8601 Konform sein bei jeglichen API Anfragen an die Microsoft
 \subsubsection{Benutzte Hardware und Software}
 Hardware:
 \begin{itemize}
-    \item Philips 10BDL4551T/00
+    \item Philips 10BDL4551T/00 (Firmware: FB01.13, SICP Version: v.2.05)
 \end{itemize}
 \newline
-Die Hardware ist ein Philips 10BDL4551T/00 Display.
+Die Hardware ist ein Philips~\cite{10BDL4551T/00} Display.
 Dieses Display ist ein 10 Zoll (ca. 25 cm) Touchscreen.
 Es hat eine Auflösung von 1280x800 Pixeln und benutzt Android.
 Dieses Display ist für Digital Signage gedacht und kann so auch als solches verwendet werden.
@@ -73,7 +73,8 @@ Dieser wird per Dory-Node.js gehostet.
 NPM ist ein Package Manager, der es ermöglicht, JavaScript Packages zu installieren und zu verwalten.
 \newline
 \newline
-Git ist ein Versionskontrollsystem, das es ermöglicht, Änderungen an Dateien zu verfolgen und zu verwalten.
+Git ist ein Versionskontrollsystem, welches es ermöglicht, Änderungen an Dateien zu verfolgen und zu verwalten.
+Dies wurde aber in Zusammenhang mit GitLab verwendet, da dies der derzeitige, etablierte Standard der DooH media GmbH ist.
 \newline
 \newline
 EsLint ist ein Linter, der es ermöglicht, JavaScript Code zu analysieren und zu formatieren.
@@ -82,7 +83,7 @@ Deshalb achtet EsLint auf die Einhaltung von Regeln, damit erst gar keine Fehler
 Beispielsweise wird überprüft, ob Variablen deklariert wurden, bevor sie verwendet werden und anders herum.
 \newline
 \newline
-IntelliJ IDEA ist eine IDE, die es ermöglicht, JavaScript Code zu schreiben und zu debuggen.
+IntelliJ IDEA ist eine IDE, die es unter anderem ermöglicht, JavaScript Code zu schreiben und zu debuggen.
 \newline
 \newline
 
@@ -114,7 +115,8 @@ Das Feedback wurde dann, falls sinnvoll, in die Anwendung eingearbeitet.
 Solche praktischen Tests sind sehr wichtig, um Intuitivität und Benutzerfreundlichkeit zu gewährleisten.
 Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, aber auch um Fehler zu finden, die nicht vorgesehen waren, indem man monkey-testing betreibt.
 \newline
-Mithilfe der oData v4 API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
+
+Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
 Die Daten wurden dabei in JSON Format zurückgegeben.
 Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
 Es wurden die Klauseln \("\$\)filter\("\) und \("\$\)top\("\) verwendet, um nur Termine für den aktuellen Tag und nächsten Tag zu erhalten und dies einzuschränken auf die top 300 Termine, falls jemand versucht das System zu überlasten.
@@ -133,7 +135,7 @@ Der Timer, welcher die übrig bleibende Zeit bis zum nächsten Termin anzeigt fu
 \newline
 \newline
 Es wird die Zeit bis zum Ende den jetzigen Termin berechnet, ausgehend von der Zeit, die zum Anfang des jetzigen Termins vergangen ist, und in Millisekunden umgerechnet.
-Dann wird eine sich drehende Animation erstellt, die diese für diese Dauer abläuft.
+Dann wird eine sich drehende Animation erstellt, die für diese Dauer abläuft.
 \newline
 Da die Dauer angepasst werden kann, muss bei Datenänderungen die Animation neu berechnet werden.
 Damit dies nicht ohne Grund passiert, wird geprüft, ob die Dauer sich geändert hat.
@@ -172,7 +174,7 @@ secondHandSpan.style.animationDelay = -timePassed  + 's';
 \end{lstlisting}
 \newline
 \newline
-Um die Animation während ihrer Laufzeit zu ändern, wird ein sogenannter Reflow ~\footcite{Reflow} erzwungen, indem die offsetWidth Eigenschaft abgefragt wird, die Animationsdauer und -verzögerung neu gesetzt wird und der Animationsname erst entfernt und dann wieder hinzugefügt wird.
+Um die Animation während ihrer Laufzeit zu ändern, wird ein sogenannter Reflow ~\footcite{JavaScriptAnimationsReflow} erzwungen, indem die offsetWidth Eigenschaft abgefragt wird, die Animationsdauer und -verzögerung neu gesetzt wird und der Animationsname erst entfernt und dann wieder hinzugefügt wird.
 \newline
 \newline
 \subsubsection{Persistente Datenspeicherung}

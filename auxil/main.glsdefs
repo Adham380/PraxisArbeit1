@@ -1,3 +1,59 @@
+\glsdefs@newdocentry{SPA}%
+{%
+name={Single Page Application (SPA)},%
+sort={Single Page Application (SPA)},%
+type={main},%
+first={Single Page Application (SPA)},%
+firstplural={Single Page Application (SPA)s},%
+text={SPA},%
+plural={SPAs},%
+description={Eine Single Page Application (SPA) ist eine Webanwendung, die nur eine HTML-Seite besitzt. Diese Seite wird beim Laden der Anwendung geladen und bleibt während der gesamten Nutzung der Anwendung bestehen.},%
+descriptionplural={Eine Single Page Application (SPA) ist eine Webanwendung, die nur eine HTML-Seite besitzt. Diese Seite wird beim Laden der Anwendung geladen und bleibt während der gesamten Nutzung der Anwendung bestehen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={SPA},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{TBT}%
+{%
+name={Total-Blocking-Time (TBT)},%
+sort={Total-Blocking-Time (TBT)},%
+type={main},%
+first={Total-Blocking-Time (TBT)},%
+firstplural={Total-Blocking-Time (TBT)s},%
+text={TBT},%
+plural={TBTs},%
+description={Die Total-Blocking-Time (TBT) ist eine Metrik, die die Gesamtzeit misst, die eine Seite blockiert wird, bis sie interaktiv ist.},%
+descriptionplural={Die Total-Blocking-Time (TBT) ist eine Metrik, die die Gesamtzeit misst, die eine Seite blockiert wird, bis sie interaktiv ist.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{RESTful}%
 {%
 name={RESTful},%

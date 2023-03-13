@@ -6,9 +6,11 @@
 % Document
 
 \section{Einleitung}\label{sec:einleitung}
-Die Praxisarbeit befasst sich mit der Ressourcen- und Terminplanung in Office365 mithilfe von Microsoft Graph API. Die Arbeit ist in drei Teile gegliedert.
-Im ersten Teil wird die Theorie der Ressourcen- und Terminplanung in Office365 mit Hilfe von Microsoft Graph API erläutert.
-Im zweiten Teil wird die praktische Umsetzung der Theorie beschrieben. Im dritten Teil wird die Arbeit abschließend bewertet.
+Die Praxisarbeit befasst sich mit der Ressourcen- und Terminplanung in Office365 mithilfe von Microsoft Graph API~\cite{microsoftGraphApi}.
+Die Arbeit ist in drei Teile gegliedert.
+Im ersten Teil wird die Theorie der Ressourcen- und Terminplanung in Office365 mithilfe von Microsoft Graph API erläutert.
+Im zweiten Teil wird die praktische Umsetzung der Theorie beschrieben.
+Im dritten Teil wird die Arbeit abschließend bewertet.
     \newline
     \subsection{Fragestellungen der Arbeit}\label{subsec:fragestellungen-der-arbeit}
 Die Fragestellungen der Arbeit lauten:
@@ -26,8 +28,14 @@ Die Ziele der Arbeit sind deshalb wie folgt:
     \end{itemize}
     \subsection{Ergebnisse der Arbeit}\label{subsec:ergebnisse-der-arbeit}
 Die Arbeit hat alle Ziele erreicht.
-    Die Microsoft Graph API wurde erfolgreich eingesetzt und die Ressourcen- und Terminplanung in Office365 mithilfe von Microsoft Graph API wurde erfolgreich umgesetzt als SPA (Single Page Application).
-    Die Total Blocking Time (TBT) der Applikation liegt, aufgrund von hoher Komplexität, bei ca. 500ms.
+    \newglossaryentry{SPA}{name=Single Page Application (SPA), description={Eine Single Page Application (SPA) ist eine Webanwendung, die nur eine HTML-Seite besitzt.
+    Diese Seite wird beim Laden der Anwendung geladen und bleibt während der gesamten Nutzung der Anwendung bestehen.}, first={Single Page Application (SPA)}, text={SPA}, short=SPA}
+%\newglossaryentry{SPA}{name=SPA, description={Eine Single Page Application (SPA) ist eine Webanwendung, die nur eine HTML-Seite besitzt.}}
+%\newacronym{SPA}{SPA}{Single Page Application}
+    Die Microsoft Graph API ist erfolgreich eingesetzt und die Ressourcen- und Terminplanung in Office365, mithilfe von der Microsoft Graph API, wurde erfolgreich als~\gls{SPA} umgesetzt.
+\newglossaryentry{TBT}{name={Total-Blocking-Time (TBT)}, description= {Die Total-Blocking-Time (TBT) ist eine Metrik, die die Gesamtzeit misst, die eine Seite blockiert wird, bis sie interaktiv ist.},
+first={Total-Blocking-Time (TBT)}, text={TBT}}
+Die~\gls{TBT} der Applikation liegt, aufgrund von hoher Komplexität, bei ca. 500ms.
     Nachdem die Seite jedoch erstmal geladen wurde, dauert beispielsweise das Öffnen des Buchungsdialogs nur 2ms, welche die hauptsächliche Interaktion des Anwenders mit der Seite darstellt.
     \newline
 \newpage

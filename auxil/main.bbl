@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{10BDL4551T/00}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a10967343e6688fa153d799cf02913cc}{%
+           family={Phillips10BDL4551T/00},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a10967343e6688fa153d799cf02913cc}
+      \strng{fullhash}{a10967343e6688fa153d799cf02913cc}
+      \strng{bibnamehash}{a10967343e6688fa153d799cf02913cc}
+      \strng{authorbibnamehash}{a10967343e6688fa153d799cf02913cc}
+      \strng{authornamehash}{a10967343e6688fa153d799cf02913cc}
+      \strng{authorfullhash}{a10967343e6688fa153d799cf02913cc}
+      \field{labelalpha}{10BDL4551T/00}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{shorthand}{10BDL4551T/00}
+      \field{title}{Phillips10BDL4551T/00}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.download.p4c.philips.com/files/1/10bdl4551t_00/10bdl4551t_00_pss_enggb.pdf?_ga=2.87916248.193099575.1678716502-1541604121.1678716502
+      \endverb
+      \verb{url}
+      \verb https://www.download.p4c.philips.com/files/1/10bdl4551t_00/10bdl4551t_00_pss_enggb.pdf?_ga=2.87916248.193099575.1678716502-1541604121.1678716502
+      \endverb
+    \endentry
     \entry{JavaScript}{misc}{}
       \name{author}{1}{}{%
         {{hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
@@ -46,8 +74,61 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
       \endverb
     \endentry
+    \entry{oData}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ad60bb3f28ba5963c995c2e9500d6e1e}{%
+           family={oData},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad60bb3f28ba5963c995c2e9500d6e1e}
+      \strng{fullhash}{ad60bb3f28ba5963c995c2e9500d6e1e}
+      \strng{bibnamehash}{ad60bb3f28ba5963c995c2e9500d6e1e}
+      \strng{authorbibnamehash}{ad60bb3f28ba5963c995c2e9500d6e1e}
+      \strng{authornamehash}{ad60bb3f28ba5963c995c2e9500d6e1e}
+      \strng{authorfullhash}{ad60bb3f28ba5963c995c2e9500d6e1e}
+      \field{labelalpha}{oData}
+      \field{sortinit}{o}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{oData}
+      \field{title}{oData}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.odata.org/
+      \endverb
+      \verb{url}
+      \verb https://www.odata.org/
+      \endverb
+    \endentry
+    \entry{JavaScriptAnimationsReflow}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=51c5e7870aef25d9b37c61a26bb1e7b2}{%
+           family={JavaScriptAnimationsReflow},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{51c5e7870aef25d9b37c61a26bb1e7b2}
+      \strng{fullhash}{51c5e7870aef25d9b37c61a26bb1e7b2}
+      \strng{bibnamehash}{51c5e7870aef25d9b37c61a26bb1e7b2}
+      \strng{authorbibnamehash}{51c5e7870aef25d9b37c61a26bb1e7b2}
+      \strng{authornamehash}{51c5e7870aef25d9b37c61a26bb1e7b2}
+      \strng{authorfullhash}{51c5e7870aef25d9b37c61a26bb1e7b2}
+      \field{labelalpha}{Reflow}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{Reflow}
+      \field{title}{JavaScriptAnimationsReflow}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.html5rocks.com/en/tutorials/speed/animations/
+      \endverb
+      \verb{url}
+      \verb https://www.html5rocks.com/en/tutorials/speed/animations/
+      \endverb
+    \endentry
   \enddatalist
-  \missing{Reflow}
 \endrefsection
 \endinput
 
