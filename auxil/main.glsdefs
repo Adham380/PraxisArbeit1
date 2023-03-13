@@ -194,3 +194,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Bottleneck}%
+{%
+name={Bottleneck},%
+sort={Bottleneck},%
+type={main},%
+first={Bottleneck},%
+firstplural={Bottlenecks},%
+text={Bottleneck},%
+plural={Bottlenecks},%
+description={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.},%
+descriptionplural={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

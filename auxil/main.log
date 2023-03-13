@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  13 MAR 2023 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  13 MAR 2023 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2070,32 +2070,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 ) (istZustand.tex [7] [8]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 40.
+(hyperref)                than one, level fixed on input line 43.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--56
+Underfull \hbox (badness 10000) in paragraph at lines 48--59
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=297, 871.00406pt x 543.53062pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--59
+
+ []
+
+<Bilder/GrafikdesignerMockup.png, id=300, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
-Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 58
+Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 61
 .
 (pdftex.def)             Requested size: 341.43437pt x 213.06255pt.
 
-istZustand.tex:59: Package caption Error: \caption outside float.
+istZustand.tex:62: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \caption
+l.62 \caption
              {GrafikdesignerMockup}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2104,7 +2104,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [9 <./Bilder/GrafikdesignerMockup.png>]) (vorgehensweise.tex [10]
-<Bilder/mockup.png, id=310, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=314, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -2552,7 +2552,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (Ergebnis.tex [15] [16]
-<Bilder/Ergebnis.png, id=366, 720.44156pt x 455.45157pt>
+<Bilder/Ergebnis.png, id=370, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -2573,7 +2573,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=367, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=371, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2608,7 +2608,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=374, 721.19438pt x 451.6875pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=378, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2630,7 +2630,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=375, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=379, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 53.
@@ -2788,11 +2788,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54485 strings out of 476339
- 1214660 string characters out of 5787176
+ 54525 strings out of 476339
+ 1215397 string characters out of 5787176
  2290000 words of memory out of 5000000
- 73578 multiletter control sequences out of 15000+600000
- 591190 words of font info for 286 fonts, out of 8000000 for 9000
+ 73608 multiletter control sequences out of 15000+600000
+ 591510 words of font info for 291 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2809,9 +2809,9 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (21 pages, 619265 bytes).
+main.pdf (21 pages, 621334 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
  92552 words of extra memory for PDF output out of 106986 (max. 10000000)
 

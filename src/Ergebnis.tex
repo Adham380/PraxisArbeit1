@@ -82,6 +82,7 @@ Die Anwendung zeigt durchschnittlich 60 Bilder pro Sekunde an.
 \subsubsection{Test 3}\label{subsubsec:test-3}
 \newline
 \newline
+\newglossaryentry{Bottleneck}{name={Bottleneck},description={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.}}
 Wie oft, kann die Anwendung theoretisch und praktisch pro Sekunde aktualisiert werden?
 Für jede Kombination aus Azure App und E-Mail-Adresse, dürfen 10000 Anfragen pro 10 Minuten gemacht werden.
 Dies sind 16,6 Anfragen pro Sekunde.
@@ -90,6 +91,6 @@ Pro Sekunde wären das also 0,33 bis 1 Anfragen.
 Einerseits ist das schnell genug für die Anwendung und gibt den langsamen Geräten, genug Zeit, die Anwendung zu aktualisieren, andererseits hat man so genug Anfragen übrig, falls jemand sein Konto mit mehreren Geräten benutzt oder dies in Kombinationen mit anderen Applikationen verwendet.
 Sollte dieses Limit überschritten werden, verlangsamt Microsoft die Anzahl an neuen Antworten auf die Anfragen.
 Da Microsoft sowieso auch Zeit benötigt, um die Anfragen zu bearbeiten und die neuen Daten bei sich zu verarbeiten, würde man den Unterschied nicht merken.
-Der Bottleneck \
+Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann oder will.
 \newline
 \newline
