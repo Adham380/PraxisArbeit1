@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  10 MAR 2023 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  13 MAR 2023 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1587,261 +1587,21 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count497
 \TX@ftn=\toks60
 )
-(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty
-Package: datagidx 2019/09/27 v2.32 (NLCT)
+runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed sa
+fely (allowed).
 
-(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool.sty
-Package: datatool 2019/09/27 v2.32 (NLCT)
-\dtlcolumnnum=\count498
-\dtlrownum=\count499
-\@dtl@before=\toks61
-\@dtl@after=\toks62
-\@dtl@colhead=\toks63
-\dtlcurrentrow=\toks64
-\dtlbeforerow=\toks65
-\dtlafterrow=\toks66
-\dtlforeachlevel=\count500
-\c@DTLrowi=\count501
-\c@DTLrowii=\count502
-\c@DTLrowiii=\count503
-\c@DTLrow=\count504
-\dtl@rowi=\count505
-\dtl@rowii=\count506
-\dtl@rowiii=\count507
-\@dtl@curi=\toks67
-\@dtl@previ=\toks68
-\@dtl@nexti=\toks69
-\@dtl@curii=\toks70
-\@dtl@previi=\toks71
-\@dtl@nextii=\toks72
-\@dtl@curiii=\toks73
-\@dtl@previii=\toks74
-\@dtl@nextiii=\toks75
-\@dtl@elements=\count508
-\@dtl@list=\toks76
-\@dtl@rowa=\toks77
-\@dtl@rowb=\toks78
-\@dtl@toksA=\toks79
-\@dtl@toksB=\toks80
-\@dtl@write=\write5
-\@dtl@read=\read5
-\dtl@entrycr=\count509
-\dtl@omitlines=\count510
-) (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count511
-\mult@box=\box84
-\multicol@leftmargin=\dimen320
-\c@unbalance=\count512
-\c@collectmore=\count513
-\doublecol@number=\count514
-\multicoltolerance=\count515
-\multicolpretolerance=\count516
-\full@width=\dimen321
-\page@free=\dimen322
-\premulticols=\dimen323
-\postmulticols=\dimen324
-\multicolsep=\skip161
-\multicolbaselineskip=\skip162
-\partial@page=\box85
-\last@line=\box86
-\maxbalancingoverflow=\dimen325
-\mult@rightbox=\box87
-\mult@grightbox=\box88
-\mult@firstbox=\box89
-\mult@gfirstbox=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\@tempa=\box114
-\@tempa=\box115
-\@tempa=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\@tempa=\box125
-\@tempa=\box126
-\c@minrows=\count517
-\c@columnbadness=\count518
-\c@finalcolumnbadness=\count519
-\last@try=\dimen326
-\multicolovershoot=\dimen327
-\multicolundershoot=\dimen328
-\mult@nat@firstbox=\box127
-\colbreak@box=\box128
-\mc@col@check@num=\count520
-)
-(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
-Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
-Package textcase Info: Defining Legacy names on input line 20.
-) (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
-Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks81
-\AP@partial=\box129
-\AP@footins=\box130
-)
-\c@DTLgidxChildCount=\count521
-\datagidxsymbolwidth=\skip163
-\datagidxlocationwidth=\skip164
-\dtldb@datagidx=\toks82
-\dtlkeys@datagidx=\toks83
-\dtlrows@datagidx=\count522
-\dtlcols@datagidx=\count523
-\datagidxindent=\skip165
-\datagidxnamewidth=\skip166
-\datagidxdescwidth=\skip167
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `main.glo'.
 
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2494: LaTeX Error: Command \acronymfont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2494 \newcommand*{\acronymfont}[1]{#1}
-                                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2533: LaTeX Error: Command \glsreset already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2533 }
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2546: LaTeX Error: Command \glsunset already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2546 }
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2563: LaTeX Error: Command \glsresetall already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2563 }
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2580: LaTeX Error: Command \glsunsetall already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2580 }
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\datagidx@anchorcount=\count524
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2845: LaTeX Error: Command \glsadd already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2845 }
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\datagidx@count=\count525
-
-C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datagidx.sty:
-2909: LaTeX Error: Command \glsaddall already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2909 }
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Info: Redefining \glslink on input line 2910.
-LaTeX Info: Redefining \gls on input line 2956.
-LaTeX Info: Redefining \glspl on input line 2957.
-LaTeX Info: Redefining \Gls on input line 2958.
-LaTeX Info: Redefining \Glspl on input line 2959.
-\datagidx@level=\count526
-)
-\glswrite=\write6
-\glo@main@file=\write7
-\openout7 = `main.glo'.
-
-Package glossaries Info: Writing glossary file main.glo on input line 123.
+Package glossaries Info: Writing glossary file main.glo on input line 122.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count527
-\@quotereset=\count528
+\@quotelevel=\count498
+\@quotereset=\count499
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 12
 6.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
@@ -1872,24 +1632,24 @@ Package hyperref Info: Link coloring OFF on input line 126.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
-\@outlinefile=\write8
-\openout8 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count529
-\scratchdimen=\dimen329
-\scratchbox=\box131
-\nofMPsegments=\count530
-\nofMParguments=\count531
-\everyMPshowfont=\toks84
-\MPscratchCnt=\count532
-\MPscratchDim=\dimen330
-\MPnumerator=\count533
-\makeMPintoPDFobject=\count534
-\everyMPtoPDFconversion=\toks85
+\scratchcounter=\count500
+\scratchdimen=\dimen320
+\scratchbox=\box84
+\nofMPsegments=\count501
+\nofMParguments=\count502
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count503
+\MPscratchDim=\dimen321
+\MPnumerator=\count504
+\makeMPintoPDFobject=\count505
+\everyMPtoPDFconversion=\toks62
 )
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
 -base.sty
@@ -1980,7 +1740,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 126.
 
-\c@lstlisting=\count535
+\c@lstlisting=\count506
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -2013,7 +1773,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (titlepage.tex
-<Bilder/doohMedia.jpg, id=174, 200.75pt x 200.75pt>
+<Bilder/doohMedia.jpg, id=178, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 10.
@@ -2065,13 +1825,13 @@ Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 38.
 
 [1
 
-\openout6 = `main.ist'.
+\openout5 = `main.ist'.
 
 {C:/Users/mboehme/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/d
 oohMedia.jpg>]) (Inhaltsverzeichnis.tex
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.toc)
-\tf@toc=\write9
-\openout9 = `main.toc'.
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
 
 
@@ -2304,8 +2064,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
  []
 
 [6]) (theorie.tex
-\@gls@deffile=\write10
-\openout10 = `main.glsdefs'.
+\@gls@deffile=\write9
+\openout9 = `main.glsdefs'.
 
 ) (istZustand.tex [7] [8]
 
@@ -2322,7 +2082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--56
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=292, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=297, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 58
@@ -2343,36 +2103,8 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[9 <./Bilder/GrafikdesignerMockup.png>]
-
-istZustand.tex:73: Package datagidx Error: No term `Responsive Design' defined.
-
-
-See the datagidx package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \gls{Responsive Design}
-                             wurde hier nur für das Format berücksichtigt,...
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-istZustand.tex:73: Package datagidx Error: Entry `Responsive Design' doesn't ex
-ist.
-
-See the datagidx package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \gls{Responsive Design}
-                             wurde hier nur für das Format berücksichtigt,...
-(That was another \errmessage.)
-
-) (vorgehensweise.tex [10]
-<Bilder/mockup.png, id=305, 782.925pt x 434.62375pt>
+[9 <./Bilder/GrafikdesignerMockup.png>]) (vorgehensweise.tex [10]
+<Bilder/mockup.png, id=310, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -2820,7 +2552,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (Ergebnis.tex [15] [16]
-<Bilder/Ergebnis.png, id=361, 720.44156pt x 455.45157pt>
+<Bilder/Ergebnis.png, id=366, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -2841,7 +2573,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=362, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=367, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2876,7 +2608,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=369, 721.19438pt x 451.6875pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=374, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2898,7 +2630,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=370, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=375, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 53.
@@ -3047,29 +2779,25 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.gls)
-[20] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+(main.gls) [20]
+(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C8E7ACF660AD84AFD359455363989F9;6357.
+(rerunfilecheck)             Checksum: 5C280B52EE44292F094BC0626BD26524;6436.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55661 strings out of 476339
- 1234679 string characters out of 5787176
- 2332655 words of memory out of 5000000
- 74740 multiletter control sequences out of 15000+600000
+ 54485 strings out of 476339
+ 1214660 string characters out of 5787176
+ 2290000 words of memory out of 5000000
+ 73578 multiletter control sequences out of 15000+600000
  591190 words of font info for 286 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Responsive\040Design} has been referenced but does 
-not exist, replaced by a fixed one
 
  <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1095.pk>{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
@@ -3081,9 +2809,9 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (21 pages, 617935 bytes).
+main.pdf (21 pages, 619265 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 92544 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 92552 words of extra memory for PDF output out of 106986 (max. 10000000)
 
