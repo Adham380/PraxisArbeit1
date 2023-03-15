@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  13 MAR 2023 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  15 MAR 2023 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1855,11 +1855,6 @@ been already used, duplicate ignored
                    \relax 
 l.8     \newpage
                  [1]) (einleitung.tex
-
-LaTeX Warning: Citation 'microsoftGraphApi' on page 2 undefined on input line 9
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
@@ -2087,7 +2082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--59
 
  []
 
-<Bilder/GrafikdesignerMockup.png, id=303, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=306, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 61
@@ -2109,7 +2104,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [9 <./Bilder/GrafikdesignerMockup.png>]) (vorgehensweise.tex [10]
-<Bilder/mockup.png, id=317, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=322, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -2132,26 +2127,26 @@ If that doesn't work, type  X <return>  to quit.
 
 ) (Technische Umsetzung.tex [11 <./Bilder/mockup.png>]
 
-Technische Umsetzung.tex:28: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:29: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \newline
+l.29 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:50: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:51: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \newline
+l.51 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2159,7 +2154,7 @@ or  <return>  to continue without it.
 
 [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-28.
+29.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -2168,19 +2163,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-Technische Umsetzung.tex:131: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Technische Umsetzung.tex:132: LaTeX Error: There's no line here to end.
@@ -2196,26 +2178,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:161: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:133: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Technische Umsetzung.tex:162: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 \newline
+l.133 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2554,7 +2523,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (Ergebnis.tex [15] [16]
-<Bilder/Ergebnis.png, id=380, 720.44156pt x 455.45157pt>
+<Bilder/Ergebnis.png, id=389, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -2575,7 +2544,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=381, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=390, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2610,7 +2579,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=388, 721.19438pt x 451.6875pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=397, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2632,7 +2601,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=389, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=398, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 53.
@@ -2706,17 +2675,29 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:75: LaTeX Error: There's no line here to end.
+Ergebnis.tex:70: Package glossaries Error: Glossary entry `Event-Listener' has 
+not been defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.70 \gls{Event-Listener}{
+                          name={Event-Listener},description={Ein Event-Liste...
+
+You need to define a glossary entry before you can use it.
+
+
+Ergebnis.tex:71: Package glossaries Error: Glossary entry `Event-Listener' has 
+not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...die vergeht, bis der \gls{Event-Listener} 
+                                                  das Menü darstellt.
+You need to define a glossary entry before you can use it.
 
 
 Ergebnis.tex:76: LaTeX Error: There's no line here to end.
@@ -2732,13 +2713,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:83: LaTeX Error: There's no line here to end.
+Ergebnis.tex:77: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \newline
+l.77 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2752,6 +2733,19 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.84 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Ergebnis.tex:85: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2771,29 +2765,21 @@ l.142     \bibliographystyle{alpha}
 Use the package option 'style' instead.
 I'm ignoring this command.
 
-[19 <./Bilder/Ergebnis_lightMode.png>] (main.gls)
+[19 <./Bilder/Ergebnis_lightMode.png>] (main.gls [20])
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.acr)
-[20] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
-
-LaTeX Warning: There were undefined references.
-
+[21] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C280B52EE44292F094BC0626BD26524;6436.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54601 strings out of 476339
- 1217070 string characters out of 5787176
- 2291596 words of memory out of 5000000
- 73688 multiletter control sequences out of 15000+600000
- 588322 words of font info for 283 fonts, out of 8000000 for 9000
+ 54649 strings out of 476339
+ 1218329 string characters out of 5787176
+ 2291764 words of memory out of 5000000
+ 73729 multiletter control sequences out of 15000+600000
+ 588681 words of font info for 285 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2810,9 +2796,9 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (21 pages, 635574 bytes).
+main.pdf (22 pages, 641495 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
  88456 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {2.1.5}Was ist Node.js?}{5}{subsubsection.2.1.5}%
 \contentsline {section}{\numberline {3}Abgrenzung zu ähnlichen Produkten}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Microsoft Teams}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Outlook}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Outlook}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Microsoft Bookings}{6}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Microsoft Power Automate}{6}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{7}{subsection.3.5}%

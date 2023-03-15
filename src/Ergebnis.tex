@@ -58,7 +58,7 @@ Hier die normale Ansicht nochmal, aber im light-Modus:
 \newline
 \newline
 \subsection{Performance}\label{subsec:performance}
-Die Performance einer \gls{SPA} zu messen ist nicht ganz einfach.
+Die Performance einer \gls{SPA} zu messen ist trotz der geringen Komplexität der Anwendung, nicht simpel.
 Auch die gängige Total-Blocking-Time Messung ist nicht zwingend sinnvoll, da die Anwendung nicht für den Nutzer, während der Nutzung, blockiert ist, sondern lediglich die Daten vom Server geladen werden, um anschließend die Nutzung der Anwendung sinnvoll zu ermöglichen.
 Daher wurden manuell einige Tests durchgeführt, um die Performance zu messen.
 \newline
@@ -67,7 +67,8 @@ Daher wurden manuell einige Tests durchgeführt, um die Performance zu messen.
 \newline
 \newline
 Wie lange braucht die Anwendung, um nach einem Klick auf den Button \("\)+\("\) das Terminerstellungs-Menü zu öffnen?
-Diese Frage wurde gemessen, indem der Event-Listener auf den Button \("\)+\("\) registriert wurde und die Zeit gemessen wurde, die vergeht, bis der Event-Listener aufgerufen wurde und das Menü dargestellt wurde.
+\gls{Event-Listener}{name={Event-Listener},description={Ein Event-Listener ist ein Objekt, welches auf bestimmte Ereignisse wartet und dann eine Funktion ausführt. Dieses Objekt braucht ein HTML Element, welches es überwachen soll.}}
+Die Antwort auf diese Fragestellung wurde gemessen, indem der Event-Listener für den Button \("\)+\("\) registriert ausgab, wann die Taste betätigt und damit Zeit gemessen wurde, die vergeht, bis der \gls{Event-Listener} das Menü darstellt.
 Es dauert im Durchschnitt 2ms, bis das Menü angezeigt wird.
 \newline
 \newline

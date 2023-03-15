@@ -74,6 +74,58 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
       \endverb
     \endentry
+    \entry{microsoftGraphApi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a9074e66d53b0acd4aabe98ed26594ba}{%
+           family={microsoftGraphApi},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9074e66d53b0acd4aabe98ed26594ba}
+      \strng{fullhash}{a9074e66d53b0acd4aabe98ed26594ba}
+      \strng{bibnamehash}{a9074e66d53b0acd4aabe98ed26594ba}
+      \strng{authorbibnamehash}{a9074e66d53b0acd4aabe98ed26594ba}
+      \strng{authornamehash}{a9074e66d53b0acd4aabe98ed26594ba}
+      \strng{authorfullhash}{a9074e66d53b0acd4aabe98ed26594ba}
+      \field{labelalpha}{microsoftGraphApi}
+      \field{sortinit}{m}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{microsoftGraphApi}
+      \field{title}{microsoftGraphApi}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/graph/overview
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/graph/overview
+      \endverb
+    \endentry
+    \entry{OAuth-2.0-Simplified}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a0d750ea4c4bd6e7beeb53741ae4b101}{%
+           family={Parecki},
+           familyi={P\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0d750ea4c4bd6e7beeb53741ae4b101}
+      \strng{fullhash}{a0d750ea4c4bd6e7beeb53741ae4b101}
+      \strng{bibnamehash}{a0d750ea4c4bd6e7beeb53741ae4b101}
+      \strng{authorbibnamehash}{a0d750ea4c4bd6e7beeb53741ae4b101}
+      \strng{authornamehash}{a0d750ea4c4bd6e7beeb53741ae4b101}
+      \strng{authorfullhash}{a0d750ea4c4bd6e7beeb53741ae4b101}
+      \field{labelalpha}{OAuth-2.0-Simplified}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{shorthand}{OAuth-2.0-Simplified}
+      \field{title}{OAuth 2.0 Simplified}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
     \entry{oData}{misc}{}
       \name{author}{1}{}{%
         {{hash=ad60bb3f28ba5963c995c2e9500d6e1e}{%
@@ -100,6 +152,33 @@
       \verb{url}
       \verb https://www.odata.org/
       \endverb
+    \endentry
+    \entry{Monkey-Testing-Book1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f01d525b30c3988859d89311a6cf25d6}{%
+           family={Ofer\bibnamedelima Strichman},
+           familyi={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Stefan\bibnamedelima Szeider},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag Berlin Heidelberg}%
+      }
+      \strng{namehash}{f01d525b30c3988859d89311a6cf25d6}
+      \strng{fullhash}{f01d525b30c3988859d89311a6cf25d6}
+      \strng{bibnamehash}{f01d525b30c3988859d89311a6cf25d6}
+      \strng{authorbibnamehash}{f01d525b30c3988859d89311a6cf25d6}
+      \strng{authornamehash}{f01d525b30c3988859d89311a6cf25d6}
+      \strng{authorfullhash}{f01d525b30c3988859d89311a6cf25d6}
+      \field{labelalpha}{Ofe10}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Theory and Applications of Satisfiability Testing - SAT 2010}
+      \field{year}{2010}
+      \field{dateera}{ce}
     \endentry
     \entry{JavaScriptAnimationsReflow}{misc}{}
       \name{author}{1}{}{%

@@ -7,16 +7,17 @@ Das Ganze wird als eine Azure App deployt.
 Diese lässt localhost Verbindungen zu und gibt einem die Möglichkeit das ganze als Single Page Application zu entwickeln, mit einem lokalen cookie cache für den eingeloggten Account.
 Somit ist keine Individualisierung notwendig.
 \newline
-Es wird, lokal, mithilfe von Dory-node.js gehostet.Das ganze wird als eine Azure App deployt.
+Es wird, lokal, mithilfe von Dory-node.js gehostet.
 Diese lässt localhost Verbindungen zu und gibt einem die Möglichkeit die Web-Applikation wird als Single-Page-Application, mit einem lokalen cookie cache für den eingeloggten Account, entwickelt.
 Somit ist keine Individualisierung notwendig.
 Zudem kann dann mit dem Phillips Display die Web-Applikation aufgerufen werden und als eine Art Model eines Model-View-Controllers verwendet werden.
 \newline
 Der Player braucht auf der OMS den Content-Typen \("\)Web\("\) mit der URL: \("\)http://localhost:3000/content\("\).
 Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-nodejs Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Display liegt.
-So ist die URL immer die Gleiche, auf allen Geräten, damit Microsoft's redirect URI Bedingungen erfüllt werden können und Webserver kosten eingespart werden können, da Updates eher selten passieren sollten.
+So ist die URL durchgehend, auf allen Geräten, identisch, damit die OAuth 2.0 URI Bedingungen ~\cite{OAuth-2.0-Simplified} erfüllt sind.
+Durch den Verzicht auf einen Webserver werden kosten eingespart, da Updates eher selten passieren sollten.
 \newline
-Zudem ist es auch für die Sicherheit der Nutzer so viel besser, da wir deshalb keinen Zugriff auf ihre Daten haben.
+Zudem ist es für die Sicherheit der Nutzer so viel besser, da wir deshalb keinen Zugriff auf ihre Daten haben.
 Zeiten müssen ISO 8601 Konform sein bei jeglichen API Anfragen an die Microsoft Graph API\@.
 \newline
 \pagebreak
@@ -113,7 +114,7 @@ Zudem wurde es so eingerichtet, wie es auch beim Kunden laufen soll.
 Es wurde täglich aktiv genutzt, um so Fehler zu finden und Feedback zu geben.
 Das Feedback wurde dann, falls sinnvoll, in die Anwendung eingearbeitet.
 Solche praktischen Tests sind sehr wichtig, um Intuitivität und Benutzerfreundlichkeit zu gewährleisten.
-Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, aber auch um Fehler zu finden, die nicht vorgesehen waren, indem man monkey-testing betreibt.
+Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, andererseits aber auch um Fehler zu finden, die nicht vorgesehen waren, indem Monkey Testing~\cite{Monkey-Testing-Book1} betrieben wird.
 \newline
 
 Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
@@ -141,7 +142,7 @@ Da die Dauer angepasst werden kann, muss bei Datenänderungen die Animation neu 
 Damit dies nicht ohne Grund passiert, wird geprüft, ob die Dauer sich geändert hat.
 Die Daten dafür werden im Local Storage gespeichert.
 Falls eine Änderung stattgefunden hat, wird die Animation neu berechnet.
-Bei der Änderung werden, damit die Animation visuell nicht von vorne anfängt, die Animationsdauer und die vergangene Zeit als neue Animationsdauer aufaddiert und die vergangene zeit als negative Animationsverzögerung gesetzt, damit die Animation dort ist, wo sie relativ zur neuen Dauer sein sollte.
+Bei der Änderung werden, damit die Animation visuell nicht von vorne anfängt, die Animationsdauer und die vergangene Zeit als neue Animationsdauer aufaddiert und die vergangene Zeit als negative Animationsverzögerung gesetzt, damit die Animation visuell betrachtet dort ist, wo sie relativ zur neuen Dauer sein sollte.
 \newline
 \newline
 Die Formel lautet, wie folgt:
@@ -156,11 +157,10 @@ Die Formel lautet, wie folgt:
 \end{equation}
 \newline
 \newline
-Man kann die Formel natürlich verkürzen und die Animationdauer und -verzögerung direkt berechnen, aber so ist es verständlicher.
-
+Man kann die Formel verkürzen und die Animationsdauer und -verzögerung direkt berechnen, aber es ist verständlicher, falls jemand in der Zukunft dies nachvollziehen möchte.
 \newline
 \newline
-Hier sieht man den JavaScript Code:
+Hier sieht man den zugehörigen JavaScript Code:
 \newline
 \newline
 \begin{lstlisting}[language=javascript,label={lst:JavaScript Timer}]
@@ -174,7 +174,7 @@ secondHandSpan.style.animationDelay = -timePassed  + 's';
 \end{lstlisting}
 \newline
 \newline
-Um die Animation während ihrer Laufzeit zu ändern, wird ein sogenannter Reflow ~\footcite{JavaScriptAnimationsReflow} erzwungen, indem die offsetWidth Eigenschaft abgefragt wird, die Animationsdauer und -verzögerung neu gesetzt wird und der Animationsname erst entfernt und dann wieder hinzugefügt wird.
+Um die Animation während ihrer Laufzeit zu ändern, wird ein sogenannter Reflow ~\footcite{JavaScriptAnimationsReflow} erzwungen, indem die offsetWidth Eigenschaft abgefragt, die Animationsdauer und -verzögerung neu gesetzt und der Animationsname erst entfernt und dann wieder hinzugefügt wird.
 \newline
 \newline
 \subsubsection{Persistente Datenspeicherung}
@@ -184,7 +184,7 @@ Dieser ist in jedem Browser verfügbar und darf bis zu 5 MB groß sein.
 \newline
 Für größere Datensätze wurde IndexedDB verwendet.
 Dies ist eine NoSQL Datenbank, die in jedem Browser verfügbar ist.
-Die maximale Größe bei Chrome beträgt 80(%\) des verfügbaren Speichers.
+Die maximale Größe bei Chrome beträgt 80\(\%\) des verfügbaren Speichers.
 Da es im Internet viele, sich widersprechende Angaben zu dieser Größe gibt, wurde diese manuell, mit folgendem Code, in der Konsole des Browsers, getestet:
 \newline
 \newline

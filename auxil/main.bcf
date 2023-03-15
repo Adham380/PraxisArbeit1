@@ -2351,10 +2351,12 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">microsoftGraphApi</bcf:citekey>
     <bcf:citekey order="2" intorder="1">JavaScript</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">10BDL4551T/00</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">oData</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">JavaScriptAnimationsReflow</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">JavaScript</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">OAuth-2.0-Simplified</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">10BDL4551T/00</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Monkey-Testing-Book1</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">oData</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">JavaScriptAnimationsReflow</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">JavaScript</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
