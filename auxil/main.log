@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  20 MAR 2023 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  20 MAR 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1623,6 +1623,26 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count503
 \TX@ftn=\toks63
 )
+(C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen327
+\lightrulewidth=\dimen328
+\cmidrulewidth=\dimen329
+\belowrulesep=\dimen330
+\belowbottomsep=\dimen331
+\aboverulesep=\dimen332
+\abovetopsep=\dimen333
+\cmidrulesep=\dimen334
+\cmidrulekern=\dimen335
+\defaultaddspace=\dimen336
+\@cmidla=\count504
+\@cmidlb=\count505
+\@aboverulesep=\dimen337
+\@belowrulesep=\dimen338
+\@thisruleclass=\count506
+\@lastruleclass=\count507
+\@thisrulewidth=\dimen339
+)
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed sa
 fely (allowed).
 
@@ -1633,45 +1653,45 @@ fely (allowed).
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 123.
+Package glossaries Info: Writing glossary file main.glo on input line 124.
 \glo@acronym@file=\write7
 \openout7 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 123.
+Package glossaries Info: Writing glossary file main.acn on input line 124.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count504
-\@quotereset=\count505
+\@quotelevel=\count508
+\@quotereset=\count509
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 12
-7.
+8.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-Package hyperref Info: Link coloring OFF on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.out)
@@ -1682,16 +1702,16 @@ Package hyperref Info: Link coloring OFF on input line 127.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count506
-\scratchdimen=\dimen327
+\scratchcounter=\count510
+\scratchdimen=\dimen340
 \scratchbox=\box86
-\nofMPsegments=\count507
-\nofMParguments=\count508
+\nofMPsegments=\count511
+\nofMParguments=\count512
 \everyMPshowfont=\toks64
-\MPscratchCnt=\count509
-\MPscratchDim=\dimen328
-\MPnumerator=\count510
-\makeMPintoPDFobject=\count511
+\MPscratchCnt=\count513
+\MPscratchDim=\dimen341
+\MPnumerator=\count514
+\makeMPintoPDFobject=\count515
 \everyMPtoPDFconversion=\toks65
 )
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
@@ -1836,16 +1856,16 @@ my insertion and my current dilemma will both disappear.
 
 Missing character: There is no Ë in font zptmcm7v!
 )
-Package biblatex Info: Reference section=0 on input line 127.
-Package biblatex Info: Reference segment=0 on input line 127.
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
  (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.glsdefs)
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 127.
+ on input line 128.
 
-\c@lstlisting=\count512
+\c@lstlisting=\count516
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
 ty
@@ -1874,12 +1894,12 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                geometry option `head=13.6pt'
 (scrlayer-scrpage)                \relax to avoid this warning.
 
-LaTeX Info: Redefining \microtypecontext on input line 127.
-Package microtype Info: Applying patch `item' on input line 127.
-Package microtype Info: Applying patch `toc' on input line 127.
-Package microtype Info: Applying patch `eqnum' on input line 127.
+LaTeX Info: Redefining \microtypecontext on input line 128.
+Package microtype Info: Applying patch `item' on input line 128.
+Package microtype Info: Applying patch `toc' on input line 128.
+Package microtype Info: Applying patch `eqnum' on input line 128.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 127.
+Package microtype Warning: Unable to apply patch `footnote' on input line 128.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1887,7 +1907,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 127.
+LaTeX Info: Redefining \showhyphens on input line 128.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1918,8 +1938,8 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=13.59999pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 4
-9.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
+0.
 
 
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
@@ -1929,7 +1949,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 ...n}{\numberline {10}Anhang}{27}{section.10}
+l.50 ...on}{\numberline {8}Glossar}{27}{section.8}
                                                   % [1])
 \tf@toc=\write9
 \openout9 = `main.toc'.
@@ -1947,10 +1967,6 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 \@gls@deffile=\write10
 \openout10 = `main.glsdefs'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--41
-
- []
 
 [3]) (Zusammenfassung.tex) (Use Case.tex
 Use Case.tex:30: Package caption Error: \caption outside float.
@@ -2010,30 +2026,38 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (Systemschnittstellen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--3
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--36
 
  []
 
 [4]
-
-Systemschnittstellen.tex:8: Package calc Error: `\let ' invalid at this point.
-
-See the calc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \begin{tabularx}{\textwidth\footnotesize}
-                                             {|l*{2}{|X}|} \hline
-I expected to see one of: + - * / )
-
-Systemschnittstellen.tex:63: Package caption Error: \caption outside float.
+<Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png, id=29
+4, 1341.01pt x 504.88625pt>
+File: Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png G
+raphic file (type png)
+<use Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png>
+Package pdftex.def Info: Bilder/Objektorientiertes Design/Use Case diagram ress
+ource booking.png  used on input line 38.
+(pdftex.def)             Requested size: 426.79135pt x 160.68094pt.
+) (Systemschnittstellen.tex
+Systemschnittstellen.tex:65: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{tabularx}
+l.65 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2041,30 +2065,52 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Systemschnittstellen.tex:63: LaTeX Error: There's no line here to end.
+Systemschnittstellen.tex:65: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{tabularx}
+l.65 \end{tabularx}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Systemschnittstellen.tex:65: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \end{tabularx}
+                   
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Systemschnittstellen.tex:65: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \end{tabularx}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 63.
-
-
-Systemschnittstellen.tex:63: Package caption Error: \caption outside float.
+Systemschnittstellen.tex:65: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{tabularx}
+l.65 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2073,2309 +2119,28 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.97198pt too wide) in paragraph at lines 63--63
-[]|\T1/ptm/m/n/10.95 (-20) Im
- []
-
-
-Overfull \hbox (9.91098pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kann
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (9.1237pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) User
- []
-
-
-Overfull \hbox (6.33734pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sich
- []
-
-
-Overfull \hbox (3.36482pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mit
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (6.9019pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Res-
- []
-
-
-Overfull \hbox (9.06534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sour-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ce
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ein-
- []
-
-
-Overfull \hbox (4.51978pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) log-
- []
-
-
-Overfull \hbox (5.85948pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gen,
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (1.3761pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸r
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (2.7278pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Zu-
- []
-
-
-Overfull \hbox (11.70297pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kunft
- []
-
-
-Overfull \hbox (0.97185pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) als
- []
-
-
-Overfull \hbox (2.72766pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Re-
- []
-
-
-Overfull \hbox (4.50905pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) pr‰-
- []
-
-
-Overfull \hbox (5.10991pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sen-
- []
-
-
-Overfull \hbox (5.14621pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) tant
- []
-
-
-Overfull \hbox (1.3761pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸r
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) el-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) le
- []
-
-
-Overfull \hbox (6.9019pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Res-
- []
-
-
-Overfull \hbox (9.06534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sour-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ce
- []
-
-
-Overfull \hbox (6.86676pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) (z.B
- []
-
-
-Overfull \hbox (12.29309pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) einen
- []
-
-
-Overfull \hbox (17.52582pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Raum)
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gel-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (5.32245pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) soll.
- []
-
-
-Overfull \hbox (6.67235pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Dar-
- []
-
-
-Overfull \hbox (4.50905pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) auf-
- []
-
-
-Overfull \hbox (2.7641pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) hin
- []
-
-
-Overfull \hbox (3.36482pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gilt
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die-
- []
-
-
-Overfull \hbox (1.37596pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ser
- []
-
-
-Overfull \hbox (9.1237pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) User
- []
-
-
-Overfull \hbox (2.13739pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) im-
- []
-
-
-Overfull \hbox (5.55032pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mer
- []
-
-
-Overfull \hbox (0.97185pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) als
- []
-
-
-Overfull \hbox (6.98712pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Teil-
- []
-
-
-Overfull \hbox (6.30116pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) neh-
- []
-
-
-Overfull \hbox (5.55032pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mer
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (3.32866pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Bu-
- []
-
-
-Overfull \hbox (11.66666pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) chun-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gen
- []
-
-
-Overfull \hbox (5.14648pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) und
- []
-
-
-Overfull \hbox (9.91098pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kann
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) in
- []
-
-
-Overfull \hbox (2.72752pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sei-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nen
- []
-
-
-Overfull \hbox (3.8522pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ver-
- []
-
-
-Overfull \hbox (5.11005pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸g-
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ba-
- []
-
-
-Overfull \hbox (2.75337pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ren
- []
-
-
-Overfull \hbox (5.10991pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Zei-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (12.67514pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) bucht
- []
-
-
-Overfull \hbox (6.27815pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) wer-
- []
-
-
-Overfull \hbox (5.31198pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den.
- []
-
-
-Overfull \hbox (2.72766pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ba-
- []
-
-
-Overfull \hbox (2.72752pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sie-
- []
-
-
-Overfull \hbox (8.11887pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) rend
- []
-
-
-Overfull \hbox (2.75337pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) auf
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die-
- []
-
-
-Overfull \hbox (3.35423pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sen
- []
-
-
-Overfull \hbox (5.10991pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Zei-
- []
-
-
-Overfull \hbox (3.4771pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten,
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) be-
- []
-
-
-Overfull \hbox (19.35182pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kommt
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (9.1237pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) User
- []
-
-
-Overfull \hbox (3.8522pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ver-
- []
-
-
-Overfull \hbox (5.11005pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸g-
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ba-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ti-
- []
-
-
-Overfull \hbox (8.09302pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mes-
- []
-
-
-Overfull \hbox (4.55595pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) lots
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zur
- []
-
-
-Overfull \hbox (3.32866pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Bu-
- []
-
-
-Overfull \hbox (15.27647pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) chung
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) an-
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (10.6772pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zeigt.
- []
-
-
-Overfull \hbox (11.89903pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Auch
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (8.68341pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Dau-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) er
- []
-
-
-Overfull \hbox (3.35423pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) des
- []
-
-
-Overfull \hbox (4.37534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (9.92145pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mins
- []
-
-
-Overfull \hbox (4.55595pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) soll
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ein-
- []
-
-
-Overfull \hbox (8.69374pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) stell-
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) bar
- []
-
-
-Overfull \hbox (7.10384pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sein.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 Es
- []
-
-
-Overfull \hbox (5.74721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gibt
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zu-
- []
-
-
-Overfull \hbox (7.5286pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dem
- []
-
-
-Overfull \hbox (12.29309pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) einen
- []
-
-
-Overfull \hbox (1.53667pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) op-
- []
-
-
-Overfull \hbox (2.13739pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) tio-
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) na-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) len
- []
-
-
-Overfull \hbox (2.72766pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Be-
- []
-
-
-Overfull \hbox (7.24945pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) treff
- []
-
-
-Overfull \hbox (1.3761pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸r
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den
- []
-
-
-Overfull \hbox (4.37534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (6.5137pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) min.
- []
-
-
-Overfull \hbox (4.94946pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Der
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (11.44771pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) buch-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) te
- []
-
-
-Overfull \hbox (4.37534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (5.74721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) min
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) re-
- []
-
-
-Overfull \hbox (6.90202pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) flek-
- []
-
-
-Overfull \hbox (6.3372pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) tiert
- []
-
-
-Overfull \hbox (6.33734pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sich
- []
-
-
-Overfull \hbox (9.91098pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dann
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) in
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (4.51965pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Lis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) te
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (1.3761pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸r
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den
- []
-
-
-Overfull \hbox (4.52124pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Tag
- []
-
-
-Overfull \hbox (14.08522pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) schon
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (11.44771pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) buch-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (4.37534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (2.13739pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ne
- []
-
-
-Overfull \hbox (5.14648pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) und
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den
- []
-
-
-Overfull \hbox (4.37534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (2.13739pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mi-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nen
- []
-
-
-Overfull \hbox (7.6369pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) vom
- []
-
-
-Overfull \hbox (15.2399pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) n‰chs-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (5.83524pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Tag,
- []
-
-
-Overfull \hbox (1.3761pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸r
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (6.9019pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Res-
- []
-
-
-Overfull \hbox (9.06534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sour-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ce.
- []
-
-
-Overfull \hbox (2.7278pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Zu-
- []
-
-
-Overfull \hbox (7.5286pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dem
- []
-
-
-Overfull \hbox (4.55595pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) soll
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (6.90202pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Nut-
- []
-
-
-Overfull \hbox (3.02847pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zer,
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) an-
- []
-
-
-Overfull \hbox (9.91098pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) hand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ei-
- []
-
-
-Overfull \hbox (3.35423pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nes
- []
-
-
-Overfull \hbox (7.97295pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) farb-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) li-
- []
-
-
-Overfull \hbox (9.30998pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) chen
- []
-
-
-Overfull \hbox (4.54536pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) UIs
- []
-
-
-Overfull \hbox (5.93956pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) (sie-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) he
- []
-
-
-Overfull \hbox (3.52472pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ab-
- []
-
-
-Overfull \hbox (44.05125pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) schnitt []5.0.1[])
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 se-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) hen
- []
-
-
-Overfull \hbox (6.90216pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kˆn-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) in-
- []
-
-
-Overfull \hbox (4.2901pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ner-
- []
-
-
-Overfull \hbox (7.5286pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) halb
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (15.2399pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) n‰chs-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) 15
- []
-
-
-Overfull \hbox (3.32854pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Mi-
- []
-
-
-Overfull \hbox (1.53667pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nu-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ein
- []
-
-
-Overfull \hbox (4.37534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (5.74721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) min
- []
-
-
-Overfull \hbox (1.3761pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸r
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (6.9019pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Res-
- []
-
-
-Overfull \hbox (9.06534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sour-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ce
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) an-
- []
-
-
-Overfull \hbox (9.32045pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) steht
- []
-
-
-Overfull \hbox (7.93271pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) oder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ei-
- []
-
-
-Overfull \hbox (2.56721pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ner
- []
-
-
-Overfull \hbox (14.08522pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) schon
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) am
- []
-
-
-Overfull \hbox (5.54662pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Pas-
- []
-
-
-Overfull \hbox (2.72752pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sie-
- []
-
-
-Overfull \hbox (2.75337pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ren
- []
-
-
-Overfull \hbox (14.94765pt too wide) in paragraph at lines 63--63
-[]\T1/ptm/m/n/10.95 (-20) REST
- []
-
-
-Overfull \hbox (5.94328pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) API
- []
-
-
-Overfull \hbox (3.52472pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) An-
- []
-
-
-Overfull \hbox (2.71693pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) fra-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gen
- []
-
-
-Overfull \hbox (6.27815pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) wer-
- []
-
-
-Overfull \hbox (4.54549pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den
- []
-
-
-Overfull \hbox (9.91098pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dann
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) an
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (3.32854pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Mi-
- []
-
-
-Overfull \hbox (4.50905pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) cro-
- []
-
-
-Overfull \hbox (5.14622pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) soft
- []
-
-
-Overfull \hbox (15.86661pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Graph
- []
-
-
-Overfull \hbox (5.94328pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) API
- []
-
-
-Overfull \hbox (0.93567pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (20.76443pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) schickt,
- []
-
-
-Overfull \hbox (2.7641pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) um
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) se
- []
-
-
-Overfull \hbox (11.15201pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) W¸n-
- []
-
-
-Overfull \hbox (8.11873pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sche
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) zu
- []
-
-
-Overfull \hbox (9.77579pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kom-
- []
-
-
-Overfull \hbox (4.51978pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) ni-
- []
-
-
-Overfull \hbox (3.31778pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zie-
- []
-
-
-Overfull \hbox (5.43611pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ren.| 
- []
-
-
-Overfull \hbox (37.32793pt too wide) in paragraph at lines 63--63
-[]|\T1/ptm/m/n/10.95 (-20) Mitarbeiter| 
- []
-
-
-Overfull \hbox (24.78087pt too wide) in paragraph at lines 63--63
-[]|\T1/ptm/m/n/10.95 (-20) Variabel
- []
-
-
-Overfull \hbox (3.35437pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) pro
- []
-
-
-Overfull \hbox (6.9019pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Res-
- []
-
-
-Overfull \hbox (9.06534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sour-
- []
-
-
-Overfull \hbox (3.10957pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Fir-
- []
-
-
-Overfull \hbox (2.1631pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ma
- []
-
-
-Overfull \hbox (5.14648pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) und
- []
-
-
-Overfull \hbox (3.52472pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) An-
- []
-
-
-Overfull \hbox (6.9276pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zahl
- []
-
-
-Overfull \hbox (6.9019pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Res-
- []
-
-
-Overfull \hbox (9.06534pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sour-
- []
-
-
-Overfull \hbox (3.94449pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) cen| 
- []
-
-
-Overfull \hbox (23.62456pt too wide) in paragraph at lines 63--63
-[]|\T1/ptm/m/n/10.95 (-20) Mittlere
- []
-
-
-Overfull \hbox (1.57285pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) bis
- []
-
-
-Overfull \hbox (1.53667pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ho-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) he
- []
-
-
-Overfull \hbox (11.88428pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Kom-
- []
-
-
-Overfull \hbox (3.91878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ple-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (+20) xi-
- []
-
-
-Overfull \hbox (0.97198pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Us
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (36.49876pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) User
- []
-
-
-Overfull \hbox (38.48764pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) muss
- []
-
-
-Overfull \hbox (31.29384pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ein-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (38.48776pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) loggt
- []
-
-
-Overfull \hbox (33.7124pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) sein
- []
-
-
-Overfull \hbox (37.48912pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) (Nut-
- []
-
-
-Overfull \hbox (31.06416pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zer-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) da-
- []
-
-
-Overfull \hbox (29.53816pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (34.27722pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kˆn-
- []
-
-
-Overfull \hbox (31.92055pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nen
- []
-
-
-Overfull \hbox (37.88676pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nicht
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (27.11948pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) se-
- []
-
-
-Overfull \hbox (31.92055pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) hen
- []
-
-
-Overfull \hbox (35.30777pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) oder
- []
-
-
-Overfull \hbox (31.29384pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ein-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (35.46808pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) spei-
- []
-
-
-Overfull \hbox (37.87604pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) chert
- []
-
-
-Overfull \hbox (33.65321pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) wer-
- []
-
-
-Overfull \hbox (34.76028pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den)
- []
-
-
-Overfull \hbox (32.52155pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) und
- []
-
-
-Overfull \hbox (30.10286pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Zu-
- []
-
-
-Overfull \hbox (41.15543pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) griffs-
- []
-
-
-Overfull \hbox (36.6486pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) rech-
- []
-
-
-Overfull \hbox (24.17267pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) te
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ak-
- []
-
-
-Overfull \hbox (33.07523pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zep-
- []
-
-
-Overfull \hbox (28.91145pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) tie-
- []
-
-
-Overfull \hbox (30.89493pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ren. 
- []
-
-
-Overfull \hbox (2.16324pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Op
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (58.7476pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Optionale
- []
-
-
-Overfull \hbox (34.36218pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Teil-
- []
-
-
-Overfull \hbox (33.67622pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) neh-
- []
-
-
-Overfull \hbox (32.92538pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mer 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (70.55807pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Termindauer 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (63.67326pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Verf¸gbare
- []
-
-
-Overfull \hbox (31.7504pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (29.51245pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mi-
- []
-
-
-Overfull \hbox (26.55505pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ne 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (75.24031pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Terminbetreff 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (53.97238pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Zeitzone 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (31.14413pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) F¸r
- []
-
-
-Overfull \hbox (29.53816pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (30.7036pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Mi-
- []
-
-
-Overfull \hbox (31.88411pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) cro-
- []
-
-
-Overfull \hbox (32.52129pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) soft
- []
-
-
-Overfull \hbox (43.24167pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Graph
- []
-
-
-Overfull \hbox (33.31834pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) API
- []
-
-
-Overfull \hbox (46.72688pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) kommt
- []
-
-
-Overfull \hbox (37.28604pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) noch
- []
-
-
-Overfull \hbox (29.94228pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (30.29878pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ac-
- []
-
-
-Overfull \hbox (34.30254pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) cess
- []
-
-
-Overfull \hbox (28.88748pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) To-
- []
-
-
-Overfull \hbox (31.81107pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ken
- []
-
-
-Overfull \hbox (18.48837pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) /
- []
-
-
-Overfull \hbox (31.30444pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Cli-
- []
-
-
-Overfull \hbox (29.53816pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ent
- []
-
-
-Overfull \hbox (27.74619pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ID
- []
-
-
-Overfull \hbox (32.02885pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) von
- []
-
-
-Overfull \hbox (28.91173pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) un-
- []
-
-
-Overfull \hbox (27.11948pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) se-
- []
-
-
-Overfull \hbox (28.15016pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) rer
- []
-
-
-Overfull \hbox (35.66428pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Azu-
- []
-
-
-Overfull \hbox (24.76294pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) re
- []
-
-
-Overfull \hbox (34.5096pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) App
- []
-
-
-Overfull \hbox (29.94228pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zur
- []
-
-
-Overfull \hbox (30.89978pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Au-
- []
-
-
-Overfull \hbox (36.65933pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) then-
- []
-
-
-Overfull \hbox (24.14696pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ti-
- []
-
-
-Overfull \hbox (24.1471pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) fi-
- []
-
-
-Overfull \hbox (30.69284pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zie-
- []
-
-
-Overfull \hbox (36.09492pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) rung
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) da-
- []
-
-
-Overfull \hbox (26.55505pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zu 
- []
-
-
-Overfull \hbox (1.57298pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Bu
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (55.17451pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Buchung
- []
-
-
-Overfull \hbox (26.29967pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) er-
- []
-
-
-Overfull \hbox (35.46822pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) folg-
- []
-
-
-Overfull \hbox (37.87604pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) reich
- []
-
-
-Overfull \hbox (35.30777pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) oder
- []
-
-
-Overfull \hbox (37.88676pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nicht 
- []
-
-
-Overfull \hbox (1.56224pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ne
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (39.06729pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Neue
- []
-
-
-Overfull \hbox (31.22726pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ver-
- []
-
-
-Overfull \hbox (32.4851pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸g-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ba-
- []
-
-
-Overfull \hbox (24.76294pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) re
- []
-
-
-Overfull \hbox (31.7504pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (29.51245pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mi-
- []
-
-
-Overfull \hbox (26.55505pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ne 
- []
-
-
-Overfull \hbox (1.56224pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) De
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (32.32452pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Der
- []
-
-
-Overfull \hbox (36.68504pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) neue
- []
-
-
-Overfull \hbox (31.7504pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (33.12227pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) min
- []
-
-
-Overfull \hbox (35.70059pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) wird
- []
-
-
-Overfull \hbox (24.77367pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) in
- []
-
-
-Overfull \hbox (29.94228pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (31.89471pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Lis-
- []
-
-
-Overfull \hbox (24.17267pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) te
- []
-
-
-Overfull \hbox (29.94228pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (38.82277pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) buch-
- []
-
-
-Overfull \hbox (29.53816pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ten
- []
-
-
-Overfull \hbox (31.7504pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ter-
- []
-
-
-Overfull \hbox (29.51245pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) mi-
- []
-
-
-Overfull \hbox (26.55505pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ne
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) an-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (37.28577pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zeigt 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (37.13222pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Falls
- []
-
-
-Overfull \hbox (29.53816pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) die
- []
-
-
-Overfull \hbox (30.70372pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Bu-
- []
-
-
-Overfull \hbox (42.65154pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) chung
- []
-
-
-Overfull \hbox (37.88676pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) nicht
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ge-
- []
-
-
-Overfull \hbox (43.25226pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) klappt
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ha-
- []
-
-
-Overfull \hbox (31.92055pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ben
- []
-
-
-Overfull \hbox (33.68669pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) soll-
- []
-
-
-Overfull \hbox (25.48666pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) te,
- []
-
-
-Overfull \hbox (35.70059pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) wird
- []
-
-
-Overfull \hbox (29.94228pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) der
- []
-
-
-Overfull \hbox (36.49876pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) User
- []
-
-
-Overfull \hbox (31.66516pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dar-
- []
-
-
-Overfull \hbox (35.30777pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ¸ber
- []
-
-
-Overfull \hbox (26.52934pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) in-
- []
-
-
-Overfull \hbox (30.47404pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) for-
- []
-
-
-Overfull \hbox (39.07776pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) miert 
- []
-
-
-Overfull \hbox (4.54424pt too wide) in paragraph at lines 63--63
-[]| []\T1/ptm/m/n/10.95 (-20) 1.5[]| 
- []
-
-
-Overfull \hbox (1.57286pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Mi
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (58.74751pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Microsoft
- []
-
-
-Overfull \hbox (43.24167pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Graph
- []
-
-
-Overfull \hbox (33.31834pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) API 
- []
-
-
-Overfull \hbox (0.97198pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Us
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (36.49876pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) User
- []
-
-
-Overfull \hbox (27.11961pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) In-
- []
-
-
-Overfull \hbox (29.28278pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ter-
- []
-
-
-Overfull \hbox (34.18245pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) face 
- []
-
-
-Overfull \hbox (0.97198pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Ba
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (53.86304pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Backend 
- []
-
-
-Overfull \hbox (42.96373pt too wide) in paragraph at lines 63--63
-[]|\T1/ptm/m/n/10.95 (-20) Notwendige: 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (46.91087pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Termin
- []
-
-
-Overfull \hbox (28.69278pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) bu-
- []
-
-
-Overfull \hbox (36.68504pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) chen 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (46.91087pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Termin
- []
-
-
-Overfull \hbox (29.51259pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) fin-
- []
-
-
-Overfull \hbox (31.92055pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) den 
- []
-
-
-Systemschnittstellen.tex:63: LaTeX Error: There's no line here to end.
+Systemschnittstellen.tex:65: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{tabularx}
+l.65 \end{tabularx}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Overfull \hbox (32.8336pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Optionale: 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (64.60231pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Teilnehmer
- []
-
-
-Overfull \hbox (31.89484pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) hin-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zu-
- []
-
-
-Overfull \hbox (27.11961pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸-
- []
-
-
-Overfull \hbox (31.92055pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gen 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (75.24031pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Terminbetreff
- []
-
-
-Overfull \hbox (31.89484pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) hin-
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) zu-
- []
-
-
-Overfull \hbox (27.11961pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) f¸-
- []
-
-
-Overfull \hbox (46.78932pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) gen/‰n-
- []
-
-
-Overfull \hbox (35.49393pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dern 
- []
-
-
-Overfull \hbox (16.42506pt too wide) in paragraph at lines 63--63
-[]
- []
-
-
-Overfull \hbox (70.55807pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) Termindauer
- []
-
-
-Overfull \hbox (28.31073pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) ‰n-
- []
-
-
-Overfull \hbox (35.49393pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/10.95 (-20) dern 
- []
-
-
-Overfull \hbox (122.00255pt too wide) in alignment at lines 63--63
-[][][]
- []
-
-Systemschnittstellen.tex:63: Extra }, or forgotten \endgroup.
-\TX@endtabularx ... }\the \TX@ftn \ifnum 0=`{\fi }
-                                                  \expandafter \expandafter ...
-l.63 \end{tabularx}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-) (Grundlagen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--3
-
- []
-
-[5]
-Overfull \vbox (5612.76508pt too high) has occurred while \output is active []
-
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 12--20
-
- []
-
-) (AbgrenzungZu√ÑhnlichenProdukten.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-
- []
-
-[8]) (Theoretische Grundlagen.tex) (istZustand.tex [9]
-Underfull \hbox (badness 10000) in paragraph at lines 19--30
-
- []
-
-[10]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 46.
-
-<Bilder/Workflow Terminbuchung.png, id=347, 770.88pt x 578.16pt>
+) (Grundlagen.tex [5 <./Bilder/Objektorientiertes Design/Use Case diagram resso
+urce booking.png>] [6]) (AbgrenzungZu√ÑhnlichenProdukten.tex [7] [8])
+(Theoretische Grundlagen.tex) (istZustand.tex [9] [10]
+<Bilder/Workflow Terminbuchung.png, id=354, 770.88pt x 578.16pt>
 File: Bilder/Workflow Terminbuchung.png Graphic file (type png)
 <use Bilder/Workflow Terminbuchung.png>
 Package pdftex.def Info: Bilder/Workflow Terminbuchung.png  used on input line 
 63.
 (pdftex.def)             Requested size: 341.43437pt x 256.07619pt.
+
 
 istZustand.tex:64: Package caption Error: \caption outside float.
 
@@ -4418,7 +2183,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/GrafikdesignerMockup.png, id=355, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=361, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 80
@@ -4439,8 +2204,45 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (vorgehensweise.tex [12 <./Bilder/GrafikdesignerMockup.png>]
-<Bilder/mockup.png, id=366, 782.925pt x 434.62375pt>
+<Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png, id=3
+64, 1306.8825pt x 222.8325pt>
+File: Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png 
+Graphic file (type png)
+<use Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png>
+Package pdftex.def Info: Bilder/Objektorientierte Analyse/Ressource booking act
+ivity diagramm.png  used on input line 123.
+(pdftex.def)             Requested size: 341.43437pt x 58.21388pt.
+
+istZustand.tex:124: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \caption
+              {Aktivit√§tsdiagramm}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+istZustand.tex:128: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (vorgehensweise.tex [12 <./Bilder/GrafikdesignerMockup.png> <./Bilder/Objekto
+rientierte Analyse/Ressource booking activity diagramm.png>]
+<Bilder/mockup.png, id=374, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -4513,120 +2315,146 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3).pn
+g, id=398, 1085.05376pt x 266.9975pt>
+File: Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (
+3).png Graphic file (type png)
+<use Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3
+).png>
+Package pdftex.def Info: Bilder/Objektorientiertes Design/Sequence diagram for 
+ressource booking (3).png  used on input line 166.
+(pdftex.def)             Requested size: 426.79135pt x 105.02081pt.
+
+Technische Umsetzung.tex:169: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:170: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 [16]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 194.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 206.
 
 
-Technische Umsetzung.tex:201: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:213: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \newline
+l.213 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:202: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:214: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 \newline
+l.214 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-[17]
+[17 <./Bilder/Objektorientiertes Design/Sequence diagram for ressource booking 
+(3).png>]
 
-Technische Umsetzung.tex:229: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:241: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 \newline
+l.241 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:230: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:242: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \newline
+l.242 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:239: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:251: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \newline
+l.251 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:240: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:252: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 \newline
+l.252 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:253: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:265: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 Das sind etwas √ºber 70 \%\)
+l.265 Das sind etwas √ºber 70 \%\)
                                    der verf√ºgbaren Speicherkapazit√§t.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:254: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:266: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 ...n auszugehen, dass die restlichen 10 \%\)
+l.266 ...n auszugehen, dass die restlichen 10 \%\)
                                                    f√ºr andere Daten schon v...
 
 Your command was ignored.
@@ -4634,13 +2462,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 Zudem ist zu betrachten, dass die \"\)
+l.267 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise f√ºr Dezimalz...
 
 Your command was ignored.
@@ -4648,13 +2476,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 Zudem ist zu betrachten, dass die \"\)
+l.267 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise f√ºr Dezimalz...
 
 Your command was ignored.
@@ -4662,13 +2490,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 Zudem ist zu betrachten, dass die \"\).\"\)
+l.267 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise f√ºr Dezimalz...
 
 Your command was ignored.
@@ -4676,13 +2504,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 Zudem ist zu betrachten, dass die \"\).\"\)
+l.267 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise f√ºr Dezimalz...
 
 Your command was ignored.
@@ -4690,13 +2518,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 ...rwendet wurde, w√§hrend wiederum die \"\)
+l.267 ...rwendet wurde, w√§hrend wiederum die \"\)
                                                   ,\"\) Schreibweise f√ºr di...
 
 Your command was ignored.
@@ -4704,13 +2532,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 ...rwendet wurde, w√§hrend wiederum die \"\)
+l.267 ...rwendet wurde, w√§hrend wiederum die \"\)
                                                   ,\"\) Schreibweise f√ºr di...
 
 Your command was ignored.
@@ -4718,13 +2546,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 ...et wurde, w√§hrend wiederum die \"\),\"\)
+l.267 ...et wurde, w√§hrend wiederum die \"\),\"\)
                                                    Schreibweise f√ºr die mat...
 
 Your command was ignored.
@@ -4732,13 +2560,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:267: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 ...et wurde, w√§hrend wiederum die \"\),\"\)
+l.267 ...et wurde, w√§hrend wiederum die \"\),\"\)
                                                    Schreibweise f√ºr die mat...
 
 Your command was ignored.
@@ -4746,13 +2574,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:268: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 Dies hat den Hintergrund, dass die \"\)
+l.268 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -4760,13 +2588,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:268: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 Dies hat den Hintergrund, dass die \"\)
+l.268 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -4774,13 +2602,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:268: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 Dies hat den Hintergrund, dass die \"\),\"\)
+l.268 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -4788,13 +2616,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:268: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 Dies hat den Hintergrund, dass die \"\),\"\)
+l.268 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -4802,13 +2630,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:274: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 IndexedDB unterst√ºtzt die Eigenschaft \"\)
+l.274 IndexedDB unterst√ºtzt die Eigenschaft \"\)
                                                  unique\"\), welche daf√ºr s...
 
 Your command was ignored.
@@ -4816,13 +2644,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:274: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 IndexedDB unterst√ºtzt die Eigenschaft \"\)
+l.274 IndexedDB unterst√ºtzt die Eigenschaft \"\)
                                                  unique\"\), welche daf√ºr s...
 
 Your command was ignored.
@@ -4830,13 +2658,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:274: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 ...terst√ºtzt die Eigenschaft \"\)unique\"\)
+l.274 ...terst√ºtzt die Eigenschaft \"\)unique\"\)
                                                   , welche daf√ºr sorgt, das...
 
 Your command was ignored.
@@ -4844,21 +2672,41 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:274: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 ...terst√ºtzt die Eigenschaft \"\)unique\"\)
+l.274 ...terst√ºtzt die Eigenschaft \"\)unique\"\)
                                                   , welche daf√ºr sorgt, das...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (Ergebnis.tex [18]
-<Bilder/Ergebnis.png, id=447, 720.44156pt x 455.45157pt>
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\T1/ptm/m/n/10 (+20) Lesezugriff auf Benutzer-E-
+ []
+
+
+Technische Umsetzung.tex:314: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314     \caption
+                  {}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (Ergebnis.tex [19]
+<Bilder/Ergebnis.png, id=461, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -4879,7 +2727,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=448, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=462, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -4913,8 +2761,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[19 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=455, 721.19438pt x 451.6875pt>
+[20 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=469, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -4936,7 +2784,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=456, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=470, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 55.
@@ -4982,7 +2830,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
+[21 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
 
 Ergebnis.tex:69: LaTeX Error: There's no line here to end.
 
@@ -5086,21 +2934,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[21 <./Bilder/Ergebnis_lightMode.png>]
-<Bilder/FertigesProdukt.png, id=470, 2047.65pt x 1541.76pt>
+[22 <./Bilder/Ergebnis_lightMode.png>] [23]
+<Bilder/FertigesProdukt.png, id=490, 2047.65pt x 1541.76pt>
 File: Bilder/FertigesProdukt.png Graphic file (type png)
 <use Bilder/FertigesProdukt.png>
-Package pdftex.def Info: Bilder/FertigesProdukt.png  used on input line 129.
+Package pdftex.def Info: Bilder/FertigesProdukt.png  used on input line 131.
 (pdftex.def)             Requested size: 213.39568pt x 160.6545pt.
 
 
-Ergebnis.tex:130: Package caption Error: \caption outside float.
+Ergebnis.tex:132: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130     \caption
+l.132     \caption
                   {Fertiges Produkt - Ger√§t mit der Anwendung}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -5108,43 +2956,43 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[22] [23 <./Bilder/FertigesProdukt.png>])
+[24 <./Bilder/FertigesProdukt.png>])
 
-main.tex:143: Package biblatex Error: '\bibliographystyle' invalid for 'biblate
+main.tex:144: Package biblatex Error: '\bibliographystyle' invalid for 'biblate
 x'.
 
 See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143     \bibliographystyle{alpha}
+l.144     \bibliographystyle{alpha}
                                    
 Use the package option 'style' instead.
 I'm ignoring this command.
 
-[24]
-main.tex:145: Missing $ inserted.
+[25]
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-main.tex:145: You can't use `\spacefactor' in math mode.
+main.tex:146: You can't use `\spacefactor' in math mode.
 \reserved@b ->\spacefactor 
                            \@m 
-l.145     \newpage
+l.146     \newpage
                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5153,28 +3001,28 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no Ë in font zptmcm7v!
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-main.tex:145: You can't use `\spacefactor' in math mode.
+main.tex:146: You can't use `\spacefactor' in math mode.
 \reserved@b ->\spacefactor 
                            \@m 
-l.145     \newpage
+l.146     \newpage
                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5183,18 +3031,18 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no Ë in font zptmcm7v!
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5202,18 +3050,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5221,18 +3069,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-main.tex:145: Missing $ inserted.
+main.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \newpage
+l.146     \newpage
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5240,169 +3088,21 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[25] (main.gls)
+[26] (main.gls)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.acr)
-[26] (Anhang.tex
-
-Anhang.tex:5: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \newline
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Anhang.tex:6: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \newline
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Anhang.tex:8: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \newline
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Anhang.tex:9: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \newline
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3).pn
-g, id=560, 1085.05376pt x 266.9975pt>
-File: Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (
-3).png Graphic file (type png)
-<use Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3
-).png>
-Package pdftex.def Info: Bilder/Objektorientiertes Design/Sequence diagram for 
-ressource booking (3).png  used on input line 12.
-(pdftex.def)             Requested size: 213.39568pt x 52.50633pt.
-
-Anhang.tex:13: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \caption
-             {Sequenzdiagramm f√ºr die Anwendung}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png, id=56
-1, 1341.01pt x 504.88625pt>
-File: Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png G
-raphic file (type png)
-<use Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png>
-Package pdftex.def Info: Bilder/Objektorientiertes Design/Use Case diagram ress
-ource booking.png  used on input line 19.
-(pdftex.def)             Requested size: 213.39568pt x 80.33661pt.
-
-Anhang.tex:20: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \caption
-             {Use-Case-Diagramm f√ºr die Anwendung}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[27 <./Bilder/Objektorientiertes Design/Sequence diagram for ressource booking 
-(3).png> <./Bilder/Objektorientiertes Design/Use Case diagram ressource booking
-.png>]
-<Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png, id=5
-68, 1306.8825pt x 222.8325pt>
-File: Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png 
-Graphic file (type png)
-<use Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png>
-Package pdftex.def Info: Bilder/Objektorientierte Analyse/Ressource booking act
-ivity diagramm.png  used on input line 28.
-(pdftex.def)             Requested size: 213.39568pt x 36.38495pt.
-
-
-Anhang.tex:29: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \caption
-             {Aktivit√§tsdiagramm f√ºr die Anwendung}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<Bilder/Raumanzeige_grob.jpeg, id=569, 939.51pt x 698.61pt>
-File: Bilder/Raumanzeige_grob.jpeg Graphic file (type jpg)
-<use Bilder/Raumanzeige_grob.jpeg>
-Package pdftex.def Info: Bilder/Raumanzeige_grob.jpeg  used on input line 35.
-(pdftex.def)             Requested size: 213.39568pt x 158.67285pt.
-
-Anhang.tex:36: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption
-             {Raumanzeige Mockup vom ersten Meeting}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[28 <./Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png
-> <./Bilder/Raumanzeige_grob.jpeg>]
+[27] (Anhang.tex
 
 pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=575, 597.55246pt x 845.07718pt>
+ored details.pdf, id=574, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf  used on input line 44.
+e365 room booking - censored details.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -5414,7 +3114,7 @@ File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf  used on input line 44.
+e365 room booking - censored details.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -5427,50 +3127,51 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=578, page=1, 597.55246pt x 845.07718pt>
+ored details.pdf, id=577, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page1 used on input line 44.
+e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 426.79135pt x 603.59377pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page1 used on input line 44.
+e365 room booking - censored details.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+[28]
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 1>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page1 used on input line 44.
+e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page1 used on input line 44.
+e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 1>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page1 used on input line 44.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-[29 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
-- censored details.pdf>]
+ [29 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking
+ - censored details.pdf>]
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf  used on input line 45.
+e365 room booking - censored details.pdf  used on input line 7.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -5482,7 +3183,7 @@ File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf  used on input line 45.
+e365 room booking - censored details.pdf  used on input line 7.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -5495,41 +3196,41 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=615, page=2, 597.55246pt x 845.07718pt>
+ored details.pdf, id=618, page=2, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page2 used on input line 45.
+e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page2 used on input line 45.
+e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page2 used on input line 45.
+e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page2 used on input line 45.
+e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page2 used on input line 45.
+e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 [30 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
 - censored details.pdf>]
@@ -5538,27 +3239,27 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=630, page=3, 597.55246pt x 845.07718pt>
+ored details.pdf, id=633, page=3, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 3>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 45.
+e365 room booking - censored details.pdf , page3 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 3>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 45.
+e365 room booking - censored details.pdf , page3 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 3>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 45.
+e365 room booking - censored details.pdf , page3 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 [31 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
 - censored details.pdf>]
@@ -5567,39 +3268,39 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=636, page=4, 597.55246pt x 845.07718pt>
+ored details.pdf, id=639, page=4, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 4>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 45.
+e365 room booking - censored details.pdf , page4 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 4>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 45.
+e365 room booking - censored details.pdf , page4 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
 censored details.pdf, page 4>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 45.
+e365 room booking - censored details.pdf , page4 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 [32 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
 - censored details.pdf>]
 
-Anhang.tex:46: Package caption Error: \caption outside float.
+Anhang.tex:8: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \caption
-             {Spezifikationsblatt f√ºr die Anwendung}
+l.8 \caption
+            {Spezifikationsblatt f√ºr die Anwendung}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
 section about errors.
@@ -5607,64 +3308,44 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Anhang.tex:48: LaTeX Error: There's no line here to end.
+Anhang.tex:10: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \newline
+l.10 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Anhang.tex:49: LaTeX Error: There's no line here to end.
+Anhang.tex:11: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \newline
+l.11 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-)
-
-main.tex:151: LaTeX Error: \begin{tabularx} on input line 8 ended by \end{docum
-ent}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+) (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 77305722EF7A211CA150642D3C4348F5;7480.
+(rerunfilecheck)             Checksum: 7C18FAEF3A8035937A283AF1EC95CC1B;7497.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 8 ({)
-### semi simple group (level 1) entered at line 8 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 55714 strings out of 476339
- 1244185 string characters out of 5787176
- 2327552 words of memory out of 5000000
- 74726 multiletter control sequences out of 15000+600000
- 590856 words of font info for 283 fonts, out of 8000000 for 9000
+ 55894 strings out of 476339
+ 1247439 string characters out of 5787176
+ 2294237 words of memory out of 5000000
+ 74845 multiletter control sequences out of 15000+600000
+ 603970 words of font info for 332 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -5682,9 +3363,9 @@ ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/
 Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (33 pages, 1442461 bytes).
+main.pdf (33 pages, 1244190 bytes).
 PDF statistics:
- 842 PDF objects out of 1000 (max. 8388607)
+ 845 PDF objects out of 1000 (max. 8388607)
  169 named destinations out of 1000 (max. 500000)
- 88587 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 105990 words of extra memory for PDF output out of 106986 (max. 10000000)
 

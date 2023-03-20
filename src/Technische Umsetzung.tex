@@ -157,6 +157,18 @@ Das bedeutet, dass Fehler, die dazu führen, dass die Anwendung nicht mehr funkt
 Andererseits sollten Fehler, die nicht dazu führen, dass die Anwendung nicht mehr funktioniert, klein und unauffällig dargestellt werden, damit der User nicht gestört wird.
 Es liegt nicht in der Verantwortung des Nutzers, dass die Anwendung nicht funktioniert, sondern in der Verantwortung des Entwicklers, solange es um die lokale Verarbeitung geht.
 \newline
+\newline
+Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen der Anwender und dem Server darstellt:
+\newline
+\newline
+\par\vspace{0.5cm}
+\centering
+\includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
+\par\vspace{0.5cm}
+\raggedright
+\newline
+\newline
+
 \subsubsection{Timer}
 Der Timer, welcher die übrig bleibende Zeit bis zum nächsten Termin anzeigt funktioniert, wie folgt:
 \newline
@@ -271,3 +283,40 @@ Unabhängig von der Interaktion mit der Datenbank, wird sichergestellt, dass sin
 Falls der User beispielsweise ein Bild hochlädt, welches bereits in der Datenbank, für genau den gleichen Schlüssel, vorhanden ist, wird die Anfrage an die Datenbank nicht gesendet oder falls der User versucht ein Bild aus der Datenbank zu entfernen, welches gar nicht existiert.
 \newline
 \newline
+\subsubsection{Azure Authentifizierung}\label{subsubsec:Azure Authentifizierung}
+Um die Authentifizierung zu realisieren, wurden folgende Berechtigungen benötigt:
+\newline
+\newline
+%    \begin{table}
+    \centering
+%table should not be wider than 0.8\textwidth
+\small
+    \begin{tabularx}{\textwidth}{|X|X|X|}
+        \toprule
+        \textbf{Calendars.Read} & \textbf{Delegiert} & \textbf{Lesezugriff auf Benutzerkalender}\\
+        \midrule
+        Calendars.Read.Shared & Delegiert & Benutzer und freigegebene Kalender lesen\\
+        Calendars.ReadWrite & Delegiert & Verfügt über Vollzugriff auf Benutzerkalender.\\
+        Calendars.ReadWrite.Shared & Delegiert & Benutzerdefinierte und freigegebene Kalender lesen und schreiben\\
+        email & Delegiert & E-Mail-Adresse von Benutzern anzeigen \\
+        IMAP.AccessAsUser.All & Delegiert & Read and write access to mailboxes via IMAP.\\
+        Mail.Read & Delegiert & Lesezugriff auf Benutzer-E-Mails\\
+        Mail.Send & Delegiert & E-Mails unter einem anderen Benutzernamen senden\\
+        Mail.Send.Shared & Delegiert & E-Mails im Namen anderer Benutzer senden\\
+        offline\_access & Delegiert & Zugriff auf Daten beibehalten, für die Sie Zugriff erteilt haben\\
+        OnlineMeetings.Read & Delegiert & Read user's online meetings\\
+        OnlineMeetings.ReadWrite & Delegiert & Read and create user's online meetings\\
+        openid & Delegiert & Benutzer anmelden\\
+        profile & Delegiert & Grundlegendes Profil von Benutzern anzeigen\\
+        User.Read & Delegiert & Anmelden und Benutzerprofil lesen\\
+        \bottomrule
+    \end{tabularx}
+    \caption{}
+    \label{tab:}
+%    \end{table}
+\newline
+\newline
+\raggedright
+\normalsize
+Diese werden beim erstmaligen Login, vom User, seitens Microsoft, angefordert.
+Ohne die Zustimmung des Users, wird die Anwendung nicht entsprechend den Anforderungen, funktionieren und wird weiterhin darauf hinweisen, dass der User sich anmelden soll.

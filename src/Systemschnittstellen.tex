@@ -3,9 +3,11 @@
 \subsection{Systemschnittstellen}\label{subsec:systemschnittstellen}
 Hier wird ein Mal die benötigte Kommunikation mit der Microsoft Graph API als Systemschnittstelle, tabellarisch erläutert.
 \newline
-\newline
-%first column is too wide, make everything fit into one A4 page
-\begin{tabularx}{\textwidth\footnotesize}{|l*{2}{|X}|} \hline
+%make tabularx table with two columns, the columns should take up the whole width of the page and adjust to the width of the page. Two columns.
+\footnotesize
+\begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+%\begin{tabularx}{\textwidth\footnotesize}{|l*{2}{|X}}
 %    \multicolumn{2}{|c|}{\textbf{Microsoft Graph API}}\\
     \caption{Termin buchen}
     \label{tab:TerminBuchen}
@@ -61,4 +63,5 @@ Schnittstellen: & \begin{enumerate}
                                       \end{enumerate}\\
     \hline
 \end{tabularx}
+\normalsize
 \pagebreak

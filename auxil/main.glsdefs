@@ -278,6 +278,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Objektorientierte Analyse}%
+{%
+name={Objektorientierte Analyse},%
+sort={Objektorientierte Analyse},%
+type={main},%
+first={Objektorientierte Analyse},%
+firstplural={Objektorientierte Analyses},%
+text={Objektorientierte Analyse},%
+plural={Objektorientierte Analyses},%
+description={Objektorientierte Analyse ist ein Begriff aus der Softwareentwicklung. Objektorientierte Analyse ist eine Methode, um die Anforderungen an ein System zu analysieren.},%
+descriptionplural={Objektorientierte Analyse ist ein Begriff aus der Softwareentwicklung. Objektorientierte Analyse ist eine Methode, um die Anforderungen an ein System zu analysieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{SICP}%
 {%
 name={SICP},%
