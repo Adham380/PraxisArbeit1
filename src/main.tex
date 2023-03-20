@@ -24,6 +24,7 @@
 \usepackage{tikz}
 \usepackage{longtable} % Tabellen können Seitenumbrüche enthalten
 \usepackage{listings} % Listings für Codebeispiele
+\usepackage{pdfpages} % PDFs einbinden
 \lstdefinestyle{JavaScript}
 {
     language=JavaScript,
@@ -138,10 +139,13 @@
     \input{Technische Umsetzung}
     \input{Ergebnis}
 %    cite without square brackets
-    ~\cite{JavaScript}
+    ~\nocite{*}
     \bibliographystyle{alpha}
-    \printbibliography{literatur}
+    \printbibliography
+    \newpage
     \printglossaries
+    \newpage
+    \input{Anhang}
 %  ~\cite{JavaScript}
 %    \printbibliography{title=Literaturverzeichnis}
 \end{document}

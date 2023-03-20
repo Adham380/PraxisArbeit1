@@ -2361,7 +2361,7 @@
     <bcf:citekey order="10" intorder="1">IndexedDB</bcf:citekey>
     <bcf:citekey order="11" intorder="1">caniuse-indexedDB</bcf:citekey>
     <bcf:citekey order="12" intorder="1">microsoft-graph-api-version</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">JavaScript</bcf:citekey>
+    <bcf:citekey order="13" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
