@@ -47,6 +47,87 @@
       \verb https://www.download.p4c.philips.com/files/1/10bdl4551t_00/10bdl4551t_00_pss_enggb.pdf?_ga=2.87916248.193099575.1678716502-1541604121.1678716502
       \endverb
     \endentry
+    \entry{caniuse-indexedDB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fbbf59b07c3bc25d01da66f80a849e90}{%
+           family={caniuse-indexedDB},
+           familyi={c\bibinithyphendelim i\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbbf59b07c3bc25d01da66f80a849e90}
+      \strng{fullhash}{fbbf59b07c3bc25d01da66f80a849e90}
+      \strng{bibnamehash}{fbbf59b07c3bc25d01da66f80a849e90}
+      \strng{authorbibnamehash}{fbbf59b07c3bc25d01da66f80a849e90}
+      \strng{authornamehash}{fbbf59b07c3bc25d01da66f80a849e90}
+      \strng{authorfullhash}{fbbf59b07c3bc25d01da66f80a849e90}
+      \field{labelalpha}{caniuse-indexedDB}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{caniuse-indexedDB}
+      \field{title}{caniuse-indexedDB}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://caniuse.com/indexeddb
+      \endverb
+      \verb{url}
+      \verb https://caniuse.com/indexeddb
+      \endverb
+    \endentry
+    \entry{IndexedDB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b66b856833f34a841b51c7207dbc601f}{%
+           family={IndexedDB},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b66b856833f34a841b51c7207dbc601f}
+      \strng{fullhash}{b66b856833f34a841b51c7207dbc601f}
+      \strng{bibnamehash}{b66b856833f34a841b51c7207dbc601f}
+      \strng{authorbibnamehash}{b66b856833f34a841b51c7207dbc601f}
+      \strng{authornamehash}{b66b856833f34a841b51c7207dbc601f}
+      \strng{authorfullhash}{b66b856833f34a841b51c7207dbc601f}
+      \field{labelalpha}{IndexedDB}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{IndexedDB}
+      \field{title}{IndexedDB}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+      \endverb
+    \endentry
+    \entry{interaction-design-book1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e84f722d722deaf7f33aef846fe1e1f3}{%
+           family={Alan\bibnamedelima Cooper},
+           familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={David\bibnamedelima Cronin},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           suffix={Robert\bibnamedelima Reimann},
+           suffixi={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84f722d722deaf7f33aef846fe1e1f3}
+      \strng{fullhash}{e84f722d722deaf7f33aef846fe1e1f3}
+      \strng{bibnamehash}{e84f722d722deaf7f33aef846fe1e1f3}
+      \strng{authorbibnamehash}{e84f722d722deaf7f33aef846fe1e1f3}
+      \strng{authornamehash}{e84f722d722deaf7f33aef846fe1e1f3}
+      \strng{authorfullhash}{e84f722d722deaf7f33aef846fe1e1f3}
+      \field{labelalpha}{interaction-design-book1}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{shorthand}{interaction-design-book1}
+      \field{title}{About Face: The Essentials of Interaction Design}
+      \field{year}{2007}
+      \field{dateera}{ce}
+    \endentry
     \entry{JavaScript}{misc}{}
       \name{author}{1}{}{%
         {{hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
@@ -72,6 +153,33 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      \endverb
+    \endentry
+    \entry{Microsoft-Graph-Explorer}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=efc936ef6324689d1f1661d345bac4b9}{%
+           family={Microsoft-Graph-Explorer},
+           familyi={M\bibinithyphendelim G\bibinithyphendelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{efc936ef6324689d1f1661d345bac4b9}
+      \strng{fullhash}{efc936ef6324689d1f1661d345bac4b9}
+      \strng{bibnamehash}{efc936ef6324689d1f1661d345bac4b9}
+      \strng{authorbibnamehash}{efc936ef6324689d1f1661d345bac4b9}
+      \strng{authornamehash}{efc936ef6324689d1f1661d345bac4b9}
+      \strng{authorfullhash}{efc936ef6324689d1f1661d345bac4b9}
+      \field{labelalpha}{Microsoft-Graph-Explorer}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{Microsoft-Graph-Explorer}
+      \field{title}{Microsoft-Graph-Explorer}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://developer.microsoft.com/en-us/graph/graph-explorer
+      \endverb
+      \verb{url}
+      \verb https://developer.microsoft.com/en-us/graph/graph-explorer
       \endverb
     \endentry
     \entry{microsoftGraphApi}{misc}{}

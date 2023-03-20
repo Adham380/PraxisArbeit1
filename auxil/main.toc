@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {3.3}Microsoft Bookings}{6}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Microsoft Power Automate}{6}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{7}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Theorie}{7}{section.4}%
+\contentsline {section}{\numberline {4}Theoretische Grundlagen}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Microsoft Graph API}{7}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Ist-Zustand}{8}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Soll-Zustand}{9}{section.5}%
@@ -34,13 +34,15 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Benutzte Hardware und Software}{12}{subsubsection.6.2.2}%
 \contentsline {subsubsection}{\numberline {6.2.3}Weiterentwicklung der groben Planung}{13}{subsubsection.6.2.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}Ablauf der Entwicklung}{13}{subsubsection.6.2.4}%
-\contentsline {subsubsection}{\numberline {6.2.5}Timer}{14}{subsubsection.6.2.5}%
-\contentsline {subsubsection}{\numberline {6.2.6}Persistente Datenspeicherung}{15}{subsubsection.6.2.6}%
+\contentsline {subsubsection}{\numberline {6.2.5}Rest-Anfragen}{14}{subsubsection.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.6}Timer}{14}{subsubsection.6.2.6}%
+\contentsline {subsubsection}{\numberline {6.2.7}Persistente Datenspeicherung}{15}{subsubsection.6.2.7}%
 \contentsline {section}{\numberline {7}Ergebnis}{17}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Visuelle Darstellung}{17}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Performance}{19}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Test 1}{19}{subsubsection.7.2.1}%
 \contentsline {subsubsection}{\numberline {7.2.2}Test 2}{19}{subsubsection.7.2.2}%
 \contentsline {subsubsection}{\numberline {7.2.3}Test 3}{19}{subsubsection.7.2.3}%
-\contentsline {section}{\numberline {8}Glossar}{20}{section.8}%
+\contentsline {subsection}{\numberline {7.3}Fazit}{20}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Glossar}{21}{section.8}%
 \contentsfinish 

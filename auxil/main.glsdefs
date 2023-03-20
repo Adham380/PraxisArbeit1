@@ -82,17 +82,17 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{UserJourney}%
+\glsdefs@newdocentry{User Journey}%
 {%
-name={UserJourney},%
-sort={UserJourney},%
+name={User Journey},%
+sort={User Journey},%
 type={main},%
-first={UserJourney},%
-firstplural={UserJourneys},%
-text={UserJourney},%
-plural={UserJourneys},%
-description={UserJourney ist ein Begriff aus der User Experience Design. UserJourney ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.},%
-descriptionplural={UserJourney ist ein Begriff aus der User Experience Design. UserJourney ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.},%
+first={User Journey},%
+firstplural={User Journeys},%
+text={User Journey},%
+plural={User Journeys},%
+description={User Journey ist ein Begriff aus der User Experience Design. User Journey ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.},%
+descriptionplural={User Journey ist ein Begriff aus der User Experience Design. User Journey ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -261,6 +261,62 @@ text={LED Strips},%
 plural={LED Stripss},%
 description={LED Strips sind eine Art von LED Leuchtmittel. LED Strips sind in der Regel lang und dünn und werden in Streifen angebracht.},%
 descriptionplural={LED Strips sind eine Art von LED Leuchtmittel. LED Strips sind in der Regel lang und dünn und werden in Streifen angebracht.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SICP}%
+{%
+name={SICP},%
+sort={SICP},%
+type={main},%
+first={SICP},%
+firstplural={SICPs},%
+text={SICP},%
+plural={SICPs},%
+description={SICP steht für Serial (Ethernet) Interface Communication Protocol. SICP ist ein Protokoll, das es ermöglicht, mit dem Display, an der OS vorbei, zu kommunizieren.},%
+descriptionplural={SICP steht für Serial (Ethernet) Interface Communication Protocol. SICP ist ein Protokoll, das es ermöglicht, mit dem Display, an der OS vorbei, zu kommunizieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{caniuse}%
+{%
+name={caniuse.com},%
+sort={caniuse.com},%
+type={main},%
+first={caniuse.com},%
+firstplural={caniuse.coms},%
+text={caniuse.com},%
+plural={caniuse.coms},%
+description={Caniuse is a website that shows you browser support for various features and includes references to the relevant specifications.},%
+descriptionplural={Caniuse is a website that shows you browser support for various features and includes references to the relevant specifications.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

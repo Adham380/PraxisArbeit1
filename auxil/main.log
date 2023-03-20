@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  15 MAR 2023 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  20 MAR 2023 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1773,7 +1773,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (titlepage.tex
-<Bilder/doohMedia.jpg, id=178, 200.75pt x 200.75pt>
+<Bilder/doohMedia.jpg, id=186, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 10.
@@ -2067,27 +2067,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
  []
 
-[6]) (theorie.tex) (istZustand.tex [7] [8]
+[6]) (Theoretische Grundlagen.tex) (istZustand.tex [7]
+Underfull \hbox (badness 10000) in paragraph at lines 19--30
+
+ []
+
+[8]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 43.
+(hyperref)                than one, level fixed on input line 46.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--59
-
- []
-
-<Bilder/GrafikdesignerMockup.png, id=306, 871.00406pt x 543.53062pt>
-File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
-<use Bilder/GrafikdesignerMockup.png>
-Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 61
-.
-(pdftex.def)             Requested size: 341.43437pt x 213.06255pt.
+<Bilder/Workflow Terminbuchung.png, id=318, 770.88pt x 578.16pt>
+File: Bilder/Workflow Terminbuchung.png Graphic file (type png)
+<use Bilder/Workflow Terminbuchung.png>
+Package pdftex.def Info: Bilder/Workflow Terminbuchung.png  used on input line 
+61.
+(pdftex.def)             Requested size: 341.43437pt x 256.07619pt.
 
 istZustand.tex:62: Package caption Error: \caption outside float.
 
@@ -2096,6 +2091,54 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.62 \caption
+             {Workflow Terminbuchung}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+istZustand.tex:66: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[9 <./Bilder/Workflow Terminbuchung.png>]
+
+istZustand.tex:75: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Bilder/GrafikdesignerMockup.png, id=326, 871.00406pt x 543.53062pt>
+File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
+<use Bilder/GrafikdesignerMockup.png>
+Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 78
+.
+(pdftex.def)             Requested size: 341.43437pt x 213.06255pt.
+
+istZustand.tex:79: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \caption
              {GrafikdesignerMockup}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2103,8 +2146,8 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[9 <./Bilder/GrafikdesignerMockup.png>]) (vorgehensweise.tex [10]
-<Bilder/mockup.png, id=322, 782.925pt x 434.62375pt>
+) (vorgehensweise.tex [10 <./Bilder/GrafikdesignerMockup.png>]
+<Bilder/mockup.png, id=336, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
 Package pdftex.def Info: Bilder/mockup.png  used on input line 12.
@@ -2127,26 +2170,26 @@ If that doesn't work, type  X <return>  to quit.
 
 ) (Technische Umsetzung.tex [11 <./Bilder/mockup.png>]
 
-Technische Umsetzung.tex:29: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:35: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \newline
+l.35 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:51: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:64: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \newline
+l.64 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2154,7 +2197,7 @@ or  <return>  to continue without it.
 
 [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-29.
+41.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -2165,60 +2208,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-Technische Umsetzung.tex:132: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:144: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Technische Umsetzung.tex:133: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 168.
-
-Technische Umsetzung.tex:175: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Technische Umsetzung.tex:176: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 \newline
+l.144 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [14]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 194.
+
+
+Technische Umsetzung.tex:201: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 Technische Umsetzung.tex:202: LaTeX Error: There's no line here to end.
 
@@ -2232,66 +2250,80 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[15]
 
-Technische Umsetzung.tex:203: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:229: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 \newline
+l.229 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:212: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:230: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.212 \newline
+l.230 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:213: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:239: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 \newline
+l.239 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:226: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:240: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 Das sind etwas über 70 \%\)
+l.240 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:253: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 Das sind etwas über 70 \%\)
                                    der verfügbaren Speicherkapazität.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:227: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:254: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 ...n auszugehen, dass die restlichen 10 \%\)
+l.254 ...n auszugehen, dass die restlichen 10 \%\)
                                                    für andere Daten schon v...
 
 Your command was ignored.
@@ -2299,13 +2331,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 Zudem ist zu betrachten, dass die \"\)
+l.255 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2313,13 +2345,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 Zudem ist zu betrachten, dass die \"\)
+l.255 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2327,13 +2359,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 Zudem ist zu betrachten, dass die \"\).\"\)
+l.255 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2341,13 +2373,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 Zudem ist zu betrachten, dass die \"\).\"\)
+l.255 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2355,13 +2387,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 ...rwendet wurde, während wiederum die \"\)
+l.255 ...rwendet wurde, während wiederum die \"\)
                                                   ,\"\) Schreibweise für di...
 
 Your command was ignored.
@@ -2369,13 +2401,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 ...rwendet wurde, während wiederum die \"\)
+l.255 ...rwendet wurde, während wiederum die \"\)
                                                   ,\"\) Schreibweise für di...
 
 Your command was ignored.
@@ -2383,13 +2415,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 ...et wurde, während wiederum die \"\),\"\)
+l.255 ...et wurde, während wiederum die \"\),\"\)
                                                    Schreibweise für die mat...
 
 Your command was ignored.
@@ -2397,13 +2429,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:228: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:255: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 ...et wurde, während wiederum die \"\),\"\)
+l.255 ...et wurde, während wiederum die \"\),\"\)
                                                    Schreibweise für die mat...
 
 Your command was ignored.
@@ -2411,13 +2443,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 Dies hat den Hintergrund, dass die \"\)
+l.256 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2425,13 +2457,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 Dies hat den Hintergrund, dass die \"\)
+l.256 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2439,13 +2471,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 Dies hat den Hintergrund, dass die \"\),\"\)
+l.256 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2453,13 +2485,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:229: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:256: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 Dies hat den Hintergrund, dass die \"\),\"\)
+l.256 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2467,41 +2499,41 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 IndexedDB unterstützt die Eigenschaft \"\)
-                                                 .unique\"\), welche dafür ...
+l.262 IndexedDB unterstützt die Eigenschaft \"\)
+                                                 unique\"\), welche dafür s...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 IndexedDB unterstützt die Eigenschaft \"\)
-                                                 .unique\"\), welche dafür ...
+l.262 IndexedDB unterstützt die Eigenschaft \"\)
+                                                 unique\"\), welche dafür s...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 ...erstützt die Eigenschaft \"\).unique\"\)
+l.262 ...terstützt die Eigenschaft \"\)unique\"\)
                                                   , welche dafür sorgt, das...
 
 Your command was ignored.
@@ -2509,21 +2541,21 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:235: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:262: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 ...erstützt die Eigenschaft \"\).unique\"\)
+l.262 ...terstützt die Eigenschaft \"\)unique\"\)
                                                   , welche dafür sorgt, das...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (Ergebnis.tex [15] [16]
-<Bilder/Ergebnis.png, id=389, 720.44156pt x 455.45157pt>
+) (Ergebnis.tex [16]
+<Bilder/Ergebnis.png, id=417, 720.44156pt x 455.45157pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 11.
@@ -2544,7 +2576,7 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_LaufenderTermin.png, id=390, 722.7pt x 450.18187pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=418, 722.7pt x 450.18187pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2579,7 +2611,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=397, 721.19438pt x 451.6875pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=425, 721.19438pt x 451.6875pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2601,19 +2633,19 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Ergebnis_lightMode.png, id=398, 720.44156pt x 449.42906pt>
+<Bilder/Ergebnis_lightMode.png, id=426, 720.44156pt x 449.42906pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
-Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 53.
+Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 55.
 (pdftex.def)             Requested size: 341.43437pt x 212.99411pt.
 
-Ergebnis.tex:54: Package caption Error: \caption outside float.
+Ergebnis.tex:56: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54     \caption
+l.56     \caption
                  {Prototyp im light-Modus}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2622,26 +2654,26 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Ergebnis.tex:58: LaTeX Error: There's no line here to end.
+Ergebnis.tex:60: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \newline
+l.60 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:59: LaTeX Error: There's no line here to end.
+Ergebnis.tex:61: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \newline
+l.61 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2649,107 +2681,112 @@ or  <return>  to continue without it.
 
 [18 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
 
-Ergebnis.tex:67: LaTeX Error: There's no line here to end.
+Ergebnis.tex:69: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \newline
+l.69 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:68: LaTeX Error: There's no line here to end.
+Ergebnis.tex:70: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \newline
+l.70 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:70: Package glossaries Error: Glossary entry `Event-Listener' has 
+Ergebnis.tex:72: Package glossaries Error: Glossary entry `Event-Listener' has 
 not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \gls{Event-Listener}{
+l.72 \gls{Event-Listener}{
                           name={Event-Listener},description={Ein Event-Liste...
 
 You need to define a glossary entry before you can use it.
 
 
-Ergebnis.tex:71: Package glossaries Error: Glossary entry `Event-Listener' has 
+Ergebnis.tex:73: Package glossaries Error: Glossary entry `Event-Listener' has 
 not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...die vergeht, bis der \gls{Event-Listener} 
+l.73 ...die vergeht, bis der \gls{Event-Listener} 
                                                   das Menü darstellt.
 You need to define a glossary entry before you can use it.
 
 
-Ergebnis.tex:76: LaTeX Error: There's no line here to end.
+Ergebnis.tex:78: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \newline
+l.78 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:77: LaTeX Error: There's no line here to end.
+Ergebnis.tex:79: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \newline
+l.79 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:84: LaTeX Error: There's no line here to end.
+Ergebnis.tex:86: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \newline
+l.86 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Ergebnis.tex:85: LaTeX Error: There's no line here to end.
+Ergebnis.tex:87: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 \newline
+l.87 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+[19 <./Bilder/Ergebnis_lightMode.png>]
+
+LaTeX Warning: Citation 'microsoft-graph-api-version' on page 20 undefined on i
+nput line 105.
 
 )
 
@@ -2765,21 +2802,29 @@ l.142     \bibliographystyle{alpha}
 Use the package option 'style' instead.
 I'm ignoring this command.
 
-[19 <./Bilder/Ergebnis_lightMode.png>] (main.gls [20])
+[20] (main.gls)
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.acr)
 [21] (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5C280B52EE44292F094BC0626BD26524;6436.
+(rerunfilecheck)             Checksum: 78E81FC5DC4AA796146784F3B03865FA;6735.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54649 strings out of 476339
- 1218329 string characters out of 5787176
- 2291764 words of memory out of 5000000
- 73729 multiletter control sequences out of 15000+600000
- 588681 words of font info for 285 fonts, out of 8000000 for 9000
+ 54762 strings out of 476339
+ 1220924 string characters out of 5787176
+ 2313243 words of memory out of 5000000
+ 73817 multiletter control sequences out of 15000+600000
+ 589944 words of font info for 296 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2790,15 +2835,16 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 1095.pk>{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
 .enc} <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ectt0900.pk><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
-MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+/amsfonts/cm/cmmi10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mboehme/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (22 pages, 641495 bytes).
+main.pdf (22 pages, 711362 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 88456 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 656 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 88477 words of extra memory for PDF output out of 89155 (max. 10000000)
 

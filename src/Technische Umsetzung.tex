@@ -1,7 +1,8 @@
 %! Author = mboehme
 %! Date = 23.02.2023
 
-\subsection{Technische Umsetzung}
+\subsection{Technische Umsetzung}\label{subsec:technische-umsetzung}
+
 \subsubsection{Grobe Planung}
 Das Ganze wird als eine Azure App deployt.
 Diese lässt localhost Verbindungen zu und gibt einem die Möglichkeit das ganze als Single Page Application zu entwickeln, mit einem lokalen cookie cache für den eingeloggten Account.
@@ -18,7 +19,12 @@ So ist die URL durchgehend, auf allen Geräten, identisch, damit die OAuth 2.0 U
 Durch den Verzicht auf einen Webserver werden kosten eingespart, da Updates eher selten passieren sollten.
 \newline
 Zudem ist es für die Sicherheit der Nutzer so viel besser, da wir deshalb keinen Zugriff auf ihre Daten haben.
-Zeiten müssen ISO 8601 Konform sein bei jeglichen API Anfragen an die Microsoft Graph API\@.
+Zeiten müssen, bei jeglichen API Anfragen an die Microsoft Graph API, ISO 8601 Konform sein \@.
+Dies ist wichtig, da Zeitzonen des Nutzers, ungleich der Zeitzonen der Server, sein können.
+Außerdem können Sommer- und Winterzeiten unterschiedlich sein, was zu Problemen führen kann.
+Es muss also bei der Datenverarbeitung darauf geachtet werden, dass die Zeiten immer ISO 8601 Konform sind, aber bei der Anzeige, kann man die Zeiten in die Zeitzone des Nutzers umrechnen.
+Beispielsweise, im Terminbuchungsmenü, muss dem Nutzer die Zeit angezeigt werden, die lokal für ihn gilt.
+Sobald dieser Termin aber gebucht wird, muss die Zeit in die Zeitzone des Servers umgerechnet werden, damit die Buchung auch dort korrekt verarbeitet wird.
 \newline
 \pagebreak
 \subsubsection{Benutzte Hardware und Software}
@@ -31,7 +37,14 @@ Die Hardware ist ein Philips~\cite{10BDL4551T/00} Display.
 Dieses Display ist ein 10 Zoll (ca. 25 cm) Touchscreen.
 Es hat eine Auflösung von 1280x800 Pixeln und benutzt Android.
 Dieses Display ist für Digital Signage gedacht und kann so auch als solches verwendet werden.
-Die eingebauten RGB LED Strips können per SICP angesteuert werden.
+\newglossaryentry{SICP}{name=SICP, description={SICP steht für Serial (Ethernet) Interface Communication Protocol.
+SICP ist ein Protokoll, das es ermöglicht, mit dem Display, an der OS vorbei, zu kommunizieren.}}
+Die eingebauten RGB LED Strips können per~\gls{SICP} angesteuert werden.
+Dafür braucht wird Dory-Node.js genutzt, um auf einen lokalen Server zu hören und die Anfragen an das Display weiterzuleiten.
+Es wird dafür keine Internetverbindung benötigt, da kein Websocket benötigt wird.
+Die Details der SICP Daten sind öffentlich schwierig zu finden, aber im Internet sind einige Beispiele zu finden.
+Befehle werden in Hexadezimal geschrieben und an das Display gesendet.
+Die Verschlüsselung passiert, indem ein XOR aller vorausgehenden Bytes genommen und als checksum mitgegeben wird.
 \newline
 \newline
 Software:
@@ -116,7 +129,7 @@ Das Feedback wurde dann, falls sinnvoll, in die Anwendung eingearbeitet.
 Solche praktischen Tests sind sehr wichtig, um Intuitivität und Benutzerfreundlichkeit zu gewährleisten.
 Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, andererseits aber auch um Fehler zu finden, die nicht vorgesehen waren, indem Monkey Testing~\cite{Monkey-Testing-Book1} betrieben wird.
 \newline
-
+\subsubsection{Rest-Anfragen}
 Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
 Die Daten wurden dabei in JSON Format zurückgegeben.
 Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
@@ -124,12 +137,25 @@ Es wurden die Klauseln \("\$\)filter\("\) und \("\$\)top\("\) verwendet, um nur 
 Eine Sortierung ist nicht notwendig, da die Termine bereits nach Startzeit sortiert sind.
 Hier sieht man die oData v4 API Anfrage:
 \newline
-
 %add javascript code formatting
 \begin{lstlisting}[language=javascript,label={lst:JavaScript oData v4 API Anfrage}]
      let url =  "https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime" +  "ge"  + "${todayDate} and end/dateTime le ${tomorrowDate}&$top=300";
 \end{lstlisting}
 \newline
+Es wurden im Voraus, Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
+Jedoch hat sich herausgestellt, dass der Microsoft Graph Explorer nicht korrekt funktioniert und teilweise Befehle nicht entgegennimmt, die laut Microsoft Dokumentation funktionieren sollten.
+Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfragen korrekt funktionieren und auch im Request-Response Zyklus keine Fehler auftreten.
+\newline
+\newline
+Falls die Anfrage nicht funktioniert, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit unterbrochen ist.
+Wie Fehlermeldungen behandelt werden sollten, findet man im folgenden Buch: ~\cite{interaction-design-book1}.
+Fehlermeldungen sollten immer so gestaltet sein, dass sie den User nicht verunsichern, sondern ihn auf die Lösung des Problems hinweisen.
+Auch bei der Gestaltung der Fehlermeldung sollte darauf geachtet werden, dass sie nicht zu lang ist, da der User sonst nicht mehr weiß, was er tun soll.
+Bei Kiosk Anwendungen ist es besonders wichtig, dass die Fehlermeldungen kurz und prägnant sind, da der User ohnehin in einer Situation ist, in der er wahrscheinlich nicht viel Zeit hat.
+Genaueres dazu, befindet sich, im genannten Buch, unter dem Kapitel \("Errors, Alerts, and Confirmation"\) und unter dem Kapitel \("Platform and Posture - Designing for kiosks"\).
+Das bedeutet, dass Fehler, die dazu führen, dass die Anwendung nicht mehr funktioniert, groß und auffällig dargestellt werden sollten, damit der User sie nicht übersehen kann und versteht, dass er die Anwendung nicht mehr nutzen kann, bis das Problem behoben wurde.
+Andererseits sollten Fehler, die nicht dazu führen, dass die Anwendung nicht mehr funktioniert, klein und unauffällig dargestellt werden, damit der User nicht gestört wird.
+Es liegt nicht in der Verantwortung des Nutzers, dass die Anwendung nicht funktioniert, sondern in der Verantwortung des Entwicklers, solange es um die lokale Verarbeitung geht.
 \newline
 \subsubsection{Timer}
 Der Timer, welcher die übrig bleibende Zeit bis zum nächsten Termin anzeigt funktioniert, wie folgt:
@@ -182,8 +208,9 @@ Um die Daten der Anwendung zu speichern, wurde für kleinere Datensätze der Loc
 Dieser ist in jedem Browser verfügbar und darf bis zu 5 MB groß sein.
 \newline
 \newline
-Für größere Datensätze wurde IndexedDB verwendet.
-Dies ist eine NoSQL Datenbank, die in jedem Browser verfügbar ist.
+Für größere Datensätze wurde IndexedDB~\cite{IndexedDB} verwendet.
+\newglossaryentry{caniuse}{name={caniuse.com},description={Caniuse is a website that shows you browser support for various features and includes references to the relevant specifications.}}
+Dies ist eine NoSQL Datenbank, die in jedem gängigen Browser~\cite{caniuse-indexedDB} (\gls{caniuse}) verfügbar ist.
 Die maximale Größe bei Chrome beträgt 80\(\%\) des verfügbaren Speichers.
 Da es im Internet viele, sich widersprechende Angaben zu dieser Größe gibt, wurde diese manuell, mit folgendem Code, in der Konsole des Browsers, getestet:
 \newline
@@ -232,7 +259,7 @@ Dies hat den Hintergrund, dass die \"\),\"\) Schreibweise in JavaScript nicht gr
 Die Datenbank befindet sich aufgrund ihrer geringen Komplexität in der 5. Normalform.
 Der Schlüssel besteht aus dem Namen der Firma, zu der, das Logo gehört und gibt das nicht Primärattribut zurück, welches das Bild, in Base64, enthält.
 Schlüssel müssen eindeutig sein.
-IndexedDB unterstützt die Eigenschaft \"\).unique\"\), welche dafür sorgt, dass der Schlüssel eindeutig ist.
+IndexedDB unterstützt die Eigenschaft \"\)unique\"\), welche dafür sorgt, dass der Schlüssel eindeutig ist.
 Jedoch gehen wir auch manuell noch einmal sicher, dass der Schlüssel eindeutig ist, also dass sich dieser, noch nicht in der Datenbank befindet.
 Eine weitere Aufteilung würde zu Informationsverlust führen, da der Firmenname eindeutig ist.
 \newline

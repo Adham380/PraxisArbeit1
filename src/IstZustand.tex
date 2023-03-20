@@ -8,24 +8,26 @@
 % Document
 \pagebreak
 \subsection{Ist-Zustand}\label{sec:ist-zustand}
-Die Muttergesellschaft der DOOH media GmbH und einige Schwesterunternehmen nutzen Microsoft 365 und Office 365.
-Diese Produkte sind sehr umfangreich und bieten viele Funktionen.
-Die heutzutage gängige und weit verbreitete Terminplanung per Outlook oder Teams ist eines dieser Funktionen.
-Diese Funktion ist nicht so praktikabel wie ein Anwender das gerne hätte.
-Vor allem nicht, wenn mehrere Unternehmen, das gleiche Gebäude und die gleiche Organisations-E-Mail besitzen.
-\newline
-//UserJourney Beispiel einfügen
-\newline
-Falls ein User zufällig an einem Raum vorbeigeht oder vor einem Raum steht und sich fragt, ob dieser Raum belegt ist oder nicht, muss er erstmal Outlook oder Teams auf einem Gerät öffnen, zum Kalender des jeweiligen Raumes, falls er darauf überhaupt Zugriff hat und dann schauen, ob dieser Raum belegt ist oder nicht.
-Dies ist sehr umständlich und kann sehr viel Zeit in Anspruch nehmen.
-\newglossaryentry{UserJourney}{
-    name=UserJourney,
-    description={UserJourney ist ein Begriff aus der User Experience Design. UserJourney ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.}
+\newglossaryentry{User Journey}{
+    name=User Journey,
+    description={User Journey ist ein Begriff aus der User Experience Design. User Journey ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.}
 }
 \newglossaryentry{UserInterface}{
     name=UserInterface,
     description={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.}
 }
+Die Muttergesellschaft der DOOH media GmbH und einige Schwesterunternehmen nutzen Microsoft 365 und Office 365.
+Diese Produkte sind sehr umfangreich und bieten viele Funktionen.
+Die heutzutage gängige und weit verbreitete Terminplanung per Outlook oder Teams ist eines dieser Funktionen.
+Diese Funktion ist nicht so praktikabel wie sie es sein könnte.
+Vor allem nicht, wenn mehrere Unternehmen, das gleiche Gebäude und die gleiche Organisations-E-Mail besitzen.
+Microsoft versucht so viele Nutzer wie möglich abzudecken und bietet vorzugsweise mehr Funktionen an, als weniger.
+Dadurch ist die~\gls{User Journey}, also der Weg, den ein User durchläuft, um ein Ziel zu erreichen, sehr umständlich.
+\newline
+\newline
+Falls ein User zufällig an einem Raum vorbeigeht oder vor einem Raum steht und sich fragt, ob dieser Raum belegt ist oder nicht, muss er erstmal Outlook oder Teams auf einem Gerät öffnen, zum Kalender des jeweiligen Raumes, falls er darauf überhaupt Zugriff hat und dann schauen, ob dieser Raum belegt ist oder nicht.
+Dies ist sehr umständlich und kann sehr viel Zeit in Anspruch nehmen.
+
 
 %\subsection{Definitionen}\label{subsec:definitionen}
 %\begin{itemize}
@@ -35,7 +37,7 @@ Dies ist sehr umständlich und kann sehr viel Zeit in Anspruch nehmen.
 %    \item \gls{HTTP}: HTTP steht für Hypertext Transfer Protocol. HTTP ist ein Protokoll, das es einem erlaubt auf Daten zuzugreifen.
 %    \item \gls{JSON}: JSON steht für JavaScript Object Notation. JSON ist ein Datenformat, das es einem erlaubt Daten zu speichern und zu übertragen.
 %    \item \gls{OAuth}: OAuth ist ein Protokoll, das es einem erlaubt sich mit einem Account anzumelden und somit auf Daten zuzug#
-%    \item \gls{UserJourney}: \gls{UserJourney} ist ein Begriff aus der User Experience Design. \gls{UserJourney} ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.
+%    \item \gls{User Journey}: \gls{User Journey} ist ein Begriff aus der User Experience Design. \gls{User Journey} ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.
 %    \item \gls{UserInterface}: \gls{UserInterface} ist ein Begriff aus der User Experience Design. \gls{UserInterface} ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.
 %\end{itemize}
 \pagebreak
@@ -53,9 +55,23 @@ Falls der Termin gerade stattfindet, soll dieser rot dargestellt werden, falls e
 Sollte am heutigen Tag kein Termin stattfinden, wird der Raumstatus weiterhin grün dargestellt, jedoch wird der Text \("\)Keine weiteren Termine für Heute\("\) angezeigt.
 Das Userinterface soll also eine Übersicht über die Termine des Raumes und einen Button zum Vereinbaren eines Termins enthalten.
 \newline
-Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurde ein Design für das User Interface erstellt.
+Hier ein Workflowdiagramm, welches den Ablauf der Terminbuchung beschreibt.
+\par\vspace{1cm}
+\centering
+\includegraphics[width=0.8\textwidth]{Bilder/Workflow Terminbuchung}
+\caption{Workflow Terminbuchung}
+\label{fig:Workflow Terminbuchung}
+\par\vspace{1cm}
+\raggedright
 \newline
-%User Interface Design einfügen
+Die Rechtecke stellen die einzelnen Schritte des Anwenders dar.
+Pfeile zeigen den Ablauf des Anwenders.
+Entscheidungen der Software werden durch die Pfeile mit einem Pfeilspitze dargestellt.
+Falls diese Entscheidung zu einer Änderung der Daten führt, wird die Folge als Parallelogramm dargestellt.
+\newline
+\newline
+Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurde ein Design für das User Interface erstellt.
+
 \newline
 \par\vspace{1cm}
 \centering

@@ -29,7 +29,7 @@ Diese Logos können an alle Geräte gleichzeitig versendet werden, indem ein spe
 Diese Logos können hinzugefügt, gelöscht oder aktualisiert werden.
 Aus Sicherheitsgründen werden die genaueren Befehle der Schnittstelle hier nicht genannt.
 \newline
-Es wird immer nur der erste Gast angezeigt, da das so vom Kunden gewünscht wurde.
+Es wird nur der erste Gast angezeigt, da das so vom Kunden gewünscht wurde.
 \newline
 Die Uhrzeit wird, immer, in der Zeitzone des Tablets angezeigt.
 \newline
@@ -43,8 +43,10 @@ Hier sieht man nochmal das Menü, wo ein Termin gebucht werden kann, welches dur
 \par\vspace{1cm}
 \raggedright
 Wie zu sehen ist, ist beispielsweise die selbsterstellte Option \("\)Jetzt\("\) deaktiviert, da das Ende des hypothetischen Termins innerhalb von 15 Minuten vom nächsten anstehenden Termin beginnt.
-Diese Pufferzeit wurde so mit dem Kunden abgesprochen.
-Auf die anderen Optionen hat ein Anwender hier wenig Einfluss, da sie von den Einstellungen des Kalenders, des jeweiligen Nutzers, abhängen und es somit in der Verantwortung des Nutzers liegt, diese zu ändern.
+Diese Pufferzeit ist so mit dem Kunden abgesprochen.
+Es werden alle möglichen Termine, innerhalb der Arbeitszeiten, für den Jetzigen und nächsten Tag angezeigt.
+Falls z.B. der nächste Tag ein Feiertag ist, werden für den nächsten Tag keine Termine angezeigt.
+Auf die anderen Optionen, wie z.B. Pufferzeiten, hat ein Anwender hier wenig Einfluss, da sie von den Einstellungen des Kalenders, des jeweiligen Nutzers, abhängen und es somit in der Verantwortung des Administrators liegt, diese zu ändern.
 \newline
 \newline
 Hier die normale Ansicht nochmal, aber im light-Modus:
@@ -93,5 +95,28 @@ Einerseits ist das schnell genug für die Anwendung und gibt den langsamen Gerä
 Sollte dieses Limit überschritten werden, verlangsamt Microsoft die Anzahl an neuen Antworten auf die Anfragen.
 Da Microsoft auch Zeit benötigt, um die Anfragen zu bearbeiten und die neuen Daten bei sich zu verarbeiten, würde der Anwender den Unterschied selten bemerken.
 Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann oder will.
+\newline
+\newline
+\subsection{Fazit}\label{subsec:fazit}
+Die Microsoft Graph API ist eine sehr mächtige Schnittstelle, die es ermöglicht, mit einer Vielzahl an Microsoft Diensten zu interagieren.
+Für die Anwendung wurde die Schnittstelle genutzt, um Termine zu erstellen, zu löschen und zu aktualisieren.
+Außerdem wurde die Schnittstelle genutzt, um die Logos der anderen Termine zu erhalten.
+Die Schnittstelle wurde nicht vollständig genutzt, da die Anwendung nicht alle Funktionen benötigt, aber bietet für die Zukunft viele Erweiterungsmöglichkeiten.
+Zudem ist die API recht neu und wird ständig weiterentwickelt~\cite{microsoft-graph-api-version}.
+Es Anwendung wurde mit der Version 1.0 der API entwickelt.
+Für den Anwendungsfall des Kunden ist die API ausreichend, da die Anwendung nur Termine erstellen, löschen und aktualisieren muss.
+Der einzige Nachteil ist, dass Azure AD, die Authentifizierung, für Ressourcenkonten nicht unterstützt, die beispielsweise, in Teams, genutzt werden.
+Daher muss der Anwender sich mit einem Microsoft-Konto anmelden, welcher die Ressource repräsentieren soll.
+Dies kann zu Verwirrung führen, da die Terminologie impliziert, man könne sich mit einem Ressourcenkonto anmelden.
+\newline
+\newline
+Trotzdem ist die Anwendung eine gute Basis für weitere Erweiterungen und war die richtige Wahl für diesen Kundenauftrag.
+Ressourcen- und Terminplanung wurde mit der Anwendung vereinfacht, für Office365 Nutzer, definitiv vereinfacht.
+Ein Anwender braucht nur noch drei Klicks, um einen Termin zu erstellen und muss nicht mehr zwischen verschiedenen Kalendern hin und her wechseln.
+Zudem benötigt er nur ein Mal auf den Bildschirm zu schauen, um zu sehen, wann die Ressource, die durch die Software repräsentiert wird, frei ist und wann der Anwender gegegebenenfalls einen Termin besitzt (Anhand der Logos).
+\newline
+\newline
+Die Anwendung kann natürlich auch für menschliche Ressourcen genutzt werden, da die Anwendung keine Unterscheidung zwischen menschlichen und nicht-menschlichen Ressourcen macht.
+Solche Entscheidungen obliegen dem Anwender.
 \newline
 \newline
