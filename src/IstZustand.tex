@@ -17,12 +17,15 @@
     description={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.}
 }
 Die Muttergesellschaft der DOOH media GmbH und einige Schwesterunternehmen nutzen Microsoft 365 und Office 365.
+%Gehört in office365 und microsoft365
 Diese Produkte sind sehr umfangreich und bieten viele Funktionen.
 Die heutzutage gängige und weit verbreitete Terminplanung per Outlook oder Teams ist eines dieser Funktionen.
 Diese Funktion ist nicht so praktikabel wie sie es sein könnte.
 Vor allem nicht, wenn mehrere Unternehmen, das gleiche Gebäude und die gleiche Organisations-E-Mail besitzen.
+%Warum ist das so blöd? Aus Zusammenfassung rausnehmen und hier rein
 Microsoft versucht so viele Nutzer wie möglich abzudecken und bietet vorzugsweise mehr Funktionen an, als weniger.
-Dadurch ist die~\gls{User Journey}, also der Weg, den ein User durchläuft, um ein Ziel zu erreichen, sehr umständlich.
+%user journey und Kernproblemen
+Dadurch ist die~\gls{User Journey}, also der Weg, den ein User durchläuft, um ein Ziel zu erreichen, womöglich umständlicher als notwendig.
 \newline
 \newline
 Falls ein User zufällig an einem Raum vorbeigeht oder vor einem Raum steht und sich fragt, ob dieser Raum belegt ist oder nicht, muss dieser erstmal Outlook oder Teams auf einem Gerät öffnen, zum Kalender des jeweiligen Raumes, falls er darauf überhaupt Zugriff hat und dann schauen, ob dieser Raum belegt ist oder nicht.
@@ -42,21 +45,24 @@ Dies ist umständlich und kann viel Zeit in Anspruch nehmen.
 %\end{itemize}
 \pagebreak
 \subsection{Soll-Zustand}\label{sec:soll-zustand}
-
+%Soll der Soll-Zustand mit einem use case beschrieben werden oder reicht es im Fließtext zu beschreiben?
 \subsubsection{Anforderungen}\label{subsec:anforderungen}
 Ein User soll am Bildschirm eines Tablets, welches vor dem Raum angebracht wird, erkennen können, ob dieser Raum belegt ist oder nicht.
 Welche Termine am heutigen und nächsten Tag anstehen soll einfach ersichtlich sein.
 Zudem möchte der Kunde einen Termin, am Gerät, vereinbaren können.
 Der User soll also nicht mehr auf Outlook oder Teams angewiesen sein, sondern kann direkt am Bildschirm des Tablets sehen, ob der Raum belegt ist oder nicht.
 Zudem soll der Raumstatus farbig dargestellt werden, sodass der User sofort erkennen kann, ob der Raum belegt ist oder nicht, sowohl am User Interface, als auch an den LED Strips des Tablets.
-\subsubsection{User Interface}\label{subsec:user-interface}
-Das User Interface soll, so gestaltet sein, dass der User sofort erkennen kann, ob der Raum belegt ist oder nicht.
+Die Benutzeroberfläche soll, so gestaltet sein, dass der User sofort erkennen kann, ob der Raum belegt ist oder nicht.
 Des Weiteren soll das \gls{UserInterface} so gestaltet sein, dass der User auch Termine für den Raum vereinbaren kann.
-Dafür wird die Hintergrundfarbe des Containers, in dem der Raumstatus angezeigt wird, in Abhängigkeit vom Raumstatus, rot, gelb oder grün sein.
-Falls der Termin gerade stattfindet, soll dieser rot dargestellt werden, falls er innerhalb der nächsten 15 Minuten stattfindet, soll er gelb dargestellt werden und falls er in der Zukunft stattfindet, soll er grün dargestellt werden.
-Sollte am heutigen Tag kein Termin stattfinden, wird der Raumstatus weiterhin grün dargestellt, jedoch wird der Text \("\)Keine weiteren Termine für Heute\("\) angezeigt.
+
+\subsubsection{User Interface}\label{subsec:user-interface}
 Das Userinterface soll also eine Übersicht über die Termine des Raumes und einen Button zum Vereinbaren eines Termins enthalten.
+Es wird die Hintergrundfarbe des Containers, in dem der Raumstatus angezeigt wird, in Abhängigkeit vom Raumstatus, rot, gelb oder grün sein.
+Falls ein Termin gerade stattfindet, soll dieser rot dargestellt werden, falls ein Termin innerhalb der nächsten 15 Minuten stattfindet, soll er gelb dargestellt werden und ansonsten grün.
+%Neue Komponente einführen.
+Sollte am heutigen Tag kein Termin stattfinden, wird der Raumstatus weiterhin grün dargestellt, jedoch wird der Text \("\)Keine weiteren Termine für Heute\("\) angezeigt.
 \newline
+\subsubsection{User Flow}\label{subsubsec:user-flow}
 Hier ein Workflowdiagramm, welches den Ablauf der Terminbuchung beschreibt.
 \par\vspace{1cm}
 \centering
@@ -72,6 +78,7 @@ Entscheidungen der Software werden durch die Pfeile mit einem Pfeilspitze darges
 Falls diese Entscheidung zu einer Änderung der Daten führt, wird die Folge als Parallelogramm dargestellt.
 \newline
 \newline
+%Bild erläutern
 Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurde ein Design für das User Interface erstellt.
 
 \newline
@@ -83,16 +90,17 @@ Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurd
 \par\vspace{1cm}
 \raggedright
 Dieses Design, ist jedoch in seiner Ausführung nicht praktikabel.
+%Was heißt überhaupt kontrastreich
 Es wurden nicht die gängigen Konventionen für kontrastreiche Farben und Schriftarten berücksichtigt.
 Beispielsweise sind die dunkelgrauen Boxen mit einem fast schwarzen Hintergrund der Seite und einem fast weißen Text nicht gut differenzierbar.
 Des Weiteren wurde bei der Erstellung des Designs nicht genug auf die kleine Auflösung und Displaygröße des Tablets geachtet.
-Dies sind alles Eigenschaften und Variablen, die bei der Gestaltung des Userinterface noch beachten sollte.
+Dies sind alles Eigenschaften und Variablen, die bei der Gestaltung des Userinterfaces noch beachtet sollte.
 \newline
 Das Design existiert, in sechs Versionen, die sich in darin unterscheiden, ob sie gerade im \("\)Dark Mode\("\) oder \("\)Light Mode\("\) sind und basierend auf ihrem Belegungsstatus, mit den Farben rot, gelb und grün.
 \newline
 \newglossaryentry{Responsive Design}{name={Responsive Design}, description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.}}
 
-\gls{Responsive Design} wurde hier nur für das Format berücksichtigt, da die Anwendung nur für Tablets und Desktops im Landscape-Modus gedacht ist.
+\gls{Responsive Design} wurde hier nur für das Format berücksichtigt, da die Anwendung nur für Tablets und Desktops in horizontaler Ausrichtung gedacht ist.
 \newglossaryentry{DarkMode}{
     name=DarkMode,
     description={Dark Mode ist ein Begriff aus der User Experience Design. Dark Mode ist ein Modus, bei dem der Hintergrund dunkel ist und der Text hell.}

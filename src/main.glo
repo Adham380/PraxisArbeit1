@@ -1,6 +1,8 @@
 \glossaryentry{Single Page Application (SPA)?\glossentry{SPA}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{Total-Blocking-Time (TBT)?\glossentry{TBT}|setentrycounter[]{page}"\glsnumberformat}{3}
-\glossaryentry{RESTful?\glossentry{RESTful}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{REST API?\glossentry{REST API}|setentrycounter[]{page}"\glsnumberformat}{6}
+\glossaryentry{RESTful?\glossentry{RESTful}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{Kiosk-Modus?\glossentry{Kiosk-Modus}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{User Journey?\glossentry{User Journey}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{UserInterface?\glossentry{UserInterface}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{Responsive Design?\glossentry{Responsive Design}|setentrycounter[]{page}"\glsnumberformat}{12}

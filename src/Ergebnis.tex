@@ -3,7 +3,7 @@
 
 \newpage
 \section{Ergebnis}\label{sec:ergebnis}
-Das Ergebnis sieht wie folgt aus:
+Abgleich der Ergebnisse mit den Soll-Anforderungen.
 \subsection{Visuelle Darstellung}\label{subsec:visuelle-darstellung}
 %include two images
 \par\vspace{1cm}
@@ -27,14 +27,12 @@ Solch ein Logo kann dargestellt werden, indem beim Erstellen des Termins, außer
 Die anderen Logos sind alle Logos vom Gast des Termins.
 Diese Logos können an alle Geräte gleichzeitig versendet werden, indem ein spezieller Termin erstellt wird, der nur für die Logos gedacht ist und eine einzigarte ID, sowie Befehle enthält, die dann das Bild, inklusive Firmennamen, in einer lokalen Datenbank abspeichert.
 Diese Logos können hinzugefügt, gelöscht oder aktualisiert werden.
-Aus Sicherheitsgründen werden die genaueren Befehle der Schnittstelle hier nicht genannt.
 \newline
-Es wird nur der erste Gast angezeigt, da das so vom Kunden gewünscht wurde.
-\newline
-Die Uhrzeit wird, immer, in der Zeitzone des Tablets angezeigt.
+Die Uhrzeit wird immer in der Zeitzone des Tablets angezeigt.
 \newline
 \newline
-Hier sieht man nochmal das Menü, wo ein Termin gebucht werden kann, welches durch das Drücken des Plus-Symbols aufgerufen wird:
+%Das gehört in sollzustand.
+Hier sieht man das Menü, in welchem ein Termin gebucht werden kann, welches durch das Drücken des Plus-Symbols aufgerufen wird:
 \par\vspace{1cm}
     \centering
     \includegraphics[width=0.8\textwidth]{Bilder/Ergebnis_TerminErstellen_Menue}
@@ -43,13 +41,12 @@ Hier sieht man nochmal das Menü, wo ein Termin gebucht werden kann, welches dur
 \par\vspace{1cm}
 \raggedright
 Wie zu sehen ist, ist beispielsweise die selbsterstellte Option \("\)Jetzt\("\) deaktiviert, da das Ende des hypothetischen Termins innerhalb von 15 Minuten vom nächsten anstehenden Termin beginnt.
-Diese Pufferzeit ist so mit dem Kunden abgesprochen.
 Es werden alle möglichen Termine, innerhalb der Arbeitszeiten, für den Jetzigen und nächsten Tag angezeigt.
 Falls z.B. der nächste Tag ein Feiertag ist, werden für den nächsten Tag keine Termine angezeigt.
 Auf die anderen Optionen, wie z.B. Pufferzeiten, hat ein Anwender hier wenig Einfluss, da sie von den Einstellungen des Kalenders, des jeweiligen Nutzers, abhängen und es somit in der Verantwortung des Administrators liegt, diese zu ändern.
 \newline
 \newline
-Hier die normale Ansicht nochmal, aber im light-Modus:
+Hier die normale Ansicht nochmal, im hellen Design:
 \par\vspace{1cm}
     \centering
     \includegraphics[width=0.8\textwidth]{Bilder/Ergebnis_lightMode}
@@ -59,12 +56,14 @@ Hier die normale Ansicht nochmal, aber im light-Modus:
 \raggedright
 \newline
 \newline
+%Eigenes Kapitel
 \subsection{Performance}\label{subsec:performance}
 Die Performance einer \gls{SPA} zu messen ist trotz der geringen Komplexität der Anwendung, nicht simpel.
 Auch die gängige Total-Blocking-Time Messung ist nicht zwingend sinnvoll, da die Anwendung nicht für den Nutzer, während der Nutzung, blockiert ist, sondern lediglich die Daten vom Server geladen werden, um anschließend die Nutzung der Anwendung sinnvoll zu ermöglichen.
 Daher wurden manuell einige Tests durchgeführt, um die Performance zu messen.
 \newline
 \newline
+%Tests brauchen Namen
 \subsubsection{Test 1}\label{subsubsec:test-1}
 \newline
 \newline
@@ -78,7 +77,9 @@ Es dauert im Durchschnitt 2ms, bis das Menü angezeigt wird.
 \newline
 \newline
 Wie viele Bilder pro Sekunde zeigt die Anwendung durchschnittlich an?
+\newglossaryentry{LightHouse}{name={LightHouse},description={LightHouse ist ein Tool, welches von Google entwickelt wurde, um die Performance einer Website zu messen.}}
 Dies wurde mithilfe von LightHouse gemessen.
+%Aussage bewerten
 Die Anwendung zeigt durchschnittlich 60 Bilder pro Sekunde an.
 \newline
 \newline
@@ -89,12 +90,13 @@ Die Anwendung zeigt durchschnittlich 60 Bilder pro Sekunde an.
 Wie oft, kann die Anwendung theoretisch und praktisch pro Sekunde aktualisiert werden?
 Für jede Kombination aus Azure App und E-Mail-Adresse, dürfen 10000 Anfragen pro 10 Minuten gemacht werden.
 Dies sind 16,6 Anfragen pro Sekunde.
-Praktisch wurden eine bis drei Anfragen, je nach Bedarf, pro drei Sekunden gemacht.
+Praktisch wurden eine bis drei Anfragen, je nach Bedarf, pro drei Sekunden durchgeführt.
 Pro Sekunde wären das also 0,33 bis 1 Anfragen.
+%langsamen Geräten erwähnen, dass das Phillips Ding langsam ist
 Einerseits ist das schnell genug für die Anwendung und gibt den langsamen Geräten, genug Zeit, die Anwendung zu aktualisieren, andererseits hat man so genug Anfragen übrig, falls jemand sein Konto mit mehreren Geräten benutzt oder dies in Kombinationen mit anderen Applikationen verwendet.
 Sollte dieses Limit überschritten werden, verlangsamt Microsoft die Anzahl an neuen Antworten auf die Anfragen.
 Da Microsoft auch Zeit benötigt, um die Anfragen zu bearbeiten und die neuen Daten bei sich zu verarbeiten, würde der Anwender den Unterschied selten bemerken.
-Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann oder will.
+Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann.
 \newline
 \newline
 \subsection{Fazit}\label{subsec:fazit}
@@ -102,17 +104,18 @@ Die Microsoft Graph API ist eine sehr mächtige Schnittstelle, die es ermöglich
 Für die Anwendung wurde die Schnittstelle genutzt, um Termine zu erstellen, zu löschen und zu aktualisieren.
 Außerdem wurde die Schnittstelle genutzt, um die Logos der anderen Termine zu erhalten.
 Die Schnittstelle wurde nicht vollständig genutzt, da die Anwendung nicht alle Funktionen benötigt, aber bietet für die Zukunft viele Erweiterungsmöglichkeiten.
-Zudem ist die API recht neu und wird ständig weiterentwickelt~\cite{microsoft-graph-api-version}.
-Es Anwendung wurde mit der Version 1.0 der API entwickelt.
+Zudem ist die API neu und wird ständig weiterentwickelt~\cite{microsoft-graph-api-version}.
+Die Anwendung wurde mit der Version 1.0 der API entwickelt.
 Für den Anwendungsfall des Kunden ist die API ausreichend, da die Anwendung nur Termine erstellen, löschen und aktualisieren muss.
 Der einzige Nachteil ist, dass Azure AD, die Authentifizierung, für Ressourcenkonten nicht unterstützt, die beispielsweise, in Teams, genutzt werden.
 Daher muss der Anwender sich mit einem Microsoft-Konto anmelden, welcher die Ressource repräsentieren soll.
 Dies kann zu Verwirrung führen, da die Terminologie impliziert, man könne sich mit einem Ressourcenkonto anmelden.
 \newline
 \newline
-Trotzdem ist die Anwendung eine gute Basis für weitere Erweiterungen und war die richtige Wahl für diesen Kundenauftrag.
-Ressourcen- und Terminplanung wurde mit der Anwendung vereinfacht, für Office365 Nutzer, definitiv vereinfacht.
+Die API war die richtige Wahl für diesen Kundenauftrag.
+Ressourcen- und Terminplanung wurde mit der Anwendung vereinfacht.
 Ein Anwender braucht nur noch drei Klicks, um einen Termin zu erstellen und muss nicht mehr zwischen verschiedenen Kalendern hin und her wechseln.
+%Aua, Fixen, umformen
 Zudem benötigt er nur ein Mal auf den Bildschirm zu schauen, um zu sehen, wann die Ressource, die durch die Software repräsentiert wird, frei ist und wann der Anwender gegebenenfalls einen Termin besitzt (Anhand der Logos).
 \newline
 \newline
@@ -120,12 +123,13 @@ Die Anwendung kann auch für menschliche Ressourcen genutzt werden, da die Anwen
 Solche Entscheidungen obliegen dem Anwender.
 \newline
 \newline
-Zusammenfassend kann gesagt werden, dass die Anwendung eine gute Basis für weitere Erweiterungen ist und die Anforderungen des Kunden, so erfüllt.
-Damit geht einher, dass die Ziele der Praxisarbeit erreicht wurden.
+Zusammenfassend kann gesagt werden, dass die Anwendung eine gute Basis für weitere Erweiterungen ist und die Anforderungen des Kunden so erfüllt.
+Damit geht einher, dass die Ziele erreicht wurden.
 \pagebreak
 \newline
 Abschließend folgt noch ein Bild des Gerätes mit der Anwendung, welches im Kundenbetrieb genutzt wird.
 \newline
+%Überleg dir was Anderes. Das ist hässlich.
 \par\vspace{1cm}
     \centering
     \includegraphics[width=0.5\textwidth]{Bilder/FertigesProdukt}

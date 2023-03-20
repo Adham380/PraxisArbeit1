@@ -82,6 +82,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Kiosk-Modus}%
+{%
+name={Kiosk-Modus},%
+sort={Kiosk-Modus},%
+type={main},%
+first={Kiosk-Modus},%
+firstplural={Kiosk-Moduss},%
+text={Kiosk-Modus},%
+plural={Kiosk-Moduss},%
+description={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.},%
+descriptionplural={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{User Journey}%
 {%
 name={User Journey},%

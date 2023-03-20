@@ -2,42 +2,51 @@
 %! Date = 23.02.2023
 
 % Preamble
-\section{Abgrenzung zu ähnlichen Produkten}
-\subsection{Microsoft Teams}
+%Problemanalyse davor. (Zusammenfassung)
+%Dies kommt in den Lösungsentwurf
+\section{Abgrenzung zu ähnlichen Produkten}\label{sec:abgrenzung-zu-ahnlichen-produkten}
+
+\subsection{Microsoft Teams}\label{subsec:microsoft-teams}
 Microsoft Teams ermöglicht Terminbuchungen genauso, erlaubt jedoch zu detaillierte Eingriffe in das Konto, welcher für den Raum vorgesehen ist.
 Einstellungen, die nicht verändert werden sollten, können dann erreicht werden.
+%erläutern welche Einstellungen
 \newline
-\subsection{Outlook}
+\subsection{Outlook}\label{subsec:outlook}
 Outlook ist ein E-Mail-Programm, welches ebenfalls Terminbuchungen ermöglicht.
 Outlook ist jedoch nicht für die Terminbuchung in Konferenzräumen gedacht und kann je nach E-Mail-Konto-Typ nicht in vollem Umfang genutzt werden und ist zudem nicht immer vollständig synchronisiert.
 Auch hier können Einstellungen, die nicht verändert werden sollten, erreicht werden und Kalender eingesehen werden, die nur für Administratoren gedacht sind.
 \newline
-\subsection{Microsoft Bookings}
+\subsection{Microsoft Bookings}\label{subsec:microsoft-bookings}
 Microsoft Bookings ist eine weitere Applikation, die Terminbuchungen ermöglicht.
 Sie wird hauptsächlich für Terminbuchungen in beispielsweise Friseursalons, Fitnessstudios oder ähnlichen Geschäften genutzt.
 Dies ist jedoch der falsche Anwendungsfall für die Terminbuchung in Konferenzräumen.
 Auch die Einschränkungen und Freiheiten, die diese Applikation bietet, sind hier nicht passend.
+%Einscrhänkungen und Freiheiten erläutern
 \newline
 \subsection{Microsoft Power Automate}\label{subsec:microsoft-power-automate}
 Microsoft Power Automate ist eine Applikation, die es ermöglicht, Workflows zu erstellen.
 Diese Workflows können dann automatisiert ausgeführt werden.
 Diese kann auch ähnliche Funktionen wie die Applikation, die in dieser Arbeit entwickelt wird, bieten.
 Jedoch ist die Freigabe dieser Applikationen nur für innerhalb der Organisationen vorgesehen und nicht für Kunden.
+%erläutern
 \pagebreak
+%Warum pagebreak?
 \subsection{Spezifische Gründe für die Entwicklung einer eigenen Applikation}\label{subsec:spezifische-grunde-fur-die-entwicklung-einer-eigenen-applikation}
-Wenn ein Kunde bei der DOOH media GmbH einkauft, kauft er im Regelfall ein einigermaßen volles Paket.
-Dieses Paket inkludiert die Möglichkeit die Geräte in einen sogenannten Kiosk-Modus zu versetzen.
+Wenn ein Kunde bei der DOOH media GmbH einkauft, kauft er im Regelfall ein umfangreiches Softwarepaket.
+\newglossaryentry{Kiosk-Modus}{name=Kiosk-Modus, description={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.}}
+Dieses Paket inkludiert die Möglichkeit die Geräte in einen sogenannten~\gls{Kiosk-Modus} zu versetzen.
 Dafür haben wir eine eigene Applikation, die Oxygen Player App, entwickelt.
 Zudem haben wir eine \("\)OMS\("\)-Lösung (Oxygen Media Server), die es ermöglicht, die Inhalte auf den Geräten zu verwalten.
-Falls der Kunde also zu bestimmten Zeiten eigene Inhalte oder Inhalte von diversen Anbietern, auf den Geräten, zu bestimmten Uhrzeiten, darstellen möchte, kann er dies über die \("\)OMS\("\)-Lösung tun.
+Falls der Kunde also zu bestimmten Zeiten eigene Inhalte oder Inhalte von externen Anbietern, auf den Geräten, darstellen möchte, kann er dies über die \("\)OMS\("\)-Lösung tun.
 Diese Inhalte werden dann auf den Geräten abgespielt.
 \newline
-Die Idee ist hier also, dass der Kunde nicht an die Terminbuchungs-Webapplikation gebunden ist, sondern diese Applikation nur als zusätzliche Funktion anbietet.
+Die Idee ist hier, dass der Kunde nicht an die Terminbuchungs-Webapplikation gebunden ist, sondern diese Applikation nur als zusätzliche Funktion angeboten bekommt.
 Viele der Softwarelösungen, die schon für genau diesen Anwendungsfall existieren, beinhalten Bindungen an andere Softwarelösungen, die der Kunde nicht benötigt.
-Sie machen es dem Kunden schwer, die Softwarelösung zu nutzen, da er sich mit anderen Softwarelösungen auseinandersetzen muss, die er nicht benötigt und gegebenfalls nicht in einem Kiosk-Modus laufen können oder parallel zu unserer restlichen Software, die der Kunde haben möchte.
-Außerdem erforden einige dieser Softwarelösungen eine Installation auf dem Gerät oder erzwingen Konten-Registrierungen, die der Kunde nicht benötigt.
+Sie machen es dem Kunden schwer, die Softwarelösung zu nutzen, da er sich mit anderen Softwarelösungen auseinandersetzen muss, die er nicht benötigt und die gegebenenfalls nicht in einem Kiosk-Modus laufen können oder parallel zu unserer restlichen Software, die der Kunde haben möchte.
+Außerdem erfordern einige dieser Softwarelösungen eine Installation auf dem Gerät oder erzwingen Konten-Registrierungen, die der Kunde nicht benötigt.
 \newline
-Die Applikation, die in dieser Arbeit entwickelt wird, soll es hingegen ermöglichen, dass diese Softwarelösung ohne weitere Softwarelösungen genutzt werden kann, aber auch ohne Probleme mit anderen Softwarelösungen genutzt werden kann, solange die anderen Softwarelösungen, von sich aus, keine Konflikte mit der Terminbuchungs-Webapplikation verursachen.
+%Gehört in den Soll-Zustand
+Die Alternativprodukte, die in den vorherigen Abschnitten beschrieben wurden, erfüllen nicht alle Anforderungen, die der Kunde an die Softwarelösung hat.
 Alles wird lokal auf dem Gerät abgespielt und es wird keine Installation auf dem Gerät benötigt.
 Es wird keine Registrierung eines Kontos benötigt und niemand kann die Daten von außerhalb, außer natürlich Microsoft, einsehen, da wirklich alles lokal gehostet wird.
 Die Inhalte werden dynamisch auf dem Gerät geladen und verarbeitet.

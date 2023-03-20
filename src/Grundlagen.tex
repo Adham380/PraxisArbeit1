@@ -9,14 +9,17 @@ Um die Arbeit in vollem Umfang zu verstehen, ist es wichtig, dass die Grundlagen
 Eine Webanwendung ist eine Anwendung, die über einen Browser aufgerufen werden.
 Manche Webanwendungen sind auch Offline nutzbar.
 \subsubsection{Vor- und Nachteile von Webanwendungen}
-Eine Webanwendung ermöglicht es, dass die Anwendung von jedem Endgerät aus aufgerufen werden kann, welches über eine Internetverbindung verfügt.
+Eine Webanwendung ermöglicht es, dass die Anwendung von jedem Endgerät, welches über eine Internetverbindung verfügt, aus aufgerufen werden kann.
+%Sie sind es nicht, sie können es sein
 Webanwendungen sind effizient, benötigen wenig Speicherplatz, sind heutzutage gut abgesichert und aufgrund von der Tatsache, dass vieles standardisiert ist, gut wartbar.
 \newline
 \newline
 Ein Nachteil von Webanwendungen ist, dass nicht alle Offline nutzbar sind.
-Sie sind zudem nicht so schnell wie manche Desktopanwendungen und heutzutage auf die Verwendung von ~\cite{JavaScript} und all den Frameworks, die damit verbunden sind, angewiesen, welche oftmals umfangreich sind und Dependenzen haben, die weiterhin gepflegt werden müssen.
-Dies führt oftmals dazu, dass falls eine Abhängigkeit nicht mehr gepflegt wird und andere geupdatet werden müssen, die Anwendung eventuell nicht mehr funktioniert.
-Zudem ist die JavaScript Sprache nicht immer Fehler abfangend wie andere Sprachen und lässt Kompilierungen zu, die dann im Laufzeitfehler enden.
+%Einfacher gestalten, pls. Simple Sätze
+Sie sind zudem nicht so schnell wie manche Desktopanwendungen und heutzutage auf die Verwendung von ~\cite{JavaScript} und unterschiedlichen Frameworks, die damit verbunden sind, angewiesen, welche oftmals umfangreich sind und Dependenzen haben, die weiterhin gepflegt werden müssen.
+Dies führt oftmals dazu, dass falls eine Abhängigkeit nicht mehr gepflegt wird und andere geupdatet werden müssen und die Anwendung eventuell nicht mehr funktioniert.
+Javascript lässt Laufzeitfehler zu.
+%Das sind Glossareinträge. Fixen
 \subsubsection{Was ist JavaScript?}
 JavaScript ist eine Skriptsprache, die auf ECMAScript basiert.
 \subsubsection{Was ist ECMAScript?}
@@ -45,3 +48,28 @@ Node.js ist eine JavaScript Laufzeitumgebung, die auf dem V8 JavaScript Engine v
 %Ein Bundler ist ein Programm, das es ermöglicht, mehrere Dateien zu einer einzigen Datei zusammenzufassen.
 %\subsubsection{Was ist ein Linter?}
 %Ein Linter ist ein Programm, das es ermöglicht, die Codequalität zu überprüfen.
+
+%Erklären was die Microfosft Graph API ist. Nicht mehr. Aufzählung etc. weg
+\subsection{Microsoft Graph API}\label{subsec:microsoft-graph-api}
+Die Microsoft Graph API ist eine \gls{RESTful} web API, die es einem erlaubt auf Daten von Microsoft 365 und Office 365 zuzugreifen.
+\newglossaryentry{RESTful}{
+    name=RESTful,
+    description={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.}
+}
+Mithilfe dieser API wurde das Projekt letztendlich umgesetzt.
+Weitere standen jedoch zur Verfügung:
+\begin{itemize}
+    \item Microsoft Outlook API
+    \item Microsoft Exchange API
+    \item Microsoft SharePoint API
+    \item Microsoft OneDrive API
+    \item Microsoft Teams API
+    \item Microsoft Power Automate
+\end{itemize}
+Einige dieser APIs, sind nur für bestimmte Microsoft 365 und Office 365 Abonnements verfügbar.
+Die Microsoft Graph API ist jedoch, derzeit, für alle Abonnements verfügbar.
+Zudem ist die Microsoft Graph API die einzige API, die es einem erlaubt auf alle Daten von Microsoft 365 und Office 365 zuzugreifen, da sie die meisten anderen APIs integriert.
+Der wichtigste Faktor bei der Entscheidung war es jedoch, dass die Microsoft Graph API, mithilfe von Azure AD, die Authentifizierung und Autorisierung von Benutzern erlaubt.
+Dies ist für die Anwendung von großer Bedeutung, da es dem Benutzer ermöglicht sich mit seinem Microsoft 365 oder Office 365 Account anzumelden und somit auf seine Daten zuzugreifen.
+%Gehört nicht hier hin, sondern Vorgehensweise
+
