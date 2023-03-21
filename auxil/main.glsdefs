@@ -54,17 +54,17 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{RESTful}%
+\glsdefs@newdocentry{Native Sprache}%
 {%
-name={RESTful},%
-sort={RESTful},%
+name={Native Sprache},%
+sort={Native Sprache},%
 type={main},%
-first={RESTful},%
-firstplural={RESTfuls},%
-text={RESTful},%
-plural={RESTfuls},%
-description={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
-descriptionplural={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
+first={Native Sprache},%
+firstplural={Native Spraches},%
+text={Native Sprache},%
+plural={Native Spraches},%
+description={Eine Sprache, die nicht erst übersetzt werden muss, sondern direkt ausgeführt werden kann.},%
+descriptionplural={Eine Sprache, die nicht erst übersetzt werden muss, sondern direkt ausgeführt werden kann.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -82,17 +82,45 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{Kiosk-Modus}%
+\glsdefs@newdocentry{Frameworks}%
 {%
-name={Kiosk-Modus},%
-sort={Kiosk-Modus},%
+name={Frameworks},%
+sort={Frameworks},%
 type={main},%
-first={Kiosk-Modus},%
-firstplural={Kiosk-Moduss},%
-text={Kiosk-Modus},%
-plural={Kiosk-Moduss},%
-description={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.},%
-descriptionplural={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.},%
+first={Frameworks},%
+firstplural={Frameworkss},%
+text={Frameworks},%
+plural={Frameworkss},%
+description={Eine Sammlung von Bibliotheken, die es ermöglichen, schneller und einfacher eine Anwendung zu entwickeln.},%
+descriptionplural={Eine Sammlung von Bibliotheken, die es ermöglichen, schneller und einfacher eine Anwendung zu entwickeln.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RESTful}%
+{%
+name={RESTful},%
+sort={RESTful},%
+type={main},%
+first={RESTful},%
+firstplural={RESTfuls},%
+text={RESTful},%
+plural={RESTfuls},%
+description={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
+descriptionplural={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -149,6 +177,62 @@ text={UserInterface},%
 plural={UserInterfaces},%
 description={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.},%
 descriptionplural={UserInterface ist ein Begriff aus der User Experience Design. UserInterface ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Container}%
+{%
+name={Container},%
+sort={Container},%
+type={main},%
+first={Container},%
+firstplural={Containers},%
+text={Container},%
+plural={Containers},%
+description={Ein Container ist ein Element, welches andere Elemente enthält.},%
+descriptionplural={Ein Container ist ein Element, welches andere Elemente enthält.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Header}%
+{%
+name={Header},%
+sort={Header},%
+type={main},%
+first={Header},%
+firstplural={Headers},%
+text={Header},%
+plural={Headers},%
+description={Ein Header ist ein Element, welches bei HTML Seiten, die in einem Browser angezeigt werden, oben angezeigt wird.},%
+descriptionplural={Ein Header ist ein Element, welches bei HTML Seiten, die in einem Browser angezeigt werden, oben angezeigt wird.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -334,6 +418,118 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Kiosk-Modus}%
+{%
+name={Kiosk-Modus},%
+sort={Kiosk-Modus},%
+type={main},%
+first={Kiosk-Modus},%
+firstplural={Kiosk-Moduss},%
+text={Kiosk-Modus},%
+plural={Kiosk-Moduss},%
+description={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.},%
+descriptionplural={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{deployen}%
+{%
+name={deployen},%
+sort={deployen},%
+type={main},%
+first={deployen},%
+firstplural={deployens},%
+text={deployen},%
+plural={deployens},%
+description={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.},%
+descriptionplural={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{localhost}%
+{%
+name={localhost},%
+sort={localhost},%
+type={main},%
+first={localhost},%
+firstplural={localhosts},%
+text={localhost},%
+plural={localhosts},%
+description={Die lokale Adresse des Computers, auf dem die Anwendung läuft.},%
+descriptionplural={Die lokale Adresse des Computers, auf dem die Anwendung läuft.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Digital Signage}%
+{%
+name={Digital Signage},%
+sort={Digital Signage},%
+type={main},%
+first={Digital Signage},%
+firstplural={Digital Signages},%
+text={Digital Signage},%
+plural={Digital Signages},%
+description={Digital Signage ist eine Art von Werbung, die durch digitale Medien wie Displays, Fernseher oder Computer angezeigt wird.},%
+descriptionplural={Digital Signage ist eine Art von Werbung, die durch digitale Medien wie Displays, Fernseher oder Computer angezeigt wird.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{SICP}%
 {%
 name={SICP},%
@@ -362,6 +558,90 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Node.js Server}%
+{%
+name={Node.js Server},%
+sort={Node.js Server},%
+type={main},%
+first={Node.js Server},%
+firstplural={Node.js Servers},%
+text={Node.js Server},%
+plural={Node.js Servers},%
+description={Ein Node.js Server ist ein Server, der auf Node.js basiert und JavaScript Code ausführt.},%
+descriptionplural={Ein Node.js Server ist ein Server, der auf Node.js basiert und JavaScript Code ausführt.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{NPM}%
+{%
+name={NPM},%
+sort={NPM},%
+type={main},%
+first={NPM},%
+firstplural={NPMs},%
+text={NPM},%
+plural={NPMs},%
+description={NPM steht für Node Package Manager.},%
+descriptionplural={NPM steht für Node Package Manager.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Linter}%
+{%
+name={Linter},%
+sort={Linter},%
+type={main},%
+first={Linter},%
+firstplural={Linters},%
+text={Linter},%
+plural={Linters},%
+description={Ein Linter ist ein Programm, das es ermöglicht, Code auf Fehler zu prüfen.},%
+descriptionplural={Ein Linter ist ein Programm, das es ermöglicht, Code auf Fehler zu prüfen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{caniuse}%
 {%
 name={caniuse.com},%
@@ -373,6 +653,34 @@ text={caniuse.com},%
 plural={caniuse.coms},%
 description={Caniuse is a website that shows you browser support for various features and includes references to the relevant specifications.},%
 descriptionplural={Caniuse is a website that shows you browser support for various features and includes references to the relevant specifications.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LightHouse}%
+{%
+name={LightHouse},%
+sort={LightHouse},%
+type={main},%
+first={LightHouse},%
+firstplural={LightHouses},%
+text={LightHouse},%
+plural={LightHouses},%
+description={LightHouse ist ein Tool, welches von Google entwickelt wurde, um die Performance einer Website zu messen.},%
+descriptionplural={LightHouse ist ein Tool, welches von Google entwickelt wurde, um die Performance einer Website zu messen.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

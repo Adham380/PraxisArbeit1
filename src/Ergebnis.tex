@@ -7,25 +7,31 @@ Abgleich der Ergebnisse mit den Soll-Anforderungen.
 \subsection{Visuelle Darstellung}\label{subsec:visuelle-darstellung}
 %include two images
 \par\vspace{1cm}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Bilder/Ergebnis}
     \caption{Ergebnis mit nächstem anstehenden Termin}
     \label{fig:Ergebnis mit nächstem anstehenden Termin}
 \par\vspace{1cm}
-\raggedright
+\end{figure}
+\justifying
 \par\vspace{1cm}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Bilder/Ergebnis_LaufenderTermin}
     \caption{Ergebnis mit laufendem Termin}
     \label{fig:Ergebnis mit laufendem Termin}
 \par\vspace{1cm}
-\raggedright
+\end{figure}
+\justifying
 \newline
-Oben links im Bild, das Bild des kleinen roten Charakters, ist das Logo des Gastgebers des nächsten, beziehungsweise jetzigen, Termins zu sehen.
-Solch ein Logo kann dargestellt werden, indem beim Erstellen des Termins, außerhalb des Tablets, bei Outlook beispielsweise, ein Bild hochgeladen wird, welches im Betreff eine bestimmte Bezeichnung enthält, die hier aus Sicherheitsgründen nicht genannt werden kann.
+Oben links im Bild, ist das Logo des Gastgebers des nächsten, beziehungsweise jetzigen, Termins zu sehen.
+In diesem Fall ist dies das Logo der DOOH media GmbH\@.
+Solch ein Logo kann dargestellt werden, indem beim Erstellen des Termins, außerhalb des Tablets, bei Outlook beispielsweise, ein Bild an den Termin angehangen wird, welches im Dateinamen \("\)Termin\_Logo\("\) enthält.
 \newline
 Die anderen Logos sind alle Logos vom Gast des Termins.
-Diese Logos können an alle Geräte gleichzeitig versendet werden, indem ein spezieller Termin erstellt wird, der nur für die Logos gedacht ist und eine einzigarte ID, sowie Befehle enthält, die dann das Bild, inklusive Firmennamen, in einer lokalen Datenbank abspeichert.
+Sie werden angezeigt, indem der Firmenname im Textkörper des Termins vorkommt.
+Um diese Logos initial den Firmennamen zuzuordnen, muss ein spezieller Termin erstellt wird, der nur für die Logos gedacht ist und eine einzigarte ID, sowie einen Befehl enthält, die dann das Bild, inklusive Firmennamen, in einer lokalen Datenbank abspeichert.
 Diese Logos können hinzugefügt, gelöscht oder aktualisiert werden.
 \newline
 Die Uhrzeit wird immer in der Zeitzone des Tablets angezeigt.
@@ -33,13 +39,15 @@ Die Uhrzeit wird immer in der Zeitzone des Tablets angezeigt.
 \newline
 %Das gehört in sollzustand.
 Hier sieht man das Menü, in welchem ein Termin gebucht werden kann, welches durch das Drücken des Plus-Symbols aufgerufen wird:
+\begin{figure}[h]
 \par\vspace{1cm}
     \centering
     \includegraphics[width=0.8\textwidth]{Bilder/Ergebnis_TerminErstellen_Menue}
-    \caption{Menü}
+    \caption{Terminbuchungsmenü}
     \label{fig:Menue}
 \par\vspace{1cm}
-\raggedright
+\end{figure}
+\justifying
 Wie zu sehen ist, ist beispielsweise die selbsterstellte Option \("\)Jetzt\("\) deaktiviert, da das Ende des hypothetischen Termins innerhalb von 15 Minuten vom nächsten anstehenden Termin beginnt.
 Es werden alle möglichen Termine, innerhalb der Arbeitszeiten, für den Jetzigen und nächsten Tag angezeigt.
 Falls z.B. der nächste Tag ein Feiertag ist, werden für den nächsten Tag keine Termine angezeigt.
@@ -48,14 +56,17 @@ Auf die anderen Optionen, wie z.B. Pufferzeiten, hat ein Anwender hier wenig Ein
 \newline
 Hier die normale Ansicht nochmal, im hellen Design:
 \par\vspace{1cm}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Bilder/Ergebnis_lightMode}
-    \caption{Prototyp im light-Modus}
-    \label{fig:PrototypLight}
+    \caption{Ergebnis im hellen Design}
+    \label{fig:Ergebnis im hellen Design}
 \par\vspace{1cm}
-\raggedright
+\end{figure}
+\justifying
 \newline
 \newline
+\pagebreak
 %Eigenes Kapitel
 \subsection{Performance}\label{subsec:performance}
 Die Performance einer \gls{SPA} zu messen ist trotz der geringen Komplexität der Anwendung, nicht simpel.
@@ -131,12 +142,14 @@ Abschließend folgt noch ein Bild des Gerätes mit der Anwendung, welches im Kun
 \newline
 %Überleg dir was Anderes. Das ist hässlich.
 \par\vspace{1cm}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{Bilder/FertigesProdukt}
     \caption{Fertiges Produkt - Gerät mit der Anwendung}
     \label{fig:fertiges-produkt}
 \newline
 \newline
-\raggedright
+    \end{figure}
+\justifying
 \newpage
 \section{Literaturverzeichnis}\label{sec:literaturverzeichnis}

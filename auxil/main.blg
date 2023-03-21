@@ -1,18 +1,17 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[137] biber-MSWIN64:340> INFO - === 
-[186] Biber.pm:418> INFO - Reading 'main.bcf'
-[325] Biber.pm:975> INFO - Using all citekeys in bib section 0
-[343] Biber.pm:4401> INFO - Processing section 0
-[359] Biber.pm:4592> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[427] bibtex.pm:1713> INFO - LaTeX decoding ...
-[459] bibtex.pm:1518> INFO - Found BibTeX data source 'C:\Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\src\literatur.bib'
-[589] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[589] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[589] Biber.pm:4221> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[589] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[616] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[626] bbl.pm:757> INFO - Output to main.bbl
-[626] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\mboehme\AppData\Local\Temp\biber_tmp_q7lo\a3880c76f34ea5bee4730f185bf8bebe_19008.utf8, line 5, warning: 172 characters of junk seen at toplevel
-[626] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\mboehme\AppData\Local\Temp\biber_tmp_q7lo\a3880c76f34ea5bee4730f185bf8bebe_19008.utf8, line 70, warning: 2 characters of junk seen at toplevel
-[626] Biber.pm:132> INFO - WARNINGS: 2
+[141] biber-MSWIN64:340> INFO - === 
+[191] Biber.pm:418> INFO - Reading 'main.bcf'
+[334] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[351] Biber.pm:4401> INFO - Processing section 0
+[367] Biber.pm:4592> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[450] bibtex.pm:1713> INFO - LaTeX decoding ...
+[487] bibtex.pm:1518> INFO - Found BibTeX data source 'C:\Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\src\literatur.bib'
+[645] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[645] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[645] Biber.pm:4221> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[645] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[674] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[684] bbl.pm:757> INFO - Output to main.bbl
+[684] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\mboehme\AppData\Local\Temp\biber_tmp_Wk5Z\a3880c76f34ea5bee4730f185bf8bebe_852.utf8, line 5, warning: 172 characters of junk seen at toplevel
+[684] Biber.pm:132> INFO - WARNINGS: 1

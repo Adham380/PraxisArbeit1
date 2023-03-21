@@ -2,43 +2,10 @@
 %! Date = 23.02.2023
 
 \subsection{Technische Umsetzung}\label{subsec:technische-umsetzung}
-
-\subsubsection{Grobe Planung}
-\newglossaryentry{deployen}{name=deployen,description={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.}}
-Die Software wird als eine Azure App deployt (~\gls{deployen}).
-\newglossaryentry{localhost}{name=localhost,description={Die lokale Adresse des Computers, auf dem die Anwendung läuft.}}
-%glossareintrag für lokale cache cookies
-Diese lässt ~\gls{localhost} Verbindungen zu und gibt einem die Möglichkeit das ganze als Single Page Application zu entwickeln, mit einem lokalen cookie cache für den eingeloggten Account.
-Somit ist keine Individualisierung notwendig.
-\newline
-%new glossary entry for Dory-node.js
-Es wird, lokal, mithilfe von Dory-node.js gehostet.
-%Was ist ein phillipsdisplay
-Zudem kann dann mit dem Phillips Display die Web-Applikation aufgerufen werden und als eine Art Model eines Model-View-Controllers verwendet werden.
-\newline
-%Das Wort "Player" einführen
-Der Player benötigt auf der OMS den Content-Typen \("\)Web\("\) mit der URL: \("\)http://localhost:3000/content\("\).
-Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-node.js Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Display liegt.
-%Bitte im Soll-Zustand einführen was oAuth ist
-So ist die URL durchgehend, auf allen Geräten identisch, damit die OAuth 2.0 URI Bedingungen ~\cite{OAuth-2.0-Simplified} erfüllt sind.
-Durch den Verzicht auf einen Webserver werden kosten eingespart, da Updates eher selten passieren sollten.
-\newline
-%Es gibt keinen Datenzugang
-Zudem ist es für die Sicherheit der Nutzer so viel besser, da wir deshalb keinen Zugriff auf ihre Daten haben.
-%Soll-Zustand - ISO 8601 Konformität
-Zeiten müssen, bei jeglichen API Anfragen an die Microsoft Graph API, ISO 8601 konform sein \@.
-Dies ist wichtig, da Zeitzonen des Nutzers ungleich der Zeitzonen der Server, sein können.
-Außerdem können Sommer- und Winterzeiten unterschiedlich sein.
-Es muss also bei der Datenverarbeitung darauf geachtet werden, dass die Zeiten immer ISO 8601 konform sind.
-Bei der Anzeige müssen die Zeiten in die Zeitzone des Nutzers umrechnen.
-Beispielsweise, im Terminbuchungsmenü, muss dem Nutzer die Zeit angezeigt werden, die lokal für ihn gilt.
-Sobald dieser Termin aber gebucht wird, muss die Zeit in die Zeitzone des Servers umgerechnet werden, damit die Buchung auch dort korrekt verarbeitet wird.
-\newline
-\pagebreak
 \subsubsection{Benutzte Hardware und Software}
 \newline
 Die Hardware ist ein Philips~\cite{10BDL4551T/00} Display.
-Dieses Display ist ein 10 Zoll (ca. 25 cm) Touchscreen.
+Dieses Display ist ein 10 Zoll (ca. 25 cm diagonal) Touchscreen.
 Es hat eine Auflösung von 1280x800 Pixeln und benutzt Android.
 \newglossaryentry{Digital Signage}{name={Digital Signage}, description={Digital Signage ist eine Art von Werbung, die durch digitale Medien wie Displays, Fernseher oder Computer angezeigt wird.}}
 Dieses Display ist für Digital Signage gedacht und kann so auch als solches verwendet werden.
@@ -51,6 +18,8 @@ Dokumentationen für SICP öffentlich schwierig zu finden.
 Befehle werden als Hexadezimal Werte geschrieben und an das Display gesendet.
 %Quellenangabe
 Die Verschlüsselung passiert, indem ein XOR aller vorausgehenden Bytes genommen und als Prüfsumme mitgegeben wird.
+Diese Verschlüsselung ist von Phillips definiert.
+Sie soll lediglich verhindern, dass jemand versehentlich falsche Befehle an das Display sendet.
 \newline
 \newline
 %In Fließtext bringen
@@ -94,10 +63,48 @@ Beispielsweise wird überprüft, ob Variablen deklariert wurden, bevor sie verwe
 IntelliJ IDEA ist eine IDE, die es unter anderem ermöglicht, JavaScript Code zu schreiben und zu debuggen.
 \newline
 \newline
+\subsubsection{Grobe Planung}
+\newglossaryentry{deployen}{name=deployen,description={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.}}
+Die Software wird als eine Azure App deployt (~\gls{deployen}).
+\newglossaryentry{localhost}{name=localhost,description={Die lokale Adresse des Computers, auf dem die Anwendung läuft.}}
+\newglossaryentry{cookie cache}{name=cookie cache,description={Ein Cookie ist eine kleine Textdatei, die von einem Webserver auf dem Computer des Benutzers gespeichert wird. Cookies werden verwendet, um Informationen über den Benutzer zu speichern.}}
+Diese lässt ~\gls{localhost} Verbindungen zu und gibt einem die Möglichkeit das ganze als Single Page Application zu entwickeln, mit einem lokalen ~\gls{cookie cache} für den eingeloggten Account.
+Deshalb agiert die Anwendung erstmal nur als ein Gerüst, welches darauf wartet, dass der Benutzer sich einloggt.
+Sobald sich der Benutzer einloggt, wird die Anwendung mit den Daten des Benutzers gefüllt.
+Somit ist keine Individualisierung der Seite für verschiedene Nutzer notwendig.
+\newline
+\newglossaryentry{Azure AD}{name=Azure AD,description={Azure Active Directory ist ein Verzeichnisdienst, der von Microsoft entwickelt wurde.}}
+Der wichtigste Faktor für die Entscheidung, die Microsoft Graph API zu nutzen war, dass mithilfe von ~\gls{Azure AD}, die Authentifizierung und Autorisierung von Benutzern erlaubt.
+\newglossaryentry{Dory-node.js}{name=Dory-node.js,description={Dory-node.js ist eine Android App, die es ermöglicht, node.js Server auf einem Android Gerät zu hosten.}}
+Es wird, lokal, mithilfe von ~\gls{Dory-node.js} gehostet.
+%Was ist ein phillipsdisplay
+Zudem kann dann mit dem Phillips Display die Web-Applikation aufgerufen werden und als eine Art Model eines Model-View-Controllers verwendet werden.
+\newline
+%Das Wort "Player" einführen
+\newglossaryentry{Player}{name=Player,description={Ein Player ist ein Digital Signage Gerät, welches Inhalte anzeigt.}}
+Der ~\gls{Player} benötigt auf der OMS den Content-Typen \("\)Web\("\)
+\newline
+mit der URL: \("\)http://localhost:3000/content\("\).
+Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-node.js Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Display liegt.
+%Bitte im Soll-Zustand einführen was oAuth ist
+So ist die URL durchgehend, auf allen Geräten identisch, damit die OAuth 2.0 URI Bedingungen erfüllt sind.
+\newline
+%Es gibt keinen Datenzugang
+\newline
+B
+\newline
+\pagebreak
+
 %Entwicklung fängt schon vorher an.
+\subsubsection{Prototyp}\label{subsubsec:prototyp}
+Basierend auf dem Mockup ~\ref{fig:Mockup} wurde ein Prototyp erstellt, welcher testen sollte, ob Grundfunktionalitäten wie die Terminbuchung und die Darstellung der Termine funktionieren.
+Dies wurde mithilfe von vuejs aufgesetzt.
+\newline
+Der Prototyp funktionierte wie erwartet und konnte somit als Grundlage für die finale Anwendung dienen.
 \subsubsection{Weiterentwicklung der groben Planung}
 Es wurde eine Azure App erstellt, die die Authentifizierung der Anwendung und des Benutzers übernimmt.
 \newline
+
 Dort wird der Benutzer eingeloggt und die Anwendung leitet ihn auf die Seite weiter, die er vorher besucht hat, welche in diesem Fall, die Raumbuchungsseite ist.
 \newline
 Es wurde jede Woche Rücksprache mit dem Kunden gehalten, um die Anforderungen zu besprechen und zu erfüllen.
@@ -129,16 +136,20 @@ Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, andererseits abe
 Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und die Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
 Die Daten wurden dabei im JSON Format zurückgegeben.
 Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
+\newline
+Um sicherzustellen, dass die Anfragen ISO 8601 konform sind, wird die Zeitzone bei jeglichen Anfragen mit angegeben.
 %Satz zu lang, umformieren
 Es wurden die Klauseln \("\$\)filter\("\) und \("\$\)top\("\) verwendet, um nur Termine für den aktuellen und nächsten Tag zu erhalten und dies einzuschränken auf die top 300 Termine, falls jemand versucht das System zu überlasten.
 Eine Sortierung ist nicht notwendig, da die Termine bereits nach Startzeit sortiert sind.
-Hier sieht man die oData v4 API Anfrage:
+Hier sieht man die oData v4 API Anfrage, die an die Microsoft Graph API gesendet wird:
 \newline
 %add Fix code listing and remove .
 \begin{lstlisting}[language=javascript,label={lst:JavaScript oData v4 API Anfrage}]
      let url =  "https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime" +  "ge"  + "${todayDate} and end/dateTime le ${tomorrowDate}&$top=300";
 \end{lstlisting}
 %Anfrage erläutern
+Die Verarbeitung dieser Daten erfolgt ISO 8601 konform.
+Sobald diese jedoch angezeigt werden, wird darauf geachtet, dass es die lokale Zeitzone ist.
 \newline
 %Probleme gehören eigentlich woanders hin
 Es wurden im Voraus Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
@@ -160,10 +171,12 @@ Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen der Anwen
 \newline
 \newline
 \par\vspace{0.5cm}
+\begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
 \par\vspace{0.5cm}
-\raggedright
+\end{figure}
+\justifying
 \newline
 \newline
 %Soll-Zustand einführen

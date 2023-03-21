@@ -36,10 +36,12 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{1}
       \field{month}{9}
       \field{shorthand}{10BDL4551T/00}
       \field{title}{Phillips10BDL4551T/00}
       \field{year}{2022}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://www.download.p4c.philips.com/files/1/10bdl4551t_00/10bdl4551t_00_pss_enggb.pdf?_ga=2.87916248.193099575.1678716502-1541604121.1678716502
       \endverb
@@ -67,6 +69,7 @@
       \field{shorthand}{caniuse-indexedDB}
       \field{title}{caniuse-indexedDB}
       \field{year}{2023}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://caniuse.com/indexeddb
       \endverb
@@ -94,6 +97,7 @@
       \field{shorthand}{IndexedDB}
       \field{title}{IndexedDB}
       \field{year}{2023}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
       \endverb
@@ -122,6 +126,8 @@
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{isbn}{978-0470084113}
       \field{month}{5}
       \field{shorthand}{interaction-design-book1}
       \field{title}{About Face: The Essentials of Interaction Design}
@@ -172,10 +178,12 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
       \field{month}{2}
       \field{shorthand}{microsoft-graph-api-termin}
       \field{title}{microsoft-graph-api-termin}
       \field{year}{2022}
+      \field{dateera}{ce}
       \true{nocite}
       \verb{urlraw}
       \verb https://docs.microsoft.com/en-us/graph/api/resources/event?view=graph-rest-1.0
@@ -201,10 +209,12 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
       \field{month}{2}
       \field{shorthand}{microsoft-graph-api-termin-aktualisieren}
       \field{title}{microsoft-graph-api-termin-aktualisieren}
       \field{year}{2022}
+      \field{dateera}{ce}
       \true{nocite}
       \verb{urlraw}
       \verb https://docs.microsoft.com/en-us/graph/api/event-update?view=graph-rest-1.0&tabs=http
@@ -230,10 +240,12 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
       \field{month}{2}
       \field{shorthand}{microsoft-graph-api-termin-bearbeiten}
       \field{title}{microsoft-graph-api-termin-bearbeiten}
       \field{year}{2022}
+      \field{dateera}{ce}
       \true{nocite}
       \verb{urlraw}
       \verb https://docs.microsoft.com/en-us/graph/api/event-update?view=graph-rest-1.0&tabs=http
@@ -259,10 +271,12 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
       \field{month}{2}
       \field{shorthand}{microsoft-graph-api-termin-erstellen}
       \field{title}{microsoft-graph-api-termin-erstellen}
       \field{year}{2022}
+      \field{dateera}{ce}
       \true{nocite}
       \verb{urlraw}
       \verb https://docs.microsoft.com/en-us/graph/api/event-post-events?view=graph-rest-1.0&tabs=http
@@ -288,10 +302,12 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
       \field{month}{2}
       \field{shorthand}{microsoft-graph-api-termin-loeschen}
       \field{title}{microsoft-graph-api-termin-loeschen}
       \field{year}{2022}
+      \field{dateera}{ce}
       \true{nocite}
       \verb{urlraw}
       \verb https://docs.microsoft.com/en-us/graph/api/event-delete?view=graph-rest-1.0&tabs=http
@@ -317,10 +333,12 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
       \field{month}{2}
       \field{shorthand}{microsoft-graph-api-version}
       \field{title}{microsoft-graph-api-version}
       \field{year}{2022}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0
       \endverb
@@ -382,7 +400,7 @@
       \verb https://docs.microsoft.com/en-us/graph/overview
       \endverb
     \endentry
-    \entry{NodeJS}{misc}{}
+    \entry{Node.JS}{misc}{}
       \name{author}{1}{}{%
         {{hash=46753be63b6ba8975974383d42485f70}{%
            family={NodeJS},
@@ -485,6 +503,7 @@
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{4}
       \field{month}{5}
       \field{shorthand}{OAuth-2.0-Simplified}
       \field{title}{OAuth 2.0 Simplified}
@@ -568,6 +587,8 @@
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{isbn}{978-3642141850}
       \field{month}{10}
       \field{title}{Theory and Applications of Satisfiability Testing - SAT 2010}
       \field{year}{2010}
@@ -628,7 +649,7 @@
       \verb https://restfulapi.net/
       \endverb
     \endentry
-    \entry{vuejs}{misc}{}
+    \entry{Vue.js}{misc}{}
       \name{author}{1}{}{%
         {{hash=d14bb03f6c9e0be141ab732c1fd47b0a}{%
            family={vuejs},
@@ -654,6 +675,36 @@
       \endverb
       \verb{url}
       \verb https://vuejs.org/
+      \endverb
+    \endentry
+    \entry{WCAG}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4133f7bd1068291b0e90af4cf6978631}{%
+           family={WCAG},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{4133f7bd1068291b0e90af4cf6978631}
+      \strng{fullhash}{4133f7bd1068291b0e90af4cf6978631}
+      \strng{bibnamehash}{4133f7bd1068291b0e90af4cf6978631}
+      \strng{authorbibnamehash}{4133f7bd1068291b0e90af4cf6978631}
+      \strng{authornamehash}{4133f7bd1068291b0e90af4cf6978631}
+      \strng{authorfullhash}{4133f7bd1068291b0e90af4cf6978631}
+      \field{labelalpha}{WCAG}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{1}
+      \field{shorthand}{WCAG}
+      \field{title}{Web Content Accessibility Guidelines (WCAG) 2.1}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/WCAG21/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/WCAG21/
       \endverb
     \endentry
   \enddatalist
