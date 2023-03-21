@@ -1,69 +1,61 @@
 %! Author = mboehme
 %! Date = 23.02.2023
 
-\subsection{Technische Umsetzung}\label{subsec:technische-umsetzung}
-\subsubsection{Benutzte Hardware und Software}
+\section{Technische Umsetzung}\label{sec:technische-umsetzung}
+%Entwicklung fängt schon vorher an.
+\subsection{Prototyp}\label{subsec:prototyp}
+Basierend auf dem Mockup ~\ref{fig:Mockup} wurde ein Prototyp erstellt, welcher testen sollte, ob Grundfunktionalitäten wie die Terminbuchung und die Darstellung der Termine funktionieren.
+Dies wurde mithilfe von vuejs aufgesetzt.
 \newline
-Die Hardware ist ein Philips~\cite{10BDL4551T/00} Display.
-Dieses Display ist ein 10 Zoll (ca. 25 cm diagonal) Touchscreen.
-Es hat eine Auflösung von 1280x800 Pixeln und benutzt Android.
-\newglossaryentry{Digital Signage}{name={Digital Signage}, description={Digital Signage ist eine Art von Werbung, die durch digitale Medien wie Displays, Fernseher oder Computer angezeigt wird.}}
-Dieses Display ist für Digital Signage gedacht und kann so auch als solches verwendet werden.
+Der Prototyp funktionierte wie erwartet und konnte somit als Grundlage für die Weiterentwicklung dienen.
+\subsection{Benutzte Hardware und Software}\label{subsec:benutzte-hardware-und-software}
+\newline
+Die Hardware ist ein Philips~\cite{10BDL4551T/00} Bildschirm.
+Dieser Bildschirm ist ein 10 Zoll (ca. 25 cm diagonal) Touchscreen.
+Es hat eine Auflösung von 1280x800 Pixeln und benutzt Android als Betriebssystem.
+\newglossaryentry{Digital Signage}{name={Digital Signage}, description={Digital Signage ist eine ferngesteuerte, digitale Anzeige. Sie wird meistens in öffentlichen Räumen, wie zum Beispiel Flughäfen, Einkaufszentren oder Bahnhöfen, verwendet.}}
+Der Bildschirm ist für Digital Signage gedacht und kann so auch als solches verwendet werden.
 \newglossaryentry{SICP}{name=SICP, description={SICP steht für Serial (Ethernet) Interface Communication Protocol.
-SICP ist ein Protokoll, das es ermöglicht, mit dem Display, an der OS vorbei, zu kommunizieren.}}
+SICP ist ein Protokoll, welches es ermöglicht, mit dem Bildschirm direkt zu kommunizieren, ohne mit dem Android Betriebssystem zu interagieren.}}
 Die eingebauten RGB LED Strips können per~\gls{SICP} angesteuert werden.
-Dafür wird Dory-node.js genutzt, um auf einen lokalen Server zu hören und die Anfragen an das Display weiterzuleiten.
+Dafür wird Dory-node.js genutzt, um auf einen lokalen Server zu hören und die Anfragen an den Bildschirm weiterzuleiten.
 Es wird dafür keine Internetverbindung benötigt.
 Dokumentationen für SICP öffentlich schwierig zu finden.
-Befehle werden als Hexadezimal Werte geschrieben und an das Display gesendet.
+Befehle werden als Hexadezimal Werte geschrieben und an den Bildschirm gesendet.
 %Quellenangabe
 Die Verschlüsselung passiert, indem ein XOR aller vorausgehenden Bytes genommen und als Prüfsumme mitgegeben wird.
 Diese Verschlüsselung ist von Phillips definiert.
-Sie soll lediglich verhindern, dass jemand versehentlich falsche Befehle an das Display sendet.
+Sie soll lediglich verhindern, dass jemand versehentlich falsche Befehle an den Bildschirm sendet.
 \newline
 \newline
-%In Fließtext bringen
-Software:
-\newline
-Vue.js ist ein JavaScript Framework und transpiliert die Vue.js Dateien in JavaScript, damit sie von jedem Browser ausgeführt werden können.
-Es ist darauf spezialisiert, Single Page Applikationen zu entwickeln.
-\newline
+\newglossaryentry{IDE}{name=IDE, description={Eine IDE ist eine Entwicklungsumgebung, die es ermöglicht, Software zu entwickeln.}}
+Zur Entwicklung der Anwendung, wird eine~\gls{IDE} benötigt.
+Als JavaScript Framework wird Vue.js verwendet, da es sich um eine Single Page Application handelt und Vue.js darauf spezialisiert ist.
 \newline
 \newglossaryentry{Node.js Server}{name={Node.js Server}, description={Ein Node.js Server ist ein Server, der auf Node.js basiert und JavaScript Code ausführt.}}
-Dory-Node.js ist ein Node.js Server, der es ermöglicht, eine Web-Applikation lokal zu hosten.
-Dies wird benötigt, um einerseits die Raumbuchungsseite lokal anzubieten, damit die absoluten Redirect-URI Bedingungen von Microsoft und oAuth 2.0 erfüllt werden können und andererseits, um die Anwendung auf dem Display zu hosten und als Schnittstelle zwischen der Seite und dem den LED-Strips des Displays zu agieren.
-\newline
-\newline
+Um eine Kommunikation zwischen der Anwendung und dem Bildschirm zu ermöglichen, wird ein~\gls{Node.js Server} benötigt.
+Dieser wird per Dory-node.js lokal gehostet.
 \newglossaryentry{NPM}{name=NPM, description={NPM steht für Node Package Manager.}}
-Die Microsoft Graph API wird per ~\gls{NPM} Package verwendet, um die Anfragen an die Microsoft Graph API zu vereinfachen und den User einzuloggen.
 \newline
+Damit die Authentifizierung funktioniert und Prozesse, wie das Einloggen, vereinfacht werden können, wird microsoft-mgt~\cite{Microsoft-mgt-npm} als~\gls{NPM} Package verwendet.
+Dies beinhaltet das Microsoft Graph Toolkit~\cite{Microsoft-Graph-Toolkit}, welches alle Microsoft Graph API Komponenten enthält.
 \newline
-Babel ist ein JavaScript Compiler, der es ermöglicht, moderne JavaScript Features zu verwenden, die von älteren Browsern nicht unterstützt werden, um so die Kompatibilität zu erhöhen.
+Für eine hohe Kompatibilitätsgewährleistung, wird Babel~\cite{Babel} und Webpack~\cite{Webpack} verwendet.
+Babel stellt sicher, dass der Code in allen Browsern lauffähig ist und Webpack sorgt dafür, dass die Anwendung schnell lädt.
 \newline
-\newline
-Webpack ist ein JavaScript Bundler, der es ermöglicht, mehrere JavaScript Dateien zu einer einzigen zusammenzufassen, um so die Ladezeiten zu verkürzen.
-\newline
-\newline
-Node.js ist ein JavaScript Runtime, der es ermöglicht, JavaScript Code auszuführen, ohne einen Browser zu benötigen.
-Es ist das Backend dieser Anwendung.
-Dieser wird per Dory-Node.js gehostet.
-\newline
-\newline
-Git ist ein dezentrales Versionskontrollsystem, welches es ermöglicht, Änderungen an Dateien zu verfolgen und zu verwalten.
-Dies wurde in Zusammenhang mit GitLab verwendet, da dies der derzeitige, etablierte Standard der DooH media GmbH ist.
-\newline
+Um eine ordentliche Versionierung zu betreiben, wird Git, welches ein dezentrales Versionskontrollsystem ist, genutzt.
+Es ermöglicht, Änderungen an Dateien zu verfolgen und zu verwalten.
+Dies wird in Zusammenhang mit GitLab verwendet, da dies der derzeitige, etablierte Standard der DooH media GmbH ist.
 \newline
 \newglossaryentry{Linter}{name=Linter, description={Ein Linter ist ein Programm, das es ermöglicht, Code auf Fehler zu prüfen.}}
-EsLint ist ein ~\gls{Linter}, der es ermöglicht, JavaScript Code zu analysieren und zu formatieren.
-Da Testfälle bei JavaScript Projekten nicht immer vollständig möglich sind, ist es wichtig, dass der Code einheitlich ist und keine syntaktischen Fehler enthält.
-Deshalb achtet EsLint auf die Einhaltung von Regeln, damit erst gar keine Fehler entstehen, die der JavaScript Compiler nicht erkennen kann.
-Beispielsweise wird überprüft, ob Variablen deklariert wurden, bevor sie verwendet werden und anders herum.
+Zum Vermeiden von schlechter Codequalität und syntaktischen Fehlern, die der Compiler nicht erkennen kann, wird EsLint~\cite{EsLint} verwendet.
+EsLint ist ein~\gls{Linter}, der es ermöglicht, JavaScript Code zu analysieren und zu formatieren.
+Da Testfälle bei JavaScript Projekten nicht vor der Ausführung der Anwendung möglich sind, ist es wichtig, dass der Code einheitlich ist und keine syntaktischen Fehler enthält.
+Deshalb achtet EsLint auf die Einhaltung von Regeln, damit erst gar keine Fehler entstehen, die durch falsche Syntax entstehen.
+Beispielsweise wird überprüft, ob Variablen, welche deklariert werden, auch verwendet werden.
 \newline
 \newline
-IntelliJ IDEA ist eine IDE, die es unter anderem ermöglicht, JavaScript Code zu schreiben und zu debuggen.
-\newline
-\newline
-\subsubsection{Grobe Planung}
+\subsection{Grobe Planung}\label{subsec:grobe-planung}
 \newglossaryentry{deployen}{name=deployen,description={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.}}
 Die Software wird als eine Azure App deployt (~\gls{deployen}).
 \newglossaryentry{localhost}{name=localhost,description={Die lokale Adresse des Computers, auf dem die Anwendung läuft.}}
@@ -76,32 +68,23 @@ Somit ist keine Individualisierung der Seite für verschiedene Nutzer notwendig.
 \newglossaryentry{Azure AD}{name=Azure AD,description={Azure Active Directory ist ein Verzeichnisdienst, der von Microsoft entwickelt wurde.}}
 Der wichtigste Faktor für die Entscheidung, die Microsoft Graph API zu nutzen war, dass mithilfe von ~\gls{Azure AD}, die Authentifizierung und Autorisierung von Benutzern erlaubt.
 \newglossaryentry{Dory-node.js}{name=Dory-node.js,description={Dory-node.js ist eine Android App, die es ermöglicht, node.js Server auf einem Android Gerät zu hosten.}}
-Es wird, lokal, mithilfe von ~\gls{Dory-node.js} gehostet.
-%Was ist ein phillipsdisplay
-Zudem kann dann mit dem Phillips Display die Web-Applikation aufgerufen werden und als eine Art Model eines Model-View-Controllers verwendet werden.
+Es wird, lokal, mithilfe von~\gls{Dory-node.js} gehostet.
 \newline
 %Das Wort "Player" einführen
 \newglossaryentry{Player}{name=Player,description={Ein Player ist ein Digital Signage Gerät, welches Inhalte anzeigt.}}
-Der ~\gls{Player} benötigt auf der OMS den Content-Typen \("\)Web\("\)
+Der ~\gls{Player} benötigt auf der OMS den Content-Typen \("\)Web\("\),
 \newline
 mit der URL: \("\)http://localhost:3000/content\("\).
-Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-node.js Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Display liegt.
+Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-node.js Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Bildschirm liegt.
 %Bitte im Soll-Zustand einführen was oAuth ist
 So ist die URL durchgehend, auf allen Geräten identisch, damit die OAuth 2.0 URI Bedingungen erfüllt sind.
 \newline
-%Es gibt keinen Datenzugang
 \newline
-B
 \newline
 \pagebreak
 
-%Entwicklung fängt schon vorher an.
-\subsubsection{Prototyp}\label{subsubsec:prototyp}
-Basierend auf dem Mockup ~\ref{fig:Mockup} wurde ein Prototyp erstellt, welcher testen sollte, ob Grundfunktionalitäten wie die Terminbuchung und die Darstellung der Termine funktionieren.
-Dies wurde mithilfe von vuejs aufgesetzt.
-\newline
-Der Prototyp funktionierte wie erwartet und konnte somit als Grundlage für die finale Anwendung dienen.
-\subsubsection{Weiterentwicklung der groben Planung}
+
+\subsection{Iterative Entwicklung der groben Planung}\label{subsec:iterative-entwicklung-der-groben-planung}
 Es wurde eine Azure App erstellt, die die Authentifizierung der Anwendung und des Benutzers übernimmt.
 \newline
 
@@ -117,22 +100,22 @@ Manche Features wurden auch wieder entfernt, da sie nicht sinnvoll waren oder vo
 \newline
 %Ablauf der Entwicklung
 \newline
-\subsubsection{Ablauf der Entwicklung}
+\subsection{Ablauf der Entwicklung}\label{subsec:ablauf-der-entwicklung}
 Nachdem der erste Prototyp fertig war und Rücksprache gehalten wurde, wurde angefangen die Anwendung zu entwickeln.
 Design und Funktionalität wurden dabei partiell parallel entwickelt, wobei die Funktionalität immer Priorität hatte.
 In über 95 Commits wurden die Änderungen an der Anwendung festgehalten.
 \newline
 Es wurde ein Testgerät benötigt, um die Anwendung zu testen.
-Ein Phillips 10BDL4551T/00 Display wurde dafür an die Wand gehängt und mit dem Internet verbunden.
-%Warum mit Internet verbunden?
-Zudem wurde es so eingerichtet, wie es auch beim Kunden laufen soll.
+Ein Phillips 10BDL4551T/00 Bildschirm wurde dafür an die Wand gehängt und mit dem Internet verbunden.
+Die Internetverbindung ist notwendig, um die Rest-Anfragen zwischen der Anwendung und der Microsoft Graph API zu ermöglichen.
+Es wurde so eingerichtet, wie es auch beim Kunden laufen soll.
 \newline
-Es wurde täglich aktiv genutzt, um so Fehler zu finden und Feedback zu geben.
+Die Anwendung wurde täglich aktiv genutzt, um so Fehler zu finden und Feedback zu geben.
 Das Feedback wurde dann evaluiert.
 Solche explorativen Tests sind sehr wichtig, um Intuitivität und Benutzerfreundlichkeit zu gewährleisten.
 Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, andererseits aber auch um Fehler zu finden, die nicht vorgesehen waren, indem Monkey Testing~\cite{Monkey-Testing-Book1} betrieben wurde.
 \newline
-\subsubsection{Rest-Anfragen}
+\subsection{Rest-Anfragen}\label{subsec:rest-anfragen}
 Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und die Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
 Die Daten wurden dabei im JSON Format zurückgegeben.
 Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
@@ -144,43 +127,56 @@ Eine Sortierung ist nicht notwendig, da die Termine bereits nach Startzeit sorti
 Hier sieht man die oData v4 API Anfrage, die an die Microsoft Graph API gesendet wird:
 \newline
 %add Fix code listing and remove .
-\begin{lstlisting}[language=javascript,label={lst:JavaScript oData v4 API Anfrage}]
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript oData v4 API Anfrage}]
      let url =  "https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime" +  "ge"  + "${todayDate} and end/dateTime le ${tomorrowDate}&$top=300";
 \end{lstlisting}
-%Anfrage erläutern
+\subsubsection{Abfrageoptimierung}\label{subsubsec:abfrageoptimierung}
+\("\)https://graph.microsoft.com/v1.0/me/findMeetingTimes/\("\) ist die URL der Microsoft Graph API.
+Des Weiteren kommuniziert sie, welche API, spezifisch angesprochen werden soll.
+Da die Termine für den aktuellen und nächsten Tag benötigt werden, wird die \("\)FindMeetingTimes\("\) verwendet, welche die Kalender API verwendet.
+Mit dem \("\)me\("\) wird der aktuelle Benutzer mitgegeben.
+Dieser wird automatisch vom Microsoft Graph erkannt.
+\newglossaryentry{Query Parameter}{name=Query Parameter,description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.}}
+Ab dem Fragezeichen werden die Query Parameter übergeben.
+Die Antwort der Anfrage, im Teil der URL, vor dem Fragezeichen, werden durch die Query Parameter auf die benötigten Daten gefiltert.
+\newline
+Mit \("\)start/dateTime\("\) + \("\)ge\("\) + \("\){todayDate}\("\) wird der Startzeitpunkt des Termins mit dem heutigen Datum verglichen.
+Es wird geprüft, ob der Startzeitpunkt des Termins nach dem heutigen Datum liegt.
+Das \("\)ge\("\) steht für \("\)greater than or equal to\("\) und bedeutet, dass der Startzeitpunkt des Termins nach oder gleich dem heutigen Datum liegt.
+Dies wird eigentlich für mathematische Vergleiche verwendet, aber es funktioniert auch für Strings, da jeder Charakter einen ASCII Wert hat.
+\newline
+Somit erhalten wir nur Daten zurück, die heute oder in der Zukunft liegen.
+\newline
+Mit \("\)end/dateTime\("\) + \("\)le\("\) + \("\) {tomorrowDate}\("\) wird der Endzeitpunkt des Termins mit dem morgigen Datum verglichen.
+Letzten Endes erhalten wir nur Termine zurück, die heute oder morgen stattfinden.
 Die Verarbeitung dieser Daten erfolgt ISO 8601 konform.
 Sobald diese jedoch angezeigt werden, wird darauf geachtet, dass es die lokale Zeitzone ist.
 \newline
 %Probleme gehören eigentlich woanders hin
+\subsubsection{Probleme}\label{subsubsec:probleme}
 Es wurden im Voraus Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
 Jedoch hat sich herausgestellt, dass der Microsoft Graph Explorer nicht korrekt funktioniert und teilweise Befehle nicht entgegennimmt, die laut Microsoft Dokumentation funktionieren sollten.
 Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfragen korrekt funktionieren und auch im Request-Response Zyklus keine Fehler auftreten.
 \newline
 \newline
 Falls die Anfrage nicht funktioniert, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit unterbrochen ist.
-%Soll-Zustand
-Fehlermeldungen sollten immer so gestaltet sein, dass sie den User nicht verunsichern (~\cite{interaction-design-book1}), sondern ihn auf die Lösung des Problems hinweisen.
-Auch bei der Gestaltung der Fehlermeldung sollte darauf geachtet werden, dass sie nicht zu lang ist, da der User sonst nicht mehr weiß, was er tun soll.
-Bei Kiosk Anwendungen ist es besonders wichtig, dass die Fehlermeldungen kurz und prägnant sind, da der User ohnehin in einer Situation ist, in der er wahrscheinlich nicht viel Zeit hat.
-%Genaueres dazu, befindet sich, im genannten Buch, unter dem Kapitel \("Errors, Alerts, and Confirmation"\) und unter dem Kapitel \("Platform and Posture - Designing for kiosks"\).
-Das bedeutet, dass Fehler, die dazu führen, dass die Anwendung nicht mehr funktioniert, groß und auffällig dargestellt werden sollten, damit der User sie nicht übersehen kann und versteht, dass er die Anwendung nicht mehr nutzen kann, bis das Problem behoben wurde.
-Andererseits sollten Fehler, die nicht dazu führen, dass die Anwendung nicht mehr funktioniert, klein und unauffällig dargestellt werden, damit der User nicht gestört wird.
+Diese wird groß und prominent angezeigt, damit es nicht übersehen werden kann und deutlich wird, dass jegliche Daten die derzeit angezeigt werden, nicht aktuell sind.
 \newline
 \newline
-Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen der Anwender und dem Server darstellt:
+\subsubsection{Objektorientiertes Design}
+Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen dem Anwender und dem Server darstellt:
 \newline
 \newline
 \par\vspace{0.5cm}
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
-\par\vspace{0.5cm}
+\par\vspace{0.5cm}\label{fig:figure}
 \end{figure}
 \justifying
 \newline
 \newline
-%Soll-Zustand einführen
-\subsubsection{Timer}
+\subsection{Timer}\label{subsec:timer}
 Der Timer, welcher die übrig bleibende Zeit bis zum Ende des jetzigen Termins anzeigt funktioniert, wie folgt:
 \newline
 \newline
@@ -189,7 +185,8 @@ Dann wird eine sich drehende Animation erstellt, die für diese Dauer abläuft.
 \newline
 Da die Dauer angepasst werden kann, muss bei Datenänderungen geprüft werden, ob sich die Dauer verändert hat.
 %Glossar local storage
-Die Daten dafür werden im Local Storage gespeichert.
+\newglossaryentry{Local Storage}{name=Local Storage,description={Local Storage ist ein Speicherort, in Browsern, welcher Daten lokal speichert.}}
+Die Daten dafür werden im~\gls{Local Storage} gespeichert.
 Falls eine Änderung stattgefunden hat, wird die Animation neu berechnet.
 Bei der Änderung werden, damit die Animation visuell nicht von vorne anfängt, die Animationsdauer und die vergangene Zeit als neue Animationsdauer aufaddiert und die vergangene Zeit als negative Animationsverzögerung gesetzt, damit die Animation visuell betrachtet dort ist, wo sie relativ zur neuen Dauer sein sollte.
 \newline
@@ -202,14 +199,14 @@ Die Formel lautet, wie folgt:
     \text{Vergangene Zeit} &= \text{Jetzt} - \text{Start} \\
 \text{Animationsdauer} &= \text{Ende} - \text{Start} \\
     \text {Animationsverzögerung} &= \text{-Vergangene Zeit} \\
-\end{aligned}
+\end{aligned}\label{eq:equation}
 \end{equation}
 \newline
 \newline
 Die Berechnung wurde wie folgt implementiert:
 \newline
 \newline
-\begin{lstlisting}[language=javascript,label={lst:JavaScript Timer}]
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript Timer}]
 let currentEventBeginningTime = localStorage.getItem('currentEventBeginningTime');
 let timePassed = (new Date() - new Date(currentEventBeginningTime + 'Z')) / 1000;
 let animationDuration = ((new Date(currentEventEndTime + 'Z') - new Date(currentEventBeginningTime + 'Z')) / 1000);
@@ -223,7 +220,7 @@ secondHandSpan.style.animationDelay = -timePassed  + 's';
 Um die Animation während ihrer Laufzeit zu ändern, wird ein sogenannter Reflow ~\footcite{JavaScriptAnimationsReflow} erzwungen, indem die offsetWidth Eigenschaft abgefragt, die Animationsdauer und -verzögerung neu gesetzt und der Animationsname erst entfernt und dann wieder hinzugefügt wird.
 \newline
 \newline
-\subsubsection{Persistente Datenspeicherung}
+\subsection{Persistente Datenspeicherung}\label{subsec:persistente-datenspeicherung}
 Um die Daten der Anwendung zu speichern, wurde für kleinere Datensätze der Local Storage verwendet.
 Dieser ist in jedem Browser verfügbar und darf bis zu 5 MB groß sein.
 \newline
@@ -235,7 +232,7 @@ Die maximale Größe bei Chrome beträgt 80\(\%\) des verfügbaren Speichers.
 Da es im Internet viele, sich widersprechende Angaben zu dieser Größe gibt, wurde diese manuell, mit folgendem Code, in der Konsole des Browsers, getestet:
 \newline
 \newline
-\begin{lstlisting}[language=javascript,label={lst:JavaScript IndexedDB Speichergröße}]
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript IndexedDB Speichergröße}]
     if (navigator.storage && navigator.storage.estimate) {
     const quota = await navigator.storage.estimate();
     // quota.usage -> Number of bytes used.
@@ -252,7 +249,7 @@ Die Festplatte, auf der dies getestet wurde, hatte ca. 828 GB freien Speicher.
 Das Ergebnis lautete, wie folgt:
 \newline
 \newline
-\begin{lstlisting}[language=javascript,label={lst:JavaScript IndexedDB Speichergröße Ergebnis}]
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript IndexedDB Speichergröße Ergebnis}]
     You've used 0.000002393592594674544% of the available storage.
     You can write up to 599726105785 more bytes.
 \end{lstlisting}
@@ -292,7 +289,7 @@ Falls der User beispielsweise ein Bild hochlädt, welches bereits in der Datenba
 \newline
 \newline
 %Tabelle erläutern
-\subsubsection{Azure Authentifizierung}\label{subsubsec:Azure Authentifizierung}
+\subsection{Azure Authentifizierung}\label{subsec:Azure Authentifizierung}
 Um die Authentifizierung zu realisieren, wurden folgende Berechtigungen benötigt:
 \newline
 \newline

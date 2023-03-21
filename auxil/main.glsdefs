@@ -362,6 +362,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Hosting}%
+{%
+name={Hosting},%
+sort={Hosting},%
+type={main},%
+first={Hosting},%
+firstplural={Hostings},%
+text={Hosting},%
+plural={Hostings},%
+description={Hosting ist ein Begriff aus der Informatik. Hosting ist ein Dienst, bei dem eine Firma eine Anwendung für andere bereitstellt.},%
+descriptionplural={Hosting ist ein Begriff aus der Informatik. Hosting ist ein Dienst, bei dem eine Firma eine Anwendung für andere bereitstellt.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{LED Strips}%
 {%
 name={LED Strips},%
@@ -446,62 +474,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{deployen}%
-{%
-name={deployen},%
-sort={deployen},%
-type={main},%
-first={deployen},%
-firstplural={deployens},%
-text={deployen},%
-plural={deployens},%
-description={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.},%
-descriptionplural={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{localhost}%
-{%
-name={localhost},%
-sort={localhost},%
-type={main},%
-first={localhost},%
-firstplural={localhosts},%
-text={localhost},%
-plural={localhosts},%
-description={Die lokale Adresse des Computers, auf dem die Anwendung läuft.},%
-descriptionplural={Die lokale Adresse des Computers, auf dem die Anwendung läuft.},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{Digital Signage}%
 {%
 name={Digital Signage},%
@@ -511,8 +483,8 @@ first={Digital Signage},%
 firstplural={Digital Signages},%
 text={Digital Signage},%
 plural={Digital Signages},%
-description={Digital Signage ist eine Art von Werbung, die durch digitale Medien wie Displays, Fernseher oder Computer angezeigt wird.},%
-descriptionplural={Digital Signage ist eine Art von Werbung, die durch digitale Medien wie Displays, Fernseher oder Computer angezeigt wird.},%
+description={Digital Signage ist eine ferngesteuerte, digitale Anzeige. Sie wird meistens in öffentlichen Räumen, wie zum Beispiel Flughäfen, Einkaufszentren oder Bahnhöfen, verwendet.},%
+descriptionplural={Digital Signage ist eine ferngesteuerte, digitale Anzeige. Sie wird meistens in öffentlichen Räumen, wie zum Beispiel Flughäfen, Einkaufszentren oder Bahnhöfen, verwendet.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -539,8 +511,36 @@ first={SICP},%
 firstplural={SICPs},%
 text={SICP},%
 plural={SICPs},%
-description={SICP steht für Serial (Ethernet) Interface Communication Protocol. SICP ist ein Protokoll, das es ermöglicht, mit dem Display, an der OS vorbei, zu kommunizieren.},%
-descriptionplural={SICP steht für Serial (Ethernet) Interface Communication Protocol. SICP ist ein Protokoll, das es ermöglicht, mit dem Display, an der OS vorbei, zu kommunizieren.},%
+description={SICP steht für Serial (Ethernet) Interface Communication Protocol. SICP ist ein Protokoll, welches es ermöglicht, mit dem Bildschirm direkt zu kommunizieren, ohne mit dem Android Betriebssystem zu interagieren.},%
+descriptionplural={SICP steht für Serial (Ethernet) Interface Communication Protocol. SICP ist ein Protokoll, welches es ermöglicht, mit dem Bildschirm direkt zu kommunizieren, ohne mit dem Android Betriebssystem zu interagieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{IDE}%
+{%
+name={IDE},%
+sort={IDE},%
+type={main},%
+first={IDE},%
+firstplural={IDEs},%
+text={IDE},%
+plural={IDEs},%
+description={Eine IDE ist eine Entwicklungsumgebung, die es ermöglicht, Software zu entwickeln.},%
+descriptionplural={Eine IDE ist eine Entwicklungsumgebung, die es ermöglicht, Software zu entwickeln.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -625,6 +625,202 @@ text={Linter},%
 plural={Linters},%
 description={Ein Linter ist ein Programm, das es ermöglicht, Code auf Fehler zu prüfen.},%
 descriptionplural={Ein Linter ist ein Programm, das es ermöglicht, Code auf Fehler zu prüfen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{deployen}%
+{%
+name={deployen},%
+sort={deployen},%
+type={main},%
+first={deployen},%
+firstplural={deployens},%
+text={deployen},%
+plural={deployens},%
+description={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.},%
+descriptionplural={Eine Anwendung zu deployen bedeutet, sie auf einem Server zu installieren und zu konfigurieren, sodass sie für den Benutzer verfügbar ist.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{localhost}%
+{%
+name={localhost},%
+sort={localhost},%
+type={main},%
+first={localhost},%
+firstplural={localhosts},%
+text={localhost},%
+plural={localhosts},%
+description={Die lokale Adresse des Computers, auf dem die Anwendung läuft.},%
+descriptionplural={Die lokale Adresse des Computers, auf dem die Anwendung läuft.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cookie cache}%
+{%
+name={cookie cache},%
+sort={cookie cache},%
+type={main},%
+first={cookie cache},%
+firstplural={cookie caches},%
+text={cookie cache},%
+plural={cookie caches},%
+description={Ein Cookie ist eine kleine Textdatei, die von einem Webserver auf dem Computer des Benutzers gespeichert wird. Cookies werden verwendet, um Informationen über den Benutzer zu speichern.},%
+descriptionplural={Ein Cookie ist eine kleine Textdatei, die von einem Webserver auf dem Computer des Benutzers gespeichert wird. Cookies werden verwendet, um Informationen über den Benutzer zu speichern.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Azure AD}%
+{%
+name={Azure AD},%
+sort={Azure AD},%
+type={main},%
+first={Azure AD},%
+firstplural={Azure ADs},%
+text={Azure AD},%
+plural={Azure ADs},%
+description={Azure Active Directory ist ein Verzeichnisdienst, der von Microsoft entwickelt wurde.},%
+descriptionplural={Azure Active Directory ist ein Verzeichnisdienst, der von Microsoft entwickelt wurde.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Dory-node.js}%
+{%
+name={Dory-node.js},%
+sort={Dory-node.js},%
+type={main},%
+first={Dory-node.js},%
+firstplural={Dory-node.jss},%
+text={Dory-node.js},%
+plural={Dory-node.jss},%
+description={Dory-node.js ist eine Android App, die es ermöglicht, node.js Server auf einem Android Gerät zu hosten.},%
+descriptionplural={Dory-node.js ist eine Android App, die es ermöglicht, node.js Server auf einem Android Gerät zu hosten.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Player}%
+{%
+name={Player},%
+sort={Player},%
+type={main},%
+first={Player},%
+firstplural={Players},%
+text={Player},%
+plural={Players},%
+description={Ein Player ist ein Digital Signage Gerät, welches Inhalte anzeigt.},%
+descriptionplural={Ein Player ist ein Digital Signage Gerät, welches Inhalte anzeigt.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Query Parameter}%
+{%
+name={Query Parameter},%
+sort={Query Parameter},%
+type={main},%
+first={Query Parameter},%
+firstplural={Query Parameters},%
+text={Query Parameter},%
+plural={Query Parameters},%
+description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
+descriptionplural={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  21 MAR 2023 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  21 MAR 2023 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1803,67 +1803,67 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl
-C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl:540: Mi
+C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl:656: Mi
 ssing $ inserted.
 <inserted text> 
                 $
-l.540     \endentry
+l.656     \endentry
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 540.
+ 656.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 540.
+ 656.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 540.
+ 656.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 540.
+ 656.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-40.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+56.
 
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 540.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 540.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 540.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
 
-C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl:540: Yo
+C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl:656: Yo
 u can't use `\spacefactor' in math mode.
 \reserved@b ->\spacefactor 
                            \@m 
-l.540     \endentry
+l.656     \endentry
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl:540: Mi
+C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.bbl:656: Mi
 ssing $ inserted.
 <inserted text> 
                 $
-l.540     \endentry
+l.656     \endentry
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1931,7 +1931,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (titlepage.tex
-<Bilder/doohMedia.jpg, id=202, 200.75pt x 200.75pt>
+<Bilder/doohMedia.jpg, id=230, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 10.
@@ -1956,7 +1956,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=13.59999pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
-0.
+1.
 
 
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
@@ -1966,7 +1966,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 ...ion}{\numberline {9}Anhang}{29}{section.9}
+l.51 ...ne {6.2.1}Test 1}{24}{subsubsection.6.2.1}
                                                   % [1])
 \tf@toc=\write9
 \openout9 = `main.toc'.
@@ -2027,106 +2027,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--29
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--53
+Underfull \hbox (badness 10000) in paragraph at lines 30--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--53
+Underfull \hbox (badness 10000) in paragraph at lines 30--52
 
  []
 
 [6]
-<Bilder/mockup.png, id=302, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=337, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
-Package pdftex.def Info: Bilder/mockup.png  used on input line 91.
+Package pdftex.def Info: Bilder/mockup.png  used on input line 90.
 (pdftex.def)             Requested size: 341.43437pt x 189.5373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--99
+Underfull \hbox (badness 10000) in paragraph at lines 77--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--99
+Underfull \hbox (badness 10000) in paragraph at lines 77--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--99
+Underfull \hbox (badness 10000) in paragraph at lines 77--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--99
+Underfull \hbox (badness 10000) in paragraph at lines 77--98
 
  []
 
-<Bilder/Workflow Terminbuchung.png, id=304, 770.88pt x 578.16pt>
+<Bilder/Workflow Terminbuchung.png, id=339, 770.88pt x 578.16pt>
 File: Bilder/Workflow Terminbuchung.png Graphic file (type png)
 <use Bilder/Workflow Terminbuchung.png>
 Package pdftex.def Info: Bilder/Workflow Terminbuchung.png  used on input line 
 104.
 (pdftex.def)             Requested size: 341.43437pt x 256.07619pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--119
+Underfull \hbox (badness 10000) in paragraph at lines 99--118
 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [7 <./Bilder/mockup.png>]
 
-Problemanalyse.tex:120: LaTeX Error: There's no line here to end.
+Problemanalyse.tex:119: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \newline
+l.119 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/GrafikdesignerMockup.png, id=312, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=347, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
 Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 12
-4.
+3.
 (pdftex.def)             Requested size: 277.41176pt x 173.11227pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--145
+Underfull \hbox (badness 10000) in paragraph at lines 131--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--145
+Underfull \hbox (badness 10000) in paragraph at lines 131--144
 
  []
 
-[8 <./Bilder/Workflow Terminbuchung.png> <./Bilder/GrafikdesignerMockup.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 146--156
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--155
 
  []
 
+[8 <./Bilder/Workflow Terminbuchung.png>] [9 <./Bilder/GrafikdesignerMockup.png
+>]
 <Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png, id=3
-26, 1306.8825pt x 222.8325pt>
+72, 1306.8825pt x 222.8325pt>
 File: Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png 
 Graphic file (type png)
 <use Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png>
 Package pdftex.def Info: Bilder/Objektorientierte Analyse/Ressource booking act
-ivity diagramm.png  used on input line 186.
+ivity diagramm.png  used on input line 215.
 (pdftex.def)             Requested size: 341.43437pt x 58.21388pt.
 
-Problemanalyse.tex:192: LaTeX Error: There's no line here to end.
+
+Problemanalyse.tex:221: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 \newline
+l.221 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2190,8 +2190,8 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png, id=32
-7, 1341.01pt x 504.88625pt>
+<Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png, id=37
+3, 1341.01pt x 504.88625pt>
 File: Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png G
 raphic file (type png)
 <use Bilder/Objektorientiertes Design/Use Case diagram ressource booking.png>
@@ -2218,8 +2218,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
-[9 <./Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png>
-]
+[10 <./Bilder/Objektorientierte Analyse/Ressource booking activity diagramm.png
+>]
 Systemschnittstellen.tex:63: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
@@ -2304,8 +2304,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (AbgrenzungZuÄhnlichenProdukten.tex [10 <./Bilder/Objektorientiertes Design/
-Use Case diagram ressource booking.png>] [11]
+) (AbgrenzungZuÄhnlichenProdukten.tex [11 <./Bilder/Objektorientiertes Design/
+Use Case diagram ressource booking.png>] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
@@ -2320,110 +2320,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--26
 
  []
 
-[12]) (vorgehensweise.tex [13]) (Technische Umsetzung.tex
-Overfull \hbox (22.58464pt too wide) in paragraph at lines 7--39
-\T1/ptm/m/n/10.95 (-20) Der Player be-n�-tigt auf der OMS den Content-Typen $\O
-T1/ztmcm/m/n/10.95 "$\T1/ptm/m/n/10.95 (-20) Web$\OT1/ztmcm/m/n/10.95 "$ \T1/pt
-m/m/n/10.95 (-20) mit der URL: $\OT1/ztmcm/m/n/10.95 "$\T1/ptm/m/n/10.95 (-20) 
-http://localhost:3000/content$\OT1/ztmcm/m/n/10.95 "$\T1/ptm/m/n/10.95 (-20) .
- []
+[13]) (vorgehensweise.tex [14]) (Technische Umsetzung.tex
 
-[14]
-
-Technische Umsetzung.tex:40: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:12: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \newline
+l.12 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 13--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 13--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 13--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 60--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 60--86
+
+ []
+
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 92--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 92--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
+Underfull \hbox (badness 10000) in paragraph at lines 105--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--99
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 120--131
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-45.
+31.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -2432,127 +2394,108 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \hbox (badness 10000) in paragraph at lines 135--157
 
-Technische Umsetzung.tex:149: LaTeX Error: There's no line here to end.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--169
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--169
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--169
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--169
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
 
  []
 
-[16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
+
+ []
+
 <Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3).pn
-g, id=427, 1085.05376pt x 266.9975pt>
+g, id=490, 1085.05376pt x 266.9975pt>
 File: Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (
 3).png Graphic file (type png)
 <use Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3
 ).png>
 Package pdftex.def Info: Bilder/Objektorientiertes Design/Sequence diagram for 
-ressource booking (3).png  used on input line 172.
+ressource booking (3).png  used on input line 174.
 (pdftex.def)             Requested size: 426.79135pt x 105.02081pt.
 
-
-Technische Umsetzung.tex:176: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:178: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \newline
+l.178 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:177: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:179: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \newline
+l.179 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--196
+Underfull \hbox (badness 10000) in paragraph at lines 181--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--196
+Underfull \hbox (badness 10000) in paragraph at lines 181--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--196
+Underfull \hbox (badness 10000) in paragraph at lines 181--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--196
+Underfull \hbox (badness 10000) in paragraph at lines 181--197
 
  []
 
-[17 <./Bilder/Objektorientiertes Design/Sequence diagram for ressource booking 
+[18 <./Bilder/Objektorientiertes Design/Sequence diagram for ressource booking 
 (3).png>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--208
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--208
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--208
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 210.
-
-Technische Umsetzung.tex:217: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.217 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 211.
 
 Technische Umsetzung.tex:218: LaTeX Error: There's no line here to end.
 
@@ -2567,43 +2510,44 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--234
-
- []
-
-
-Technische Umsetzung.tex:245: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:219: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.245 \newline
+l.219 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+[19]
 
 Technische Umsetzung.tex:246: LaTeX Error: There's no line here to end.
 
@@ -2618,28 +2562,27 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--251
-
- []
-
-[18]
-
-Technische Umsetzung.tex:255: LaTeX Error: There's no line here to end.
+Technische Umsetzung.tex:247: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 \newline
+l.247 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--252
+
+ []
 
 
 Technische Umsetzung.tex:256: LaTeX Error: There's no line here to end.
@@ -2655,14 +2598,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:269: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:257: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 Das sind etwas über 70 \%\)
-                                   der verfügbaren Speicherkapazität.
+l.257 \newline
+              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2674,7 +2617,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270 ...n auszugehen, dass die restlichen 10 \%\)
+l.270 Das sind etwas über 70 \%\)
+                                   der verfügbaren Speicherkapazität.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...n auszugehen, dass die restlichen 10 \%\)
                                                    für andere Daten schon v...
 
 Your command was ignored.
@@ -2682,13 +2638,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 Zudem ist zu betrachten, dass die \"\)
+l.272 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2696,13 +2652,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 Zudem ist zu betrachten, dass die \"\)
+l.272 Zudem ist zu betrachten, dass die \"\)
                                             .\"\) Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2710,13 +2666,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 Zudem ist zu betrachten, dass die \"\).\"\)
+l.272 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2724,13 +2680,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 Zudem ist zu betrachten, dass die \"\).\"\)
+l.272 Zudem ist zu betrachten, dass die \"\).\"\)
                                                   Schreibweise für Dezimalz...
 
 Your command was ignored.
@@ -2738,13 +2694,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 ...rwendet wurde, während wiederum die \"\)
+l.272 ...rwendet wurde, während wiederum die \"\)
                                                   ,\"\) Schreibweise für di...
 
 Your command was ignored.
@@ -2752,13 +2708,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 ...rwendet wurde, während wiederum die \"\)
+l.272 ...rwendet wurde, während wiederum die \"\)
                                                   ,\"\) Schreibweise für di...
 
 Your command was ignored.
@@ -2766,27 +2722,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 ...et wurde, während wiederum die \"\),\"\)
-                                                   Schreibweise für die mat...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Technische Umsetzung.tex:271: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 ...et wurde, während wiederum die \"\),\"\)
+l.272 ...et wurde, während wiederum die \"\),\"\)
                                                    Schreibweise für die mat...
 
 Your command was ignored.
@@ -2800,7 +2742,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 Dies hat den Hintergrund, dass die \"\)
+l.272 ...et wurde, während wiederum die \"\),\"\)
+                                                   Schreibweise für die mat...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Technische Umsetzung.tex:273: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2808,13 +2764,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:273: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 Dies hat den Hintergrund, dass die \"\)
+l.273 Dies hat den Hintergrund, dass die \"\)
                                              ,\"\) Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2822,13 +2778,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:273: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 Dies hat den Hintergrund, dass die \"\),\"\)
+l.273 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2836,13 +2792,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:272: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:273: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 Dies hat den Hintergrund, dass die \"\),\"\)
+l.273 Dies hat den Hintergrund, dass die \"\),\"\)
                                                    Schreibweise in JavaScrip...
 
 Your command was ignored.
@@ -2850,13 +2806,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:278: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:279: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 IndexedDB unterstützt die Eigenschaft \"\)
+l.279 IndexedDB unterstützt die Eigenschaft \"\)
                                                  unique\"\), welche dafür s...
 
 Your command was ignored.
@@ -2864,13 +2820,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:278: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:279: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 IndexedDB unterstützt die Eigenschaft \"\)
+l.279 IndexedDB unterstützt die Eigenschaft \"\)
                                                  unique\"\), welche dafür s...
 
 Your command was ignored.
@@ -2878,13 +2834,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:278: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:279: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 ...terstützt die Eigenschaft \"\)unique\"\)
+l.279 ...terstützt die Eigenschaft \"\)unique\"\)
                                                   , welche dafür sorgt, das...
 
 Your command was ignored.
@@ -2892,13 +2848,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Technische Umsetzung.tex:278: LaTeX Error: Bad math environment delimiter.
+Technische Umsetzung.tex:279: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 ...terstützt die Eigenschaft \"\)unique\"\)
+l.279 ...terstützt die Eigenschaft \"\)unique\"\)
                                                   , welche dafür sorgt, das...
 
 Your command was ignored.
@@ -2906,43 +2862,43 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--291
+Underfull \hbox (badness 10000) in paragraph at lines 267--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--291
+Underfull \hbox (badness 10000) in paragraph at lines 267--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--291
+Underfull \hbox (badness 10000) in paragraph at lines 267--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--291
+Underfull \hbox (badness 10000) in paragraph at lines 267--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--291
+Underfull \hbox (badness 10000) in paragraph at lines 267--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/ptm/m/n/10 (+20) Lesezugriff auf Benutzer-E-
  []
 
 
-Technische Umsetzung.tex:319: Package caption Error: \caption outside float.
+Technische Umsetzung.tex:320: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319     \caption
+l.320     \caption
                   {}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2950,13 +2906,13 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (Ergebnis.tex [19] [20]
-<Bilder/Ergebnis.png, id=484, 1209.51875pt x 796.9775pt>
+) (Ergebnis.tex [20] [21]
+<Bilder/Ergebnis.png, id=546, 1209.51875pt x 796.9775pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 12.
 (pdftex.def)             Requested size: 341.43437pt x 224.9763pt.
-<Bilder/Ergebnis_LaufenderTermin.png, id=485, 721.94719pt x 450.9347pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=547, 721.94719pt x 450.9347pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2976,7 +2932,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=486, 722.7pt x 453.19313pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=548, 722.7pt x 453.19313pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2992,8 +2948,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--58
 
  []
 
-[21 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_lightMode.png, id=495, 721.94719pt x 450.18187pt>
+[22 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
+<Bilder/Ergebnis_lightMode.png, id=557, 721.94719pt x 450.18187pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 61.
@@ -3028,7 +2984,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
+[23 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
@@ -3171,7 +3127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--113
 
  []
 
-[23 <./Bilder/Ergebnis_lightMode.png>]
+[24 <./Bilder/Ergebnis_lightMode.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 114--144
 
  []
@@ -3191,8 +3147,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--144
 
  []
 
-[24]
-<Bilder/FertigesProdukt.png, id=518, 2047.65pt x 1541.76pt>
+[25]
+<Bilder/FertigesProdukt.png, id=580, 2047.65pt x 1541.76pt>
 File: Bilder/FertigesProdukt.png Graphic file (type png)
 <use Bilder/FertigesProdukt.png>
 Package pdftex.def Info: Bilder/FertigesProdukt.png  used on input line 147.
@@ -3224,7 +3180,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[25 <./Bilder/FertigesProdukt.png>])
+[26 <./Bilder/FertigesProdukt.png>])
 
 main.tex:155: Package biblatex Error: '\bibliographystyle' invalid for 'biblate
 x'.
@@ -3309,7 +3265,7 @@ Overfull \hbox (18.66124pt too wide) in paragraph at lines 157--157
  microsoft-graph-api-version\T1/ptm/m/n/10.95 (-20) .
  []
 
-
+[27]
 Overfull \hbox (4.21495pt too wide) in paragraph at lines 157--157
 []\T1/ptm/m/n/10.95 (-20) Microsoft-Graph-Explorer. \T1/ptm/m/it/10.95 (-20) Mi
 crosoft-Graph-Explorer\T1/ptm/m/n/10.95 (-20) .
@@ -3321,7 +3277,11 @@ Overfull \hbox (0.85417pt too wide) in paragraph at lines 157--157
 0) : []$\T1/cmtt/m/n/10.95 https : / / developer . microsoft . com /
  []
 
-[26]
+
+Overfull \hbox (1.72597pt too wide) in paragraph at lines 157--157
+[]$\T1/cmtt/m/n/10.95 https : / / www . npmjs . com / package / @microsoft /
+ []
+
 main.tex:157: Missing $ inserted.
 <inserted text> 
                 $
@@ -3453,15 +3413,15 @@ Overfull \hbox (5.51643pt too wide) in paragraph at lines 157--157
 -bi-li-ty Gui-de-li-nes (WCAG)
  []
 
-[27] (main.gls)
+[28] (main.gls [29])
 (C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\auxil\main.acr)
-[28] (Anhang.tex
+[30] (Anhang.tex
 
 pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=621, 597.55246pt x 845.07718pt>
+ored details.pdf, id=702, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3492,7 +3452,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=624, page=1, 597.55246pt x 845.07718pt>
+ored details.pdf, id=705, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3507,7 +3467,7 @@ censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
 e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-[29]
+[31]
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3529,7 +3489,7 @@ censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
 e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
- [30 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking
+ [32 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking
  - censored details.pdf>]
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
@@ -3561,7 +3521,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=666, page=2, 597.55246pt x 845.07718pt>
+ored details.pdf, id=746, page=2, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3597,65 +3557,65 @@ censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
 e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-[31 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
-- censored details.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
- - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=680, page=3, 597.55246pt x 845.07718pt>
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 3>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 3>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 3>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-[32 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
-- censored details.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
- - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=686, page=4, 597.55246pt x 845.07718pt>
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 4>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 4>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 4>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 [33 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
+- censored details.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
+ - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
+ored details.pdf, id=760, page=3, 597.55246pt x 845.07718pt>
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 3>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page3 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 3>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page3 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 3>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page3 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+[34 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
+- censored details.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
+ - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
+ored details.pdf, id=766, page=4, 597.55246pt x 845.07718pt>
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 4>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page4 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 4>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page4 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 4>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page4 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+[35 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
 - censored details.pdf>]
 
 Anhang.tex:8: Package caption Error: \caption outside float.
@@ -3703,17 +3663,17 @@ or  <return>  to continue without it.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 13F8EBCBB95B292010D378A3EEED2A24;7214.
+(rerunfilecheck)             Checksum: 263A094058EBC1BE03F5FB531670C548;8156.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56490 strings out of 476339
- 1258847 string characters out of 5787176
- 2387231 words of memory out of 5000000
- 75330 multiletter control sequences out of 15000+600000
- 611594 words of font info for 397 fonts, out of 8000000 for 9000
+ 56776 strings out of 476339
+ 1264716 string characters out of 5787176
+ 2303230 words of memory out of 5000000
+ 75576 multiletter control sequences out of 15000+600000
+ 612764 words of font info for 411 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -3730,9 +3690,9 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (34 pages, 1253652 bytes).
+main.pdf (36 pages, 1270541 bytes).
 PDF statistics:
- 895 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
- 110078 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 110134 words of extra memory for PDF output out of 128383 (max. 10000000)
 

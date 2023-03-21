@@ -16,37 +16,44 @@
 \contentsline {subsection}{\numberline {3.2}Soll-Zustand}{7}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Anforderungen}{7}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}User Interface}{7}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}User Flow}{7}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}LED Strips}{9}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Objektorientierte Analyse}{9}{subsubsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.3}Use Case}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{10}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Microsoft Teams}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Outlook}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Microsoft Bookings}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Microsoft Power Automate}{12}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{13}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Vorgehensweise}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Technische Umsetzung}{14}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Grobe Planung}{14}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Benutzte Hardware und Software}{15}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Prototyp}{16}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Weiterentwicklung der groben Planung}{16}{subsubsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.5}Ablauf der Entwicklung}{16}{subsubsection.5.1.5}%
-\contentsline {subsubsection}{\numberline {5.1.6}Rest-Anfragen}{16}{subsubsection.5.1.6}%
-\contentsline {subsubsection}{\numberline {5.1.7}Timer}{17}{subsubsection.5.1.7}%
-\contentsline {subsubsection}{\numberline {5.1.8}Persistente Datenspeicherung}{18}{subsubsection.5.1.8}%
-\contentsline {subsubsection}{\numberline {5.1.9}Azure Authentifizierung}{19}{subsubsection.5.1.9}%
-\contentsline {section}{\numberline {6}Ergebnis}{21}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{21}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Performance}{23}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Test 1}{23}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Test 2}{23}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Test 3}{23}{subsubsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.3}Fazit}{24}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Literaturverzeichnis}{26}{section.7}%
-\contentsline {section}{\numberline {8}Glossar}{28}{section.8}%
-\contentsline {section}{\numberline {9}Anhang}{29}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Spezifikationsblatt}{30}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {3.2.3}User Flow}{8}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Hosting}{9}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Authentifizierung}{9}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}ISO 8601 Konformität}{9}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.7}Timer}{10}{subsubsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.8}Fehlerbehandlung}{10}{subsubsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.9}LED Strips}{10}{subsubsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.10}Objektorientierte Analyse}{10}{subsubsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.3}Use Case}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Microsoft Teams}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Outlook}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Microsoft Bookings}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Microsoft Power Automate}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{14}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Technische Umsetzung}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Prototyp}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Benutzte Hardware und Software}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Grobe Planung}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Iterative Entwicklung der groben Planung}{17}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Ablauf der Entwicklung}{17}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Rest-Anfragen}{17}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Abfrageoptimierung}{17}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Probleme}{18}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Objektorientiertes Design}{18}{subsubsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.7}Timer}{19}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Persistente Datenspeicherung}{19}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Azure Authentifizierung}{21}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Ergebnis}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Performance}{24}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Test 1}{24}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Test 2}{24}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Test 3}{24}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Fazit}{25}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{27}{section.7}%
+\contentsline {section}{\numberline {8}Glossar}{29}{section.8}%
+\contentsline {section}{\numberline {9}Anhang}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Spezifikationsblatt}{32}{subsection.9.1}%
 \contentsfinish 

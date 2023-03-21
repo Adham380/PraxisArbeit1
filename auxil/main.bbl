@@ -49,6 +49,35 @@
       \verb https://www.download.p4c.philips.com/files/1/10bdl4551t_00/10bdl4551t_00_pss_enggb.pdf?_ga=2.87916248.193099575.1678716502-1541604121.1678716502
       \endverb
     \endentry
+    \entry{Babel}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=53718118d84d26983528d262b37ea0be}{%
+           family={Babel},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{53718118d84d26983528d262b37ea0be}
+      \strng{fullhash}{53718118d84d26983528d262b37ea0be}
+      \strng{bibnamehash}{53718118d84d26983528d262b37ea0be}
+      \strng{authorbibnamehash}{53718118d84d26983528d262b37ea0be}
+      \strng{authornamehash}{53718118d84d26983528d262b37ea0be}
+      \strng{authorfullhash}{53718118d84d26983528d262b37ea0be}
+      \field{labelalpha}{Babel}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{Babel}
+      \field{title}{Babel}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://babeljs.io/
+      \endverb
+      \verb{url}
+      \verb https://babeljs.io/
+      \endverb
+    \endentry
     \entry{caniuse-indexedDB}{misc}{}
       \name{author}{1}{}{%
         {{hash=fbbf59b07c3bc25d01da66f80a849e90}{%
@@ -75,6 +104,35 @@
       \endverb
       \verb{url}
       \verb https://caniuse.com/indexeddb
+      \endverb
+    \endentry
+    \entry{EsLint}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=82a303102cf6b2bd34a78498f2aac5a0}{%
+           family={EsLint},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{82a303102cf6b2bd34a78498f2aac5a0}
+      \strng{fullhash}{82a303102cf6b2bd34a78498f2aac5a0}
+      \strng{bibnamehash}{82a303102cf6b2bd34a78498f2aac5a0}
+      \strng{authorbibnamehash}{82a303102cf6b2bd34a78498f2aac5a0}
+      \strng{authornamehash}{82a303102cf6b2bd34a78498f2aac5a0}
+      \strng{authorfullhash}{82a303102cf6b2bd34a78498f2aac5a0}
+      \field{labelalpha}{EsLint}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{EsLint}
+      \field{title}{EsLint}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://eslint.org/
+      \endverb
+      \verb{url}
+      \verb https://eslint.org/
       \endverb
     \endentry
     \entry{IndexedDB}{misc}{}
@@ -373,6 +431,64 @@
       \verb https://developer.microsoft.com/en-us/graph/graph-explorer
       \endverb
     \endentry
+    \entry{Microsoft-Graph-Toolkit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4ebc2fa38b2f0dc25c0001e7e8a58d6e}{%
+           family={Microsoft-Graph-Toolkit},
+           familyi={M\bibinithyphendelim G\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ebc2fa38b2f0dc25c0001e7e8a58d6e}
+      \strng{fullhash}{4ebc2fa38b2f0dc25c0001e7e8a58d6e}
+      \strng{bibnamehash}{4ebc2fa38b2f0dc25c0001e7e8a58d6e}
+      \strng{authorbibnamehash}{4ebc2fa38b2f0dc25c0001e7e8a58d6e}
+      \strng{authornamehash}{4ebc2fa38b2f0dc25c0001e7e8a58d6e}
+      \strng{authorfullhash}{4ebc2fa38b2f0dc25c0001e7e8a58d6e}
+      \field{labelalpha}{Microsoft-Graph-Toolkit}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{Microsoft-Graph-Toolkit}
+      \field{title}{Microsoft-Graph-Toolkit}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/graph/toolkit/overview
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/graph/toolkit/overview
+      \endverb
+    \endentry
+    \entry{Microsoft-mgt-npm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a92cbb43176f6169bd6196c3611a2fa4}{%
+           family={Microsoft-mgt-npm},
+           familyi={M\bibinithyphendelim m\bibinithyphendelim n\bibinitperiod}}}%
+      }
+      \strng{namehash}{a92cbb43176f6169bd6196c3611a2fa4}
+      \strng{fullhash}{a92cbb43176f6169bd6196c3611a2fa4}
+      \strng{bibnamehash}{a92cbb43176f6169bd6196c3611a2fa4}
+      \strng{authorbibnamehash}{a92cbb43176f6169bd6196c3611a2fa4}
+      \strng{authornamehash}{a92cbb43176f6169bd6196c3611a2fa4}
+      \strng{authorfullhash}{a92cbb43176f6169bd6196c3611a2fa4}
+      \field{labelalpha}{Microsoft-mgt-npm}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{Microsoft-mgt-npm}
+      \field{title}{Microsoft-mgt-npm}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.npmjs.com/package/@microsoft/mgt
+      \endverb
+      \verb{url}
+      \verb https://www.npmjs.com/package/@microsoft/mgt
+      \endverb
+    \endentry
     \entry{microsoftGraphApi}{misc}{}
       \name{author}{1}{}{%
         {{hash=a9074e66d53b0acd4aabe98ed26594ba}{%
@@ -661,12 +777,12 @@
       \strng{authorbibnamehash}{d14bb03f6c9e0be141ab732c1fd47b0a}
       \strng{authornamehash}{d14bb03f6c9e0be141ab732c1fd47b0a}
       \strng{authorfullhash}{d14bb03f6c9e0be141ab732c1fd47b0a}
-      \field{labelalpha}{vuejs}
-      \field{sortinit}{v}
+      \field{labelalpha}{Vue.js}
+      \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{shorthand}{vuejs}
+      \field{shorthand}{Vue.js}
       \field{title}{vuejs}
       \field{year}{2023}
       \true{nocite}
@@ -705,6 +821,35 @@
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/WCAG21/
+      \endverb
+    \endentry
+    \entry{Webpack}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c64e0f7d4e01e48e693c9c5638b5e8f7}{%
+           family={Webpack},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c64e0f7d4e01e48e693c9c5638b5e8f7}
+      \strng{fullhash}{c64e0f7d4e01e48e693c9c5638b5e8f7}
+      \strng{bibnamehash}{c64e0f7d4e01e48e693c9c5638b5e8f7}
+      \strng{authorbibnamehash}{c64e0f7d4e01e48e693c9c5638b5e8f7}
+      \strng{authornamehash}{c64e0f7d4e01e48e693c9c5638b5e8f7}
+      \strng{authorfullhash}{c64e0f7d4e01e48e693c9c5638b5e8f7}
+      \field{labelalpha}{Webpack}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{Webpack}
+      \field{title}{Webpack}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://webpack.js.org/
+      \endverb
+      \verb{url}
+      \verb https://webpack.js.org/
       \endverb
     \endentry
   \enddatalist
