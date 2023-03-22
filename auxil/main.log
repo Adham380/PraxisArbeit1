@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.20)  22 MAR 2023 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.20)  22 MAR 2023 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1934,7 +1934,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 ...line {6.3}Performance}{23}{subsection.6.3}
+l.51 ...line {6.3}Performance}{24}{subsection.6.3}
                                                   % [1])
 \tf@toc=\write9
 \openout9 = `main.toc'.
@@ -1980,93 +1980,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--48
  []
 
 [4]) (Problemanalyse.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--28
+Underfull \hbox (badness 10000) in paragraph at lines 30--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--51
+Underfull \hbox (badness 10000) in paragraph at lines 30--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--51
+Underfull \hbox (badness 10000) in paragraph at lines 30--65
 
  []
 
-[5]
-<Bilder/mockup.png, id=342, 782.925pt x 434.62375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--65
+
+ []
+
+[5] [6]
+<Bilder/mockup.png, id=347, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
-Package pdftex.def Info: Bilder/mockup.png  used on input line 89.
+Package pdftex.def Info: Bilder/mockup.png  used on input line 103.
 (pdftex.def)             Requested size: 341.43437pt x 189.5373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--97
+Underfull \hbox (badness 10000) in paragraph at lines 90--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--97
+Underfull \hbox (badness 10000) in paragraph at lines 90--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--97
+Underfull \hbox (badness 10000) in paragraph at lines 90--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--97
+Underfull \hbox (badness 10000) in paragraph at lines 90--111
 
  []
 
-<Bilder/Workflow Terminbuchung.png, id=344, 770.88pt x 578.16pt>
+<Bilder/Workflow Terminbuchung.png, id=349, 770.88pt x 578.16pt>
 File: Bilder/Workflow Terminbuchung.png Graphic file (type png)
 <use Bilder/Workflow Terminbuchung.png>
 Package pdftex.def Info: Bilder/Workflow Terminbuchung.png  used on input line 
-103.
+117.
 (pdftex.def)             Requested size: 341.43437pt x 256.07619pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--117
+Underfull \hbox (badness 10000) in paragraph at lines 112--131
 
  []
 
-[6 <./Bilder/mockup.png>]
+[7 <./Bilder/mockup.png>]
 
-Problemanalyse.tex:118: LaTeX Error: There's no line here to end.
+Problemanalyse.tex:132: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \newline
+l.132 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/GrafikdesignerMockup.png, id=353, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=357, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
-Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 12
-2.
+Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 13
+6.
 (pdftex.def)             Requested size: 277.41176pt x 173.11227pt.
-[7 <./Bilder/Workflow Terminbuchung.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 130--143
+[8 <./Bilder/Workflow Terminbuchung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 144--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--143
+Underfull \hbox (badness 10000) in paragraph at lines 144--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--168
 
  []
 
-[8 <./Bilder/GrafikdesignerMockup.png>]) (Use Case.tex
+[9 <./Bilder/GrafikdesignerMockup.png>]) (Use Case.tex
 Use Case.tex:31: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
@@ -2144,7 +2149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--3
 
  []
 
-[9]
+[10]
 Systemschnittstellen.tex:63: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
@@ -2229,7 +2234,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (AbgrenzungZuÄhnlichenProdukten.tex [10] [11]
+) (AbgrenzungZuÄhnlichenProdukten.tex [11] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 10--16
 
  []
@@ -2244,7 +2249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--32
 
  []
 
-) (vorgehensweise.tex [12] [13]) (Technische Umsetzung.tex
+) (vorgehensweise.tex [13] [14]) (Technische Umsetzung.tex
 
 Technische Umsetzung.tex:12: LaTeX Error: There's no line here to end.
 
@@ -2283,7 +2288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--86
 
  []
 
-[14] [15]
+[15] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
@@ -2340,7 +2345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--141
 
  []
 
-[16]
+[17]
 
 Technische Umsetzung.tex:154: LaTeX Error: There's no line here to end.
 
@@ -2402,7 +2407,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--221
 
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 222--239
 
  []
@@ -2475,7 +2480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--265
 
  []
 
-[18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 266--277
 
  []
@@ -2828,7 +2833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--334
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []|\T1/ptm/m/n/10 (+20) Lesezugriff auf Benutzer-E-
  []
@@ -2849,13 +2854,13 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (Ergebnis.tex [20]
-<Bilder/Ergebnis.png, id=562, 1209.51875pt x 796.9775pt>
+) (Ergebnis.tex [21]
+<Bilder/Ergebnis.png, id=566, 1209.51875pt x 796.9775pt>
 File: Bilder/Ergebnis.png Graphic file (type png)
 <use Bilder/Ergebnis.png>
 Package pdftex.def Info: Bilder/Ergebnis.png  used on input line 12.
 (pdftex.def)             Requested size: 341.43437pt x 224.9763pt.
-<Bilder/Ergebnis_LaufenderTermin.png, id=563, 721.94719pt x 450.9347pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=567, 721.94719pt x 450.9347pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -2875,7 +2880,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=564, 722.7pt x 453.19313pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=568, 722.7pt x 453.19313pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -2891,8 +2896,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--58
 
  []
 
-[21 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
-<Bilder/Ergebnis_lightMode.png, id=573, 721.94719pt x 450.18187pt>
+[22 <./Bilder/Ergebnis.png> <./Bilder/Ergebnis_LaufenderTermin.png>]
+<Bilder/Ergebnis_lightMode.png, id=577, 721.94719pt x 450.18187pt>
 File: Bilder/Ergebnis_lightMode.png Graphic file (type png)
 <use Bilder/Ergebnis_lightMode.png>
 Package pdftex.def Info: Bilder/Ergebnis_lightMode.png  used on input line 61.
@@ -2927,7 +2932,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
+[23 <./Bilder/Ergebnis_TerminErstellen_Menue.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
@@ -2966,7 +2971,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--95
 
  []
 
-[23 <./Bilder/Ergebnis_lightMode.png>]
+[24 <./Bilder/Ergebnis_lightMode.png>]
 
 Ergebnis.tex:96: LaTeX Error: There's no line here to end.
 
@@ -3125,7 +3130,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--181
 
  []
 
-[24] [25])
+[25] [26])
 
 main.tex:155: Package biblatex Error: '\bibliographystyle' invalid for 'biblate
 x'.
@@ -3210,7 +3215,7 @@ Overfull \hbox (18.66124pt too wide) in paragraph at lines 157--157
  microsoft-graph-api-version\T1/ptm/m/n/10.95 (-20) .
  []
 
-[26]
+[27]
 Overfull \hbox (4.21495pt too wide) in paragraph at lines 157--157
 []\T1/ptm/m/n/10.95 (-20) Microsoft-Graph-Explorer. \T1/ptm/m/it/10.95 (-20) Mi
 crosoft-Graph-Explorer\T1/ptm/m/n/10.95 (-20) .
@@ -3371,15 +3376,15 @@ Overfull \hbox (5.51643pt too wide) in paragraph at lines 157--157
 -bi-li-ty Gui-de-li-nes (WCAG)
  []
 
-[27] (main.gls [28])
-(D:/Programming\Praxisarbeit1Folder\PraxisArbeit1\auxil\main.acr) [29]
+[28] (main.gls [29])
+(D:/Programming\Praxisarbeit1Folder\PraxisArbeit1\auxil\main.acr) [30]
 (Anhang.tex
 
 pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=735, 597.55246pt x 845.07718pt>
+ored details.pdf, id=740, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3410,7 +3415,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=738, page=1, 597.55246pt x 845.07718pt>
+ored details.pdf, id=743, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3425,7 +3430,7 @@ censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
 e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-[30]
+[31]
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3447,7 +3452,7 @@ censored details.pdf, page 1>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
 e365 room booking - censored details.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
- [31 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking
+ [32 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking
  - censored details.pdf>]
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
@@ -3479,7 +3484,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=780, page=2, 597.55246pt x 845.07718pt>
+ored details.pdf, id=784, page=2, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3515,35 +3520,6 @@ censored details.pdf, page 2>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
 e365 room booking - censored details.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-[32 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
-- censored details.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
- - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=794, page=3, 597.55246pt x 845.07718pt>
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 3>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 3>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
-File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
- censored details.pdf Graphic file (type pdf)
-<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 3>
-Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page3 used on input line 7.
-(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 [33 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
 - censored details.pdf>]
 
@@ -3551,29 +3527,58 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=800, page=4, 597.55246pt x 845.07718pt>
+ored details.pdf, id=798, page=3, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 4>
+censored details.pdf, page 3>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 7.
+e365 room booking - censored details.pdf , page3 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 4>
+censored details.pdf, page 3>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 7.
+e365 room booking - censored details.pdf , page3 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
-censored details.pdf, page 4>
+censored details.pdf, page 3>
 Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
-e365 room booking - censored details.pdf , page4 used on input line 7.
+e365 room booking - censored details.pdf , page3 used on input line 7.
 (pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
 [34 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
+- censored details.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
+ - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
+ored details.pdf, id=804, page=4, 597.55246pt x 845.07718pt>
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 4>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page4 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 4>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page4 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
+ censored details.pdf Graphic file (type pdf)
+<use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
+censored details.pdf, page 4>
+Package pdftex.def Info: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Offic
+e365 room booking - censored details.pdf , page4 used on input line 7.
+(pdftex.def)             Requested size: 478.04262pt x 676.06267pt.
+[35 <./PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking 
 - censored details.pdf>]
 
 Anhang.tex:8: Package caption Error: \caption outside float.
@@ -3624,9 +3629,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56962 strings out of 476374
- 1264971 string characters out of 5788854
- 2298081 words of memory out of 5000000
+ 56963 strings out of 476374
+ 1264978 string characters out of 5788854
+ 2298087 words of memory out of 5000000
  75723 multiletter control sequences out of 15000+600000
  612394 words of font info for 408 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -3645,9 +3650,9 @@ e1/urw/times/utmb8a.pfb><C:/Users/adham/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Users/adham/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/times/utmri8a.pfb>
 Output written on D:/Programming\Praxisarbeit1Folder\PraxisArbeit1\out\main.pdf
- (35 pages, 975818 bytes).
+ (36 pages, 977524 bytes).
 PDF statistics:
- 1023 PDF objects out of 1200 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
+ 1027 PDF objects out of 1200 (max. 8388607)
+ 225 named destinations out of 1000 (max. 500000)
  108082 words of extra memory for PDF output out of 128383 (max. 10000000)
 

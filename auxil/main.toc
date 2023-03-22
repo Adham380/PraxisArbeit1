@@ -13,49 +13,49 @@
 \contentsline {section}{\numberline {3}Problemanalyse}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Ist-Zustand}{5}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}User Journey}{5}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Soll-Zustand}{6}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Anforderungen}{6}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}User Interface}{6}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}User Flow}{7}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Hosting}{8}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Authentifizierung}{8}{subsubsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.6}ISO 8601 Konformität}{9}{subsubsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.7}Timer}{9}{subsubsection.3.2.7}%
-\contentsline {subsubsection}{\numberline {3.2.8}Fehlerbehandlung}{9}{subsubsection.3.2.8}%
-\contentsline {subsubsection}{\numberline {3.2.9}Spezifikationsblatt}{9}{subsubsection.3.2.9}%
-\contentsline {subsubsection}{\numberline {3.2.10}LED Strips}{9}{subsubsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.3}Use Case}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{10}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Microsoft Teams}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Outlook}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Microsoft Bookings}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Microsoft Power Automate}{12}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{12}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Technische Umsetzung}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Prototyp}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Benutzte Hardware und Software}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Grobe Planung}{14}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Iterative Entwicklung der groben Planung}{16}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Ablauf der Entwicklung}{16}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Rest-Anfragen}{16}{subsection.5.6}%
-\contentsline {subsubsection}{\numberline {5.6.1}Abfrageoptimierung}{17}{subsubsection.5.6.1}%
-\contentsline {subsubsection}{\numberline {5.6.2}Fehlerbehandlung}{17}{subsubsection.5.6.2}%
-\contentsline {subsubsection}{\numberline {5.6.3}Probleme der API}{18}{subsubsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.7}Timer}{18}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Persistente Datenspeicherung}{19}{subsection.5.8}%
-\contentsline {subsection}{\numberline {5.9}Azure Authentifizierung}{20}{subsection.5.9}%
-\contentsline {section}{\numberline {6}Ergebnis}{21}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{21}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Funktionalität}{23}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Performance}{23}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Initiales Laden}{23}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Interaktivität/Leerlauf}{24}{subsubsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.3}Animationen}{24}{subsubsection.6.3.3}%
-\contentsline {subsubsection}{\numberline {6.3.4}Bottleneck}{24}{subsubsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.4}Fazit}{25}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Literaturverzeichnis}{26}{section.7}%
-\contentsline {section}{\numberline {8}Glossar}{28}{section.8}%
-\contentsline {section}{\numberline {9}Anhang}{30}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Spezifikationsblatt}{31}{subsection.9.1}%
+\contentsline {subsection}{\numberline {3.2}Soll-Zustand}{7}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Anforderungen}{7}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}User Interface}{7}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}User Flow}{8}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Hosting}{9}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Authentifizierung}{9}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}ISO 8601 Konformität}{10}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.7}Timer}{10}{subsubsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.8}Fehlerbehandlung}{10}{subsubsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.9}Spezifikationsblatt}{10}{subsubsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.10}LED Strips}{10}{subsubsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.3}Use Case}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Microsoft Teams}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Outlook}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Microsoft Bookings}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Microsoft Power Automate}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{13}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Technische Umsetzung}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Prototyp}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Benutzte Hardware und Software}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Grobe Planung}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Iterative Entwicklung der groben Planung}{17}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Ablauf der Entwicklung}{17}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Rest-Anfragen}{17}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Abfrageoptimierung}{18}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Fehlerbehandlung}{18}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Probleme der API}{19}{subsubsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.7}Timer}{19}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Persistente Datenspeicherung}{20}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Azure Authentifizierung}{21}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Ergebnis}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Funktionalität}{24}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Performance}{24}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Initiales Laden}{24}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Interaktivität/Leerlauf}{25}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Animationen}{25}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Bottleneck}{25}{subsubsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.4}Fazit}{26}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{27}{section.7}%
+\contentsline {section}{\numberline {8}Glossar}{29}{section.8}%
+\contentsline {section}{\numberline {9}Anhang}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Spezifikationsblatt}{32}{subsection.9.1}%
 \contentsfinish 
