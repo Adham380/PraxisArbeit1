@@ -2,22 +2,24 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{Azure AD}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{15}}}%
+\glossentry{Azure APP ID}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossentry{Bottleneck}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossentry{caniuse}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{19}}}%
 \glossentry{Container}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{8}}}%
 \glossentry{cookie cache}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossentry{deployen}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}%
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
 \glossentry{Dory-node.js}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{Frameworks}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{4}}}\glsgroupskip
@@ -26,44 +28,51 @@
 		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossentry{IDE}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
+\glossentry{IMAP}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{20}}}\glsgroupskip
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossentry{Kiosk-Modus}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossentry{LED Strips}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{10}}}%
+		\setentrycounter[]{page}\glsnumberformat{9}}}%
 \glossentry{Linter}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}%
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
+\glossentry{Local Storage}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{18}}}%
 \glossentry{localhost}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{Node.js Server}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}%
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
 \glossentry{NPM}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{Player}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{Responsive Design}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}}}%
+		\setentrycounter[]{page}\glsnumberformat{8}}}%
 \glossentry{REST API}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{12}}}%
+		\setentrycounter[]{page}\glsnumberformat{11}}}%
 \glossentry{RESTful}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossentry{SICP}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}}}%
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
 \glossentry{SPA}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{23}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossentry{TBT}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{23}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossentry{User Journey}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{6}}}%
+		\setentrycounter[]{page}\glsnumberformat{5}}}%
 \glossentry{UserInterface}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7}}}%
+		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
+\glsgroupheading{W}\relax \glsresetentrylist %
+\glossentry{Worst-Case}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \end{theglossary}\glossarypostamble

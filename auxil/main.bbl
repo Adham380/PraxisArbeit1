@@ -737,6 +737,37 @@
       \field{year}{2010}
       \field{dateera}{ce}
     \endentry
+    \entry{RAILModell}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4445975ccfc00d5d654ab675aee97b43}{%
+           family={RAILModell},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4445975ccfc00d5d654ab675aee97b43}
+      \strng{fullhash}{4445975ccfc00d5d654ab675aee97b43}
+      \strng{bibnamehash}{4445975ccfc00d5d654ab675aee97b43}
+      \strng{authorbibnamehash}{4445975ccfc00d5d654ab675aee97b43}
+      \strng{authornamehash}{4445975ccfc00d5d654ab675aee97b43}
+      \strng{authorfullhash}{4445975ccfc00d5d654ab675aee97b43}
+      \field{labelalpha}{RAILModell}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{1}
+      \field{shorthand}{RAILModell}
+      \field{title}{RAIL Modell}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://web.dev/rail/#focus-on-the-user
+      \endverb
+      \verb{url}
+      \verb https://web.dev/rail/#focus-on-the-user
+      \endverb
+    \endentry
     \entry{JavaScriptAnimationsReflow}{misc}{}
       \name{author}{1}{}{%
         {{hash=51c5e7870aef25d9b37c61a26bb1e7b2}{%

@@ -92,7 +92,7 @@ Somit ist das Laden der Webseite akzeptabel~\cite{TotalBlockingTime}, da die Tot
 Das RAIL Modell erlaubt sogar Ladezeiten von bis zu 5 Sekunden beim initialen Laden der Webseite, falls innerhalb dieser 5 Sekunden die Interaktivität mit der Webseite gegeben ist.
 Die Hardware, die hier verwendet wurde, besitzt einen 32 Bit Prozessor, welcher im Jahr 2013 auf den Markt kam.
 \newline
-\subsubsection{Test 1}\label{subsubsec:test-1}
+\subsubsection{Interaktivität/Leerlauf}\label{subsubsec:test-1}
 \newline
 \newline
 Wie lange braucht die Anwendung, um nach einem Klick auf den Button \("\)+\("\) das Terminerstellungs-Menü zu öffnen?
@@ -100,26 +100,33 @@ Wie lange braucht die Anwendung, um nach einem Klick auf den Button \("\)+\("\) 
 Die Antwort auf diese Fragestellung wurde gemessen, indem der Event-Listener für den Button \("\)+\("\) registriert ausgab, wann die Taste betätigt und damit Zeit gemessen wurde, die vergeht, bis der \gls{Event-Listener} das Menü darstellt.
 Es dauert im Durchschnitt 2ms, bis das Menü angezeigt wird.
 Damit sind wir weit unter der 100ms Grenze, welche das RAIL Modell für Interaktivität mindestens empfiehlt und weit unter den 50ms, welche das RAIL Modell anstrebt.
+\newglossaryentry{Leerlauf}{name={Leerlauf},description={Der Leerlauf ist der Zeitraum, in dem die Anwendung keine Aktionen des Nutzers begegnet. Diese Zeit kann für die Anwendung genutzt werden, um Daten zu laden oder Berechnungen durchzuführen.}}
+Dies bedeutet also, dass der Leerlauf der Anwendung sich nicht beeinträchtigend auf die Echtzeit-Wahrnehmung des Nutzers auswirkt.
 \newline
 \newline
-\subsubsection{Test 2}\label{subsubsec:test-2}
+\subsubsection{Animationen}\label{subsubsec:test-2}
 \newline
 \newline
 Wie viele Bilder pro Sekunde zeigt die Anwendung durchschnittlich an?
 \newglossaryentry{LightHouse}{name={LightHouse},description={LightHouse ist ein Tool, welches von Google entwickelt wurde, um die Performance einer Website zu messen.}}
-Dies wurde mithilfe von LightHouse gemessen.
-%Aussage bewerten
+Dies wurde mithilfe von LightHouse über 60 Sekunden hinweg gemessen.
+\newglossaryentry{Worst-Case}{name={Worst-Case},description={Der Worst-Case ist der Fall, in dem die Leistung der Anwendung am schlechtesten ist.}}
+\newline
+Um ein~\gls{Worst-Case} Szenario zu simulieren, wurden 30 Termine erstellt, welche unterschiedliche Gastlogos, inklusive GIFs, enthielten.
+Ein aktueller Termin wurde initialisiert, um die Animation des Timers zu starten.
+Hinzufügend wurde die Anwendung benutzt, um Termine zu buchen und zwischen dem dunklen und hellen Design zu wechseln.
 Die Anwendung zeigt durchschnittlich 60 Bilder pro Sekunde an.
 Da die maximale Wiederholrate des Bildschirms und des Browsers bei 60Hz liegen, besteht nicht die Möglichkeit, für diesen Anwendungsfall zu testen, ob noch mehr Bilder pro Sekunde angezeigt werden können.
 Nichtsdestotrotz sind damit die Anforderungen des RAIL Modells für Bilder pro Sekunde erfüllt.
 \newline
 \newline
-\subsubsection{Test 3}\label{subsubsec:test-3}
+\subsubsection{Bottleneck}\label{subsubsec:test-bottleneck}
 \newline
 \newline
 \newglossaryentry{Bottleneck}{name={Bottleneck},description={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.}}
-Wie oft, kann die Anwendung theoretisch und praktisch pro Sekunde aktualisiert werden?
-Für jede Kombination aus Azure App und E-Mail-Adresse, dürfen 10000 Anfragen pro 10 Minuten gemacht werden.
+Wir wollen betrachten wie oft die Anwendung theoretisch und praktisch pro Sekunde aktualisiert werden kann.
+\newglossaryentry{Azure APP ID}{name={Azure APP ID},description={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.}}
+Für jede Kombination aus~\gls{Azure APP ID} und E-Mail-Adresse, dürfen 10000 Anfragen pro 10 Minuten gemacht werden.
 Dies sind 16,6 Anfragen pro Sekunde.
 Praktisch wurden eine bis drei Anfragen, je nach Bedarf, pro drei Sekunden durchgeführt.
 Dieser Bedarf hängt davon ab, ob sich an den Daten, die bei Microsoft gespeichert sind, etwas geändert hat und daran, ob Bilder-Anhänge für Gäste vorhanden sind, die nochmal separat per REST API abgefragt werden müssen.
@@ -156,9 +163,9 @@ Solche Entscheidungen obliegen dem Anwender.
 \newline
 Zusammenfassend kann gesagt werden, dass die Anwendung eine gute Basis für weitere Erweiterungen ist und die Anforderungen des Kunden so erfüllt.
 Damit geht einher, dass die Ziele erreicht wurden.
-\pagebreak
+%\pagebreak
 \newline
-Abschließend folgt noch ein Bild des Gerätes mit der Anwendung, welches im Kundenbetrieb genutzt wird.
+%Abschließend folgt noch ein Bild des Gerätes mit der Anwendung, welches im Kundenbetrieb genutzt wird.
 \newline
 %Überleg dir was Anderes. Das ist hässlich.
 %\par\vspace{1cm}

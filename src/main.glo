@@ -1,26 +1,30 @@
 \glossaryentry{Single Page Application (SPA)?\glossentry{SPA}|setentrycounter[]{page}"\glsnumberformat}{3}
-\glossaryentry{Total-Blocking-Time (TBT)?\glossentry{TBT}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{Frameworks?\glossentry{Frameworks}|setentrycounter[]{page}"\glsnumberformat}{4}
 \glossaryentry{RESTful?\glossentry{RESTful}|setentrycounter[]{page}"\glsnumberformat}{5}
-\glossaryentry{User Journey?\glossentry{User Journey}|setentrycounter[]{page}"\glsnumberformat}{6}
-\glossaryentry{UserInterface?\glossentry{UserInterface}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{User Journey?\glossentry{User Journey}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{UserInterface?\glossentry{UserInterface}|setentrycounter[]{page}"\glsnumberformat}{6}
 \glossaryentry{Container?\glossentry{Container}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Header?\glossentry{Header}|setentrycounter[]{page}"\glsnumberformat}{8}
-\glossaryentry{Responsive Design?\glossentry{Responsive Design}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{LED Strips?\glossentry{LED Strips}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{REST API?\glossentry{REST API}|setentrycounter[]{page}"\glsnumberformat}{12}
-\glossaryentry{Kiosk-Modus?\glossentry{Kiosk-Modus}|setentrycounter[]{page}"\glsnumberformat}{14}
-\glossaryentry{SICP?\glossentry{SICP}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{IDE?\glossentry{IDE}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{Node.js Server?\glossentry{Node.js Server}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{NPM?\glossentry{NPM}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{Linter?\glossentry{Linter}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{deployen?\glossentry{deployen}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{localhost?\glossentry{localhost}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{cookie cache?\glossentry{cookie cache}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{Azure AD?\glossentry{Azure AD}|setentrycounter[]{page}"\glsnumberformat}{16}
-\glossaryentry{Dory-node.js?\glossentry{Dory-node.js}|setentrycounter[]{page}"\glsnumberformat}{16}
-\glossaryentry{Player?\glossentry{Player}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{Responsive Design?\glossentry{Responsive Design}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{LED Strips?\glossentry{LED Strips}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{REST API?\glossentry{REST API}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Kiosk-Modus?\glossentry{Kiosk-Modus}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{SICP?\glossentry{SICP}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{IDE?\glossentry{IDE}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{Node.js Server?\glossentry{Node.js Server}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{NPM?\glossentry{NPM}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{Linter?\glossentry{Linter}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{deployen?\glossentry{deployen}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{localhost?\glossentry{localhost}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{cookie cache?\glossentry{cookie cache}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{Azure AD?\glossentry{Azure AD}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Dory-node.js?\glossentry{Dory-node.js}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Player?\glossentry{Player}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Local Storage?\glossentry{Local Storage}|setentrycounter[]{page}"\glsnumberformat}{18}
 \glossaryentry{caniuse.com?\glossentry{caniuse}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{Single Page Application (SPA)?\glossentry{SPA}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{Bottleneck?\glossentry{Bottleneck}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{IMAP?\glossentry{IMAP}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{Single Page Application (SPA)?\glossentry{SPA}|setentrycounter[]{page}"\glsnumberformat}{23}
+\glossaryentry{Total-Blocking-Time (TBT)?\glossentry{TBT}|setentrycounter[]{page}"\glsnumberformat}{23}
+\glossaryentry{Worst-Case?\glossentry{Worst-Case}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{Azure APP ID?\glossentry{Azure APP ID}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{Bottleneck?\glossentry{Bottleneck}|setentrycounter[]{page}"\glsnumberformat}{24}

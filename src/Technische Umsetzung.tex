@@ -78,6 +78,7 @@ mit der URL: \("\)http://localhost:3000/content\("\).
 Diese Seite wird dann lokal vom Player aufgerufen, worauf der Dory-node.js Server antwortet und die tatsächliche Seite anbietet, die lokal auf dem Bildschirm liegt.
 %Bitte im Soll-Zustand einführen was oAuth ist
 So ist die URL durchgehend, auf allen Geräten identisch, damit die OAuth 2.0 URI Bedingungen erfüllt sind.
+Ohne diese Bedingungen, wäre es nicht möglich, sich bei der Anwendung anzumelden.
 \newline
 \newline
 \newline
@@ -116,12 +117,47 @@ Solche explorativen Tests sind sehr wichtig, um Intuitivität und Benutzerfreund
 Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, andererseits aber auch um Fehler zu finden, die nicht vorgesehen waren, indem Monkey Testing~\cite{Monkey-Testing-Book1} betrieben wurde.
 \newline
 \subsection{Rest-Anfragen}\label{subsec:rest-anfragen}
-Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und die Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
-Die Daten wurden dabei im JSON Format zurückgegeben.
-Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
+
 \newline
 Um sicherzustellen, dass die Anfragen ISO 8601 konform sind, wird die Zeitzone bei jeglichen Anfragen mit angegeben.
-%Satz zu lang, umformieren
+Um eine Terminbuchung vorzunehmen, wird per REST API eine Anfrage an die Microsoft Graph API gesendet.
+\newline
+Diese sieht wie folgt aus:
+\newline
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript REST API Anfrage}]
+"https://graph.microsoft.com/v1.0/me/calendar/events"
+\end{lstlisting}
+\newglossaryentry{POST}{name=POST,description={POST ist eine HTTP Methode, die Daten an einen Server sendet.}}
+\newglossaryentry{Authorization}{name=Authorization,description={Authorization ist ein HTTP Header, der einen Schlüssel enthält, um die Anfrage zu authentifizieren.}}
+\newglossaryentry{Content-Type}{name=Content-Type,description={Content-Type ist ein HTTP Header, der angibt, welche Art von Daten in der Anfrage enthalten sind.}}
+\newglossaryentry{Header}{name=Header,description={Ein Header ist ein Teil einer HTTP Anfrage, der zusätzliche Informationen enthält.}}
+Diese wird per POST Methode an die Microsoft Graph API gesendet.
+Mehrere Header sind generell bei allen Fragen notwendig.
+Einerseits ein Authorization Header, der den Access Token enthält, der für die Authentifizierung des Benutzers notwendig ist, und andererseits ein Content-Type Header, der auf application/json gesetzt ist.
+\newline
+Im Körper der Anfrage werden die Daten im JSON Format mitgegeben.
+Diese enthalten Daten wie den Titel, die Startzeit, die Endzeit, die Beschreibung und die Zeitzone.
+\newline
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript REST API Körper}]
+{
+    "subject": "Meeting",
+    "start": {
+        "dateTime": "2019-06-06T10:00:00",
+        "timeZone": "Europe/Berlin"
+    },
+    "end": {
+        "dateTime": "2019-06-06T11:00:00",
+        "timeZone": "Europe/Berlin"
+    },
+}
+    \end{lstlisting}
+\newline
+\newline
+Um herauszufinden, welche Termine frei sind und welche nicht, wird dafür ebenso eine Anfrage an die Microsoft Graph API gesendet.
+Diese benutzt eine andere URL und andere Daten im Körper (Siehe Kapitel~\ref{subsubsec:abfrageoptimierung}).
+\subsubsection{Abfrageoptimierung}\label{subsubsec:abfrageoptimierung}
+Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und die Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
+Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
 Es wurden die Klauseln \("\$\)filter\("\) und \("\$\)top\("\) verwendet, um nur Termine für den aktuellen und nächsten Tag zu erhalten und dies einzuschränken auf die top 300 Termine, falls jemand versucht das System zu überlasten.
 Eine Sortierung ist nicht notwendig, da die Termine bereits nach Startzeit sortiert sind.
 Hier sieht man die oData v4 API Anfrage, die an die Microsoft Graph API gesendet wird:
@@ -130,7 +166,6 @@ Hier sieht man die oData v4 API Anfrage, die an die Microsoft Graph API gesendet
 \begin{lstlisting}[language=JavaScript,label={lst:JavaScript oData v4 API Anfrage}]
      let url =  "https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime" +  "ge"  + "${todayDate} and end/dateTime le ${tomorrowDate}&$top=300";
 \end{lstlisting}
-\subsubsection{Abfrageoptimierung}\label{subsubsec:abfrageoptimierung}
 \("\)https://graph.microsoft.com/v1.0/me/findMeetingTimes/\("\) ist die URL der Microsoft Graph API.
 Des Weiteren kommuniziert sie, welche API, spezifisch angesprochen werden soll.
 Da die Termine für den aktuellen und nächsten Tag benötigt werden, wird die \("\)FindMeetingTimes\("\) verwendet, welche die Kalender API verwendet.
@@ -152,30 +187,37 @@ Letzten Endes erhalten wir nur Termine zurück, die heute oder morgen stattfinde
 Die Verarbeitung dieser Daten erfolgt ISO 8601 konform.
 Sobald diese jedoch angezeigt werden, wird darauf geachtet, dass es die lokale Zeitzone ist.
 \newline
+\subsubsection{Fehlerbehandlung}\label{subsubsec:fehlerbehandlung-REST}
+Falls eine Anfrage nicht funktionieren, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit unterbrochen ist.
+Diese wird groß und prominent angezeigt, damit es nicht übersehen werden kann und deutlich wird, dass jegliche Daten die derzeit angezeigt werden, nicht aktuell sind.
+\newline
+\newline
 %Probleme gehören eigentlich woanders hin
-\subsubsection{Probleme}\label{subsubsec:probleme}
+\subsubsection{Probleme der API}\label{subsubsec:probleme-der-api}
 Es wurden im Voraus Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
 Jedoch hat sich herausgestellt, dass der Microsoft Graph Explorer nicht korrekt funktioniert und teilweise Befehle nicht entgegennimmt, die laut Microsoft Dokumentation funktionieren sollten.
 Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfragen korrekt funktionieren und auch im Request-Response Zyklus keine Fehler auftreten.
 \newline
 \newline
-Falls die Anfrage nicht funktioniert, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit unterbrochen ist.
-Diese wird groß und prominent angezeigt, damit es nicht übersehen werden kann und deutlich wird, dass jegliche Daten die derzeit angezeigt werden, nicht aktuell sind.
+Zudem war es initial nicht möglich, alle verfügbaren Termine, für den angegebenen Zeitraum, abzufragen.
+Dies wurde gelöst, indem die maximale Anzahl an Teilnehmern, für einen Termin, welche im Körper der Anfrage übergeben werden, auf 99 gesetzt wurde.
+Diese Lösung wurde durch einen Nutzer, in einem Forum, herausgefunden.
+Zwar ist dies nicht von Microsoft so vorgesehen, aber die Lösungs beeinträchtigt die Anwendung nicht, da es ohnehin nicht mehr möglich ist,Teilnehmer hinzu zu fügen.
 \newline
 \newline
-\subsubsection{Objektorientiertes Design}
-Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen dem Anwender und dem Server darstellt:
-\newline
-\newline
-\par\vspace{0.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
-\par\vspace{0.5cm}\label{fig:figure}
-\end{figure}
-\justifying
-\newline
-\newline
+%\subsubsection{Objektorientiertes Design}
+%Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen dem Anwender und dem Server darstellt:
+%\newline
+%\newline
+%\par\vspace{0.5cm}
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
+%\par\vspace{0.5cm}\label{fig:figure}
+%\end{figure}
+%\justifying
+%\newline
+%\newline
 \subsection{Timer}\label{subsec:timer}
 Der Timer, welcher die übrig bleibende Zeit bis zum Ende des jetzigen Termins anzeigt funktioniert, wie folgt:
 \newline
@@ -300,29 +342,43 @@ Um die Authentifizierung zu realisieren, wurden folgende Berechtigungen benötig
     \begin{tabularx}{\textwidth}{|X|X|X|}
         \toprule
         \textbf{Calendars.Read} & \textbf{Delegiert} & \textbf{Lesezugriff auf Benutzerkalender}\\
-        \midrule
+        \hline
         Calendars.Read.Shared & Delegiert & Benutzer und freigegebene Kalender lesen\\
+        \hline
         Calendars.ReadWrite & Delegiert & Verfügt über Vollzugriff auf Benutzerkalender.\\
+        \hline
         Calendars.ReadWrite.Shared & Delegiert & Benutzerdefinierte und freigegebene Kalender lesen und schreiben\\
+        \hline
         email & Delegiert & E-Mail-Adresse von Benutzern anzeigen \\
+        \hline
         IMAP.AccessAsUser.All & Delegiert & Read and write access to mailboxes via IMAP.\\
+        \hline
         Mail.Read & Delegiert & Lesezugriff auf Benutzer-E-Mails\\
+        \hline
         Mail.Send & Delegiert & E-Mails unter einem anderen Benutzernamen senden\\
+        \hline
         Mail.Send.Shared & Delegiert & E-Mails im Namen anderer Benutzer senden\\
+        \hline
         offline\_access & Delegiert & Zugriff auf Daten beibehalten, für die Sie Zugriff erteilt haben\\
+        \hline
         OnlineMeetings.Read & Delegiert & Read user's online meetings\\
+        \hline
         OnlineMeetings.ReadWrite & Delegiert & Read and create user's online meetings\\
+        \hline
         openid & Delegiert & Benutzer anmelden\\
+        \hline
         profile & Delegiert & Grundlegendes Profil von Benutzern anzeigen\\
+        \hline
         User.Read & Delegiert & Anmelden und Benutzerprofil lesen\\
         \bottomrule
     \end{tabularx}
-    \caption{}
-    \label{tab:}
+    \caption{Berechtigungen für die Authentifizierung}\label{tab:Berechtigungen für die Authentifizierung}
 %    \end{table}
 \newline
 \newline
 \raggedright
 \normalsize
 Diese werden beim erstmaligen Login, vom User, seitens Microsoft, angefordert.
-Ohne die Zustimmung des Users, wird die Anwendung nicht entsprechend den Anforderungen, funktionieren und wird weiterhin darauf hinweisen, dass der User sich anmelden soll.
+Ohne die Zustimmung des Users, wird die Anwendung nicht entsprechend den Anforderungen funktionieren und weiterhin darauf hinweisen, dass der User sich anmelden soll.
+\newglossaryentry{IMAP}{name=IMAP,description={Internet Message Access Protocol. Ein Protokoll, welches es ermöglicht, E-Mails von einem Mailserver abzurufen.}}
+Mit diesen Berechtigungen kann sichergestellt werden, dass auch Exchange-Konten, welche eine eigene~\gls{IMAP}-Adresse haben, alle Funktionalitäten der Anwendung nutzen können.

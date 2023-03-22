@@ -418,34 +418,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{Objektorientierte Analyse}%
-{%
-name={Objektorientierte Analyse},%
-sort={Objektorientierte Analyse},%
-type={main},%
-first={Objektorientierte Analyse},%
-firstplural={Objektorientierte Analyses},%
-text={Objektorientierte Analyse},%
-plural={Objektorientierte Analyses},%
-description={Objektorientierte Analyse ist ein Begriff aus der Softwareentwicklung. Objektorientierte Analyse ist eine Methode, um die Anforderungen an ein System zu analysieren.},%
-descriptionplural={Objektorientierte Analyse ist ein Begriff aus der Softwareentwicklung. Objektorientierte Analyse ist eine Methode, um die Anforderungen an ein System zu analysieren.},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{Kiosk-Modus}%
 {%
 name={Kiosk-Modus},%
@@ -810,6 +782,90 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{POST}%
+{%
+name={POST},%
+sort={POST},%
+type={main},%
+first={POST},%
+firstplural={POSTs},%
+text={POST},%
+plural={POSTs},%
+description={POST ist eine HTTP Methode, die Daten an einen Server sendet.},%
+descriptionplural={POST ist eine HTTP Methode, die Daten an einen Server sendet.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Authorization}%
+{%
+name={Authorization},%
+sort={Authorization},%
+type={main},%
+first={Authorization},%
+firstplural={Authorizations},%
+text={Authorization},%
+plural={Authorizations},%
+description={Authorization ist ein HTTP Header, der einen Schlüssel enthält, um die Anfrage zu authentifizieren.},%
+descriptionplural={Authorization ist ein HTTP Header, der einen Schlüssel enthält, um die Anfrage zu authentifizieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Content-Type}%
+{%
+name={Content-Type},%
+sort={Content-Type},%
+type={main},%
+first={Content-Type},%
+firstplural={Content-Types},%
+text={Content-Type},%
+plural={Content-Types},%
+description={Content-Type ist ein HTTP Header, der angibt, welche Art von Daten in der Anfrage enthalten sind.},%
+descriptionplural={Content-Type ist ein HTTP Header, der angibt, welche Art von Daten in der Anfrage enthalten sind.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{Query Parameter}%
 {%
 name={Query Parameter},%
@@ -821,6 +877,34 @@ text={Query Parameter},%
 plural={Query Parameters},%
 description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
 descriptionplural={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Local Storage}%
+{%
+name={Local Storage},%
+sort={Local Storage},%
+type={main},%
+first={Local Storage},%
+firstplural={Local Storages},%
+text={Local Storage},%
+plural={Local Storages},%
+description={Local Storage ist ein Speicherort, in Browsern, welcher Daten lokal speichert.},%
+descriptionplural={Local Storage ist ein Speicherort, in Browsern, welcher Daten lokal speichert.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -866,6 +950,90 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{IMAP}%
+{%
+name={IMAP},%
+sort={IMAP},%
+type={main},%
+first={IMAP},%
+firstplural={IMAPs},%
+text={IMAP},%
+plural={IMAPs},%
+description={Internet Message Access Protocol. Ein Protokoll, welches es ermöglicht, E-Mails von einem Mailserver abzurufen.},%
+descriptionplural={Internet Message Access Protocol. Ein Protokoll, welches es ermöglicht, E-Mails von einem Mailserver abzurufen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RAIL Modell}%
+{%
+name={RAIL Modell},%
+sort={RAIL Modell},%
+type={main},%
+first={RAIL Modell},%
+firstplural={RAIL Modells},%
+text={RAIL Modell},%
+plural={RAIL Modells},%
+description={Das RAIL Modell ist ein Modell, welches die Performance von Webseiten beschreibt. Es beschreibt, dass eine Webseite in 5 Bereiche unterteilt werden kann, welche die Performance beeinflussen. Diese sind: Antwort, Animation, Leerlauf, Laden und Bilder pro Sekunde.},%
+descriptionplural={Das RAIL Modell ist ein Modell, welches die Performance von Webseiten beschreibt. Es beschreibt, dass eine Webseite in 5 Bereiche unterteilt werden kann, welche die Performance beeinflussen. Diese sind: Antwort, Animation, Leerlauf, Laden und Bilder pro Sekunde.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Leerlauf}%
+{%
+name={Leerlauf},%
+sort={Leerlauf},%
+type={main},%
+first={Leerlauf},%
+firstplural={Leerlaufs},%
+text={Leerlauf},%
+plural={Leerlaufs},%
+description={Der Leerlauf ist der Zeitraum, in dem die Anwendung keine Aktionen des Nutzers begegnet. Diese Zeit kann für die Anwendung genutzt werden, um Daten zu laden oder Berechnungen durchzuführen.},%
+descriptionplural={Der Leerlauf ist der Zeitraum, in dem die Anwendung keine Aktionen des Nutzers begegnet. Diese Zeit kann für die Anwendung genutzt werden, um Daten zu laden oder Berechnungen durchzuführen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{LightHouse}%
 {%
 name={LightHouse},%
@@ -894,6 +1062,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Worst-Case}%
+{%
+name={Worst-Case},%
+sort={Worst-Case},%
+type={main},%
+first={Worst-Case},%
+firstplural={Worst-Cases},%
+text={Worst-Case},%
+plural={Worst-Cases},%
+description={Der Worst-Case ist der Fall, in dem die Leistung der Anwendung am schlechtesten ist.},%
+descriptionplural={Der Worst-Case ist der Fall, in dem die Leistung der Anwendung am schlechtesten ist.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{Bottleneck}%
 {%
 name={Bottleneck},%
@@ -905,6 +1101,34 @@ text={Bottleneck},%
 plural={Bottlenecks},%
 description={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.},%
 descriptionplural={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Azure APP ID}%
+{%
+name={Azure APP ID},%
+sort={Azure APP ID},%
+type={main},%
+first={Azure APP ID},%
+firstplural={Azure APP IDs},%
+text={Azure APP ID},%
+plural={Azure APP IDs},%
+description={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.},%
+descriptionplural={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
