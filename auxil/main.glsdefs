@@ -110,6 +110,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{API}%
+{%
+name={API},%
+sort={API},%
+type={main},%
+first={API},%
+firstplural={APIs},%
+text={API},%
+plural={APIs},%
+description={Eine Schnittstelle, die es ermöglicht, auf Daten zuzugreifen.},%
+descriptionplural={Eine Schnittstelle, die es ermöglicht, auf Daten zuzugreifen.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{RESTful}%
 {%
 name={RESTful},%
@@ -119,8 +147,8 @@ first={RESTful},%
 firstplural={RESTfuls},%
 text={RESTful},%
 plural={RESTfuls},%
-description={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
-descriptionplural={RESTful ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
+description={REST ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
+descriptionplural={REST ist ein Synonym für Representational State Transfer. RESTful ist ein Architekturstil für die Entwicklung von Webdiensten.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

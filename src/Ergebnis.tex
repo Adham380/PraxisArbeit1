@@ -48,7 +48,12 @@ Hier sieht man das Menü, in welchem ein Termin gebucht werden kann, welches dur
 \par\vspace{1cm}
 \end{figure}
 \justifying
-Wie zu sehen ist, ist beispielsweise die selbsterstellte Option \("\)Jetzt\("\) deaktiviert, da das Ende des hypothetischen Termins innerhalb von 15 Minuten vom nächsten anstehenden Termin beginnt.
+
+Die \("\)Jetzt\("\) Option wird im Terminbuchungsmenü nicht angezeigt, weil bereits ein Termin stattfindet.
+Falls ein kein Termin stattfindet, wird eine \("\)Jetzt\("\) Option angezeigt.
+Wenn das Ende des \("\)Jetzt\("\) Termins innerhalb von 15 Minuten vom nächsten anstehenden Termin beginnt, wird der \("\)Jetzt\("\) Termin rot markiert, sodass der Nutzer weiß, dass er den Termin nicht buchen kann, weil er zu lange dauert.
+Diese Option ist dann auch deaktiviert.
+So wird dem Nutzer übermittelt, dass die Option generell schon verfügbar ist, aber nur falls die Dauer verkürzt wird.
 Es werden alle möglichen Termine, innerhalb der Arbeitszeiten, für den Jetzigen und nächsten Tag angezeigt.
 Falls z.B. der nächste Tag ein Feiertag ist, werden für den nächsten Tag keine Termine angezeigt.
 Auf die anderen Optionen, wie z.B. Pufferzeiten, hat ein Anwender hier wenig Einfluss, da sie von den Einstellungen des Kalenders, des jeweiligen Nutzers, abhängen und es somit in der Verantwortung des Administrators liegt, diese zu ändern.

@@ -188,8 +188,9 @@ Die Verarbeitung dieser Daten erfolgt ISO 8601 konform.
 Sobald diese jedoch angezeigt werden, wird darauf geachtet, dass es die lokale Zeitzone ist.
 \newline
 \subsubsection{Fehlerbehandlung}\label{subsubsec:fehlerbehandlung-REST}
-Falls eine Anfrage nicht funktionieren, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit unterbrochen ist.
+Falls mehrere Anfragen, welche Informationen aktualisieren sollen, nacheinander fehlschlagen, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit nicht gewährleistet werden kann.
 Diese wird groß und prominent angezeigt, damit es nicht übersehen werden kann und deutlich wird, dass jegliche Daten die derzeit angezeigt werden, nicht aktuell sind.
+Dementsprechend wird die Fehlermeldung entfernt, sobald eine Anfrage erfolgreich war.
 \newline
 \newline
 %Probleme gehören eigentlich woanders hin
