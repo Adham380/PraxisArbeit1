@@ -5,37 +5,84 @@
 %Problemanalyse davor. (Zusammenfassung)
 %Dies kommt in den Lösungsentwurf
 \section{Abgrenzung zu ähnlichen Produkten}\label{sec:abgrenzung-zu-ahnlichen-produkten}
+Um die Anwendung von anderen Anwendungen abzugrenzen, werden diese tabellarisch verglichen.
 
-\subsection{Microsoft Teams}\label{subsec:microsoft-teams}
-Microsoft Teams ermöglicht Terminbuchungen genauso, erlaubt jedoch zu detaillierte Eingriffe in das Konto, welcher für den Raum vorgesehen ist.
-Einstellungen, die nicht verändert werden sollten, können dann erreicht werden.
-Beispielsweise könnte ein Benutzer, der Terminbuchungsrechte für den Kalender des Raumes erhält, Einstellungen wie die Sichtbarkeit, Pufferzeiten oder die Anzahl der Termine pro Tag verändern.
-Dies ist jedoch nicht gewünscht, da diese Einstellungen nur vom Administrator des Kalenders verändert werden sollten.
-Nichtsdestotrotz muss ein Benutzer in der Lage sein, den Kalender einzusehen, um zu sehen, ob der Raum belegt ist und diesen zu buchen.
-\newline
-\subsection{Outlook}\label{subsec:outlook}
-Outlook ist ein E-Mail-Programm, welches ebenfalls Terminbuchungen ermöglicht.
-Outlook ist nicht für die Terminbuchung in Konferenzräumen gedacht und kann je nach E-Mail-Konto-Typ nicht in vollem Umfang genutzt werden.
-Beispielsweise unterscheiden sich Synchronisationsintervalle zwischen Konten-Typen.
-Auch hier können Einstellungen, die nicht verändert werden sollten, erreicht werden und Kalender eingesehen werden, die nur für Administratoren gedacht sind.
-\newline
-\subsection{Microsoft Bookings}\label{subsec:microsoft-bookings}
-Microsoft Bookings ist eine weitere Applikation, die Terminbuchungen ermöglicht.
-Sie wird hauptsächlich für Terminbuchungen in beispielsweise Friseursalons, Fitnessstudios oder ähnlichen Geschäften genutzt.
-Dies ist jedoch der falsche Anwendungsfall für die Terminbuchung in Konferenzräumen.
-Auch die Einschränkungen und Freiheiten, die diese Applikation bietet, sind hier nicht passend.
-Microsoft Bookings erlaubt dem Anwender, eine vorgefertigte Webseite zu erstellen, auf der ein Kunde Termine buchen kann.
-Sie ist nicht für internes Management gedacht und lässt wenig Anpassungen zu.
-Beispielsweise wird nicht der aktuelle Raumstatus angezeigt, sondern nur die Anzahl der verfügbaren Termine.
-%Einscrhänkungen und Freiheiten erläutern
-\newline
-\subsection{Microsoft Power Automate}\label{subsec:microsoft-power-automate}
-Microsoft Power Automate ist eine Applikation, die es ermöglicht, Workflows zu erstellen.
-Diese Workflows können dann automatisiert ausgeführt werden.
-Diese kann auch ähnliche Funktionen wie die Applikation, die in dieser Arbeit entwickelt wird, bieten.
-Jedoch ist die Applikation nur für innerhalb der Organisationen vorgesehen und nicht für Kunden.
+%\subsection{Microsoft Teams}\label{subsec:microsoft-teams}
+%Microsoft Teams ermöglicht Terminbuchungen genauso, erlaubt jedoch zu detaillierte Eingriffe in das Konto, welcher für den Raum vorgesehen ist.
+%Einstellungen, die nicht verändert werden sollten, können dann erreicht werden.
+%Beispielsweise könnte ein Benutzer, der Terminbuchungsrechte für den Kalender des Raumes erhält, Einstellungen wie die Sichtbarkeit, Pufferzeiten oder die Anzahl der Termine pro Tag verändern.
+%Dies ist jedoch nicht gewünscht, da diese Einstellungen nur vom Administrator des Kalenders verändert werden sollten.
+%Nichtsdestotrotz muss ein Benutzer in der Lage sein, den Kalender einzusehen, um zu sehen, ob der Raum belegt ist und diesen zu buchen.
+%\newline
+%\subsection{Outlook}\label{subsec:outlook}
+%Outlook ist ein E-Mail-Programm, welches ebenfalls Terminbuchungen ermöglicht.
+%Outlook ist nicht für die Terminbuchung in Konferenzräumen gedacht und kann je nach E-Mail-Konto-Typ nicht in vollem Umfang genutzt werden.
+%Beispielsweise unterscheiden sich Synchronisationsintervalle zwischen Konten-Typen.
+%Auch hier können Einstellungen, die nicht verändert werden sollten, erreicht werden und Kalender eingesehen werden, die nur für Administratoren gedacht sind.
+%\newline
+%\subsection{Microsoft Bookings}\label{subsec:microsoft-bookings}
+%Microsoft Bookings ist eine weitere Applikation, die Terminbuchungen ermöglicht.
+%Sie wird hauptsächlich für Terminbuchungen in beispielsweise Friseursalons, Fitnessstudios oder ähnlichen Geschäften genutzt.
+%Dies ist jedoch der falsche Anwendungsfall für die Terminbuchung in Konferenzräumen.
+%Auch die Einschränkungen und Freiheiten, die diese Applikation bietet, sind hier nicht passend.
+%Microsoft Bookings erlaubt dem Anwender, eine vorgefertigte Webseite zu erstellen, auf der ein Kunde Termine buchen kann.
+%Sie ist nicht für internes Management gedacht und lässt wenig Anpassungen zu.
+%Beispielsweise wird nicht der aktuelle Raumstatus angezeigt, sondern nur die Anzahl der verfügbaren Termine.
+%%Einscrhänkungen und Freiheiten erläutern
+%\newline
+%\subsection{Microsoft Power Automate}\label{subsec:microsoft-power-automate}
+%Microsoft Power Automate ist eine Applikation, die es ermöglicht, Workflows zu erstellen.
+%Diese Workflows können dann automatisiert ausgeführt werden.
+%Diese kann auch ähnliche Funktionen wie die Applikation, die in dieser Arbeit entwickelt wird, bieten.
+%Jedoch ist die Applikation nur für innerhalb der Organisationen vorgesehen und nicht für Kunden.
 %erläutern
 %Warum pagebreak?
+\newline
+\newline
+\newline
+%Make a table that shows the differences between the products and our solution
+\small
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+    \hline
+    \textbf{Anforderungen} & \textbf{Microsoft Teams} & \textbf{Microsoft Outlook}& \textbf{Microsoft Bookings} & \textbf{Microsoft Power Automate} & \textbf{Gewichtung} \\
+    \hline
+    Webapplikation & \cmark & \cmark & \cmark & \cmark & 2 \\
+    \hline
+    Keine externe Registrierung & \cmark & \cmark & \cmark & \cmark & 2 \\
+    \hline
+    Gastgeber- und Teilnehmerlogos & \xmark & \xmark & \xmark & \xmark & 2 \\
+    \hline
+    Zwei-Tages-Ansicht & \cmark & \cmark & \xmark & \cmark & 1  \\
+    \hline
+    Anzeige aller verfügbaren Termine & \xmark & \xmark & \xmark & \cmark & 2 \\
+    \hline
+    Anzeige des jetzigen Raumstatus & \cmark & \cmark & \xmark & \cmark & 2 \\
+    \hline
+    Minimale Anzahl an Klicks & \xmark & \cmark & \xmark & \cmark & 1 \\
+    \hline
+    Minimale Benutzeroberfläche & \xmark & \xmark & \xmark & \xmark & 1  \\
+    \hline
+    Funktionen auf ein Minimum beschränken & \xmark & \xmark & \xmark & \cmark & 1  \\
+    \hline
+    Angemessene voreingestellte Softwaredistribution & \xmark & \xmark & \xmark & \xmark & 2 \\
+    \hline
+\end{tabularx}
+\normalsize
+\newline
+\newline
+Die maximal mögliche Punktzahl ist 16.
+Microsoft Teams erreicht 6 von 16 Punkten.
+Microsoft Outlook erreicht 8 von 16 Punkten.
+Microsoft Bookings erreicht 7 von 16 Punkten.
+Microsoft Power Automate erreicht 11 von 16 Punkten.
+\newline
+Keine der Applikationen erfüllt alle Anforderungen.
+Microsoft Power Automate erfüllt die meisten Anforderungen.
+Eine ideale Softwarelösung sollte alle Anforderungen erfüllen.
+Diese sind Kernanforderungen.
+Weitere Anforderungen, die nicht erfüllt werden, sind nicht kritisch, aber wären dennoch wünschenswert.
+\newline
+\newline
 \subsection{Spezifische Gründe für die Entwicklung einer eigenen Applikation}\label{subsec:spezifische-grunde-fur-die-entwicklung-einer-eigenen-applikation}
 Wenn ein Kunde bei der DOOH media GmbH einkauft, kauft er im Regelfall ein umfangreiches Softwarepaket.
 \newglossaryentry{Kiosk-Modus}{name=Kiosk-Modus, description={Der Kiosk-Modus ist ein Modus, in dem ein Gerät, wie beispielsweise ein Tablet, nur eine Applikation ausführen kann.}}

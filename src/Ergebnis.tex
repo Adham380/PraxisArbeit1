@@ -73,101 +73,56 @@ Hier die normale Ansicht nochmal, im hellen Design:
 \newline
 \pagebreak
 %Eigenes Kapitel
-\subsection{Funktionalität}\label{subsec:funktionalitaet}
-Alle Funktionalitäten aus den Soll-Anforderungen wurden umgesetzt.
-\newline
-Terminbuchungen, Synchronisation und LED-Strip Steuerung funktionieren wie in den Soll-Anforderungen beschrieben.
-Um zu sehen, wie der Belegungsstatus eines Konferenzraums derzeit ist, muss also nicht ein Mal auf den Bildschirm geschaut werden, sondern es reicht, wenn man die LED Streifen aus der Ferne erkennt.
-\newline
-\newline
-\subsection{Performance}\label{subsec:performance}
-Die Performance einer \gls{SPA} zu messen ist trotz der geringen Komplexität der Anwendung, nicht simpel.
-Auch die gängige Total-Blocking-Time Messung ist nicht zwingend sinnvoll, da die Anwendung nicht für den Nutzer, während der Nutzung, blockiert ist, sondern lediglich die Daten vom Server geladen werden, um anschließend die Nutzung der Anwendung sinnvoll zu ermöglichen.
-\newglossaryentry{RAIL Modell}{name={RAIL Modell},description={Das RAIL Modell ist ein Modell, welches die Performance von Webseiten beschreibt. Es beschreibt, dass eine Webseite in 5 Bereiche unterteilt werden kann, welche die Performance beeinflussen. Diese sind: Antwort, Animation, Leerlauf, Laden und Bilder pro Sekunde.}}
-Daher wurden manuell einige Tests durchgeführt, um die Performance zu messen und in Zusammenhang mit dem RAIL Modell~\cite{RAILModell} bewertet.
-Es sollte dafür berücksichtigt werden, dass der Prozessor des Tablets, welches die Anwendung verwendet, ein 32 Bit Prozessor ist, welcher im Jahr 2013 auf den Markt kam.
-\newline
-\newline
-%Tests brauchen Namen
-\subsubsection{Initiales Laden}\Label{subsubsec:initiales-laden}
-\newline
-\newline
-Die~\gls{TBT} der Applikation liegt, aufgrund von hoher Komplexität, bei ca. 500ms.
-Somit ist das Laden der Webseite akzeptabel~\cite{TotalBlockingTime}, da die Total-Blocking-Time nicht die Grenze von 600ms überschreitet.
-Das RAIL Modell erlaubt sogar Ladezeiten von bis zu 5 Sekunden beim initialen Laden der Webseite, falls innerhalb dieser 5 Sekunden die Interaktivität mit der Webseite gegeben ist.
-Die Hardware, die hier verwendet wurde, besitzt einen 32 Bit Prozessor, welcher im Jahr 2013 auf den Markt kam.
-\newline
-\subsubsection{Interaktivität/Leerlauf}\label{subsubsec:test-1}
-\newline
-\newline
-Wie lange braucht die Anwendung, um nach einem Klick auf den Button \("\)+\("\) das Terminerstellungs-Menü zu öffnen?
-\gls{Event-Listener}{name={Event-Listener},description={Ein Event-Listener ist ein Objekt, welches auf bestimmte Ereignisse wartet und dann eine Funktion ausführt. Dieses Objekt braucht ein HTML Element, welches es überwachen soll.}}
-Die Antwort auf diese Fragestellung wurde gemessen, indem der Event-Listener für den Button \("\)+\("\) registriert ausgab, wann die Taste betätigt und damit Zeit gemessen wurde, die vergeht, bis der \gls{Event-Listener} das Menü darstellt.
-Es dauert im Durchschnitt 2ms, bis das Menü angezeigt wird.
-Damit sind wir weit unter der 100ms Grenze, welche das RAIL Modell für Interaktivität mindestens empfiehlt und weit unter den 50ms, welche das RAIL Modell anstrebt.
-\newglossaryentry{Leerlauf}{name={Leerlauf},description={Der Leerlauf ist der Zeitraum, in dem die Anwendung keine Aktionen des Nutzers begegnet. Diese Zeit kann für die Anwendung genutzt werden, um Daten zu laden oder Berechnungen durchzuführen.}}
-Dies bedeutet also, dass der Leerlauf der Anwendung sich nicht beeinträchtigend auf die Echtzeit-Wahrnehmung des Nutzers auswirkt.
-\newline
-\newline
-\subsubsection{Animationen}\label{subsubsec:test-2}
-\newline
-\newline
-Wie viele Bilder pro Sekunde zeigt die Anwendung durchschnittlich an?
-\newglossaryentry{LightHouse}{name={LightHouse},description={LightHouse ist ein Tool, welches von Google entwickelt wurde, um die Performance einer Website zu messen.}}
-Dies wurde mithilfe von LightHouse über 60 Sekunden hinweg gemessen.
-\newglossaryentry{Worst-Case}{name={Worst-Case},description={Der Worst-Case ist der Fall, in dem die Leistung der Anwendung am schlechtesten ist.}}
-\newline
-Um ein~\gls{Worst-Case} Szenario zu simulieren, wurden 30 Termine erstellt, welche unterschiedliche Gastlogos, inklusive GIFs, enthielten.
-Ein aktueller Termin wurde initialisiert, um die Animation des Timers zu starten.
-Hinzufügend wurde die Anwendung benutzt, um Termine zu buchen und zwischen dem dunklen und hellen Design zu wechseln.
-Die Anwendung zeigt durchschnittlich 60 Bilder pro Sekunde an.
-Da die maximale Wiederholrate des Bildschirms und des Browsers bei 60Hz liegen, besteht nicht die Möglichkeit, für diesen Anwendungsfall zu testen, ob noch mehr Bilder pro Sekunde angezeigt werden können.
-Nichtsdestotrotz sind damit die Anforderungen des RAIL Modells für Bilder pro Sekunde erfüllt.
-\newline
-\newline
-\subsubsection{Bottleneck}\label{subsubsec:test-bottleneck}
-\newline
-\newline
-\newglossaryentry{Bottleneck}{name={Bottleneck},description={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.}}
-Wir wollen betrachten wie oft die Anwendung theoretisch und praktisch pro Sekunde aktualisiert werden kann.
-\newglossaryentry{Azure APP ID}{name={Azure APP ID},description={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.}}
-Für jede Kombination aus~\gls{Azure APP ID} und E-Mail-Adresse, dürfen 10000 Anfragen pro 10 Minuten gemacht werden.
-Dies sind 16,6 Anfragen pro Sekunde.
-Praktisch wurden eine bis drei Anfragen, je nach Bedarf, pro drei Sekunden durchgeführt.
-Dieser Bedarf hängt davon ab, ob sich an den Daten, die bei Microsoft gespeichert sind, etwas geändert hat und daran, ob Bilder-Anhänge für Gäste vorhanden sind, die nochmal separat per REST API abgefragt werden müssen.
-Pro Sekunde wären das also 0,33 bis 1 Anfragen.
-Einerseits ist das schnell genug für die Anwendung und gibt den langsamen Geräten, genug Zeit, die Anwendung zu aktualisieren, andererseits hat man so genug Anfragen übrig, falls jemand sein Konto mit mehreren Geräten benutzt oder dies in Kombinationen mit anderen Applikationen verwendet.
-Sollte dieses Limit überschritten werden, verlangsamt Microsoft die Anzahl an neuen Antworten auf die Anfragen.
-Da Microsoft auch Zeit benötigt, um die Anfragen zu bearbeiten und die neuen Daten bei sich zu verarbeiten, würde der Anwender den Unterschied selten bemerken.
-Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann.
-\newline
-\newline
-\subsection{Fazit}\label{subsec:fazit}
-Die Microsoft Graph API ist eine sehr mächtige Schnittstelle, die es ermöglicht, mit einer Vielzahl an Microsoft Diensten zu interagieren.
-Für die Anwendung wurde die Schnittstelle genutzt, um Termine zu erstellen, zu löschen und zu aktualisieren.
-Außerdem wurde die Schnittstelle genutzt, um die Logos der anderen Termine zu erhalten.
-Die Schnittstelle wurde nicht vollständig genutzt, da die Anwendung nicht alle Funktionen benötigt, aber bietet für die Zukunft viele Erweiterungsmöglichkeiten.
+
+\subsection{Ausblick}\label{subsec:ausblick}
+\subsubsection{kurzfristig}\label{subsubsec:kurzfristig}
+Die Software wird vom Kunden eingesetzt.
+Da dies ein Pilotprojekt ist, wird die Software nur von einem Kunden genutzt.
+Dafür wurden acht Tablets angeschafft, die an den Räumen des Kunden installiert werden.
+
+\subsubsection{mittelfristig}\label{subsubsec:mittelfristig}
+Der Kunde wird die Anwendung erstmal benutzen müssen.
+Rückmeldungen werden gesammelt und kritische Fehler werden behoben.
+Trotz ausgiebigen Tests, kann es immer noch zu Fehlern kommen, die erst im Einsatz auffallen.
+\subsubsection{langfristig}\label{subsubsec:langfristig}
+Die Schnittstelle wurde nicht vollständig genutzt, da die Anwendung nicht alle Funktionen benötigt, aber sie bietet für die Zukunft viele Erweiterungsmöglichkeiten.
+Mit der gesammelten Erfahrung und den gewonnenen Erkenntnissen kann die Anwendung in Zukunft erweitert werden.
 Zudem ist die API neu und wird ständig weiterentwickelt~\cite{microsoft-graph-api-version}.
-Die Anwendung wurde mit der Version 1.0 der API entwickelt.
-Für den Anwendungsfall des Kunden ist die API ausreichend, da die Anwendung nur Termine erstellen, löschen und aktualisieren muss.
-Der einzige Nachteil ist, dass Azure AD, die Authentifizierung, für Ressourcenkonten nicht unterstützt, die beispielsweise, in Teams, genutzt werden.
-Daher muss der Anwender sich mit einem Microsoft-Konto anmelden, welcher die Ressource repräsentieren soll.
-Dies kann zu Verwirrung führen, da die Terminologie impliziert, man könne sich mit einem Ressourcenkonto anmelden.
+Insbesondere mit den jüngsten Entwicklungen von künstlichen Intelligenzen, wie z.B. der Spracherkennung, könnte die Anwendung erweitert werden.
+
+\subsection{Fazit}\label{subsec:fazit}
+%Für die Anwendung wurde die Schnittstelle genutzt, um Termine zu erstellen, zu löschen und zu aktualisieren.
+%Außerdem wurde die Schnittstelle genutzt, um die Logos der anderen Termine zu erhalten.
+%
+%Für den Anwendungsfall des Kunden ist die API ausreichend, da die Anwendung nur Termine erstellen, löschen und aktualisieren können muss.
+%Alles Weitere wird von der Webapplikation abgedeckt.
+%Der einzige Nachteil ist, dass Azure AD, die Authentifizierung, für Ressourcenkonten nicht unterstützt, die beispielsweise, in Teams, genutzt werden.
+%Daher muss der Anwender sich mit einem Microsoft-Konto anmelden, welcher die Ressource repräsentieren soll, aber nicht ein Ressourcenkonto ist.
+%Dies kann zu Verwirrung führen, da die Terminologie impliziert, man könne sich mit einem Ressourcenkonto anmelden.
+%\newline
+%\newline
+%Die API war die richtige Wahl für diesen Kundenauftrag.
+%Ressourcen- und Terminplanung wurde mit der Anwendung vereinfacht.
+%Ein Anwender braucht nur noch drei Klicks, um einen Termin zu erstellen und muss nicht mehr zwischen verschiedenen Kalendern hin und her wechseln.
+%%Aua, Fixen, umformen
+%Zudem benötigt ein Anwender lediglich einen Blick, um zu sehen, wann die Ressource, die durch die Software repräsentiert wird, frei ist und wann der Anwender gegebenenfalls einen Termin besitzt (Anhand der Logos).
+%\newline
+%\newline
+%Die Anwendung kann auch für menschliche Ressourcen genutzt werden, da die Anwendung keine Unterscheidung zwischen menschlichen und nicht-menschlichen Ressourcen macht.
+%Solche Entscheidungen obliegen dem Anwender.
 \newline
 \newline
-Die API war die richtige Wahl für diesen Kundenauftrag.
-Ressourcen- und Terminplanung wurde mit der Anwendung vereinfacht.
-Ein Anwender braucht nur noch drei Klicks, um einen Termin zu erstellen und muss nicht mehr zwischen verschiedenen Kalendern hin und her wechseln.
-%Aua, Fixen, umformen
-Zudem benötigt ein Anwender lediglich einen Blick, um zu sehen, wann die Ressource, die durch die Software repräsentiert wird, frei ist und wann der Anwender gegebenenfalls einen Termin besitzt (Anhand der Logos).
-\newline
-\newline
-Die Anwendung kann auch für menschliche Ressourcen genutzt werden, da die Anwendung keine Unterscheidung zwischen menschlichen und nicht-menschlichen Ressourcen macht.
-Solche Entscheidungen obliegen dem Anwender.
-\newline
-\newline
-Zusammenfassend kann gesagt werden, dass die Anwendung eine gute Basis für weitere Erweiterungen ist und die Anforderungen des Kunden so erfüllt.
-Damit geht einher, dass die Ziele erreicht wurden.
+Von den Zielen wurden alle erreicht (Siehe~\ref{subsec:ziele-der-arbeit}).
+Die Implementierung, mithilfe der Microsoft Graph API, wurde als sinnvoll eingeschätzt (Siehe~\ref{sec:abgrenzung-zu-ahnlichen-produkten}) und wurde dementsprechend auch implementiert~ref{sec:technische-umsetzung}.
+Diese ermöglicht synchronisierte Ressourcen- und Terminplanung mithilfe der selbst entwickelten Anwendung.
+Die Anwendung erfüllte mithilfe der Microsoft Graph API alle Anforderungen des Kunden(Siehe ~\ref{subsec:soll-zustand}).
+Mithilfe der minimalen Benutzerführung, die die Anwendung bietet, kann der Anwender schnell und einfach Termine erstellen, löschen und aktualisieren.
+Die Leistung der Anwendung wurde mithilfe des RAIL-Modells bewertet(Siehe~\ref{subsec:performanztests}) und erfüllte alle Anforderungen im vollen Umfang.
+Die Software ist durch den Einsatz von Babel rückwärtskompatibel und kann somit auch von älteren Browsern genutzt werden.
+Aufgrund der sauberen Auftrennung von Funktionen und Komponenten, ist die Anwendung gut wartbar und erweiterbar.
+Die Anwendung ist auch für die Zukunft gut gerüstet, da die Microsoft Graph API ständig weiterentwickelt wird.
+Abschließend ist die Webapplikation kostengünstig, da sie lokal gehostet werden kann(Siehe~\ref{subsubsec:hosting})
+
 %\pagebreak
 \newline
 %Abschließend folgt noch ein Bild des Gerätes mit der Anwendung, welches im Kundenbetrieb genutzt wird.

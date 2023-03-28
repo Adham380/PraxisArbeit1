@@ -82,7 +82,6 @@ Ohne diese Bedingungen, wäre es nicht möglich, sich bei der Anwendung anzumeld
 \newline
 \newline
 \newline
-\pagebreak
 
 
 \subsection{Iterative Entwicklung der groben Planung}\label{subsec:iterative-entwicklung-der-groben-planung}
@@ -100,21 +99,6 @@ Teilweise wurden auch neue Features hinzugefügt, die nicht initial erwünscht, 
 Manche Features wurden auch wieder entfernt, da sie nicht sinnvoll waren oder von anderen Features abgedeckt wurden.
 \newline
 %Ablauf der Entwicklung
-\newline
-\subsection{Ablauf der Entwicklung}\label{subsec:ablauf-der-entwicklung}
-Nachdem der erste Prototyp fertig war und Rücksprache gehalten wurde, wurde angefangen die Anwendung zu entwickeln.
-Design und Funktionalität wurden dabei partiell parallel entwickelt, wobei die Funktionalität immer Priorität hatte.
-In über 95 Commits wurden die Änderungen an der Anwendung festgehalten.
-\newline
-Es wurde ein Testgerät benötigt, um die Anwendung zu testen.
-Ein Phillips 10BDL4551T/00 Bildschirm wurde dafür an die Wand gehängt und mit dem Internet verbunden.
-Die Internetverbindung ist notwendig, um die Rest-Anfragen zwischen der Anwendung und der Microsoft Graph API zu ermöglichen.
-Es wurde so eingerichtet, wie es auch beim Kunden laufen soll.
-\newline
-Die Anwendung wurde täglich aktiv genutzt, um so Fehler zu finden und Feedback zu geben.
-Das Feedback wurde dann evaluiert.
-Solche explorativen Tests sind sehr wichtig, um Intuitivität und Benutzerfreundlichkeit zu gewährleisten.
-Es war einerseits hilfreich, um vorgesehene Abläufe zu testen, andererseits aber auch um Fehler zu finden, die nicht vorgesehen waren, indem Monkey Testing~\cite{Monkey-Testing-Book1} betrieben wurde.
 \newline
 \subsection{Rest-Anfragen}\label{subsec:rest-anfragen}
 
@@ -155,38 +139,6 @@ Diese enthalten Daten wie den Titel, die Startzeit, die Endzeit, die Beschreibun
 \newline
 Um herauszufinden, welche Termine frei sind und welche nicht, wird dafür ebenso eine Anfrage an die Microsoft Graph API gesendet.
 Diese benutzt eine andere URL und andere Daten im Körper (Siehe Kapitel~\ref{subsubsec:abfrageoptimierung}).
-\subsubsection{Abfrageoptimierung}\label{subsubsec:abfrageoptimierung}
-Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und die Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
-Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
-Es wurden die Klauseln \("\$\)filter\("\) und \("\$\)top\("\) verwendet, um nur Termine für den aktuellen und nächsten Tag zu erhalten und dies einzuschränken auf die top 300 Termine, falls jemand versucht das System zu überlasten.
-Eine Sortierung ist nicht notwendig, da die Termine bereits nach Startzeit sortiert sind.
-Hier sieht man die oData v4 API Anfrage, die an die Microsoft Graph API gesendet wird:
-\newline
-%add Fix code listing and remove .
-\begin{lstlisting}[language=JavaScript,label={lst:JavaScript oData v4 API Anfrage}]
-     let url =  "https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime" +  "ge"  + "${todayDate} and end/dateTime le ${tomorrowDate}&$top=300";
-\end{lstlisting}
-\("\)https://graph.microsoft.com/v1.0/me/findMeetingTimes/\("\) ist die URL der Microsoft Graph API.
-Des Weiteren kommuniziert sie, welche API, spezifisch angesprochen werden soll.
-Da die Termine für den aktuellen und nächsten Tag benötigt werden, wird die \("\)FindMeetingTimes\("\) verwendet, welche die Kalender API verwendet.
-Mit dem \("\)me\("\) wird der aktuelle Benutzer mitgegeben.
-Dieser wird automatisch vom Microsoft Graph erkannt.
-\newglossaryentry{Query Parameter}{name=Query Parameter,description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.}}
-Ab dem Fragezeichen werden die Query Parameter übergeben.
-Die Antwort der Anfrage, im Teil der URL, vor dem Fragezeichen, werden durch die Query Parameter auf die benötigten Daten gefiltert.
-\newline
-Mit \("\)start/dateTime\("\) + \("\)ge\("\) + \("\){todayDate}\("\) wird der Startzeitpunkt des Termins mit dem heutigen Datum verglichen.
-Es wird geprüft, ob der Startzeitpunkt des Termins nach dem heutigen Datum liegt.
-Das \("\)ge\("\) steht für \("\)greater than or equal to\("\) und bedeutet, dass der Startzeitpunkt des Termins nach oder gleich dem heutigen Datum liegt.
-Dies wird eigentlich für mathematische Vergleiche verwendet, aber es funktioniert auch für Strings, da jeder Charakter einen ASCII Wert hat.
-\newline
-Somit erhalten wir nur Daten zurück, die heute oder in der Zukunft liegen.
-\newline
-Mit \("\)end/dateTime\("\) + \("\)le\("\) + \("\) {tomorrowDate}\("\) wird der Endzeitpunkt des Termins mit dem morgigen Datum verglichen.
-Letzten Endes erhalten wir nur Termine zurück, die heute oder morgen stattfinden.
-Die Verarbeitung dieser Daten erfolgt ISO 8601 konform.
-Sobald diese jedoch angezeigt werden, wird darauf geachtet, dass es die lokale Zeitzone ist.
-\newline
 \subsubsection{Fehlerbehandlung}\label{subsubsec:fehlerbehandlung-REST}
 Falls mehrere Anfragen, welche Informationen aktualisieren sollen, nacheinander fehlschlagen, wird eine Fehlermeldung angezeigt, die den User darauf hinweist, dass die Verbindung zum Server derzeit nicht gewährleistet werden kann.
 Diese wird groß und prominent angezeigt, damit es nicht übersehen werden kann und deutlich wird, dass jegliche Daten die derzeit angezeigt werden, nicht aktuell sind.
@@ -194,31 +146,6 @@ Dementsprechend wird die Fehlermeldung entfernt, sobald eine Anfrage erfolgreich
 \newline
 \newline
 %Probleme gehören eigentlich woanders hin
-\subsubsection{Probleme der API}\label{subsubsec:probleme-der-api}
-Es wurden im Voraus Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
-Jedoch hat sich herausgestellt, dass der Microsoft Graph Explorer nicht korrekt funktioniert und teilweise Befehle nicht entgegennimmt, die laut Microsoft Dokumentation funktionieren sollten.
-Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfragen korrekt funktionieren und auch im Request-Response Zyklus keine Fehler auftreten.
-\newline
-\newline
-Zudem war es initial nicht möglich, alle verfügbaren Termine, für den angegebenen Zeitraum, abzufragen.
-Dies wurde gelöst, indem die maximale Anzahl an Teilnehmern, für einen Termin, welche im Körper der Anfrage übergeben werden, auf 99 gesetzt wurde.
-Diese Lösung wurde durch einen Nutzer, in einem Forum, herausgefunden.
-Zwar ist dies nicht von Microsoft so vorgesehen, aber die Lösungs beeinträchtigt die Anwendung nicht, da es ohnehin nicht mehr möglich ist,Teilnehmer hinzu zu fügen.
-\newline
-\newline
-%\subsubsection{Objektorientiertes Design}
-%Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen dem Anwender und dem Server darstellt:
-%\newline
-%\newline
-%\par\vspace{0.5cm}
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
-%\par\vspace{0.5cm}\label{fig:figure}
-%\end{figure}
-%\justifying
-%\newline
-%\newline
 \subsection{Timer}\label{subsec:timer}
 Der Timer, welcher die übrig bleibende Zeit bis zum Ende des jetzigen Termins anzeigt funktioniert, wie folgt:
 \newline
@@ -340,37 +267,37 @@ Um die Authentifizierung zu realisieren, wurden folgende Berechtigungen benötig
     \centering
 %table should not be wider than 0.8\textwidth
 \small
-    \begin{tabularx}{\textwidth}{|X|X|X|}
+    \begin{tabularx}{\textwidth}{|X|X|}
         \toprule
-        \textbf{Calendars.Read} & \textbf{Delegiert} & \textbf{Lesezugriff auf Benutzerkalender}\\
+        \textbf{Calendars.Read} & \textbf{Lesezugriff auf Benutzerkalender}\\
         \hline
-        Calendars.Read.Shared & Delegiert & Benutzer und freigegebene Kalender lesen\\
+        Calendars.Read.Shared  & Benutzer und freigegebene Kalender lesen\\
         \hline
-        Calendars.ReadWrite & Delegiert & Verfügt über Vollzugriff auf Benutzerkalender.\\
+        Calendars.ReadWrite  & Verfügt über Vollzugriff auf Benutzerkalender.\\
         \hline
-        Calendars.ReadWrite.Shared & Delegiert & Benutzerdefinierte und freigegebene Kalender lesen und schreiben\\
+        Calendars.ReadWrite.Shared  & Benutzerdefinierte und freigegebene Kalender lesen und schreiben\\
         \hline
-        email & Delegiert & E-Mail-Adresse von Benutzern anzeigen \\
+        email  & E-Mail-Adresse von Benutzern anzeigen \\
         \hline
-        IMAP.AccessAsUser.All & Delegiert & Read and write access to mailboxes via IMAP.\\
+        IMAP.AccessAsUser.All  & Read and write access to mailboxes via IMAP.\\
         \hline
-        Mail.Read & Delegiert & Lesezugriff auf Benutzer-E-Mails\\
+        Mail.Read  & Lesezugriff auf Benutzer-E-Mails\\
         \hline
-        Mail.Send & Delegiert & E-Mails unter einem anderen Benutzernamen senden\\
+        Mail.Send  & E-Mails unter einem anderen Benutzernamen senden\\
         \hline
-        Mail.Send.Shared & Delegiert & E-Mails im Namen anderer Benutzer senden\\
+        Mail.Send.Shared  & E-Mails im Namen anderer Benutzer senden\\
         \hline
-        offline\_access & Delegiert & Zugriff auf Daten beibehalten, für die Sie Zugriff erteilt haben\\
+        offline\_access  & Zugriff auf Daten beibehalten, für die Sie Zugriff erteilt haben\\
         \hline
-        OnlineMeetings.Read & Delegiert & Read user's online meetings\\
+        OnlineMeetings.Read  & Read user's online meetings\\
         \hline
-        OnlineMeetings.ReadWrite & Delegiert & Read and create user's online meetings\\
+        OnlineMeetings.ReadWrite  & Read and create user's online meetings\\
         \hline
-        openid & Delegiert & Benutzer anmelden\\
+        openid  & Benutzer anmelden\\
         \hline
-        profile & Delegiert & Grundlegendes Profil von Benutzern anzeigen\\
+        profile  & Grundlegendes Profil von Benutzern anzeigen\\
         \hline
-        User.Read & Delegiert & Anmelden und Benutzerprofil lesen\\
+        User.Read  & Anmelden und Benutzerprofil lesen\\
         \bottomrule
     \end{tabularx}
     \caption{Berechtigungen für die Authentifizierung}\label{tab:Berechtigungen für die Authentifizierung}
@@ -381,5 +308,97 @@ Um die Authentifizierung zu realisieren, wurden folgende Berechtigungen benötig
 \normalsize
 Diese werden beim erstmaligen Login, vom User, seitens Microsoft, angefordert.
 Ohne die Zustimmung des Users, wird die Anwendung nicht entsprechend den Anforderungen funktionieren und weiterhin darauf hinweisen, dass der User sich anmelden soll.
+Alle Berechtigungen werden als delegierte Berechtigungen angefordert.
+Das bedeutet, dass die Anwendung, für den Benutzer, die Handlung durchführen darf, die durch die Berechtigung angefordert wurde.
 \newglossaryentry{IMAP}{name=IMAP,description={Internet Message Access Protocol. Ein Protokoll, welches es ermöglicht, E-Mails von einem Mailserver abzurufen.}}
 Mit diesen Berechtigungen kann sichergestellt werden, dass auch Exchange-Konten, welche eine eigene~\gls{IMAP}-Adresse haben, alle Funktionalitäten der Anwendung nutzen können.
+%\section{Verifikation}\label{sec:Verifikation}
+%Damit verifiziert werden kann, dass die Anwendung so funktioniert, wie sie soll, wurden einige Tests durchgeführt.
+\subsection{Performanztests}\label{subsec:Pefromanztests}
+%Tests brauchen Namen
+Die Performance einer \gls{SPA} zu messen ist trotz der geringen Komplexität der Anwendung, nicht simpel.
+Auch die gängige Total-Blocking-Time Messung ist nicht zwingend sinnvoll, da die Anwendung nicht für den Nutzer, während der Nutzung, blockiert ist, sondern lediglich die Daten vom Server geladen werden, um anschließend die Nutzung der Anwendung sinnvoll zu ermöglichen.
+\newglossaryentry{RAIL Modell}{name={RAIL Modell},description={Das RAIL Modell ist ein Modell, welches die Performance von Webseiten beschreibt. Es beschreibt, dass eine Webseite in 5 Bereiche unterteilt werden kann, welche die Performance beeinflussen. Diese sind: Antwort, Animation, Leerlauf, Laden und Bilder pro Sekunde.}}
+Daher wurden manuell einige Tests durchgeführt, um die Performance zu messen und in Zusammenhang mit dem RAIL Modell~\cite{RAILModell} bewertet.
+Es sollte dafür berücksichtigt werden, dass der Prozessor des Tablets, welches die Anwendung verwendet, ein 32 Bit Prozessor ist, welcher im Jahr 2013 auf den Markt kam.
+\newline
+\newline
+\subsubsection{Initiales Laden}\label{subsubsec:initiales-laden}
+\newline
+\newline
+Die~\gls{TBT} der Applikation liegt, aufgrund von hoher Komplexität, bei ca. 500ms.
+Somit ist das Laden der Webseite akzeptabel~\cite{TotalBlockingTime}, da die Total-Blocking-Time nicht die Grenze von 600ms überschreitet.
+Das RAIL Modell erlaubt sogar Ladezeiten von bis zu 5 Sekunden beim initialen Laden der Webseite, falls innerhalb dieser 5 Sekunden die Interaktivität mit der Webseite gegeben ist.
+Die Hardware, die hier verwendet wurde, besitzt einen 32 Bit Prozessor, welcher im Jahr 2013 auf den Markt kam.
+\newline
+\subsubsection{Interaktivität/Leerlauf}\label{subsubsec:test-1}
+\newline
+\newline
+Wie lange braucht die Anwendung, um nach einem Klick auf den Button \("\)+\("\) das Terminerstellungs-Menü zu öffnen?
+\gls{Event-Listener}{name={Event-Listener},description={Ein Event-Listener ist ein Objekt, welches auf bestimmte Ereignisse wartet und dann eine Funktion ausführt. Dieses Objekt braucht ein HTML Element, welches es überwachen soll.}}
+Die Antwort auf diese Fragestellung wurde gemessen, indem der Event-Listener für den Button \("\)+\("\) registriert ausgab, wann die Taste betätigt und damit Zeit gemessen wurde, die vergeht, bis der \gls{Event-Listener} das Menü darstellt.
+Es dauert im Durchschnitt 2ms, bis das Menü angezeigt wird.
+Damit sind wir weit unter der 100ms Grenze, welche das RAIL Modell für Interaktivität mindestens empfiehlt und weit unter den 50ms, welche das RAIL Modell anstrebt.
+\newglossaryentry{Leerlauf}{name={Leerlauf},description={Der Leerlauf ist der Zeitraum, in dem die Anwendung keine Aktionen des Nutzers begegnet. Diese Zeit kann für die Anwendung genutzt werden, um Daten zu laden oder Berechnungen durchzuführen.}}
+Dies bedeutet also, dass der Leerlauf der Anwendung sich nicht beeinträchtigend auf die Echtzeit-Wahrnehmung des Nutzers auswirkt.
+\newline
+\newline
+\subsubsection{Animationen}\label{subsubsec:test-2}
+\newline
+\newline
+Wie viele Bilder pro Sekunde zeigt die Anwendung durchschnittlich an?
+\newglossaryentry{LightHouse}{name={LightHouse},description={LightHouse ist ein Tool, welches von Google entwickelt wurde, um die Performance einer Website zu messen.}}
+Dies wurde mithilfe von LightHouse über 60 Sekunden hinweg gemessen.
+\newglossaryentry{Worst-Case}{name={Worst-Case},description={Der Worst-Case ist der Fall, in dem die Leistung der Anwendung am schlechtesten ist.}}
+\newline
+Um ein~\gls{Worst-Case} Szenario zu simulieren, wurden 30 Termine erstellt, welche unterschiedliche Gastlogos, inklusive GIFs, enthielten.
+Ein aktueller Termin wurde initialisiert, um die Animation des Timers zu starten.
+Hinzufügend wurde die Anwendung benutzt, um Termine zu buchen und zwischen dem dunklen und hellen Design zu wechseln.
+Die Anwendung zeigt durchschnittlich 60 Bilder pro Sekunde an.
+Da die maximale Wiederholrate des Bildschirms und des Browsers bei 60Hz liegen, besteht nicht die Möglichkeit, für diesen Anwendungsfall zu testen, ob noch mehr Bilder pro Sekunde angezeigt werden können.
+Nichtsdestotrotz sind damit die Anforderungen des RAIL Modells für Bilder pro Sekunde erfüllt.
+\newline
+\newline
+\subsubsection{Bottleneck}\label{subsubsec:test-bottleneck}
+\newline
+\newline
+\newglossaryentry{Bottleneck}{name={Bottleneck},description={Der Bottleneck ist, in der Softwareentwicklung, die Stelle, an der die Leistung der gesamten Anwendung am meisten eingeschränkt wird.}}
+Wir wollen betrachten wie oft die Anwendung theoretisch und praktisch pro Sekunde aktualisiert werden kann.
+\newglossaryentry{Azure APP ID}{name={Azure APP ID},description={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.}}
+Für jede Kombination aus~\gls{Azure APP ID} und E-Mail-Adresse, dürfen 10000 Anfragen pro 10 Minuten gemacht werden.
+Dies sind 16,6 Anfragen pro Sekunde.
+Praktisch wurden eine bis drei Anfragen, je nach Bedarf, pro drei Sekunden durchgeführt.
+Dieser Bedarf hängt davon ab, ob sich an den Daten, die bei Microsoft gespeichert sind, etwas geändert hat und daran, ob Bilder-Anhänge für Gäste vorhanden sind, die nochmal separat per REST API abgefragt werden müssen.
+Pro Sekunde wären das also 0,33 bis 1 Anfragen.
+Einerseits ist das schnell genug für die Anwendung und gibt den langsamen Geräten, genug Zeit, die Anwendung zu aktualisieren, andererseits hat man so genug Anfragen übrig, falls jemand sein Konto mit mehreren Geräten benutzt oder dies in Kombinationen mit anderen Applikationen verwendet.
+Sollte dieses Limit überschritten werden, verlangsamt Microsoft die Anzahl an neuen Antworten auf die Anfragen.
+Da Microsoft auch Zeit benötigt, um die Anfragen zu bearbeiten und die neuen Daten bei sich zu verarbeiten, würde der Anwender den Unterschied selten bemerken.
+Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann.
+\newline
+\newline
+\subsubsection{Funktionelle Tests}\label{subsubsec:funktionelle-tests}
+\subsubsection{Probleme der API}\label{subsubsec:probleme-der-api}
+Es wurden im Voraus Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
+Jedoch hat sich herausgestellt, dass der Microsoft Graph Explorer nicht korrekt funktioniert und teilweise Befehle nicht entgegennimmt, die laut Microsoft Dokumentation funktionieren sollten.
+Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfragen korrekt funktionieren und auch im Request-Response Zyklus keine Fehler auftreten.
+\newline
+\newline
+Zudem war es initial nicht möglich, alle verfügbaren Termine, für den angegebenen Zeitraum, abzufragen.
+Dies wurde gelöst, indem die maximale Anzahl an Teilnehmern, für einen Termin, welche im Körper der Anfrage übergeben werden, auf 99 gesetzt wurde.
+Diese Lösung wurde durch einen Nutzer, in einem Forum, herausgefunden.
+Zwar ist dies nicht von Microsoft so vorgesehen, aber die Lösungs beeinträchtigt die Anwendung nicht, da es ohnehin nicht mehr möglich ist,Teilnehmer hinzu zu fügen.
+\newline
+\newline
+%\subsubsection{Objektorientiertes Design}
+%Hier sieht man ein Sequenzdiagramm, welches die Kommunikation zwischen dem Anwender und dem Server darstellt:
+%\newline
+%\newline
+%\par\vspace{0.5cm}
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=\textwidth]{Bilder/Objektorientiertes Design/Sequence diagram for ressource booking (3)}
+%\par\vspace{0.5cm}\label{fig:figure}
+%\end{figure}
+%\justifying
+%\newline
+%\newline

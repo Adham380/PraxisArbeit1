@@ -894,34 +894,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{Query Parameter}%
-{%
-name={Query Parameter},%
-sort={Query Parameter},%
-type={main},%
-first={Query Parameter},%
-firstplural={Query Parameters},%
-text={Query Parameter},%
-plural={Query Parameters},%
-description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
-descriptionplural={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{Local Storage}%
 {%
 name={Local Storage},%
@@ -1157,6 +1129,34 @@ text={Azure APP ID},%
 plural={Azure APP IDs},%
 description={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.},%
 descriptionplural={Azure APP ID ist eine eindeutige Kennung, welche von Microsoft vergeben wird, um eine Applikation zu identifizieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Query Parameter}%
+{%
+name={Query Parameter},%
+sort={Query Parameter},%
+type={main},%
+first={Query Parameter},%
+firstplural={Query Parameters},%
+text={Query Parameter},%
+plural={Query Parameters},%
+description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
+descriptionplural={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

@@ -760,7 +760,6 @@
       \field{title}{RAIL Modell}
       \field{year}{2023}
       \field{dateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://web.dev/rail/#focus-on-the-user
       \endverb
@@ -793,6 +792,37 @@
       \endverb
       \verb{url}
       \verb https://www.html5rocks.com/en/tutorials/speed/animations/
+      \endverb
+    \endentry
+    \entry{ResponsiveWebDesign}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ca762f825f70c5a1f00a689ca3e9869e}{%
+           family={Marcotte},
+           familyi={M\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{fullhash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{bibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authorbibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authornamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authorfullhash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \field{labelalpha}{ResponsiveWebDesign}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-9844425-7-7}
+      \field{shorthand}{ResponsiveWebDesign}
+      \field{title}{Responsive Web Design}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://abookapart.com/products/responsive-web-design
+      \endverb
+      \verb{url}
+      \verb https://abookapart.com/products/responsive-web-design
       \endverb
     \endentry
     \entry{REST}{misc}{}
@@ -846,7 +876,6 @@
       \field{title}{Total Blocking Time}
       \field{year}{2023}
       \field{dateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://web.dev/lighthouse-total-blocking-time/
       \endverb

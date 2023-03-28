@@ -1,0 +1,37 @@
+%! Author = mboehme
+%! Date = 28.03.2023
+
+% Preamble
+\subsection{Optimierung}\label{subsec:optimierung}
+\subsubsection{Abfrageoptimierung}\label{subsubsec:abfrageoptimierung}
+Mithilfe der oDatav4 (~\cite{oData}) API wurden die Daten aus der jeweiligen Microsoft Datenbank im Voraus gefiltert, um so nicht notwendige Daten zu vermeiden und die Performance drastisch zu erhöhen, als auch Datenvolumen zu sparen.
+Die oData v4 API verhält sich dabei wie eine SQL Datenbank, wobei die Daten in Tabellen gespeichert sind.
+Es wurden die Klauseln \("\$\)filter\("\) und \("\$\)top\("\) verwendet, um nur Termine für den aktuellen und nächsten Tag zu erhalten und dies einzuschränken auf die top 300 Termine, falls jemand versucht das System zu überlasten.
+Eine Sortierung ist nicht notwendig, da die Termine bereits nach Startzeit sortiert sind.
+Hier sieht man die oData v4 API Anfrage, die an die Microsoft Graph API gesendet wird:
+\newline
+%add Fix code listing and remove .
+\begin{lstlisting}[language=JavaScript,label={lst:JavaScript oData v4 API Anfrage}]
+     let url =  "https://graph.microsoft.com/v1.0/me/findMeetingTimes/?$filter=start/dateTime" +  "ge"  + "${todayDate} and end/dateTime le ${tomorrowDate}&$top=300";
+\end{lstlisting}
+\("\)https://graph.microsoft.com/v1.0/me/findMeetingTimes/\("\) ist die URL der Microsoft Graph API.
+Des Weiteren kommuniziert sie, welche API, spezifisch angesprochen werden soll.
+Da die Termine für den aktuellen und nächsten Tag benötigt werden, wird die \("\)FindMeetingTimes\("\) verwendet, welche die Kalender API verwendet.
+Mit dem \("\)me\("\) wird der aktuelle Benutzer mitgegeben.
+Dieser wird automatisch vom Microsoft Graph erkannt.
+\newglossaryentry{Query Parameter}{name=Query Parameter,description={Query Parameter sind Parameter, die an eine URL angehängt werden können, um die Anfrage zu verfeinern.}}
+Ab dem Fragezeichen werden die Query Parameter übergeben.
+Die Antwort der Anfrage, im Teil der URL, vor dem Fragezeichen, werden durch die Query Parameter auf die benötigten Daten gefiltert.
+\newline
+Mit \("\)start/dateTime\("\) + \("\)ge\("\) + \("\){todayDate}\("\) wird der Startzeitpunkt des Termins mit dem heutigen Datum verglichen.
+Es wird geprüft, ob der Startzeitpunkt des Termins nach dem heutigen Datum liegt.
+Das \("\)ge\("\) steht für \("\)greater than or equal to\("\) und bedeutet, dass der Startzeitpunkt des Termins nach oder gleich dem heutigen Datum liegt.
+Dies wird eigentlich für mathematische Vergleiche verwendet, aber es funktioniert auch für Strings, da jeder Charakter einen ASCII Wert hat.
+\newline
+Somit erhalten wir nur Daten zurück, die heute oder in der Zukunft liegen.
+\newline
+Mit \("\)end/dateTime\("\) + \("\)le\("\) + \("\) {tomorrowDate}\("\) wird der Endzeitpunkt des Termins mit dem morgigen Datum verglichen.
+Letzten Endes erhalten wir nur Termine zurück, die heute oder morgen stattfinden.
+Die Verarbeitung dieser Daten erfolgt ISO 8601 konform.
+Sobald diese jedoch angezeigt werden, wird darauf geachtet, dass es die lokale Zeitzone ist.
+\newline

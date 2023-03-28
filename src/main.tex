@@ -115,6 +115,8 @@
 \setlength\parindent{0pt} % Einrückung für neue Absätze
 \usepackage[font=footnotesize,justification = centering]{caption} %Font für Bildunterschriften
 \usepackage{pifont}   % Wird für den Punkt neben den Seitzenzahlen benötigt
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
 \usepackage[footsepline=1pt]{scrlayer-scrpage} % Anpassung von Kopf/Fußzeilen
 \usepackage{setspace}
 \usepackage{microtype}
@@ -149,6 +151,7 @@
     \input{AbgrenzungZuÄhnlichenProdukten}
     \input{vorgehensweise}
     \input{Technische Umsetzung}
+    \input{Optimierung}
     \input{Ergebnis}
 %    cite without square brackets
     ~\nocite{*}
