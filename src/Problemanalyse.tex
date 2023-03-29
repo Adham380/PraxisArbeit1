@@ -20,7 +20,7 @@ Die Muttergesellschaft der DOOH media GmbH und einige Schwesterunternehmen nutze
 %Gehört in office365 und microsoft365
 Diese Produkte sind sehr umfangreich und bieten viele Funktionen.
 Die heutzutage gängige und weit verbreitete Terminplanung per Outlook oder Teams ist eines dieser Funktionen.
-Diese Funktion ist nicht so praktikabel wie sie es sein könnte.
+Diese Terminplanung erfordert im Regelfall mehr Klicks als notwendig.
 Vor allem nicht, wenn mehrere Unternehmen, das gleiche Gebäude und die gleiche Organisations-E-Mail besitzen.
 Daher besteht die Problematik, dass es nicht einfach zu unterscheiden ist, welcher Termin für welchen Mitarbeiter gedacht ist.
 Dies könne zwar durch die Eingabe des Firmennamens, in den Textkörper des Termins, verbessert werden, jedoch müsste der Mitarbeiter dann trotzdem jeden Termin einzeln öffnen, um zu sehen, welcher Firmennamen im Textkörper steht.
@@ -74,10 +74,9 @@ Um sicherzustellen, dass das Meeting nicht ein Finanzmeeting einer anderen Firma
 %    \item \gls{User Journey}: \gls{User Journey} ist ein Begriff aus der User Experience Design. \gls{User Journey} ist ein Weg, den ein User durchläuft, um ein Ziel zu erreichen.
 %    \item \gls{UserInterface}: \gls{UserInterface} ist ein Begriff aus der User Experience Design. \gls{UserInterface} ist die grafische Oberfläche, die ein User sieht und mit der er interagiert.
 %\end{itemize}
-\pagebreak
 \subsection{Soll-Zustand}\label{subsec:soll-zustand}
 %Soll der Soll-Zustand mit einem use case beschrieben werden oder reicht es im Fließtext zu beschreiben?
-\subsubsection{Anforderungen}\label{subsubsec:anforderungen}
+\subsubsection{Ideale Anforderungen}\label{subsubsec:ideale-anforderungen}
 Ein User soll am Bildschirm eines Tablets, welches vor dem Raum angebracht wird, erkennen können, ob dieser Raum belegt ist oder nicht.
 Welche Termine am heutigen und nächsten Tag anstehen soll einfach ersichtlich sein.
 Zudem möchte der Kunde einen Termin, am Gerät, vereinbaren können.
@@ -97,6 +96,7 @@ Sollte am heutigen Tag kein Termin stattfinden, wird der Raumstatus weiterhin gr
 Der erste Vorschlag für die Benutzeroberfläche sieht wie folgt aus:
 \newline
 \newline
+\newpage
 \begin{figure}[h]
     \par\vspace{1cm}
     \centering
@@ -114,7 +114,7 @@ Dafür wurde ein Workflow erstellt, der den Ablauf des Anwenders beschreibt und 
 \begin{figure}[h]
 \par\vspace{1cm}
 \centering
-\includegraphics[width=0.8\textwidth]{Bilder/Workflow Terminbuchung}
+\includegraphics[width=0.6\textwidth]{Bilder/Workflow Terminbuchung}
 \caption{Workflow Terminbuchung}
 \label{fig:Workflow Terminbuchung}
 \par\vspace{1cm}
@@ -139,7 +139,6 @@ Von den Grafikdesignerinnen unseres Unternehmens und der Muttergesellschaft wurd
 \par\vspace{1cm}
 \end{figure}
 \justifying
-\pagebreak
 \newglossaryentry{Container}{name={Container}, description={Ein Container ist ein Element, welches andere Elemente enthält.}}
 Man erkennt im großen roten ~\gls{Container} den jetzigen Raumstatus.
 In diesem Fall ist der Raum belegt, da er rot dargestellt wird.
@@ -166,7 +165,7 @@ Das Design existiert, in sechs Variationen, die sich darin unterscheiden, ob sie
 \newline
 \newglossaryentry{Responsive Design}{name={Responsive Design}, description={Responsive Design ist ein Begriff aus der User Experience Design. Responsive Design ist ein Design, das sich an die Größe des Bildschirms anpasst.}}
 
-\gls{Responsive Design}~\cite{ResponsiveWebDesign} wurde hier nur für das Format berücksichtigt, da die Anwendung nur für Tablets und Desktops in horizontaler Ausrichtung gedacht ist.
+\gls{Responsive Design}~\cite{ResponsiveWebDesign} wurde hier nur für ein 16:10 Format berücksichtigt, da die Auflösung des Tablets 1280x800 Pixel beträgt.
 \newglossaryentry{DarkMode}{
     name=DarkMode,
     description={Dark Mode ist ein Begriff aus der User Experience Design. Dark Mode ist ein Modus, bei dem der Hintergrund dunkel ist und der Text hell.}

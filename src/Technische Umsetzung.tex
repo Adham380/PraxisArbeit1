@@ -121,7 +121,7 @@ Einerseits ein Authorization Header, der den Access Token enthält, der für die
 \newline
 Im Körper der Anfrage werden die Daten im JSON Format mitgegeben.
 Diese enthalten Daten wie den Titel, die Startzeit, die Endzeit, die Beschreibung und die Zeitzone.
-\newline
+\newpage
 \begin{lstlisting}[language=JavaScript,label={lst:JavaScript REST API Körper}]
 {
     "subject": "Meeting",
@@ -176,6 +176,7 @@ Die Formel lautet, wie folgt:
 Die Berechnung wurde wie folgt implementiert:
 \newline
 \newline
+\newpage
 \begin{lstlisting}[language=JavaScript,label={lst:JavaScript Timer}]
 let currentEventBeginningTime = localStorage.getItem('currentEventBeginningTime');
 let timePassed = (new Date() - new Date(currentEventBeginningTime + 'Z')) / 1000;
@@ -376,8 +377,8 @@ Da Microsoft auch Zeit benötigt, um die Anfragen zu bearbeiten und die neuen Da
 Der \gls{Bottleneck} der Anwendung ist also in diesem Fall die Anzahl an Anfragen, die Microsoft, in ihren Servern, verarbeiten kann.
 \newline
 \newline
-\subsubsection{Funktionelle Tests}\label{subsubsec:funktionelle-tests}
-\subsubsection{Probleme der API}\label{subsubsec:probleme-der-api}
+\subsection{Funktionelle Tests}\label{subsec:funktionelle-tests}
+\subsubsection{API Anfragen}\label{subsubsec:probleme-der-api}
 Es wurden im Voraus Befehle im Microsoft Graph Explorer~\cite{Microsoft-Graph-Explorer} ausgeführt, um zu testen, ob die Anfrage funktioniert und ob die Daten in der gewünschten Form zurückgegeben werden.
 Jedoch hat sich herausgestellt, dass der Microsoft Graph Explorer nicht korrekt funktioniert und teilweise Befehle nicht entgegennimmt, die laut Microsoft Dokumentation funktionieren sollten.
 Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfragen korrekt funktionieren und auch im Request-Response Zyklus keine Fehler auftreten.
@@ -385,8 +386,8 @@ Evident ist dies, da die Anwendung korrekt funktioniert und die REST API Anfrage
 \newline
 Zudem war es initial nicht möglich, alle verfügbaren Termine, für den angegebenen Zeitraum, abzufragen.
 Dies wurde gelöst, indem die maximale Anzahl an Teilnehmern, für einen Termin, welche im Körper der Anfrage übergeben werden, auf 99 gesetzt wurde.
-Diese Lösung wurde durch einen Nutzer, in einem Forum, herausgefunden.
-Zwar ist dies nicht von Microsoft so vorgesehen, aber die Lösungs beeinträchtigt die Anwendung nicht, da es ohnehin nicht mehr möglich ist,Teilnehmer hinzu zu fügen.
+Diese Lösung wurde durch einen Nutzer, in einem Forum, entdeckt.
+Zwar ist dies nicht von Microsoft so vorgesehen, aber die Lösung beeinträchtigt die Anwendung nicht, da es ohnehin nicht mehr möglich ist, Teilnehmer hinzuzufügen.
 \newline
 \newline
 %\subsubsection{Objektorientiertes Design}

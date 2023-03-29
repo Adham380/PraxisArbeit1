@@ -13,50 +13,51 @@
 \contentsline {section}{\numberline {3}Problemanalyse}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Ist-Zustand}{3}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}User Journey}{3}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Soll-Zustand}{5}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Anforderungen}{5}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}User Interface}{5}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}User Flow}{6}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Hosting}{7}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2}Soll-Zustand}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Ideale Anforderungen}{4}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}User Interface}{4}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}User Flow}{5}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Hosting}{6}{subsubsection.3.2.4}%
 \contentsline {subsubsection}{\numberline {3.2.5}Authentifizierung}{7}{subsubsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.6}ISO 8601 Konformität}{8}{subsubsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.7}Timer}{8}{subsubsection.3.2.7}%
-\contentsline {subsubsection}{\numberline {3.2.8}Leistung}{8}{subsubsection.3.2.8}%
-\contentsline {subsubsection}{\numberline {3.2.9}Fehlerbehandlung}{8}{subsubsection.3.2.9}%
-\contentsline {subsubsection}{\numberline {3.2.10}Spezifikationsblatt}{8}{subsubsection.3.2.10}%
-\contentsline {subsubsection}{\numberline {3.2.11}LED Strips}{8}{subsubsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.3}Use Case}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{11}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Technische Umsetzung}{13}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Prototyp}{13}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Benutzte Hardware und Software}{13}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Grobe Planung}{13}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Iterative Entwicklung der groben Planung}{14}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Rest-Anfragen}{14}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Fehlerbehandlung}{15}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Probleme der API}{15}{subsubsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.6}Timer}{15}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Persistente Datenspeicherung}{16}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Azure Authentifizierung}{17}{subsection.5.8}%
-\contentsline {subsection}{\numberline {5.9}Performanztests}{18}{subsection.5.9}%
-\contentsline {subsubsection}{\numberline {5.9.1}Initiales Laden}{18}{subsubsection.5.9.1}%
-\contentsline {subsubsection}{\numberline {5.9.2}Interaktivität/Leerlauf}{18}{subsubsection.5.9.2}%
-\contentsline {subsubsection}{\numberline {5.9.3}Animationen}{19}{subsubsection.5.9.3}%
-\contentsline {subsubsection}{\numberline {5.9.4}Bottleneck}{19}{subsubsection.5.9.4}%
-\contentsline {subsection}{\numberline {5.10}Optimierung}{19}{subsection.5.10}%
-\contentsline {subsubsection}{\numberline {5.10.1}Abfrageoptimierung}{19}{subsubsection.5.10.1}%
-\contentsline {section}{\numberline {6}Ergebnis}{21}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{21}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Ausblick}{23}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}kurzfristig}{23}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}mittelfristig}{23}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}langfristig}{23}{subsubsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.3}Fazit}{23}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Literaturverzeichnis}{25}{section.7}%
-\contentsline {section}{\numberline {8}Glossar}{28}{section.8}%
-\contentsline {section}{\numberline {9}Anhang}{30}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Spezifikationsblatt}{31}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Ablauf der Entwicklung}{35}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {3.2.6}ISO 8601 Konformität}{7}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.7}Timer}{7}{subsubsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.8}Leistung}{7}{subsubsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.9}Fehlerbehandlung}{7}{subsubsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.10}Spezifikationsblatt}{7}{subsubsection.3.2.10}%
+\contentsline {subsubsection}{\numberline {3.2.11}LED Strips}{7}{subsubsection.3.2.11}%
+\contentsline {subsection}{\numberline {3.3}Use Case}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{10}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Technische Umsetzung}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Prototyp}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Benutzte Hardware und Software}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Grobe Planung}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Iterative Entwicklung der groben Planung}{13}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Rest-Anfragen}{13}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Fehlerbehandlung}{14}{subsubsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.6}Timer}{14}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Persistente Datenspeicherung}{15}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Azure Authentifizierung}{16}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Performanztests}{17}{subsection.5.9}%
+\contentsline {subsubsection}{\numberline {5.9.1}Initiales Laden}{17}{subsubsection.5.9.1}%
+\contentsline {subsubsection}{\numberline {5.9.2}Interaktivität/Leerlauf}{17}{subsubsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.3}Animationen}{17}{subsubsection.5.9.3}%
+\contentsline {subsubsection}{\numberline {5.9.4}Bottleneck}{18}{subsubsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.10}Funktionelle Tests}{18}{subsection.5.10}%
+\contentsline {subsubsection}{\numberline {5.10.1}API Anfragen}{18}{subsubsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.11}Optimierung}{18}{subsection.5.11}%
+\contentsline {subsubsection}{\numberline {5.11.1}Abfrageoptimierung}{18}{subsubsection.5.11.1}%
+\contentsline {section}{\numberline {6}Ergebnis}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Ausblick}{21}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}kurzfristig}{21}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}mittelfristig}{21}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}langfristig}{22}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Fazit}{22}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{23}{section.7}%
+\contentsline {section}{\numberline {8}Glossar}{26}{section.8}%
+\contentsline {section}{\numberline {9}Anhang}{28}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Spezifikationsblatt}{29}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Ablauf der Entwicklung}{33}{subsection.9.2}%
 \contentsfinish 
