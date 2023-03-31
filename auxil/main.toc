@@ -23,9 +23,8 @@
 \contentsline {subsubsection}{\numberline {3.2.8}Leistung}{7}{subsubsection.3.2.8}%
 \contentsline {subsubsection}{\numberline {3.2.9}Fehlerbehandlung}{7}{subsubsection.3.2.9}%
 \contentsline {subsubsection}{\numberline {3.2.10}Spezifikationsblatt}{7}{subsubsection.3.2.10}%
-\contentsline {subsubsection}{\numberline {3.2.11}LED Strips}{7}{subsubsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.3}Use Case}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.3}Use Case}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Systemschnittstellen}{9}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Abgrenzung zu ähnlichen Produkten}{10}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Spezifische Gründe für die Entwicklung einer eigenen Applikation}{10}{subsection.4.1}%
 \contentsline {section}{\numberline {5}Technische Umsetzung}{12}{section.5}%
@@ -50,9 +49,9 @@
 \contentsline {section}{\numberline {6}Ergebnis}{20}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Visuelle Darstellung}{20}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Ausblick}{21}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}kurzfristig}{21}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}mittelfristig}{21}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}langfristig}{22}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.1}Kurzfristig}{21}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Mittelfristig}{21}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Langfristig}{22}{subsubsection.6.2.3}%
 \contentsline {subsection}{\numberline {6.3}Fazit}{22}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Literaturverzeichnis}{23}{section.7}%
 \contentsline {section}{\numberline {8}Glossar}{26}{section.8}%

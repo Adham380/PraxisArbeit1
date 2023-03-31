@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  29 MAR 2023 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.9)  31 MAR 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1931,7 +1931,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\mboehme\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (titlepage.tex
-<Bilder/Fachhochschule_für_die_Wirtschaft_logo.png, id=242, 1027.84pt x 470.75
+<Bilder/Fachhochschule_für_die_Wirtschaft_logo.png, id=238, 1027.84pt x 470.75
 874pt>
 File: Bilder/Fachhochschule_für_die_Wirtschaft_logo.png Graphic file (type png
 )
@@ -1939,7 +1939,7 @@ File: Bilder/Fachhochschule_für_die_Wirtschaft_logo.png Graphic file (type png
 Package pdftex.def Info: Bilder/Fachhochschule_für_die_Wirtschaft_logo.png  us
 ed on input line 10.
 (pdftex.def)             Requested size: 149.37958pt x 68.4127pt.
-<Bilder/doohMedia.jpg, id=244, 200.75pt x 200.75pt>
+<Bilder/doohMedia.jpg, id=240, 200.75pt x 200.75pt>
 File: Bilder/doohMedia.jpg Graphic file (type jpg)
 <use Bilder/doohMedia.jpg>
 Package pdftex.def Info: Bilder/doohMedia.jpg  used on input line 38.
@@ -2043,85 +2043,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--66
  []
 
 [3]
-<Bilder/mockup.png, id=370, 782.925pt x 434.62375pt>
+<Bilder/mockup.png, id=366, 782.925pt x 434.62375pt>
 File: Bilder/mockup.png Graphic file (type png)
 <use Bilder/mockup.png>
-Package pdftex.def Info: Bilder/mockup.png  used on input line 103.
+Package pdftex.def Info: Bilder/mockup.png  used on input line 107.
 (pdftex.def)             Requested size: 341.43437pt x 189.5373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--111
+Underfull \hbox (badness 10000) in paragraph at lines 94--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--111
+Underfull \hbox (badness 10000) in paragraph at lines 94--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--111
+Underfull \hbox (badness 10000) in paragraph at lines 94--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--111
+Underfull \hbox (badness 10000) in paragraph at lines 94--115
 
  []
 
-<Bilder/Workflow Terminbuchung.png, id=371, 770.88pt x 578.16pt>
+<Bilder/Workflow Terminbuchung.png, id=367, 770.88pt x 578.16pt>
 File: Bilder/Workflow Terminbuchung.png Graphic file (type png)
 <use Bilder/Workflow Terminbuchung.png>
 Package pdftex.def Info: Bilder/Workflow Terminbuchung.png  used on input line 
-117.
+121.
 (pdftex.def)             Requested size: 256.07741pt x 192.05493pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--131
+Underfull \hbox (badness 10000) in paragraph at lines 116--135
 
  []
 
 [4 <./Bilder/mockup.png>]
 
-Problemanalyse.tex:132: LaTeX Error: There's no line here to end.
+Problemanalyse.tex:136: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \newline
+l.136 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/GrafikdesignerMockup.png, id=379, 871.00406pt x 543.53062pt>
+<Bilder/GrafikdesignerMockup.png, id=376, 871.00406pt x 543.53062pt>
 File: Bilder/GrafikdesignerMockup.png Graphic file (type png)
 <use Bilder/GrafikdesignerMockup.png>
-Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 13
-6.
+Package pdftex.def Info: Bilder/GrafikdesignerMockup.png  used on input line 14
+0.
 (pdftex.def)             Requested size: 277.41176pt x 173.11227pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--156
+Underfull \hbox (badness 10000) in paragraph at lines 147--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--156
+Underfull \hbox (badness 10000) in paragraph at lines 147--160
 
  []
 
 [5 <./Bilder/Workflow Terminbuchung.png> <./Bilder/GrafikdesignerMockup.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--167
+Underfull \hbox (badness 10000) in paragraph at lines 161--171
 
  []
 
-[6]) (Use Case.tex
-Use Case.tex:32: Package caption Error: \caption outside float.
+[6]) (Use Case.tex [7]
+Use Case.tex:33: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{tabularx}
+l.33 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2129,13 +2129,13 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Use Case.tex:32: Package caption Error: \caption outside float.
+Use Case.tex:33: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{tabularx}
+l.33 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2143,13 +2143,13 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Use Case.tex:32: Package caption Error: \caption outside float.
+Use Case.tex:33: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{tabularx}
+l.33 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2158,13 +2158,13 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Use Case.tex:32: Package caption Error: \caption outside float.
+Use Case.tex:33: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{tabularx}
+l.33 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2173,38 +2173,38 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ) (Systemschnittstellen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
-[7]
-Systemschnittstellen.tex:64: Package caption Error: \caption outside float.
+[8]
+Systemschnittstellen.tex:69: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \end{tabularx}
+l.69 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2212,25 +2212,25 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Systemschnittstellen.tex:64: LaTeX Error: There's no line here to end.
+Systemschnittstellen.tex:69: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \end{tabularx}
+l.69 \end{tabularx}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Systemschnittstellen.tex:64: Package caption Error: \caption outside float.
+Systemschnittstellen.tex:69: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \end{tabularx}
+l.69 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -2238,60 +2238,56 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Systemschnittstellen.tex:64: LaTeX Error: There's no line here to end.
+Systemschnittstellen.tex:69: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \end{tabularx}
+l.69 \end{tabularx}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Systemschnittstellen.tex:64: Package caption Error: \caption outside float.
+Systemschnittstellen.tex:69: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \end{tabularx}
+l.69 \end{tabularx}
                    
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
 section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `subsubsec:anforderungen' on page 8 undefined on input
- line 64.
 
 
 Package glossaries Warning: Entry `REST API' has already been defined in the do
-cument environment (ignoring new definition) on input line 64.
+cument environment (ignoring new definition) on input line 69.
 
 
-Systemschnittstellen.tex:64: LaTeX Error: There's no line here to end.
+Systemschnittstellen.tex:69: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \end{tabularx}
+l.69 \end{tabularx}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (AbgrenzungZuÄhnlichenProdukten.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--3
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
-[8] [9]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 8--41
 
  []
@@ -3149,7 +3145,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) (Ergebnis.tex [19]
-<Bilder/Ergebnis_LaufenderTermin.png, id=603, 721.94719pt x 450.9347pt>
+<Bilder/Ergebnis_LaufenderTermin.png, id=596, 721.94719pt x 450.9347pt>
 File: Bilder/Ergebnis_LaufenderTermin.png Graphic file (type png)
 <use Bilder/Ergebnis_LaufenderTermin.png>
 Package pdftex.def Info: Bilder/Ergebnis_LaufenderTermin.png  used on input lin
@@ -3169,7 +3165,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Bilder/Ergebnis_TerminErstellen_Menue.png, id=604, 722.7pt x 453.19313pt>
+<Bilder/Ergebnis_TerminErstellen_Menue.png, id=597, 722.7pt x 453.19313pt>
 File: Bilder/Ergebnis_TerminErstellen_Menue.png Graphic file (type png)
 <use Bilder/Ergebnis_TerminErstellen_Menue.png>
 Package pdftex.def Info: Bilder/Ergebnis_TerminErstellen_Menue.png  used on inp
@@ -3504,7 +3500,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=762, 597.55246pt x 845.07718pt>
+ored details.pdf, id=755, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3535,7 +3531,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=765, page=1, 597.55246pt x 845.07718pt>
+ored details.pdf, id=758, page=1, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3604,7 +3600,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=806, page=2, 597.55246pt x 845.07718pt>
+ored details.pdf, id=791, page=2, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3647,7 +3643,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=820, page=3, 597.55246pt x 845.07718pt>
+ored details.pdf, id=813, page=3, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3676,7 +3672,7 @@ pdfTeX warning: pdflatex (file ./PDFs/Spezifikationsblatt - Raumbuchungsanzeige
  - Office365 room booking - censored details.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
 <PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - cens
-ored details.pdf, id=826, page=4, 597.55246pt x 845.07718pt>
+ored details.pdf, id=819, page=4, 597.55246pt x 845.07718pt>
 File: PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking -
  censored details.pdf Graphic file (type pdf)
 <use PDFs/Spezifikationsblatt - Raumbuchungsanzeige - Office365 room booking - 
@@ -3747,37 +3743,33 @@ or  <return>  to continue without it.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E7550FD414A1C89A0DF6B33B3FE4116F;8585.
+(rerunfilecheck)             Checksum: 4E4C53E040CB0BE3BBD1ED057219217D;8463.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57033 strings out of 476339
- 1267974 string characters out of 5787176
- 2401599 words of memory out of 5000000
- 75806 multiletter control sequences out of 15000+600000
- 612883 words of font info for 411 fonts, out of 8000000 for 9000
+ 56918 strings out of 476339
+ 1266498 string characters out of 5787176
+ 2400550 words of memory out of 5000000
+ 75761 multiletter control sequences out of 15000+600000
+ 596717 words of font info for 351 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,120p,2253b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
- <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1095.pk>{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
-.enc} <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ectt0900.pk><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
-MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/mboehme/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+ <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+tt1095.pk>{C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
+8r.enc} <C:\Users\mboehme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ectt0900.pk><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/mboehme/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mboehme/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mboehme/AppData/Local/Programs/
+MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mboehme/AppData/Local/Program
+s/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/mboehme/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
 Output written on C:/Users\mboehme\source\repos\PraxisArbeit\PraxisArbeit1\out\
-main.pdf (38 pages, 934984 bytes).
+main.pdf (38 pages, 936789 bytes).
 PDF statistics:
- 1063 PDF objects out of 1200 (max. 8388607)
- 238 named destinations out of 1000 (max. 500000)
- 108085 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 1053 PDF objects out of 1200 (max. 8388607)
+ 236 named destinations out of 1000 (max. 500000)
+ 86061 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -222,6 +222,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{LED Strips}%
+{%
+name={LED Strips},%
+sort={LED Strips},%
+type={main},%
+first={LED Strips},%
+firstplural={LED Stripss},%
+text={LED Strips},%
+plural={LED Stripss},%
+description={LED Strips sind eine Art von LED Leuchtmittel. LED Strips sind in der Regel lang und dünn und werden in Streifen angebracht.},%
+descriptionplural={LED Strips sind eine Art von LED Leuchtmittel. LED Strips sind in der Regel lang und dünn und werden in Streifen angebracht.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{Container}%
 {%
 name={Container},%
@@ -401,34 +429,6 @@ text={Hosting},%
 plural={Hostings},%
 description={Hosting ist ein Begriff aus der Informatik. Hosting ist ein Dienst, bei dem eine Firma eine Anwendung für andere bereitstellt.},%
 descriptionplural={Hosting ist ein Begriff aus der Informatik. Hosting ist ein Dienst, bei dem eine Firma eine Anwendung für andere bereitstellt.},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{LED Strips}%
-{%
-name={LED Strips},%
-sort={LED Strips},%
-type={main},%
-first={LED Strips},%
-firstplural={LED Stripss},%
-text={LED Strips},%
-plural={LED Stripss},%
-description={LED Strips sind eine Art von LED Leuchtmittel. LED Strips sind in der Regel lang und dünn und werden in Streifen angebracht.},%
-descriptionplural={LED Strips sind eine Art von LED Leuchtmittel. LED Strips sind in der Regel lang und dünn und werden in Streifen angebracht.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

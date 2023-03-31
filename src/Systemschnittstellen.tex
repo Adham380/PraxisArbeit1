@@ -1,12 +1,13 @@
 %! Author = Adham Aijou
 %! Date = 23.02.2023
+\newpage
 \subsection{Systemschnittstellen}\label{subsec:systemschnittstellen}
 %Bitte "Umgangssprache" entfernen
 Die notwendige Kommunikation mit der Microsoft Graph API wurde, als Systemschnittstelle, tabellarisch erläutert:
 \newline
 \newline
 %make tabularx table with two columns, the columns should take up the whole width of the page and adjust to the width of the page. Two columns.
-\footnotesize
+\small
 \begin{tabularx}{\textwidth}{|X|X|}
     \hline
 %\begin{tabularx}{\textwidth\footnotesize}{|l*{2}{|X}}
@@ -15,15 +16,19 @@ Die notwendige Kommunikation mit der Microsoft Graph API wurde, als Systemschnit
     \label{tab:TerminBuchen}
 %Die Kurzbeschreibung ist zu lang und hat nichts mit der Systemschnittstelle zu tun. Bitte in Use Case verschieben
 %Im Fließtext erläutern
- Kurzbeschreibung: & In der UI kann der User sich mit Konto der Ressource anmelden, die für die Zukunft als Repräsentant für die reelle Ressource (z.B einem Raum) gelten soll.
-    Daraufhin gilt dieser Raum immer als Teilnehmer der Buchungen und kann in seinen verfügbaren Zeiten gebucht werden.
-    Basierend auf diesen Zeiten, bekommt der Benutzer verfügbare timeslots zur Buchung angezeigt.
-    Die Dauer des Termins soll einstellbar sein.
-    Es gibt zudem einen optionalen Betreff für den Termin.
-    Der gebuchte Termin wird in der Terminübersicht, für den aktuellen und folgenden Tag, angezeigt.
-    Zudem soll der Nutzer anhand farblicher Indikatoren (siehe Abschnitt~\ref{subsubsec:anforderungen}) beurteilen können, ob die Ressource verfügbar ist.
+ Kurzbeschreibung: & Der Benutzer möchte in der Software den Raum für sich buchen und diese Buchung an relevante Microsoft Dienste weiterleiten.
+ Dafür muss er sehen können, ob der Raum verfügbar ist und wann er verfügbar ist.
+
+% In der UI kann der User sich mit Konto der Ressource anmelden, die für die Zukunft als Repräsentant für die reelle Ressource (z.B einem Raum) gelten soll.
+%    Daraufhin gilt dieser Raum immer als Teilnehmer der Buchungen und kann in seinen verfügbaren Zeiten gebucht werden.
+%    Basierend auf diesen Zeiten, bekommt der Benutzer verfügbare timeslots zur Buchung angezeigt.
+%    Die Dauer des Termins soll einstellbar sein.
+%    Es gibt zudem einen optionalen Betreff für den Termin.
+%    Der gebuchte Termin wird in der Terminübersicht, für den aktuellen und folgenden Tag, angezeigt.
+%    Zudem soll der Nutzer anhand farblicher Indikatoren (siehe Abschnitt~\ref{subsubsec:ideale-anforderungen}) beurteilen können, ob die Ressource verfügbar ist.
     \newglossaryentry{REST API}{name=REST API, description={REST API ist eine Abkürzung für Representational State Transfer Application Programming Interface. REST ist ein Architekturstil, der die Kommunikation zwischen verschiedenen Systemen ermöglicht. REST ist ein Architekturstil, der die Kommunikation zwischen verschiedenen Systemen ermöglicht.}}
-    ~\gls{REST API} Anfragen werden dann an die Microsoft Graph API geschickt, um diese Buchung zu kommunizieren.\\
+    ~\gls{REST API} Anfragen werden an die Microsoft Graph API geschickt, um diesen Wunsch zu kommunizieren.
+    Dies ist die die Schnittstellenkommunikation zwischen der Anwendung und der Microsoft Graph API\\
     \hline
     Akteure: & Mitarbeiter und Software\\
     \hline
